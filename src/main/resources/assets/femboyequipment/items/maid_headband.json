@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "femboyequipment:item/maid_headband",
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": -13358016
+			}
+		]
+	}
+}

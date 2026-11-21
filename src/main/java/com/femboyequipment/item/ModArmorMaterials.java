@@ -21,6 +21,13 @@ public final class ModArmorMaterials {
 	public static final ArmorMaterial CAT_EARS = cute("cat_ears");
 	public static final ArmorMaterial FEMBOY_HOODIE = cute("femboy_hoodie");
 	public static final ArmorMaterial PLEATED_SKIRT = cute("pleated_skirt");
+	public static final ArmorMaterial MAID_HEADBAND = cute("maid_headband");
+	public static final ArmorMaterial MAID_DRESS = cute("maid_dress");
+	public static final ArmorMaterial MAID_APRON = cute("maid_apron");
+	public static final ArmorMaterial MARY_JANES = cute("mary_janes");
+	public static final ArmorMaterial BUNNY_EARS = cute("bunny_ears");
+	public static final ArmorMaterial BUNNY_HOODIE = cute("bunny_hoodie");
+	public static final ArmorMaterial FLUFFY_SLIPPERS = cute("fluffy_slippers");
 
 	// The thigh highs are intentionally absurd.
 	public static final ArmorMaterial THIGH_HIGHS = new ArmorMaterial(

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"W": "minecraft:white_wool",
+		"H": "minecraft:rabbit_hide"
+	},
+	"pattern": [
+		"W W",
+		"H H"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:fluffy_slippers"
+	}
+}

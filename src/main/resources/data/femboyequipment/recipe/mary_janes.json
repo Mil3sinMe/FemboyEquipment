@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"R": "femboyequipment:pink_ribbon",
+		"L": "minecraft:leather"
+	},
+	"pattern": [
+		"R R",
+		"L L"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:mary_janes"
+	}
+}

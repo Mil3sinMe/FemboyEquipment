@@ -23,6 +23,13 @@ public final class ModItemGroups {
 				output.accept(ModItems.FEMBOY_HOODIE);
 				output.accept(ModItems.PLEATED_SKIRT);
 				output.accept(ModItems.THIGH_HIGHS);
+				output.accept(ModItems.MAID_HEADBAND);
+				output.accept(ModItems.MAID_DRESS);
+				output.accept(ModItems.MAID_APRON);
+				output.accept(ModItems.MARY_JANES);
+				output.accept(ModItems.BUNNY_EARS);
+				output.accept(ModItems.BUNNY_HOODIE);
+				output.accept(ModItems.FLUFFY_SLIPPERS);
 				output.accept(ModItems.SPARKLY_SWORD);
 				output.accept(ModItems.SPARKLY_PICKAXE);
 				output.accept(ModItems.PINK_RIBBON);

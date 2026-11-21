@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"W": "minecraft:white_wool",
+		"F": "minecraft:rabbit_foot"
+	},
+	"pattern": [
+		"W W",
+		"WFW",
+		"WWW"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:bunny_hoodie"
+	}
+}

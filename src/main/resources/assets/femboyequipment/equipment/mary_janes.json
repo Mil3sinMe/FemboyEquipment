@@ -1,0 +1,15 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "femboyequipment:mary_janes",
+				"dyeable": {
+					"color_when_undyed": -13358016
+				}
+			},
+			{
+				"texture": "femboyequipment:mary_janes_overlay"
+			}
+		]
+	}
+}

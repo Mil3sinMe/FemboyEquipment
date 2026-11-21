@@ -1,0 +1,15 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "femboyequipment:fluffy_slippers",
+				"dyeable": {
+					"color_when_undyed": -593674
+				}
+			},
+			{
+				"texture": "femboyequipment:fluffy_slippers_overlay"
+			}
+		]
+	}
+}

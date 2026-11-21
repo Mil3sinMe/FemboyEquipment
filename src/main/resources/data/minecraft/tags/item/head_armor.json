@@ -1,6 +1,8 @@
 {
 	"replace": false,
 	"values": [
-		"femboyequipment:cat_ears"
+		"femboyequipment:cat_ears",
+		"femboyequipment:maid_headband",
+		"femboyequipment:bunny_ears"
 	]
 }
