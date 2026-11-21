@@ -99,7 +99,7 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 
 Like Lunar Client's emblem: **players who both have FemboyEquipment see a little pink bow next to each other's
 names**, above their heads and in the tab list. It works on **any server**, even vanilla servers without the mod
-(you just can't use the mod's items there). Friends of the mod get a special 👑 crown emblem.
+(you just can't use the mod's items there). Friends of the mod get a special 👑 crown emblem (matched by account UUID, or by username on offline-mode/"cracked" servers).
 
 How it works: your client sends the server which skin layers you show (hat, jacket, sleeves…) as a byte, and the
 server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod sets the spare one as a
