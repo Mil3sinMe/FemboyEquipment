@@ -93,6 +93,18 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 - **Chest loot**: village houses, dungeons, mineshafts, mansions and shipwreck supply chests sometimes hold ribbons,
   strawberry milk, accessories, Blåhajs and the odd outfit piece.
 
+### Emblems 🎀
+
+![Bob's name tag and the tab list showing the FemboyEquipment emblem](docs/emblems.png)
+
+Like Lunar Client's emblem: **players who both have FemboyEquipment see a little pink bow next to each other's
+names**, above their heads and in the tab list. It works on **any server**, even vanilla servers without the mod
+(you just can't use the mod's items there). Friends of the mod get a special 👑 crown emblem.
+
+How it works: your client sends the server which skin layers you show (hat, jacket, sleeves…) as a byte, and the
+server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod sets the spare one as a
+"has FemboyEquipment" flag. There's no backend server. The tab list remembers players once you've seen them nearby.
+
 ### Accessories (hold in your offhand)
 
 - **Programming Socks** – Haste II
