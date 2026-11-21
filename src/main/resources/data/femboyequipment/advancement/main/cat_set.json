@@ -1,0 +1,56 @@
+{
+	"parent": "femboyequipment:main/pleated_skirt",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:cat_ears",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.cat_set.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.cat_set.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"worn": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": "femboyequipment:cat_ears"
+								},
+								"chest": {
+									"items": "femboyequipment:femboy_hoodie"
+								},
+								"legs": {
+									"items": "femboyequipment:pleated_skirt"
+								},
+								"feet": {
+									"items": "femboyequipment:thigh_highs"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"worn"
+		]
+	],
+	"rewards": {
+		"experience": 100
+	}
+}

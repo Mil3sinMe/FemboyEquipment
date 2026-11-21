@@ -36,6 +36,12 @@ public final class Emblems {
 			UUID.fromString("7278262a-321a-4008-b904-cf3970b1caa9"), // MilesinMe562
 			UUID.fromString("43a7ce2e-bab5-4ec4-a7c2-3370f3181f0b")); // xvD8
 
+	/**
+	 * The same people by username, for offline-mode ("cracked") servers. Those servers never see real
+	 * Mojang UUIDs; they make one up from the name instead, so the UUID list can't match there.
+	 */
+	private static final Set<String> SPECIAL_NAMES = Set.of("ishowavoid", "mil3sinme", "wxtrix", "milesinme562", "xvd8");
+
 	/** Everyone we've seen with the flag this session, so the tab list still knows them when they're out of range. */
 	private static final Set<UUID> KNOWN_USERS = ConcurrentHashMap.newKeySet();
 
@@ -65,9 +71,19 @@ public final class Emblems {
 		return mc.player != null && mc.player.getUUID().equals(uuid);
 	}
 
+	/** Whether this player gets the special crown. */
+	public static boolean isSpecial(UUID uuid, String username) {
+		if (SPECIAL_PLAYERS.contains(uuid)) {
+			return true;
+		}
+		// Real Mojang accounts always have version 4 (random) UUIDs. Anything else means an offline-mode
+		// server generated it (version 3, from "OfflinePlayer:<name>"), so fall back to the username.
+		return uuid.version() != 4 && username != null && SPECIAL_NAMES.contains(username.toLowerCase(java.util.Locale.ROOT));
+	}
+
 	/** Returns the name with the right emblem in front. */
-	public static Component decorate(UUID uuid, Component name) {
-		String glyph = SPECIAL_PLAYERS.contains(uuid) ? SPECIAL : NORMAL;
+	public static Component decorate(UUID uuid, String username, Component name) {
+		String glyph = isSpecial(uuid, username) ? SPECIAL : NORMAL;
 		MutableComponent emblem = Component.literal(glyph).setStyle(Style.EMPTY.withFont(FONT));
 		return Component.empty().append(emblem).append(" ").append(name);
 	}

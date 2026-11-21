@@ -1,0 +1,56 @@
+{
+	"parent": "femboyequipment:main/mary_janes",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:maid_dress",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.maid_set.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.maid_set.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"worn": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": "femboyequipment:maid_headband"
+								},
+								"chest": {
+									"items": "femboyequipment:maid_dress"
+								},
+								"legs": {
+									"items": "femboyequipment:maid_apron"
+								},
+								"feet": {
+									"items": "femboyequipment:mary_janes"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"worn"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

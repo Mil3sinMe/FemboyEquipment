@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/root",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:programming_socks",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.programming_socks.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.programming_socks.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:programming_socks"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

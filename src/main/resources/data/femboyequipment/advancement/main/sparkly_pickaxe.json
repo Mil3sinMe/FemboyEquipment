@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/sparkly_sword",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:sparkly_pickaxe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.sparkly_pickaxe.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.sparkly_pickaxe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_pickaxe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

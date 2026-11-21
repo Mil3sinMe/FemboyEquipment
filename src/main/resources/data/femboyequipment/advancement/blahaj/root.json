@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "femboyequipment:blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.root.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.root.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "femboyequipment:gui/advancements/backgrounds/sea"
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

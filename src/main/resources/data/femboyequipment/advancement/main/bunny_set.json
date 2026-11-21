@@ -1,0 +1,53 @@
+{
+	"parent": "femboyequipment:main/fluffy_slippers",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:bunny_ears",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.bunny_set.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.bunny_set.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"worn": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": "femboyequipment:bunny_ears"
+								},
+								"chest": {
+									"items": "femboyequipment:bunny_hoodie"
+								},
+								"feet": {
+									"items": "femboyequipment:fluffy_slippers"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"worn"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

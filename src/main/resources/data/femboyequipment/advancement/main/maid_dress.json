@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/maid_headband",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:maid_dress",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.maid_dress.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.maid_dress.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:maid_dress"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

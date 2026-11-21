@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/femboy_hoodie",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:pleated_skirt",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.pleated_skirt.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.pleated_skirt.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pleated_skirt"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

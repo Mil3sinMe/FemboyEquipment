@@ -99,11 +99,24 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 
 Like Lunar Client's emblem: **players who both have FemboyEquipment see a little pink bow next to each other's
 names**, above their heads and in the tab list. It works on **any server**, even vanilla servers without the mod
-(you just can't use the mod's items there). Friends of the mod get a special 👑 crown emblem.
+(you just can't use the mod's items there). Friends of the mod get a special 👑 crown emblem (matched by account UUID, or by username on offline-mode/"cracked" servers).
 
 How it works: your client sends the server which skin layers you show (hat, jacket, sleeves…) as a byte, and the
 server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod sets the spare one as a
 "has FemboyEquipment" flag. There's no backend server. The tab list remembers players once you've seen them nearby.
+
+### Advancements 🏆
+
+![The Femboy Equipment and Blåhaj Collection advancement tabs](docs/advancements.png)
+
+**64 advancements** in two new tabs:
+
+- **Femboy Equipment**: one for every item (*Tied With a Bow*, *Nya~*, *Hello, World!*, *Choker? I Hardly Know Her*…),
+  wearing each full outfit (*Purrfect Outfit*, *Welcome Home, Master~*, *Some Bunny Loves You*), getting and wearing the
+  thigh highs (*Unlimited Power*, *Absolutely Broken*), dyeing an outfit, drinking strawberry milk, finding a cute house,
+  trading with a Femboy Trader, taming a pink cat, and collecting every item (*Fully Equipped*).
+- **Blåhaj Collection**: one per Blåhaj (all 30, grouped into flags, colors and fancy), wearing one as a hat,
+  placing one, and the big challenge *Gotta Hug 'Em All*.
 
 ### Accessories (hold in your offhand)
 

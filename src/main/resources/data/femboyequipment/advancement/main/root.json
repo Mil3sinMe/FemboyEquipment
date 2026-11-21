@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "femboyequipment:pink_ribbon",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.root.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "femboyequipment:gui/advancements/backgrounds/pink"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}
