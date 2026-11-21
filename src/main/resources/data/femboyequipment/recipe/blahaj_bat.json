@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "femboyequipment:blahaj",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"B",
+		"B",
+		"S"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:blahaj_bat"
+	}
+}

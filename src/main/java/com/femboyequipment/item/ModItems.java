@@ -13,7 +13,11 @@ import net.minecraft.util.Unit;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.item.AxeItem;
+import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ToolMaterial;
@@ -25,6 +29,9 @@ import net.minecraft.world.item.equipment.ArmorType;
 public final class ModItems {
 	public static final ToolMaterial SPARKLY = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
 			1800, 10.0F, 3.5F, 22, ModArmorMaterials.CUTE_REPAIR_MATERIALS);
+
+	public static final ToolMaterial ROSE_QUARTZ_TOOLS = new ToolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL,
+			1900, 8.5F, 3.5F, 18, ModArmorMaterials.ROSE_QUARTZ_REPAIR_MATERIALS);
 
 	// Accessories (hold one in your offhand for a little buff)
 	public static final Item PINK_RIBBON = register("pink_ribbon", Item::new, new Item.Properties().stacksTo(16));
@@ -72,6 +79,46 @@ public final class ModItems {
 			new Item.Properties().sword(SPARKLY, 3.0F, -2.4F).rarity(Rarity.RARE));
 	public static final Item SPARKLY_PICKAXE = register("sparkly_pickaxe", Item::new,
 			new Item.Properties().pickaxe(SPARKLY, 1.0F, -2.8F).rarity(Rarity.RARE));
+
+	public static final Item SPARKLY_AXE = register("sparkly_axe",
+			p -> new AxeItem(SPARKLY, 5.0F, -3.0F, p), new Item.Properties().rarity(Rarity.RARE));
+	public static final Item SPARKLY_SHOVEL = register("sparkly_shovel",
+			p -> new ShovelItem(SPARKLY, 1.5F, -3.0F, p), new Item.Properties().rarity(Rarity.RARE));
+	public static final Item SPARKLY_HOE = register("sparkly_hoe",
+			p -> new HoeItem(SPARKLY, -3.0F, 0.0F, p), new Item.Properties().rarity(Rarity.RARE));
+
+	// Rose Quartz: material, armor, tools and a spear
+	public static final Item ROSE_QUARTZ = register("rose_quartz", Item::new, new Item.Properties());
+	public static final Item ROSE_QUARTZ_HELMET = armor("rose_quartz_helmet", ModArmorMaterials.ROSE_QUARTZ, ArmorType.HELMET);
+	public static final Item ROSE_QUARTZ_CHESTPLATE = armor("rose_quartz_chestplate", ModArmorMaterials.ROSE_QUARTZ, ArmorType.CHESTPLATE);
+	public static final Item ROSE_QUARTZ_LEGGINGS = armor("rose_quartz_leggings", ModArmorMaterials.ROSE_QUARTZ, ArmorType.LEGGINGS);
+	public static final Item ROSE_QUARTZ_BOOTS = armor("rose_quartz_boots", ModArmorMaterials.ROSE_QUARTZ, ArmorType.BOOTS);
+	public static final Item ROSE_QUARTZ_SWORD = register("rose_quartz_sword", Item::new,
+			new Item.Properties().sword(ROSE_QUARTZ_TOOLS, 3.0F, -2.4F));
+	public static final Item ROSE_QUARTZ_PICKAXE = register("rose_quartz_pickaxe", Item::new,
+			new Item.Properties().pickaxe(ROSE_QUARTZ_TOOLS, 1.0F, -2.8F));
+	public static final Item ROSE_QUARTZ_AXE = register("rose_quartz_axe",
+			p -> new AxeItem(ROSE_QUARTZ_TOOLS, 5.0F, -3.0F, p), new Item.Properties());
+	public static final Item ROSE_QUARTZ_SHOVEL = register("rose_quartz_shovel",
+			p -> new ShovelItem(ROSE_QUARTZ_TOOLS, 1.5F, -3.0F, p), new Item.Properties());
+	public static final Item ROSE_QUARTZ_HOE = register("rose_quartz_hoe",
+			p -> new HoeItem(ROSE_QUARTZ_TOOLS, -3.0F, 0.0F, p), new Item.Properties());
+	public static final Item ROSE_QUARTZ_SPEAR = register("rose_quartz_spear", Item::new,
+			new Item.Properties().spear(ROSE_QUARTZ_TOOLS, 1.05F, 1.075F, 0.5F, 3.0F, 7.5F, 6.5F, 5.1F, 10.0F, 4.6F));
+
+	// Joke weapons that send things flying
+	public static final Item FIH_SLAPPER = register("fih_slapper",
+			p -> new KnockbackWeaponItem(1.5F, SoundEvents.COD_FLOP, p),
+			new Item.Properties().sword(ToolMaterial.IRON, 2.0F, -2.2F).rarity(Rarity.UNCOMMON));
+	public static final Item BLAHAJ_BAT = register("blahaj_bat",
+			p -> new KnockbackWeaponItem(3.0F, SoundEvents.WOOL_HIT, p),
+			new Item.Properties().sword(ToolMaterial.DIAMOND, 4.0F, -3.0F).rarity(Rarity.RARE));
+
+	// Gacha capsules
+	public static final Item BLAHAJ_CAPSULE = register("blahaj_capsule",
+			p -> new CapsuleItem(com.femboyequipment.block.Blahaj::items, p), new Item.Properties().stacksTo(64));
+	public static final Item FIH_CAPSULE = register("fih_capsule",
+			p -> new CapsuleItem(com.femboyequipment.block.Fih::items, p), new Item.Properties().stacksTo(64));
 
 	private ModItems() {
 	}

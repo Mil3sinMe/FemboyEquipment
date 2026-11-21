@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/betta_fih_netherite"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/betta_fih_netherite",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/betta_fih_netherite",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/betta_fih_netherite",
+			"y": 270
+		}
+	}
+}

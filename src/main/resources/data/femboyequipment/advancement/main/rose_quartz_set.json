@@ -1,0 +1,56 @@
+{
+	"parent": "femboyequipment:main/rose_quartz",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:rose_quartz_chestplate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.rose_quartz_set.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.rose_quartz_set.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"worn": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": "femboyequipment:rose_quartz_helmet"
+								},
+								"chest": {
+									"items": "femboyequipment:rose_quartz_chestplate"
+								},
+								"legs": {
+									"items": "femboyequipment:rose_quartz_leggings"
+								},
+								"feet": {
+									"items": "femboyequipment:rose_quartz_boots"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"worn"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:light_blue_wool",
+		"minecraft:white_wool",
+		"minecraft:emerald"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:blahaj_capsule"
+	}
+}

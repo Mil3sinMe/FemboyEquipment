@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "equipment",
+	"ingredients": [
+		"minecraft:diamond_axe",
+		"femboyequipment:pink_ribbon",
+		"femboyequipment:pink_ribbon"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:sparkly_axe"
+	}
+}

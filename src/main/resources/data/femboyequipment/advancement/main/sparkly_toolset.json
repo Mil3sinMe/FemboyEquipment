@@ -1,0 +1,91 @@
+{
+	"parent": "femboyequipment:main/sparkly_pickaxe",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:sparkly_axe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.sparkly_toolset.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.sparkly_toolset.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"sparkly_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_sword"
+					}
+				]
+			}
+		},
+		"sparkly_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_pickaxe"
+					}
+				]
+			}
+		},
+		"sparkly_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_axe"
+					}
+				]
+			}
+		},
+		"sparkly_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_shovel"
+					}
+				]
+			}
+		},
+		"sparkly_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_hoe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sparkly_sword"
+		],
+		[
+			"sparkly_pickaxe"
+		],
+		[
+			"sparkly_axe"
+		],
+		[
+			"sparkly_shovel"
+		],
+		[
+			"sparkly_hoe"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}

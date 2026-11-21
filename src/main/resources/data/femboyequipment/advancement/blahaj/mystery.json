@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:blahaj/capsule",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:tie_dye_coral_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.mystery.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.mystery.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#femboyequipment:blahaj_mystery"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

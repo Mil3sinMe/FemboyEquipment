@@ -3,6 +3,19 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.12.0: fih. 🐟👟
+
+### Added
+- **1000 fih**: a fish standing in high-top sneakers. 40 fish × 25 kicks, own creative and advancement tab
+- **870 new Blåhaj (1000 total)**: 29 colors × 30 patterns (striped, polka dot, galaxy, tie-dye, holographic, cursed…)
+- **Gacha capsules**: Blåhaj Capsule and Fih Capsule pop out a random plushie (also sold by Femboy Traders)
+- **Rose Quartz**: material, block, bricks, full diamond-tier armor (set bonus: Resistance + Haste), sword, pickaxe,
+  axe, shovel, hoe and spear
+- **Sparkly Axe, Shovel & Hoe**
+- **Fih Slapper** and **Blåhaj Bat**: joke weapons with huge knockback
+- **Pastel bricks** in blue, lavender, mint and yellow, and stairs, slabs and walls for all pastel and Rose Quartz bricks
+- 22 new advancements (gacha pulls, Rose Quartz, the fih. tab…)
+
 ## 1.11.0: Trinkets built in 📦
 
 ### Changed

@@ -59,7 +59,10 @@ public final class OutfitEffects {
 			new OutfitSet(List.of(ModItems.MAID_HEADBAND, ModItems.MAID_DRESS, ModItems.MAID_APRON, ModItems.MARY_JANES),
 					List.of(buff(MobEffects.HASTE, 1), buff(MobEffects.STRENGTH, 0))),
 			new OutfitSet(List.of(ModItems.BUNNY_EARS, ModItems.BUNNY_HOODIE, ModItems.FLUFFY_SLIPPERS),
-					List.of(buff(MobEffects.SPEED, 1), buff(MobEffects.JUMP_BOOST, 2))));
+					List.of(buff(MobEffects.SPEED, 1), buff(MobEffects.JUMP_BOOST, 2))),
+			new OutfitSet(List.of(ModItems.ROSE_QUARTZ_HELMET, ModItems.ROSE_QUARTZ_CHESTPLATE, ModItems.ROSE_QUARTZ_LEGGINGS,
+					ModItems.ROSE_QUARTZ_BOOTS),
+					List.of(buff(MobEffects.RESISTANCE, 0), buff(MobEffects.HASTE, 0))));
 
 	/** Hold one of these in your offhand (or wear it in a Trinkets slot) for a little buff. */
 	private static final Map<Item, Buff> OFFHAND = Map.of(

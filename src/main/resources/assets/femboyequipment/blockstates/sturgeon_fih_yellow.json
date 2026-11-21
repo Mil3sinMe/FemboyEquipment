@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/sturgeon_fih_yellow"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/sturgeon_fih_yellow",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/sturgeon_fih_yellow",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/sturgeon_fih_yellow",
+			"y": 270
+		}
+	}
+}

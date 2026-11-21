@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:ghost_fih_red"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "femboyequipment:blocks/ghost_fih_red"
+}

@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/pike_fih_galaxy"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/pike_fih_galaxy",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/pike_fih_galaxy",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/pike_fih_galaxy",
+			"y": 270
+		}
+	}
+}

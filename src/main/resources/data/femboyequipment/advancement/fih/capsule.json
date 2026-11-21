@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/root",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:fih_capsule",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.capsule.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.capsule.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:fih_capsule"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

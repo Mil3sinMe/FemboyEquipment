@@ -21,6 +21,7 @@ public class FemboyEquipment implements ModInitializer {
 		ModItems.initialize();
 		ModBlocks.initialize();
 		Blahaj.initialize();
+		com.femboyequipment.block.Fih.initialize();
 		ModEntities.initialize();
 		ModItemGroups.initialize();
 		OutfitEffects.initialize();

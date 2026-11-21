@@ -1,0 +1,344 @@
+{
+	"parent": "femboyequipment:blahaj/mystery",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:holographic_rose_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.holographic.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.holographic.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"holographic_lavender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_lavender_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_peach_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_peach_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_sky_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_sky_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_teal_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_teal_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_coral_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_coral_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_cherry_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_cherry_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_lilac_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_lilac_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_rose_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_rose_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_sapphire_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_sapphire_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_ruby_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_ruby_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_jade_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_jade_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_honey_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_honey_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_mango_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_mango_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_plum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_plum_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_cobalt_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_cobalt_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_seafoam_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_seafoam_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_bubblegum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_bubblegum_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_slate_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_slate_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_sand_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_sand_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_forest_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_forest_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_crimson_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_crimson_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_periwinkle_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_periwinkle_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_aqua_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_aqua_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_tangerine_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_tangerine_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_blush_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_blush_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_charcoal_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_charcoal_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_cream_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_cream_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_olive_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_olive_blahaj"
+					}
+				]
+			}
+		},
+		"holographic_berry_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_berry_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"holographic_lavender_blahaj",
+			"holographic_peach_blahaj",
+			"holographic_sky_blahaj",
+			"holographic_teal_blahaj",
+			"holographic_coral_blahaj",
+			"holographic_cherry_blahaj",
+			"holographic_lilac_blahaj",
+			"holographic_rose_blahaj",
+			"holographic_sapphire_blahaj",
+			"holographic_ruby_blahaj",
+			"holographic_jade_blahaj",
+			"holographic_honey_blahaj",
+			"holographic_mango_blahaj",
+			"holographic_plum_blahaj",
+			"holographic_cobalt_blahaj",
+			"holographic_seafoam_blahaj",
+			"holographic_bubblegum_blahaj",
+			"holographic_slate_blahaj",
+			"holographic_sand_blahaj",
+			"holographic_forest_blahaj",
+			"holographic_crimson_blahaj",
+			"holographic_periwinkle_blahaj",
+			"holographic_aqua_blahaj",
+			"holographic_tangerine_blahaj",
+			"holographic_blush_blahaj",
+			"holographic_charcoal_blahaj",
+			"holographic_cream_blahaj",
+			"holographic_olive_blahaj",
+			"holographic_berry_blahaj"
+		]
+	]
+}
