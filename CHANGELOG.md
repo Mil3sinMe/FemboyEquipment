@@ -3,6 +3,16 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.12.1: Advancements for everything 🏆
+
+### Added
+- **An advancement for every single item and block**: 2091 in total (up from 187)
+  - **fih. tab**: all 1000 fih as a grid (one row per fish, 25 kicks per row) plus *Fih Collector* (all 1000)
+  - **New Mystery Blåhaj tab**: all 870 capsule Blåhaj as a grid (one row per pattern) plus *Gacha Legend* (all 870)
+  - Every plushie gets its own two-part joke description, e.g. *"Will fight its own reflection. Galaxy kicks, out of this world."*
+  - Main tab: every Rose Quartz piece and tool, every brick, stair, slab and wall, and both spawn eggs
+- Plushie advancements show a toast but don't spam chat
+
 ## 1.12.0: fih. 🐟👟
 
 ### Added

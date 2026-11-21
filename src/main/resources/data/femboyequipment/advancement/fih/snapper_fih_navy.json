@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/snapper_fih_blue",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:snapper_fih_navy",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.snapper_fih_navy.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.snapper_fih_navy.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:snapper_fih_navy"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

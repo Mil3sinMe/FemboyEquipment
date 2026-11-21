@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/barracuda_fih_glow",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:barracuda_fih_camo",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.barracuda_fih_camo.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.barracuda_fih_camo.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:barracuda_fih_camo"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

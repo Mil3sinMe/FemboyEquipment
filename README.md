@@ -178,14 +178,14 @@ server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod 
 
 ![The Femboy Equipment and Blåhaj Collection advancement tabs](docs/advancements.png)
 
-**165 advancements** in two tabs:
+**2091 advancements** (one for every item and block) in four tabs:
 
-- **Femboy Equipment**: one for every item (*Tied With a Bow*, *Nya~*, *Hello, World!*, *Choker? I Hardly Know Her*…),
-  wearing each full outfit (*Purrfect Outfit*, *Welcome Home, Master~*, *Some Bunny Loves You*), getting and wearing the
-  thigh highs (*Unlimited Power*, *Absolutely Broken*), dyeing an outfit, drinking strawberry milk, finding a cute house,
-  trading with a Femboy Trader, taming a pink cat, and collecting every item (*Fully Equipped*).
-- **Blåhaj Collection**: one per Blåhaj (all 130, grouped by theme), wearing one as a hat, placing one,
-  *The Original 30*, and the big challenge *Gotta Hug 'Em All* (all 130).
+- **Femboy Equipment**: every item and block, each full outfit (worn), the thigh highs, dyeing, strawberry milk,
+  finding a cute house, trading, taming a pink cat, Rose Quartz, the Sparkly toolset, and *Fully Equipped*
+- **Blåhaj Collection**: one per hand-made Blåhaj (grouped by theme), Shark Hat, Shark Week, gacha pulls,
+  *The Original 30* and *Gotta Hug 'Em All*
+- **fih.**: all 1000 fih as a grid (a row per fish), plus *Drip*, *Glow Fih*, *Fih Hat* and *Fih Collector*
+- **Mystery Blåhaj**: all 870 capsule Blåhaj as a grid (a row per pattern), plus *Gacha Legend*
 
 ### Accessories (hold in your offhand)
 

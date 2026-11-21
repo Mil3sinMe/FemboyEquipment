@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/clown_fih_green",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:clown_fih_lime",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.clown_fih_lime.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.clown_fih_lime.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_lime"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

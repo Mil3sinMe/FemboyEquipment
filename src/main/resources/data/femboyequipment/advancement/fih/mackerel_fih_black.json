@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/mackerel_fih_white",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:mackerel_fih_black",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.mackerel_fih_black.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.mackerel_fih_black.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mackerel_fih_black"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

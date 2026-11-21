@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:mystery/frosted_honey_blahaj",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:frosted_mango_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.mystery.frosted_mango_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.mystery.frosted_mango_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:frosted_mango_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

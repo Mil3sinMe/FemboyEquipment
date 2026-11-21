@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:mystery/holographic_cobalt_blahaj",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:holographic_seafoam_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.mystery.holographic_seafoam_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.mystery.holographic_seafoam_blahaj.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:holographic_seafoam_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}
