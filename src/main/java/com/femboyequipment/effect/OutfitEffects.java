@@ -1,5 +1,6 @@
 package com.femboyequipment.effect;
 
+import com.femboyequipment.block.Blahaj;
 import com.femboyequipment.item.ModItems;
 import java.util.List;
 import java.util.Map;
@@ -99,6 +100,12 @@ public final class OutfitEffects {
 		Buff offhand = OFFHAND.get(player.getItemBySlot(EquipmentSlot.OFFHAND).getItem());
 		if (offhand != null) {
 			give(player, offhand);
+		}
+
+		// Hugging a Blåhaj (in either hand, or wearing one as a hat) is very comforting.
+		if (Blahaj.is(player.getMainHandItem()) || Blahaj.is(player.getOffhandItem())
+				|| Blahaj.is(player.getItemBySlot(EquipmentSlot.HEAD))) {
+			give(player, buff(MobEffects.REGENERATION, 0));
 		}
 
 		// Soft landings: thigh highs and bunny slippers cancel fall damage.

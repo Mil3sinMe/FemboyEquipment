@@ -49,6 +49,35 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 - The Pleated Skirt and Maid Apron render as flared 3D skirts
 - **Every outfit piece is dyeable** like leather armor. Craft it with any dye to recolor it (ears and tails included).
 
+### Blåhaj 🦈
+
+30 squishy shark plushies! Place them on the floor (they look at you), **wear one as a hat**, or **hug one**
+(hold it in either hand or wear it) for Regeneration. They have their own creative tab.
+
+- **Classic Blåhaj**: craft with `" C "` · `"CBC"` · `"WWB"` (Cyan Wool, Light Blue Wool, White Wool)
+- **Pride flags**: craft a classic Blåhaj with the flag's dyes (shapeless):
+
+| Variant | Extra ingredients |
+|---|---|
+| Trans | Light Blue, Pink, White dye |
+| Pride | Red, Orange, Yellow, Green, Blue, Purple dye |
+| Bi | Magenta, Purple, Blue dye |
+| Pan | Pink, Yellow, Light Blue dye |
+| Lesbian | Orange, White, Magenta dye |
+| Gay | Cyan, White, Blue dye |
+| Nonbinary | Yellow, White, Purple, Black dye |
+| Ace | Black, Gray, White, Purple dye |
+| Aro | Green, Lime, White, Gray, Black dye |
+| Genderfluid | Pink, White, Purple, Black, Blue dye |
+| Agender | Black, Light Gray, White, Lime dye |
+| Intersex | Yellow, Purple dye |
+| Demiboy | Gray, Light Blue, White dye |
+| Demigirl | Gray, Pink, White dye |
+| Femboy | Pink, White, Light Blue, Blue dye |
+
+- **Solid colors**: Classic Blåhaj + one dye: Pink, Red, Orange, Yellow, Mint (lime), Purple, Goth (black), Ghost (white), Chocolate (brown), Magenta
+- **Fancy**: Classic Blåhaj + Gold Ingot (Golden), Diamond (Diamond), Netherite Scrap (Netherite, fire-proof), Glow Ink Sac (**Glow Blåhaj** glows in the dark!)
+
 ### Accessories (hold in your offhand)
 
 - **Programming Socks** – Haste II
