@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/rose_quartz",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:rose_quartz_boots",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.rose_quartz_boots.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.rose_quartz_boots.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:rose_quartz_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

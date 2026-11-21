@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/catfish_fih_pink",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:catfish_fih_blue",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.catfish_fih_blue.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.catfish_fih_blue.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:catfish_fih_blue"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/rainbow_trout_fih_red",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:rainbow_trout_fih_pink",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.rainbow_trout_fih_pink.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.rainbow_trout_fih_pink.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:rainbow_trout_fih_pink"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

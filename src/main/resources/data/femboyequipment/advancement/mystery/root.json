@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"id": "femboyequipment:galaxy_plum_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.mystery.root.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.mystery.root.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "femboyequipment:gui/advancements/backgrounds/mystery"
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "#femboyequipment:blahaj_mystery"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}
