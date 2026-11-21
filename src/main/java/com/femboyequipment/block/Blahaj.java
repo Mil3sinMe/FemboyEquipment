@@ -22,19 +22,9 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 
-/** All 30 Blåhaj variants. Keep the list in sync with the content generator. */
+/** All the Blåhaj variants (the list lives in the generated BlahajVariants). */
 public final class Blahaj {
-	public static final List<String> VARIANTS = List.of(
-			"blahaj",
-			// pride flags
-			"trans_blahaj", "pride_blahaj", "bi_blahaj", "pan_blahaj", "lesbian_blahaj", "gay_blahaj",
-			"nonbinary_blahaj", "ace_blahaj", "aro_blahaj", "genderfluid_blahaj", "agender_blahaj",
-			"intersex_blahaj", "demiboy_blahaj", "demigirl_blahaj", "femboy_blahaj",
-			// solid colors
-			"pink_blahaj", "red_blahaj", "orange_blahaj", "yellow_blahaj", "mint_blahaj", "purple_blahaj",
-			"goth_blahaj", "ghost_blahaj", "chocolate_blahaj", "magenta_blahaj",
-			// fancy
-			"golden_blahaj", "diamond_blahaj", "netherite_blahaj", "glow_blahaj");
+	public static final List<String> VARIANTS = BlahajVariants.NAMES;
 
 	private static final List<Block> BLOCKS = new ArrayList<>();
 	private static final List<Item> ITEMS = new ArrayList<>();
@@ -54,8 +44,9 @@ public final class Blahaj {
 				.strength(0.3F)
 				.sound(SoundType.WOOL)
 				.noOcclusion();
-		if (name.equals("glow_blahaj")) {
-			props = props.lightLevel(state -> 10);
+		Integer light = BlahajVariants.LIGHT.get(name);
+		if (light != null) {
+			props = props.lightLevel(state -> light);
 		}
 		ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, FemboyEquipment.id(name));
 		Block block = Registry.register(BuiltInRegistries.BLOCK, blockKey, new BlahajBlock(props.setId(blockKey)));
@@ -68,11 +59,10 @@ public final class Blahaj {
 						.setEquipSound(SoundEvents.ARMOR_EQUIP_LEATHER)
 						.setSwappable(true)
 						.build());
-		if (name.equals("golden_blahaj") || name.equals("diamond_blahaj")
-				|| name.equals("netherite_blahaj") || name.equals("glow_blahaj")) {
+		if (BlahajVariants.RARE.contains(name)) {
 			itemProps = itemProps.rarity(Rarity.RARE);
 		}
-		if (name.equals("netherite_blahaj")) {
+		if (BlahajVariants.FIRE_RESISTANT.contains(name)) {
 			itemProps = itemProps.fireResistant();
 		}
 		Item item = ModItems.register(name, p -> new BlockItem(block, p), itemProps);

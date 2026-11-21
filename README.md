@@ -51,7 +51,7 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 
 ### Blåhaj 🦈
 
-30 squishy shark plushies! Place them on the floor (they look at you), **wear one as a hat**, or **hug one**
+**130** squishy shark plushies! Place them on the floor (they look at you), **wear one as a hat**, or **hug one**
 (hold it in either hand or wear it) for Regeneration. They have their own creative tab.
 
 - **Classic Blåhaj**: craft with `" C "` · `"CBC"` · `"WWB"` (Cyan Wool, Light Blue Wool, White Wool)
@@ -76,6 +76,21 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 | Femboy | Pink, White, Light Blue, Blue dye |
 
 - **Solid colors**: Classic Blåhaj + one dye: Pink, Red, Orange, Yellow, Mint (lime), Purple, Goth (black), Ghost (white), Chocolate (brown), Magenta
+- **100 more** (each is a classic Blåhaj + something themed, see the recipe book):
+  - **More flags**: Progress Pride, Transfem, Transmasc, Genderqueer, Bigender, Polysexual, Omnisexual, Aroace,
+    Demisexual, Demiromantic, Graysexual, Abrosexual, Sapphic, Achillean, Androgyne, Neutrois, Genderflux, Maverique,
+    Polyamorous, Pangender (+ that flag's dyes)
+  - **Food**: Strawberry, Blueberry, Watermelon, Pumpkin Spice, Apple, Cookie, Cake, Honey, Glow Berry, Mushroom,
+    Cotton Candy, Mocha, Mint Chip, Bubblegum
+  - **Minerals**: Emerald, Amethyst, Copper, Iron, Redstone, Lapis, Quartz, Prismarine, Resin, Echo
+  - **Mobs**: Creeper, Enderman, Slime, Magma, Blaze, Wither, Axolotl, Frog, Bee, Warden, Sniffer, Squid, Phantom,
+    Ghast, Shulker, Turtle, Armadillo, Breeze, Dragon, Panda
+  - **Nature**: Sakura, Sunflower, Lilac, Rose, Cornflower, Lily, Tulip, Moss, Cactus, Snow, Ice, Coral
+  - **Sky**: Sunset, Sunrise, Midnight, Aurora, Galaxy, Ocean, Storm, Star ✨, Sun ☀️, Moon
+  - **Aesthetics**: Vaporwave, Pastel Goth, Emo, Scene, Y2K, Cottagecore
+  - **Elements**: Fire 🔥, Water, Earth, Lightning, Void
+  - **Holidays**: Christmas, Halloween, Valentine
+  - Star, Sun, Fire and Blaze Blåhaj glow; Fire, Blaze and Magma Blåhaj are fire-proof
 - **Fancy**: Classic Blåhaj + Gold Ingot (Golden), Diamond (Diamond), Netherite Scrap (Netherite, fire-proof), Glow Ink Sac (**Glow Blåhaj** glows in the dark!)
 
 ### Cute houses, traders & kitties 🏠
@@ -98,8 +113,18 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 ![Bob's name tag and the tab list showing the FemboyEquipment emblem](docs/emblems.png)
 
 Like Lunar Client's emblem: **players who both have FemboyEquipment see a little pink bow next to each other's
-names**, above their heads and in the tab list. It works on **any server**, even vanilla servers without the mod
+names**, above their heads, in the tab list and **in chat**. It works on **any server**, even vanilla servers without the mod
 (you just can't use the mod's items there). Friends of the mod get a special 👑 crown emblem (matched by account UUID, or by username on offline-mode/"cracked" servers).
+
+**Toggle it** with the client command `/emblem`:
+
+| Command | What it does |
+|---|---|
+| `/emblem` | Show your current settings |
+| `/emblem share off` / `on` | Hide your emblem from others (you look like a normal player) / share it again |
+| `/emblem display off` / `on` | Stop / start showing other people's emblems |
+
+Settings are saved in `config/femboyequipment-client.json`.
 
 How it works: your client sends the server which skin layers you show (hat, jacket, sleeves…) as a byte, and the
 server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod sets the spare one as a
@@ -109,14 +134,14 @@ server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod 
 
 ![The Femboy Equipment and Blåhaj Collection advancement tabs](docs/advancements.png)
 
-**64 advancements** in two new tabs:
+**165 advancements** in two tabs:
 
 - **Femboy Equipment**: one for every item (*Tied With a Bow*, *Nya~*, *Hello, World!*, *Choker? I Hardly Know Her*…),
   wearing each full outfit (*Purrfect Outfit*, *Welcome Home, Master~*, *Some Bunny Loves You*), getting and wearing the
   thigh highs (*Unlimited Power*, *Absolutely Broken*), dyeing an outfit, drinking strawberry milk, finding a cute house,
   trading with a Femboy Trader, taming a pink cat, and collecting every item (*Fully Equipped*).
-- **Blåhaj Collection**: one per Blåhaj (all 30, grouped into flags, colors and fancy), wearing one as a hat,
-  placing one, and the big challenge *Gotta Hug 'Em All*.
+- **Blåhaj Collection**: one per Blåhaj (all 130, grouped by theme), wearing one as a hat, placing one,
+  *The Original 30*, and the big challenge *Gotta Hug 'Em All* (all 130).
 
 ### Accessories (hold in your offhand)
 

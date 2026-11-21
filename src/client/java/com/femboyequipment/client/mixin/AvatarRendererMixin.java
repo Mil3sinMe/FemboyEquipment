@@ -16,7 +16,7 @@ public abstract class AvatarRendererMixin {
 	@Inject(method = "extractRenderState(Lnet/minecraft/world/entity/Avatar;Lnet/minecraft/client/renderer/entity/state/AvatarRenderState;F)V",
 			at = @At("TAIL"))
 	private void femboy$addEmblem(Avatar avatar, AvatarRenderState state, float partialTick, CallbackInfo ci) {
-		if (avatar instanceof Player player && Emblems.check(player) && state.nameTag != null) {
+		if (avatar instanceof Player player && Emblems.check(player) && Emblems.shouldShow(player.getUUID()) && state.nameTag != null) {
 			state.nameTag = Emblems.decorate(player.getUUID(), player.getGameProfile().name(), state.nameTag);
 		}
 	}

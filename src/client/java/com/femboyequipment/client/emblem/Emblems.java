@@ -62,8 +62,28 @@ public final class Emblems {
 		return false;
 	}
 
+	/** Re-checks a player by UUID if their entity is loaded nearby. */
+	public static void refresh(UUID uuid) {
+		Minecraft mc = Minecraft.getInstance();
+		if (mc.level != null) {
+			Player player = mc.level.getPlayerByUUID(uuid);
+			if (player != null) {
+				check(player);
+			}
+		}
+	}
+
 	public static boolean isKnownUser(UUID uuid) {
 		return isSelf(uuid) || KNOWN_USERS.contains(uuid);
+	}
+
+	/** Whether to draw an emblem for this player right now (respects /emblem display and /emblem share). */
+	public static boolean shouldShow(UUID uuid) {
+		EmblemConfig config = EmblemConfig.get();
+		if (isSelf(uuid)) {
+			return config.shareEmblem; // you only "have" an emblem while you share it
+		}
+		return config.showEmblems && KNOWN_USERS.contains(uuid);
 	}
 
 	private static boolean isSelf(UUID uuid) {
@@ -79,6 +99,11 @@ public final class Emblems {
 		// Real Mojang accounts always have version 4 (random) UUIDs. Anything else means an offline-mode
 		// server generated it (version 3, from "OfflinePlayer:<name>"), so fall back to the username.
 		return uuid.version() != 4 && username != null && SPECIAL_NAMES.contains(username.toLowerCase(java.util.Locale.ROOT));
+	}
+
+	/** The plain pink bow glyph, e.g. for chat feedback. */
+	public static MutableComponent icon() {
+		return Component.literal(NORMAL).setStyle(Style.EMPTY.withFont(FONT));
 	}
 
 	/** Returns the name with the right emblem in front. */

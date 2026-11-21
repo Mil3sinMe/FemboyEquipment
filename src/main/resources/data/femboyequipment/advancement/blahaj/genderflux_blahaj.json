@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:blahaj/progress_pride_blahaj",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:genderflux_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.genderflux_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.genderflux_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:genderflux_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

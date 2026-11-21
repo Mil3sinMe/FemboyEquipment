@@ -5,6 +5,7 @@
 	"client": [
 		"AvatarAccessor",
 		"AvatarRendererMixin",
+		"ChatListenerMixin",
 		"OptionsMixin",
 		"PlayerTabOverlayMixin"
 	],

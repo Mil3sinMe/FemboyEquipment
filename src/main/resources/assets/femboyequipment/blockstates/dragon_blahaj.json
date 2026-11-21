@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/dragon_blahaj"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/dragon_blahaj",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/dragon_blahaj",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/dragon_blahaj",
+			"y": 270
+		}
+	}
+}

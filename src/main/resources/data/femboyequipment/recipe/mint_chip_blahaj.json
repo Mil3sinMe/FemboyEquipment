@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "blahaj",
+	"ingredients": [
+		"femboyequipment:blahaj",
+		"minecraft:cocoa_beans",
+		"minecraft:lime_dye"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:mint_chip_blahaj"
+	}
+}
