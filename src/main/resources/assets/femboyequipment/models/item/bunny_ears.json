@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "femboyequipment:item/bunny_ears",
+		"layer1": "femboyequipment:item/bunny_ears_overlay"
+	}
+}

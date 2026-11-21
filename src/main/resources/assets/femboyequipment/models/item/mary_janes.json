@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "femboyequipment:item/mary_janes",
+		"layer1": "femboyequipment:item/mary_janes_overlay"
+	}
+}

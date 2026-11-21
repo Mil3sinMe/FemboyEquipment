@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"W": "minecraft:white_wool",
+		"S": "minecraft:string"
+	},
+	"pattern": [
+		"WWW",
+		"S S"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:maid_headband"
+	}
+}

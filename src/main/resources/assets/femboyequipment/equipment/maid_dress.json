@@ -1,0 +1,15 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "femboyequipment:maid_dress",
+				"dyeable": {
+					"color_when_undyed": -13358016
+				}
+			},
+			{
+				"texture": "femboyequipment:maid_dress_overlay"
+			}
+		]
+	}
+}

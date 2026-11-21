@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "femboyequipment:item/mary_janes",
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": -13358016
+			}
+		]
+	}
+}
