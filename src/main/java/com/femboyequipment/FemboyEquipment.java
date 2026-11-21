@@ -1,5 +1,7 @@
 package com.femboyequipment;
 
+import com.femboyequipment.block.ModBlocks;
+import com.femboyequipment.effect.OutfitEffects;
 import com.femboyequipment.item.ModItemGroups;
 import com.femboyequipment.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,7 +16,9 @@ public class FemboyEquipment implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
+		ModBlocks.initialize();
 		ModItemGroups.initialize();
+		OutfitEffects.initialize();
 
 		LOGGER.info("FemboyEquipment loaded~ time to get cute! <3");
 	}

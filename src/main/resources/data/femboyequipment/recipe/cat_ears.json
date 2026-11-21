@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"P": "minecraft:pink_wool",
+		"R": "femboyequipment:pink_ribbon",
+		"H": "femboyequipment:hair_clip"
+	},
+	"pattern": [
+		"P P",
+		"RHR"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:cat_ears"
+	}
+}

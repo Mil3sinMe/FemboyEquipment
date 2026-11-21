@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"femboyequipment:ribbon_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "femboyequipment:pink_ribbon"
+	}
+}
