@@ -1,0 +1,44 @@
+{
+	"parent": "femboyequipment:blahaj/root",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.shark_hat.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.shark_hat.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"worn": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": "#femboyequipment:blahaj"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"worn"
+		]
+	]
+}

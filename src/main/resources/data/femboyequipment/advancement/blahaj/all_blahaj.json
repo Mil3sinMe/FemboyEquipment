@@ -1,0 +1,416 @@
+{
+	"parent": "femboyequipment:blahaj/root",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:femboy_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.all_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.all_blahaj.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blahaj"
+					}
+				]
+			}
+		},
+		"trans_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:trans_blahaj"
+					}
+				]
+			}
+		},
+		"pride_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pride_blahaj"
+					}
+				]
+			}
+		},
+		"bi_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bi_blahaj"
+					}
+				]
+			}
+		},
+		"pan_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pan_blahaj"
+					}
+				]
+			}
+		},
+		"lesbian_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lesbian_blahaj"
+					}
+				]
+			}
+		},
+		"gay_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:gay_blahaj"
+					}
+				]
+			}
+		},
+		"nonbinary_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:nonbinary_blahaj"
+					}
+				]
+			}
+		},
+		"ace_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ace_blahaj"
+					}
+				]
+			}
+		},
+		"aro_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:aro_blahaj"
+					}
+				]
+			}
+		},
+		"genderfluid_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:genderfluid_blahaj"
+					}
+				]
+			}
+		},
+		"agender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:agender_blahaj"
+					}
+				]
+			}
+		},
+		"intersex_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:intersex_blahaj"
+					}
+				]
+			}
+		},
+		"demiboy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:demiboy_blahaj"
+					}
+				]
+			}
+		},
+		"demigirl_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:demigirl_blahaj"
+					}
+				]
+			}
+		},
+		"femboy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:femboy_blahaj"
+					}
+				]
+			}
+		},
+		"pink_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pink_blahaj"
+					}
+				]
+			}
+		},
+		"red_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:red_blahaj"
+					}
+				]
+			}
+		},
+		"orange_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:orange_blahaj"
+					}
+				]
+			}
+		},
+		"yellow_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:yellow_blahaj"
+					}
+				]
+			}
+		},
+		"mint_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mint_blahaj"
+					}
+				]
+			}
+		},
+		"purple_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:purple_blahaj"
+					}
+				]
+			}
+		},
+		"goth_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:goth_blahaj"
+					}
+				]
+			}
+		},
+		"ghost_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ghost_blahaj"
+					}
+				]
+			}
+		},
+		"chocolate_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:chocolate_blahaj"
+					}
+				]
+			}
+		},
+		"magenta_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:magenta_blahaj"
+					}
+				]
+			}
+		},
+		"golden_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:golden_blahaj"
+					}
+				]
+			}
+		},
+		"diamond_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:diamond_blahaj"
+					}
+				]
+			}
+		},
+		"netherite_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:netherite_blahaj"
+					}
+				]
+			}
+		},
+		"glow_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"blahaj"
+		],
+		[
+			"trans_blahaj"
+		],
+		[
+			"pride_blahaj"
+		],
+		[
+			"bi_blahaj"
+		],
+		[
+			"pan_blahaj"
+		],
+		[
+			"lesbian_blahaj"
+		],
+		[
+			"gay_blahaj"
+		],
+		[
+			"nonbinary_blahaj"
+		],
+		[
+			"ace_blahaj"
+		],
+		[
+			"aro_blahaj"
+		],
+		[
+			"genderfluid_blahaj"
+		],
+		[
+			"agender_blahaj"
+		],
+		[
+			"intersex_blahaj"
+		],
+		[
+			"demiboy_blahaj"
+		],
+		[
+			"demigirl_blahaj"
+		],
+		[
+			"femboy_blahaj"
+		],
+		[
+			"pink_blahaj"
+		],
+		[
+			"red_blahaj"
+		],
+		[
+			"orange_blahaj"
+		],
+		[
+			"yellow_blahaj"
+		],
+		[
+			"mint_blahaj"
+		],
+		[
+			"purple_blahaj"
+		],
+		[
+			"goth_blahaj"
+		],
+		[
+			"ghost_blahaj"
+		],
+		[
+			"chocolate_blahaj"
+		],
+		[
+			"magenta_blahaj"
+		],
+		[
+			"golden_blahaj"
+		],
+		[
+			"diamond_blahaj"
+		],
+		[
+			"netherite_blahaj"
+		],
+		[
+			"glow_blahaj"
+		]
+	],
+	"rewards": {
+		"experience": 1000
+	}
+}

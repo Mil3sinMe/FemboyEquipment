@@ -1,0 +1,42 @@
+{
+	"parent": "femboyequipment:main/root",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:pastel_pink_bricks",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.cute_house.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.cute_house.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"found": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"location": {
+								"structures": "femboyequipment:cute_house"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"found"
+		]
+	]
+}

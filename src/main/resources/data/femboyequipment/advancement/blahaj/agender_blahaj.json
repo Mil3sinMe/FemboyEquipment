@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:blahaj/trans_blahaj",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:agender_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.agender_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.agender_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:agender_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

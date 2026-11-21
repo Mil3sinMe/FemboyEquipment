@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/maid_apron",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:mary_janes",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.mary_janes.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.mary_janes.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mary_janes"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

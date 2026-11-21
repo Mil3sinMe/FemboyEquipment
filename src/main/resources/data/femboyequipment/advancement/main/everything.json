@@ -1,0 +1,299 @@
+{
+	"parent": "femboyequipment:main/thigh_highs",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:thigh_highs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.everything.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.everything.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"pink_ribbon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pink_ribbon"
+					}
+				]
+			}
+		},
+		"hair_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:hair_clip"
+					}
+				]
+			}
+		},
+		"choker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:choker"
+					}
+				]
+			}
+		},
+		"programming_socks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:programming_socks"
+					}
+				]
+			}
+		},
+		"strawberry_milk": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:strawberry_milk"
+					}
+				]
+			}
+		},
+		"cat_ears": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cat_ears"
+					}
+				]
+			}
+		},
+		"femboy_hoodie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:femboy_hoodie"
+					}
+				]
+			}
+		},
+		"pleated_skirt": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pleated_skirt"
+					}
+				]
+			}
+		},
+		"thigh_highs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:thigh_highs"
+					}
+				]
+			}
+		},
+		"maid_headband": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:maid_headband"
+					}
+				]
+			}
+		},
+		"maid_dress": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:maid_dress"
+					}
+				]
+			}
+		},
+		"maid_apron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:maid_apron"
+					}
+				]
+			}
+		},
+		"mary_janes": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mary_janes"
+					}
+				]
+			}
+		},
+		"bunny_ears": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bunny_ears"
+					}
+				]
+			}
+		},
+		"bunny_hoodie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bunny_hoodie"
+					}
+				]
+			}
+		},
+		"fluffy_slippers": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:fluffy_slippers"
+					}
+				]
+			}
+		},
+		"sparkly_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_sword"
+					}
+				]
+			}
+		},
+		"sparkly_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_pickaxe"
+					}
+				]
+			}
+		},
+		"pastel_pink_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_pink_bricks"
+					}
+				]
+			}
+		},
+		"ribbon_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ribbon_block"
+					}
+				]
+			}
+		},
+		"pastel_bloom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_bloom"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pink_ribbon"
+		],
+		[
+			"hair_clip"
+		],
+		[
+			"choker"
+		],
+		[
+			"programming_socks"
+		],
+		[
+			"strawberry_milk"
+		],
+		[
+			"cat_ears"
+		],
+		[
+			"femboy_hoodie"
+		],
+		[
+			"pleated_skirt"
+		],
+		[
+			"thigh_highs"
+		],
+		[
+			"maid_headband"
+		],
+		[
+			"maid_dress"
+		],
+		[
+			"maid_apron"
+		],
+		[
+			"mary_janes"
+		],
+		[
+			"bunny_ears"
+		],
+		[
+			"bunny_hoodie"
+		],
+		[
+			"fluffy_slippers"
+		],
+		[
+			"sparkly_sword"
+		],
+		[
+			"sparkly_pickaxe"
+		],
+		[
+			"pastel_pink_bricks"
+		],
+		[
+			"ribbon_block"
+		],
+		[
+			"pastel_bloom"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}
