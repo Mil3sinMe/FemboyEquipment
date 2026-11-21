@@ -1,0 +1,44 @@
+{
+	"parent": "femboyequipment:fih/root",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:koi_fih_pink",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.fih_hat.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.fih_hat.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"worn": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"head": {
+									"items": "#femboyequipment:fih"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"worn"
+		]
+	]
+}

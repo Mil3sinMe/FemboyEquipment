@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/goldfish_fih_camo",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:goldfish_fih_checkered",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.goldfish_fih_checkered.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.goldfish_fih_checkered.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:goldfish_fih_checkered"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

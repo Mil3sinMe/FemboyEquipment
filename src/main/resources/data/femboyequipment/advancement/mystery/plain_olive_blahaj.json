@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:mystery/plain_cream_blahaj",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:plain_olive_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.mystery.plain_olive_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.mystery.plain_olive_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:plain_olive_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/koi_fih_red"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/koi_fih_red",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/koi_fih_red",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/koi_fih_red",
+			"y": 270
+		}
+	}
+}

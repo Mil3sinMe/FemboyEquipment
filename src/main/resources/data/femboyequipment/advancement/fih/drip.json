@@ -1,0 +1,1345 @@
+{
+	"parent": "femboyequipment:fih/original",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:gold_fih_diamond",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.drip.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.drip.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"silver_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:silver_fih_gold"
+					}
+				]
+			}
+		},
+		"silver_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:silver_fih_diamond"
+					}
+				]
+			}
+		},
+		"silver_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:silver_fih_netherite"
+					}
+				]
+			}
+		},
+		"gold_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:gold_fih_gold"
+					}
+				]
+			}
+		},
+		"gold_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:gold_fih_diamond"
+					}
+				]
+			}
+		},
+		"gold_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:gold_fih_netherite"
+					}
+				]
+			}
+		},
+		"koi_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:koi_fih_gold"
+					}
+				]
+			}
+		},
+		"koi_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:koi_fih_diamond"
+					}
+				]
+			}
+		},
+		"koi_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:koi_fih_netherite"
+					}
+				]
+			}
+		},
+		"clown_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_gold"
+					}
+				]
+			}
+		},
+		"clown_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_diamond"
+					}
+				]
+			}
+		},
+		"clown_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_netherite"
+					}
+				]
+			}
+		},
+		"salmon_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:salmon_fih_gold"
+					}
+				]
+			}
+		},
+		"salmon_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:salmon_fih_diamond"
+					}
+				]
+			}
+		},
+		"salmon_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:salmon_fih_netherite"
+					}
+				]
+			}
+		},
+		"cod_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cod_fih_gold"
+					}
+				]
+			}
+		},
+		"cod_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cod_fih_diamond"
+					}
+				]
+			}
+		},
+		"cod_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cod_fih_netherite"
+					}
+				]
+			}
+		},
+		"tropical_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tropical_fih_gold"
+					}
+				]
+			}
+		},
+		"tropical_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tropical_fih_diamond"
+					}
+				]
+			}
+		},
+		"tropical_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tropical_fih_netherite"
+					}
+				]
+			}
+		},
+		"puffer_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:puffer_fih_gold"
+					}
+				]
+			}
+		},
+		"puffer_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:puffer_fih_diamond"
+					}
+				]
+			}
+		},
+		"puffer_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:puffer_fih_netherite"
+					}
+				]
+			}
+		},
+		"rainbow_trout_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:rainbow_trout_fih_gold"
+					}
+				]
+			}
+		},
+		"rainbow_trout_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:rainbow_trout_fih_diamond"
+					}
+				]
+			}
+		},
+		"rainbow_trout_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:rainbow_trout_fih_netherite"
+					}
+				]
+			}
+		},
+		"bass_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bass_fih_gold"
+					}
+				]
+			}
+		},
+		"bass_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bass_fih_diamond"
+					}
+				]
+			}
+		},
+		"bass_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bass_fih_netherite"
+					}
+				]
+			}
+		},
+		"catfish_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:catfish_fih_gold"
+					}
+				]
+			}
+		},
+		"catfish_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:catfish_fih_diamond"
+					}
+				]
+			}
+		},
+		"catfish_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:catfish_fih_netherite"
+					}
+				]
+			}
+		},
+		"goldfish_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:goldfish_fih_gold"
+					}
+				]
+			}
+		},
+		"goldfish_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:goldfish_fih_diamond"
+					}
+				]
+			}
+		},
+		"goldfish_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:goldfish_fih_netherite"
+					}
+				]
+			}
+		},
+		"betta_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:betta_fih_gold"
+					}
+				]
+			}
+		},
+		"betta_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:betta_fih_diamond"
+					}
+				]
+			}
+		},
+		"betta_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:betta_fih_netherite"
+					}
+				]
+			}
+		},
+		"blue_tang_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blue_tang_fih_gold"
+					}
+				]
+			}
+		},
+		"blue_tang_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blue_tang_fih_diamond"
+					}
+				]
+			}
+		},
+		"blue_tang_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blue_tang_fih_netherite"
+					}
+				]
+			}
+		},
+		"neon_tetra_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:neon_tetra_fih_gold"
+					}
+				]
+			}
+		},
+		"neon_tetra_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:neon_tetra_fih_diamond"
+					}
+				]
+			}
+		},
+		"neon_tetra_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:neon_tetra_fih_netherite"
+					}
+				]
+			}
+		},
+		"angelfish_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:angelfish_fih_gold"
+					}
+				]
+			}
+		},
+		"angelfish_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:angelfish_fih_diamond"
+					}
+				]
+			}
+		},
+		"angelfish_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:angelfish_fih_netherite"
+					}
+				]
+			}
+		},
+		"carp_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:carp_fih_gold"
+					}
+				]
+			}
+		},
+		"carp_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:carp_fih_diamond"
+					}
+				]
+			}
+		},
+		"carp_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:carp_fih_netherite"
+					}
+				]
+			}
+		},
+		"tuna_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tuna_fih_gold"
+					}
+				]
+			}
+		},
+		"tuna_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tuna_fih_diamond"
+					}
+				]
+			}
+		},
+		"tuna_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tuna_fih_netherite"
+					}
+				]
+			}
+		},
+		"mackerel_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mackerel_fih_gold"
+					}
+				]
+			}
+		},
+		"mackerel_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mackerel_fih_diamond"
+					}
+				]
+			}
+		},
+		"mackerel_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mackerel_fih_netherite"
+					}
+				]
+			}
+		},
+		"sardine_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sardine_fih_gold"
+					}
+				]
+			}
+		},
+		"sardine_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sardine_fih_diamond"
+					}
+				]
+			}
+		},
+		"sardine_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sardine_fih_netherite"
+					}
+				]
+			}
+		},
+		"pike_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pike_fih_gold"
+					}
+				]
+			}
+		},
+		"pike_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pike_fih_diamond"
+					}
+				]
+			}
+		},
+		"pike_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pike_fih_netherite"
+					}
+				]
+			}
+		},
+		"perch_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:perch_fih_gold"
+					}
+				]
+			}
+		},
+		"perch_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:perch_fih_diamond"
+					}
+				]
+			}
+		},
+		"perch_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:perch_fih_netherite"
+					}
+				]
+			}
+		},
+		"guppy_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:guppy_fih_gold"
+					}
+				]
+			}
+		},
+		"guppy_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:guppy_fih_diamond"
+					}
+				]
+			}
+		},
+		"guppy_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:guppy_fih_netherite"
+					}
+				]
+			}
+		},
+		"piranha_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:piranha_fih_gold"
+					}
+				]
+			}
+		},
+		"piranha_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:piranha_fih_diamond"
+					}
+				]
+			}
+		},
+		"piranha_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:piranha_fih_netherite"
+					}
+				]
+			}
+		},
+		"anglerfish_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:anglerfish_fih_gold"
+					}
+				]
+			}
+		},
+		"anglerfish_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:anglerfish_fih_diamond"
+					}
+				]
+			}
+		},
+		"anglerfish_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:anglerfish_fih_netherite"
+					}
+				]
+			}
+		},
+		"lionfish_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lionfish_fih_gold"
+					}
+				]
+			}
+		},
+		"lionfish_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lionfish_fih_diamond"
+					}
+				]
+			}
+		},
+		"lionfish_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lionfish_fih_netherite"
+					}
+				]
+			}
+		},
+		"mandarin_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mandarin_fih_gold"
+					}
+				]
+			}
+		},
+		"mandarin_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mandarin_fih_diamond"
+					}
+				]
+			}
+		},
+		"mandarin_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mandarin_fih_netherite"
+					}
+				]
+			}
+		},
+		"discus_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:discus_fih_gold"
+					}
+				]
+			}
+		},
+		"discus_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:discus_fih_diamond"
+					}
+				]
+			}
+		},
+		"discus_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:discus_fih_netherite"
+					}
+				]
+			}
+		},
+		"oscar_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:oscar_fih_gold"
+					}
+				]
+			}
+		},
+		"oscar_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:oscar_fih_diamond"
+					}
+				]
+			}
+		},
+		"oscar_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:oscar_fih_netherite"
+					}
+				]
+			}
+		},
+		"arowana_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:arowana_fih_gold"
+					}
+				]
+			}
+		},
+		"arowana_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:arowana_fih_diamond"
+					}
+				]
+			}
+		},
+		"arowana_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:arowana_fih_netherite"
+					}
+				]
+			}
+		},
+		"sturgeon_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sturgeon_fih_gold"
+					}
+				]
+			}
+		},
+		"sturgeon_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sturgeon_fih_diamond"
+					}
+				]
+			}
+		},
+		"sturgeon_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sturgeon_fih_netherite"
+					}
+				]
+			}
+		},
+		"eel_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:eel_fih_gold"
+					}
+				]
+			}
+		},
+		"eel_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:eel_fih_diamond"
+					}
+				]
+			}
+		},
+		"eel_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:eel_fih_netherite"
+					}
+				]
+			}
+		},
+		"flounder_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:flounder_fih_gold"
+					}
+				]
+			}
+		},
+		"flounder_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:flounder_fih_diamond"
+					}
+				]
+			}
+		},
+		"flounder_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:flounder_fih_netherite"
+					}
+				]
+			}
+		},
+		"snapper_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:snapper_fih_gold"
+					}
+				]
+			}
+		},
+		"snapper_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:snapper_fih_diamond"
+					}
+				]
+			}
+		},
+		"snapper_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:snapper_fih_netherite"
+					}
+				]
+			}
+		},
+		"barracuda_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:barracuda_fih_gold"
+					}
+				]
+			}
+		},
+		"barracuda_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:barracuda_fih_diamond"
+					}
+				]
+			}
+		},
+		"barracuda_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:barracuda_fih_netherite"
+					}
+				]
+			}
+		},
+		"trans_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:trans_fih_gold"
+					}
+				]
+			}
+		},
+		"trans_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:trans_fih_diamond"
+					}
+				]
+			}
+		},
+		"trans_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:trans_fih_netherite"
+					}
+				]
+			}
+		},
+		"pride_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pride_fih_gold"
+					}
+				]
+			}
+		},
+		"pride_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pride_fih_diamond"
+					}
+				]
+			}
+		},
+		"pride_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pride_fih_netherite"
+					}
+				]
+			}
+		},
+		"ghost_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ghost_fih_gold"
+					}
+				]
+			}
+		},
+		"ghost_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ghost_fih_diamond"
+					}
+				]
+			}
+		},
+		"ghost_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ghost_fih_netherite"
+					}
+				]
+			}
+		},
+		"shadow_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:shadow_fih_gold"
+					}
+				]
+			}
+		},
+		"shadow_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:shadow_fih_diamond"
+					}
+				]
+			}
+		},
+		"shadow_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:shadow_fih_netherite"
+					}
+				]
+			}
+		},
+		"glow_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_gold"
+					}
+				]
+			}
+		},
+		"glow_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_diamond"
+					}
+				]
+			}
+		},
+		"glow_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_netherite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"silver_fih_gold",
+			"silver_fih_diamond",
+			"silver_fih_netherite",
+			"gold_fih_gold",
+			"gold_fih_diamond",
+			"gold_fih_netherite",
+			"koi_fih_gold",
+			"koi_fih_diamond",
+			"koi_fih_netherite",
+			"clown_fih_gold",
+			"clown_fih_diamond",
+			"clown_fih_netherite",
+			"salmon_fih_gold",
+			"salmon_fih_diamond",
+			"salmon_fih_netherite",
+			"cod_fih_gold",
+			"cod_fih_diamond",
+			"cod_fih_netherite",
+			"tropical_fih_gold",
+			"tropical_fih_diamond",
+			"tropical_fih_netherite",
+			"puffer_fih_gold",
+			"puffer_fih_diamond",
+			"puffer_fih_netherite",
+			"rainbow_trout_fih_gold",
+			"rainbow_trout_fih_diamond",
+			"rainbow_trout_fih_netherite",
+			"bass_fih_gold",
+			"bass_fih_diamond",
+			"bass_fih_netherite",
+			"catfish_fih_gold",
+			"catfish_fih_diamond",
+			"catfish_fih_netherite",
+			"goldfish_fih_gold",
+			"goldfish_fih_diamond",
+			"goldfish_fih_netherite",
+			"betta_fih_gold",
+			"betta_fih_diamond",
+			"betta_fih_netherite",
+			"blue_tang_fih_gold",
+			"blue_tang_fih_diamond",
+			"blue_tang_fih_netherite",
+			"neon_tetra_fih_gold",
+			"neon_tetra_fih_diamond",
+			"neon_tetra_fih_netherite",
+			"angelfish_fih_gold",
+			"angelfish_fih_diamond",
+			"angelfish_fih_netherite",
+			"carp_fih_gold",
+			"carp_fih_diamond",
+			"carp_fih_netherite",
+			"tuna_fih_gold",
+			"tuna_fih_diamond",
+			"tuna_fih_netherite",
+			"mackerel_fih_gold",
+			"mackerel_fih_diamond",
+			"mackerel_fih_netherite",
+			"sardine_fih_gold",
+			"sardine_fih_diamond",
+			"sardine_fih_netherite",
+			"pike_fih_gold",
+			"pike_fih_diamond",
+			"pike_fih_netherite",
+			"perch_fih_gold",
+			"perch_fih_diamond",
+			"perch_fih_netherite",
+			"guppy_fih_gold",
+			"guppy_fih_diamond",
+			"guppy_fih_netherite",
+			"piranha_fih_gold",
+			"piranha_fih_diamond",
+			"piranha_fih_netherite",
+			"anglerfish_fih_gold",
+			"anglerfish_fih_diamond",
+			"anglerfish_fih_netherite",
+			"lionfish_fih_gold",
+			"lionfish_fih_diamond",
+			"lionfish_fih_netherite",
+			"mandarin_fih_gold",
+			"mandarin_fih_diamond",
+			"mandarin_fih_netherite",
+			"discus_fih_gold",
+			"discus_fih_diamond",
+			"discus_fih_netherite",
+			"oscar_fih_gold",
+			"oscar_fih_diamond",
+			"oscar_fih_netherite",
+			"arowana_fih_gold",
+			"arowana_fih_diamond",
+			"arowana_fih_netherite",
+			"sturgeon_fih_gold",
+			"sturgeon_fih_diamond",
+			"sturgeon_fih_netherite",
+			"eel_fih_gold",
+			"eel_fih_diamond",
+			"eel_fih_netherite",
+			"flounder_fih_gold",
+			"flounder_fih_diamond",
+			"flounder_fih_netherite",
+			"snapper_fih_gold",
+			"snapper_fih_diamond",
+			"snapper_fih_netherite",
+			"barracuda_fih_gold",
+			"barracuda_fih_diamond",
+			"barracuda_fih_netherite",
+			"trans_fih_gold",
+			"trans_fih_diamond",
+			"trans_fih_netherite",
+			"pride_fih_gold",
+			"pride_fih_diamond",
+			"pride_fih_netherite",
+			"ghost_fih_gold",
+			"ghost_fih_diamond",
+			"ghost_fih_netherite",
+			"shadow_fih_gold",
+			"shadow_fih_diamond",
+			"shadow_fih_netherite",
+			"glow_fih_gold",
+			"glow_fih_diamond",
+			"glow_fih_netherite"
+		]
+	]
+}

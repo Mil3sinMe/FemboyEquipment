@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/trans_fih_trans",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:trans_fih_gold",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.trans_fih_gold.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.trans_fih_gold.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:trans_fih_gold"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

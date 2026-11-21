@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"B": "minecraft:bricks",
+		"D": "minecraft:light_blue_dye"
+	},
+	"pattern": [
+		"BBB",
+		"BDB",
+		"BBB"
+	],
+	"result": {
+		"count": 8,
+		"id": "femboyequipment:pastel_blue_bricks"
+	}
+}

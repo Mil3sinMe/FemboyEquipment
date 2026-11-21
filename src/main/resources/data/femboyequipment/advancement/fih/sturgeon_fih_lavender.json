@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/sturgeon_fih_purple",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:sturgeon_fih_lavender",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.sturgeon_fih_lavender.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.sturgeon_fih_lavender.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sturgeon_fih_lavender"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

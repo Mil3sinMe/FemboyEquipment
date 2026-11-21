@@ -29,6 +29,13 @@ public final class ModArmorMaterials {
 	public static final ArmorMaterial BUNNY_HOODIE = cute("bunny_hoodie");
 	public static final ArmorMaterial FLUFFY_SLIPPERS = cute("fluffy_slippers");
 
+	public static final TagKey<Item> ROSE_QUARTZ_REPAIR_MATERIALS =
+			TagKey.create(Registries.ITEM, FemboyEquipment.id("rose_quartz_repair_materials"));
+
+	/** Diamond-level protection with a bit more durability and enchantability. */
+	public static final ArmorMaterial ROSE_QUARTZ = new ArmorMaterial(37, defense(3, 8, 6, 3), 18,
+			SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.05F, ROSE_QUARTZ_REPAIR_MATERIALS, asset("rose_quartz"));
+
 	// The thigh highs are intentionally absurd.
 	public static final ArmorMaterial THIGH_HIGHS = new ArmorMaterial(
 			100,

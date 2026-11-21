@@ -1,0 +1,7 @@
+{
+	"icon": "femboyequipment:gui/slots/socks",
+	"order": 512,
+	"validator_predicates": [
+		"trinkets:tag"
+	]
+}

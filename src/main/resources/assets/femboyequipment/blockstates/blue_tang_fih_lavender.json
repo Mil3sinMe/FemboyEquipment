@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/blue_tang_fih_lavender"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/blue_tang_fih_lavender",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/blue_tang_fih_lavender",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/blue_tang_fih_lavender",
+			"y": 270
+		}
+	}
+}

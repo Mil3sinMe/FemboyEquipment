@@ -1,0 +1,344 @@
+{
+	"parent": "femboyequipment:blahaj/mystery",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:cursed_lavender_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.cursed.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.cursed.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"cursed_lavender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_lavender_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_peach_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_peach_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_sky_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_sky_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_teal_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_teal_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_coral_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_coral_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_cherry_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_cherry_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_lilac_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_lilac_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_rose_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_rose_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_sapphire_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_sapphire_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_ruby_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_ruby_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_jade_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_jade_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_honey_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_honey_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_mango_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_mango_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_plum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_plum_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_cobalt_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_cobalt_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_seafoam_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_seafoam_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_bubblegum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_bubblegum_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_slate_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_slate_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_sand_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_sand_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_forest_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_forest_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_crimson_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_crimson_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_periwinkle_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_periwinkle_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_aqua_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_aqua_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_tangerine_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_tangerine_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_blush_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_blush_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_charcoal_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_charcoal_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_cream_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_cream_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_olive_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_olive_blahaj"
+					}
+				]
+			}
+		},
+		"cursed_berry_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cursed_berry_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"cursed_lavender_blahaj",
+			"cursed_peach_blahaj",
+			"cursed_sky_blahaj",
+			"cursed_teal_blahaj",
+			"cursed_coral_blahaj",
+			"cursed_cherry_blahaj",
+			"cursed_lilac_blahaj",
+			"cursed_rose_blahaj",
+			"cursed_sapphire_blahaj",
+			"cursed_ruby_blahaj",
+			"cursed_jade_blahaj",
+			"cursed_honey_blahaj",
+			"cursed_mango_blahaj",
+			"cursed_plum_blahaj",
+			"cursed_cobalt_blahaj",
+			"cursed_seafoam_blahaj",
+			"cursed_bubblegum_blahaj",
+			"cursed_slate_blahaj",
+			"cursed_sand_blahaj",
+			"cursed_forest_blahaj",
+			"cursed_crimson_blahaj",
+			"cursed_periwinkle_blahaj",
+			"cursed_aqua_blahaj",
+			"cursed_tangerine_blahaj",
+			"cursed_blush_blahaj",
+			"cursed_charcoal_blahaj",
+			"cursed_cream_blahaj",
+			"cursed_olive_blahaj",
+			"cursed_berry_blahaj"
+		]
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:mystery/checkered_seafoam_blahaj",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:checkered_bubblegum_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.mystery.checkered_bubblegum_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.mystery.checkered_bubblegum_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:checkered_bubblegum_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

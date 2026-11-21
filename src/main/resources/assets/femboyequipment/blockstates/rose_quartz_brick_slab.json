@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "femboyequipment:block/rose_quartz_brick_slab"
+		},
+		"type=top": {
+			"model": "femboyequipment:block/rose_quartz_brick_slab_top"
+		},
+		"type=double": {
+			"model": "femboyequipment:block/rose_quartz_bricks"
+		}
+	}
+}

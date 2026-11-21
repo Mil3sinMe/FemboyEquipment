@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/neon_tetra_fih_lavender",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:neon_tetra_fih_cyan",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.neon_tetra_fih_cyan.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.neon_tetra_fih_cyan.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:neon_tetra_fih_cyan"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

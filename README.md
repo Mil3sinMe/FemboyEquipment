@@ -51,7 +51,8 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 
 ### Blåhaj 🦈
 
-**130** squishy shark plushies! Place them on the floor (they look at you), **wear one as a hat**, or **hug one**
+**1000** squishy shark plushies! 130 hand-made ones with recipes, plus 870 capsule-only ones
+(29 colors × 30 patterns: striped, polka dot, galaxy, tie-dye, holographic, cursed…). Place them on the floor (they look at you), **wear one as a hat**, or **hug one**
 (hold it in either hand or wear it) for Regeneration. They have their own creative tab.
 
 - **Classic Blåhaj**: craft with `" C "` · `"CBC"` · `"WWB"` (Cyan Wool, Light Blue Wool, White Wool)
@@ -92,6 +93,48 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
   - **Holidays**: Christmas, Halloween, Valentine
   - Star, Sun, Fire and Blaze Blåhaj glow; Fire, Blaze and Magma Blåhaj are fire-proof
 - **Fancy**: Classic Blåhaj + Gold Ingot (Golden), Diamond (Diamond), Netherite Scrap (Netherite, fire-proof), Glow Ink Sac (**Glow Blåhaj** glows in the dark!)
+
+### fih. 🐟👟
+
+![fih standing in sneakers, and opening a Fih Capsule](docs/fih.png)
+
+**1000 fih**: a fish standing in a pair of high-top sneakers. 40 fish (Silver, Koi, Clownfish, Pufferfish, Betta,
+Lionfish, Trans, Pride, Glow…) × 25 kicks (White, Black, Rainbow, Trans, Checkered, Galaxy, Leopard, Gold, Diamond…).
+The one true **fih.** is the Silver Fih in White Kicks. Place them, wear them as hats, and get them from **Fih Capsules**
+(Cod + Leather + Emerald, or from Femboy Traders). They have their own creative tab and advancement tab.
+
+### Gacha capsules 🎰
+
+Right-click a **Blåhaj Capsule** (Light Blue Wool + White Wool + Emerald) or **Fih Capsule** (Cod + Leather + Emerald)
+to get a random plushie. This is the only way to get the 870 capsule-only Blåhaj.
+
+### Gear ⚔️
+
+![A mannequin in Rose Quartz armor with a Rose Quartz Spear and Fih Slapper, and one with a fih hat and Blåhaj Bat](docs/gear.png)
+
+- **Rose Quartz**: craft from Amethyst Shard + Quartz + Pink Dye (→ 2). Diamond-tier armor (full set: Resistance + Haste),
+  sword, pickaxe, axe, shovel, hoe and a **spear**, plus Rose Quartz Block and Bricks
+- **Sparkly Axe, Shovel & Hoe**: a diamond tool + 2 Pink Ribbons
+- **Fih Slapper** (Cod, Cod, Stick): slaps things away with a flop sound
+- **Blåhaj Bat** (Blåhaj, Blåhaj, Stick): sends mobs flying. Bonk
+- **Pastel bricks** in pink, blue, lavender, mint and yellow, and **stairs, slabs and walls** for every pastel and
+  Rose Quartz brick
+
+### Accessory slots (Trinkets) 🎒
+
+![Trinkets slots in the inventory, a Blåhaj on the player's back, and the accessory buffs](docs/trinkets.png)
+
+Accessory slots come **built in**: the mod bundles [Trinkets Canary](https://modrinth.com/mod/trinkets-canary)
+(MIT, by Ryhon, Emi & C4), so you don't need to install anything extra. Hover an armor slot in your inventory to open them:
+
+| Slot | Wear | Bonus |
+|---|---|---|
+| Head → Hat | Hair Clip, Pink Ribbon | Hair Clip: Luck |
+| Chest → Necklace | Choker | Strength |
+| Chest → Back | **Any Blåhaj** (it rides on your back!) | Regeneration |
+| Feet → Socks *(new slot)* | Programming Socks | Haste II |
+
+Accessories also still work held in your offhand. If you install a newer Trinkets fork yourself, Fabric uses the newer one.
 
 ### Cute houses, traders & kitties 🏠
 
@@ -135,14 +178,14 @@ server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod 
 
 ![The Femboy Equipment and Blåhaj Collection advancement tabs](docs/advancements.png)
 
-**165 advancements** in two tabs:
+**2091 advancements** (one for every item and block) in four tabs:
 
-- **Femboy Equipment**: one for every item (*Tied With a Bow*, *Nya~*, *Hello, World!*, *Choker? I Hardly Know Her*…),
-  wearing each full outfit (*Purrfect Outfit*, *Welcome Home, Master~*, *Some Bunny Loves You*), getting and wearing the
-  thigh highs (*Unlimited Power*, *Absolutely Broken*), dyeing an outfit, drinking strawberry milk, finding a cute house,
-  trading with a Femboy Trader, taming a pink cat, and collecting every item (*Fully Equipped*).
-- **Blåhaj Collection**: one per Blåhaj (all 130, grouped by theme), wearing one as a hat, placing one,
-  *The Original 30*, and the big challenge *Gotta Hug 'Em All* (all 130).
+- **Femboy Equipment**: every item and block, each full outfit (worn), the thigh highs, dyeing, strawberry milk,
+  finding a cute house, trading, taming a pink cat, Rose Quartz, the Sparkly toolset, and *Fully Equipped*
+- **Blåhaj Collection**: one per hand-made Blåhaj (grouped by theme), Shark Hat, Shark Week, gacha pulls,
+  *The Original 30* and *Gotta Hug 'Em All*
+- **fih.**: all 1000 fih as a grid (a row per fish), plus *Drip*, *Glow Fih*, *Fih Hat* and *Fih Collector*
+- **Mystery Blåhaj**: all 870 capsule Blåhaj as a grid (a row per pattern), plus *Gacha Legend*
 
 ### Accessories (hold in your offhand)
 
@@ -184,6 +227,17 @@ server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod 
 | Block of Ribbons | 9 Pink Ribbons (and back) |
 
 All outfits and the sparkly tools are repaired with Pink Wool or Pink Ribbons.
+
+See the [changelog](CHANGELOG.md) for what's new in each version.
+
+## Addons 🧩
+
+FemboyEquipment can be extended by **addon mods** (new plushies, outfit pieces with effects and set bonuses, 3D ears,
+tails and skirts with your own textures) and by **datapacks** (outfit effects for any item, capsule prizes).
+See **[ADDONS.md](ADDONS.md)**. There's a working example in [`example-addon/`](example-addon) that adds Fox Ears,
+a Fox Blåhaj and a Fox Fih.
+
+![The example addon: fox ears on mannequins, and a datapack effect (pumpkin, Night Vision)](docs/addon.png)
 
 ## Requirements
 

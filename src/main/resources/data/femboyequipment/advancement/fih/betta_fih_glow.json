@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:fih/betta_fih_netherite",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:betta_fih_glow",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.betta_fih_glow.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.betta_fih_glow.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:betta_fih_glow"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

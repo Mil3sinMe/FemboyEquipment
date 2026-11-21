@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "fe_example_addon:block/fox_fih"
+	}
+}

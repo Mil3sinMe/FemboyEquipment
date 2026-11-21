@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/cute_house",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:femboy_villager_spawn_egg",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.items.femboy_villager_spawn_egg.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.items.femboy_villager_spawn_egg.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:femboy_villager_spawn_egg"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

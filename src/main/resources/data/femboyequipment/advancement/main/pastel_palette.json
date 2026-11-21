@@ -1,0 +1,88 @@
+{
+	"parent": "femboyequipment:main/pastel_pink_bricks",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:pastel_lavender_bricks",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.pastel_palette.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.pastel_palette.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"pastel_pink_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_pink_bricks"
+					}
+				]
+			}
+		},
+		"pastel_blue_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_blue_bricks"
+					}
+				]
+			}
+		},
+		"pastel_lavender_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_lavender_bricks"
+					}
+				]
+			}
+		},
+		"pastel_mint_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_mint_bricks"
+					}
+				]
+			}
+		},
+		"pastel_yellow_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_yellow_bricks"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pastel_pink_bricks"
+		],
+		[
+			"pastel_blue_bricks"
+		],
+		[
+			"pastel_lavender_bricks"
+		],
+		[
+			"pastel_mint_bricks"
+		],
+		[
+			"pastel_yellow_bricks"
+		]
+	]
+}

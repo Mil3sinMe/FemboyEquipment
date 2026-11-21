@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/pastel_pink_bricks",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:pastel_yellow_brick_slab",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.items.pastel_yellow_brick_slab.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.items.pastel_yellow_brick_slab.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_yellow_brick_slab"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

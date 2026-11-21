@@ -1,6 +1,9 @@
 {
 	"replace": false,
 	"values": [
-		"femboyequipment:sparkly_sword"
+		"femboyequipment:sparkly_sword",
+		"femboyequipment:rose_quartz_sword",
+		"femboyequipment:fih_slapper",
+		"femboyequipment:blahaj_bat"
 	]
 }

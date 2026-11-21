@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:mystery/tie_dye_cherry_blahaj",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:tie_dye_lilac_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.mystery.tie_dye_lilac_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.mystery.tie_dye_lilac_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tie_dye_lilac_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

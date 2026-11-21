@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "femboyequipment:block/pastel_lavender_bricks",
+		"top": "femboyequipment:block/pastel_lavender_bricks",
+		"side": "femboyequipment:block/pastel_lavender_bricks"
+	}
+}

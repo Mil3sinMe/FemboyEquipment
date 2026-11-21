@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_example_addon",
+	"version": "${version}",
+	"name": "FemboyEquipment Example Addon",
+	"description": "Example addon for FemboyEquipment: fox ears, a fox Blåhaj, a fox fih and a datapack effect.",
+	"authors": ["Mil3sinMe"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": ["com.example.femboyaddon.ExampleAddon"],
+		"femboyequipment-client": ["com.example.femboyaddon.client.ExampleAddonClient"]
+	},
+	"depends": {
+		"femboyequipment": ">=1.12.2",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

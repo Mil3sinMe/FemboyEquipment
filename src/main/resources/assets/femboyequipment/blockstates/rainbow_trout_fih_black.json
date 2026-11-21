@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/rainbow_trout_fih_black"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/rainbow_trout_fih_black",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/rainbow_trout_fih_black",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/rainbow_trout_fih_black",
+			"y": 270
+		}
+	}
+}

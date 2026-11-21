@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/blahaj_base",
+	"textures": {
+		"shark": "femboyequipment:block/blahaj/checkered_aqua_blahaj"
+	}
+}
