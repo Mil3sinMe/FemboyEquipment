@@ -97,9 +97,8 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 
 ![Trinkets slots in the inventory, a Blåhaj on the player's back, and the accessory buffs](docs/trinkets.png)
 
-Install **[Trinkets Canary](https://modrinth.com/mod/trinkets-canary)** (or another Trinkets fork for 1.21.11, like
-[Trinkets Updated](https://modrinth.com/mod/trinkets-updated)) to wear accessories in extra slots. Hover an armor slot
-in your inventory to open them:
+Accessory slots come **built in**: the mod bundles [Trinkets Canary](https://modrinth.com/mod/trinkets-canary)
+(MIT, by Ryhon, Emi & C4), so you don't need to install anything extra. Hover an armor slot in your inventory to open them:
 
 | Slot | Wear | Bonus |
 |---|---|---|
@@ -108,7 +107,7 @@ in your inventory to open them:
 | Chest → Back | **Any Blåhaj** (it rides on your back!) | Regeneration |
 | Feet → Socks *(new slot)* | Programming Socks | Haste II |
 
-Trinkets is optional. Without it, everything still works (hold accessories in your offhand instead).
+Accessories also still work held in your offhand. If you install a newer Trinkets fork yourself, Fabric uses the newer one.
 
 ### Cute houses, traders & kitties 🏠
 

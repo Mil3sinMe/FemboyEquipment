@@ -3,6 +3,13 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.11.0: Trinkets built in 📦
+
+### Changed
+- **Trinkets Canary is now bundled inside the mod.** Accessory slots work out of the box with just FemboyEquipment +
+  Fabric API, so there's no separate Trinkets download anymore. If you install a newer Trinkets fork yourself, Fabric
+  Loader uses the newer one.
+
 ## 1.10.0: Accessory slots 🎒
 
 ### Added
