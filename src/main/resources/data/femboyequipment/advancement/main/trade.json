@@ -1,0 +1,40 @@
+{
+	"parent": "femboyequipment:main/cute_house",
+	"display": {
+		"icon": {
+			"id": "minecraft:emerald",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.trade.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.trade.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"traded": {
+			"trigger": "minecraft:villager_trade",
+			"conditions": {
+				"villager": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type": "femboyequipment:femboy_villager"
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"traded"
+		]
+	]
+}

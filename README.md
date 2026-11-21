@@ -105,6 +105,19 @@ How it works: your client sends the server which skin layers you show (hat, jack
 server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod sets the spare one as a
 "has FemboyEquipment" flag. There's no backend server. The tab list remembers players once you've seen them nearby.
 
+### Advancements 🏆
+
+![The Femboy Equipment and Blåhaj Collection advancement tabs](docs/advancements.png)
+
+**64 advancements** in two new tabs:
+
+- **Femboy Equipment**: one for every item (*Tied With a Bow*, *Nya~*, *Hello, World!*, *Choker? I Hardly Know Her*…),
+  wearing each full outfit (*Purrfect Outfit*, *Welcome Home, Master~*, *Some Bunny Loves You*), getting and wearing the
+  thigh highs (*Unlimited Power*, *Absolutely Broken*), dyeing an outfit, drinking strawberry milk, finding a cute house,
+  trading with a Femboy Trader, taming a pink cat, and collecting every item (*Fully Equipped*).
+- **Blåhaj Collection**: one per Blåhaj (all 30, grouped into flags, colors and fancy), wearing one as a hat,
+  placing one, and the big challenge *Gotta Hug 'Em All*.
+
 ### Accessories (hold in your offhand)
 
 - **Programming Socks** – Haste II

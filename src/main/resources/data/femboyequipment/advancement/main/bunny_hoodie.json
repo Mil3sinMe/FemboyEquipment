@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/bunny_ears",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:bunny_hoodie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.bunny_hoodie.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.bunny_hoodie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bunny_hoodie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

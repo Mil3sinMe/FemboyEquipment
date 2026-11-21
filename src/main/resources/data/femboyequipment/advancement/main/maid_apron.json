@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/maid_dress",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:maid_apron",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.maid_apron.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.maid_apron.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:maid_apron"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

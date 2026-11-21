@@ -1,0 +1,39 @@
+{
+	"parent": "femboyequipment:main/programming_socks",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:thigh_highs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.thigh_highs.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.thigh_highs.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:thigh_highs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 100
+	}
+}

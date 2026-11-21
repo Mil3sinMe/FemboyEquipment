@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/pink_ribbon",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:ribbon_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.ribbon_block.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.ribbon_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ribbon_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

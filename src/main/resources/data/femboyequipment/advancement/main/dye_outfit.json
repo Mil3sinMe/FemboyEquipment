@@ -1,0 +1,49 @@
+{
+	"parent": "femboyequipment:main/cat_ears",
+	"display": {
+		"icon": {
+			"id": "minecraft:pink_dye",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.dye_outfit.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.dye_outfit.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"dyed": {
+			"trigger": "minecraft:recipe_crafted",
+			"conditions": {
+				"recipe_id": "minecraft:armor_dye",
+				"ingredients": [
+					{
+						"items": [
+							"femboyequipment:cat_ears",
+							"femboyequipment:femboy_hoodie",
+							"femboyequipment:pleated_skirt",
+							"femboyequipment:thigh_highs",
+							"femboyequipment:maid_headband",
+							"femboyequipment:maid_dress",
+							"femboyequipment:maid_apron",
+							"femboyequipment:mary_janes",
+							"femboyequipment:bunny_ears",
+							"femboyequipment:bunny_hoodie",
+							"femboyequipment:fluffy_slippers"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"dyed"
+		]
+	]
+}

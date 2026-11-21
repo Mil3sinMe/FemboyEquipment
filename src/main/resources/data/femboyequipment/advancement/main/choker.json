@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/pink_ribbon",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:choker",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.choker.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.choker.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:choker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

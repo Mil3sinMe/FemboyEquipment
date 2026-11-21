@@ -1,0 +1,45 @@
+{
+	"parent": "femboyequipment:main/cute_house",
+	"display": {
+		"icon": {
+			"id": "minecraft:cod",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.pink_cat.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.pink_cat.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"tamed": {
+			"trigger": "minecraft:tame_animal",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"components": {
+								"minecraft:cat/variant": "femboyequipment:pink"
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"tamed"
+		]
+	],
+	"rewards": {
+		"experience": 30
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/root",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:sparkly_sword",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.sparkly_sword.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.sparkly_sword.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sparkly_sword"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

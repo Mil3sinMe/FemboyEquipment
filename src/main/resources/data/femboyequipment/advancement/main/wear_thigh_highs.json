@@ -1,0 +1,47 @@
+{
+	"parent": "femboyequipment:main/thigh_highs",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:thigh_highs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.wear_thigh_highs.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.wear_thigh_highs.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"worn": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"feet": {
+									"items": "femboyequipment:thigh_highs"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"worn"
+		]
+	],
+	"rewards": {
+		"experience": 50
+	}
+}
