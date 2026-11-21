@@ -17,7 +17,7 @@ public abstract class AvatarRendererMixin {
 			at = @At("TAIL"))
 	private void femboy$addEmblem(Avatar avatar, AvatarRenderState state, float partialTick, CallbackInfo ci) {
 		if (avatar instanceof Player player && Emblems.check(player) && state.nameTag != null) {
-			state.nameTag = Emblems.decorate(player.getUUID(), state.nameTag);
+			state.nameTag = Emblems.decorate(player.getUUID(), player.getGameProfile().name(), state.nameTag);
 		}
 	}
 }
