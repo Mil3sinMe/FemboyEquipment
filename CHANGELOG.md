@@ -3,6 +3,16 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.10.0: Accessory slots 🎒
+
+### Added
+- **Trinkets support** (optional, works with Trinkets Canary / Trinkets Updated for 1.21.11):
+  - **Hat**: Hair Clip, Pink Ribbon
+  - **Necklace**: Choker
+  - **Back**: any Blåhaj, which shows riding on your back 🦈
+  - **Socks** (a new slot): Programming Socks
+- Accessory buffs (Luck, Strength, Haste II, Blåhaj cuddle Regeneration) work from Trinkets slots as well as your offhand
+
 ## 1.9.0: Pink kitties on demand 🐱
 
 ### Added

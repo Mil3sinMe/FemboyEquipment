@@ -1,7 +1,9 @@
 package com.femboyequipment.client;
 
 import com.femboyequipment.block.ModBlocks;
+import com.femboyequipment.client.compat.TrinketsClientCompat;
 import com.femboyequipment.client.emblem.EmblemCommand;
+import com.femboyequipment.compat.TrinketsCompat;
 import com.femboyequipment.client.model.AccessoryModels;
 import com.femboyequipment.client.render.AccessoryLayer;
 import com.femboyequipment.client.render.FemboyVillagerRenderer;
@@ -18,6 +20,9 @@ public class FemboyEquipmentClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		AccessoryModels.register();
 		EmblemCommand.register();
+		if (TrinketsCompat.LOADED) {
+			TrinketsClientCompat.register();
+		}
 		EntityRendererRegistry.register(ModEntities.FEMBOY_VILLAGER, FemboyVillagerRenderer::new);
 		BlockRenderLayerMap.putBlock(ModBlocks.PASTEL_BLOOM, ChunkSectionLayer.CUTOUT);
 

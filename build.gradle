@@ -4,8 +4,31 @@ plugins {
 }
 
 repositories {
-	// Add repositories here if you depend on other mods.
 	// Loom adds the Minecraft and Fabric repositories automatically.
+	// Trinkets (optional accessory slots) is pulled from Modrinth's maven.
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = "Modrinth"
+				url = "https://api.modrinth.com/maven"
+			}
+		}
+		filter {
+			includeGroup "maven.modrinth"
+		}
+	}
+	// Cardinal Components API: needed to compile against Trinkets (Trinkets bundles it for players).
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = "Ladysnake"
+				url = "https://maven.ladysnake.org/releases"
+			}
+		}
+		filter {
+			includeGroup "org.ladysnake.cardinal-components-api"
+		}
+	}
 }
 
 loom {
@@ -27,6 +50,15 @@ dependencies {
 
 	// Fabric API
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// Trinkets is optional: we compile against it, and it's only on the classpath in dev runs.
+	// Players can use any Trinkets fork for 1.21.11 (Trinkets Canary, Trinkets Updated, ...).
+	modCompileOnly "maven.modrinth:trinkets-canary:${project.trinkets_version}"
+	modLocalRuntime "maven.modrinth:trinkets-canary:${project.trinkets_version}"
+	modCompileOnly "org.ladysnake.cardinal-components-api:cardinal-components-base:${project.cca_version}"
+	modCompileOnly "org.ladysnake.cardinal-components-api:cardinal-components-entity:${project.cca_version}"
+	modLocalRuntime "org.ladysnake.cardinal-components-api:cardinal-components-base:${project.cca_version}"
+	modLocalRuntime "org.ladysnake.cardinal-components-api:cardinal-components-entity:${project.cca_version}"
 }
 
 processResources {
