@@ -23,6 +23,7 @@ public final class AccessoryModels {
 	public static final ModelLayerLocation BUNNY_EARS = layer("bunny_ears");
 	public static final ModelLayerLocation BUNNY_TAIL = layer("bunny_tail");
 	public static final ModelLayerLocation SKIRT = layer("skirt");
+	public static final ModelLayerLocation FEMBOY_VILLAGER = layer("femboy_villager");
 
 	private AccessoryModels() {
 	}
@@ -37,6 +38,8 @@ public final class AccessoryModels {
 		EntityModelLayerRegistry.registerModelLayer(BUNNY_EARS, AccessoryModels::bunnyEars);
 		EntityModelLayerRegistry.registerModelLayer(BUNNY_TAIL, AccessoryModels::bunnyTail);
 		EntityModelLayerRegistry.registerModelLayer(SKIRT, AccessoryModels::skirt);
+		EntityModelLayerRegistry.registerModelLayer(FEMBOY_VILLAGER,
+				() -> LayerDefinition.create(HumanoidModel.createMesh(CubeDeformation.NONE, 0.0F), 64, 32));
 	}
 
 	/** An empty humanoid skeleton to hang accessories on. */

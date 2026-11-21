@@ -1,0 +1,14 @@
+{
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 20051210,
+		"separation": 8,
+		"spacing": 20
+	},
+	"structures": [
+		{
+			"structure": "femboyequipment:cute_house",
+			"weight": 1
+		}
+	]
+}

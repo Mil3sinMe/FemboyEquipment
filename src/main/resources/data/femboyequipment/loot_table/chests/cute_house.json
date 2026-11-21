@@ -1,0 +1,183 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:uniform",
+				"min": 4,
+				"max": 7
+			},
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:pink_ribbon",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 6
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:strawberry_milk",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 3
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:hair_clip",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:pastel_bloom",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 5
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 7
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:choker",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:programming_socks",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cherry_sapling",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cake",
+					"weight": 2
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:cat_ears",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:femboy_hoodie",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:pleated_skirt",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:maid_headband",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:mary_janes",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:bunny_ears",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:fluffy_slippers",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:pink_blahaj",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:trans_blahaj",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:item",
+					"name": "femboyequipment:femboy_villager_spawn_egg",
+					"weight": 1
+				}
+			]
+		}
+	],
+	"random_sequence": "femboyequipment:chests/cute_house"
+}

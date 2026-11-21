@@ -1,6 +1,8 @@
 package com.femboyequipment.effect;
 
 import com.femboyequipment.block.Blahaj;
+import com.femboyequipment.entity.ModEntities;
+import net.minecraft.world.entity.animal.feline.Cat;
 import com.femboyequipment.item.ModItems;
 import java.util.List;
 import java.util.Map;
@@ -106,6 +108,14 @@ public final class OutfitEffects {
 		if (Blahaj.is(player.getMainHandItem()) || Blahaj.is(player.getOffhandItem())
 				|| Blahaj.is(player.getItemBySlot(EquipmentSlot.HEAD))) {
 			give(player, buff(MobEffects.REGENERATION, 0));
+		}
+
+		// A tamed pink kitty nearby purrs you back to health.
+		boolean kitty = !player.level().getEntitiesOfClass(Cat.class, player.getBoundingBox().inflate(8.0),
+				cat -> cat.isTame() && cat.isOwnedBy(player) && cat.getVariant().is(ModEntities.PINK_CAT)).isEmpty();
+		if (kitty) {
+			give(player, buff(MobEffects.REGENERATION, 0));
+			give(player, buff(MobEffects.LUCK, 0));
 		}
 
 		// Soft landings: thigh highs and bunny slippers cancel fall damage.

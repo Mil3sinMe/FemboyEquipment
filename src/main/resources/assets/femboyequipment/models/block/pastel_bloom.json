@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "femboyequipment:block/pastel_bloom"
+	}
+}

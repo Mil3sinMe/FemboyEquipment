@@ -78,6 +78,21 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 - **Solid colors**: Classic Blåhaj + one dye: Pink, Red, Orange, Yellow, Mint (lime), Purple, Goth (black), Ghost (white), Chocolate (brown), Magenta
 - **Fancy**: Classic Blåhaj + Gold Ingot (Golden), Diamond (Diamond), Netherite Scrap (Netherite, fire-proof), Glow Ink Sac (**Glow Blåhaj** glows in the dark!)
 
+### Cute houses, traders & kitties 🏠
+
+![A Femboy Trader in a Pastel Bloom patch next to a cute house, and the house interior](docs/cute_house.png)
+
+- **Cute houses** generate in plains, meadows, flower forests and cherry groves (`/locate structure femboyequipment:cute_house`).
+  Pastel pink brick walls, a cherry wood floor, a bed, Blåhajs and a loot chest full of goodies.
+- **Femboy Traders** live inside, dressed in a random outfit (cat, maid or bunny) and hugging a Blåhaj.
+  Right-click to trade emeralds for ribbons, strawberry milk, outfit pieces, Blåhajs… and, very rarely, *the thigh highs*.
+  There's also a Femboy Trader spawn egg.
+- **Pink cats**: a new cat variant. Every cute house comes with one, and village cats can be pink too.
+  Tame one with fish: while your pink kitty is within 8 blocks it purrs you Regeneration + Luck.
+- **Pastel Bloom**: a new pink flower in meadows, plains, flower forests and cherry groves. Craft it into 2 pink dye.
+- **Chest loot**: village houses, dungeons, mineshafts, mansions and shipwreck supply chests sometimes hold ribbons,
+  strawberry milk, accessories, Blåhajs and the odd outfit piece.
+
 ### Accessories (hold in your offhand)
 
 - **Programming Socks** – Haste II

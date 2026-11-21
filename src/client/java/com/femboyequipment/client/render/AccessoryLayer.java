@@ -7,11 +7,11 @@ import com.femboyequipment.item.ModItems;
 import com.femboyequipment.item.OutfitColors;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.model.geom.EntityModelSet;
-import net.minecraft.client.model.player.PlayerModel;
+import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.entity.layers.RenderLayer;
-import net.minecraft.client.renderer.entity.state.AvatarRenderState;
+import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import net.minecraft.client.renderer.rendertype.RenderTypes;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.resources.Identifier;
@@ -19,15 +19,15 @@ import net.minecraft.util.ARGB;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.DyedItemColor;
 
-/** Draws 3D ears, tails and skirts on players wearing the matching outfit pieces. */
-public class AccessoryLayer extends RenderLayer<AvatarRenderState, PlayerModel> {
+/** Draws 3D ears, tails and skirts on players (and other humanoids) wearing the matching outfit pieces. */
+public class AccessoryLayer<S extends HumanoidRenderState, M extends HumanoidModel<S>> extends RenderLayer<S, M> {
 	private final AccessoryModel catEars;
 	private final AccessoryModel catTail;
 	private final AccessoryModel bunnyEars;
 	private final AccessoryModel bunnyTail;
 	private final AccessoryModel skirt;
 
-	public AccessoryLayer(RenderLayerParent<AvatarRenderState, PlayerModel> parent, EntityModelSet models) {
+	public AccessoryLayer(RenderLayerParent<S, M> parent, EntityModelSet models) {
 		super(parent);
 		this.catEars = new AccessoryModel(models.bakeLayer(AccessoryModels.CAT_EARS));
 		this.catTail = new AccessoryModel(models.bakeLayer(AccessoryModels.CAT_TAIL));
@@ -37,7 +37,7 @@ public class AccessoryLayer extends RenderLayer<AvatarRenderState, PlayerModel> 
 	}
 
 	@Override
-	public void submit(PoseStack poseStack, SubmitNodeCollector collector, int light, AvatarRenderState state, float yRot, float xRot) {
+	public void submit(PoseStack poseStack, SubmitNodeCollector collector, int light, S state, float yRot, float xRot) {
 		if (state.isInvisible) {
 			return;
 		}
@@ -67,7 +67,7 @@ public class AccessoryLayer extends RenderLayer<AvatarRenderState, PlayerModel> 
 
 	/** Draws the dyeable base texture tinted, then the fixed-color overlay on top. */
 	private static void draw(AccessoryModel model, String texture, int color, PoseStack poseStack,
-			SubmitNodeCollector collector, int light, AvatarRenderState state) {
+			SubmitNodeCollector collector, int light, HumanoidRenderState state) {
 		collector.order(0).submitModel(model, state, poseStack, RenderTypes.armorCutoutNoCull(texture(texture)),
 				light, OverlayTexture.NO_OVERLAY, color, null, state.outlineColor, null);
 		collector.order(1).submitModel(model, state, poseStack, RenderTypes.armorCutoutNoCull(texture(texture + "_overlay")),

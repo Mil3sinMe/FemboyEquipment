@@ -50,5 +50,8 @@
 	"block.femboyequipment.golden_blahaj": "Golden Blåhaj",
 	"block.femboyequipment.diamond_blahaj": "Diamond Blåhaj",
 	"block.femboyequipment.netherite_blahaj": "Netherite Blåhaj",
-	"block.femboyequipment.glow_blahaj": "Glow Blåhaj"
+	"block.femboyequipment.glow_blahaj": "Glow Blåhaj",
+	"entity.femboyequipment.femboy_villager": "Femboy Trader",
+	"item.femboyequipment.femboy_villager_spawn_egg": "Femboy Trader Spawn Egg",
+	"block.femboyequipment.pastel_bloom": "Pastel Bloom"
 }
