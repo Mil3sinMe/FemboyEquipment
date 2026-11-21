@@ -104,6 +104,7 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
   There's also a Femboy Trader spawn egg.
 - **Pink cats**: a new cat variant. Every cute house comes with one, and village cats can be pink too.
   Tame one with fish: while your pink kitty is within 8 blocks it purrs you Regeneration + Luck.
+  There's also a **Pink Cat Spawn Egg** that always hatches a pink kitty.
 - **Pastel Bloom**: a new pink flower in meadows, plains, flower forests and cherry groves. Craft it into 2 pink dye.
 - **Chest loot**: village houses, dungeons, mineshafts, mansions and shipwreck supply chests sometimes hold ribbons,
   strawberry milk, accessories, Blåhajs and the odd outfit piece.
