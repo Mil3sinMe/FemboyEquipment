@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "minecraft:black_wool",
+		"W": "minecraft:white_wool"
+	},
+	"pattern": [
+		"B B",
+		"BWB",
+		"BBB"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:maid_dress"
+	}
+}

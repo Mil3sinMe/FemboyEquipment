@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "femboyequipment:item/bunny_hoodie",
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": -593674
+			}
+		]
+	}
+}

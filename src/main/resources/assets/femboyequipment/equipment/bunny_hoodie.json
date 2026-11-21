@@ -1,0 +1,15 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "femboyequipment:bunny_hoodie",
+				"dyeable": {
+					"color_when_undyed": -593674
+				}
+			},
+			{
+				"texture": "femboyequipment:bunny_hoodie_overlay"
+			}
+		]
+	}
+}

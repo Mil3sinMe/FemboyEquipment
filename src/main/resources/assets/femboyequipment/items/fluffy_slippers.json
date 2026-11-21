@@ -1,0 +1,12 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "femboyequipment:item/fluffy_slippers",
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": -593674
+			}
+		]
+	}
+}

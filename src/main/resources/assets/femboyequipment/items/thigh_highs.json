@@ -1,6 +1,12 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "femboyequipment:item/thigh_highs"
+		"model": "femboyequipment:item/thigh_highs",
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": -1019728
+			}
+		]
 	}
 }

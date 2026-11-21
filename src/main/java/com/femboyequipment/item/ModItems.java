@@ -19,6 +19,7 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ToolMaterial;
 import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
+import net.minecraft.world.item.equipment.ArmorMaterial;
 import net.minecraft.world.item.equipment.ArmorType;
 
 public final class ModItems {
@@ -55,6 +56,17 @@ public final class ModItems {
 					.component(DataComponents.UNBREAKABLE, Unit.INSTANCE)
 					.component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true));
 
+	// Maid outfit
+	public static final Item MAID_HEADBAND = armor("maid_headband", ModArmorMaterials.MAID_HEADBAND, ArmorType.HELMET);
+	public static final Item MAID_DRESS = armor("maid_dress", ModArmorMaterials.MAID_DRESS, ArmorType.CHESTPLATE);
+	public static final Item MAID_APRON = armor("maid_apron", ModArmorMaterials.MAID_APRON, ArmorType.LEGGINGS);
+	public static final Item MARY_JANES = armor("mary_janes", ModArmorMaterials.MARY_JANES, ArmorType.BOOTS);
+
+	// Bunny outfit
+	public static final Item BUNNY_EARS = armor("bunny_ears", ModArmorMaterials.BUNNY_EARS, ArmorType.HELMET);
+	public static final Item BUNNY_HOODIE = armor("bunny_hoodie", ModArmorMaterials.BUNNY_HOODIE, ArmorType.CHESTPLATE);
+	public static final Item FLUFFY_SLIPPERS = armor("fluffy_slippers", ModArmorMaterials.FLUFFY_SLIPPERS, ArmorType.BOOTS);
+
 	// Tools & weapons
 	public static final Item SPARKLY_SWORD = register("sparkly_sword", Item::new,
 			new Item.Properties().sword(SPARKLY, 3.0F, -2.4F).rarity(Rarity.RARE));
@@ -62,6 +74,10 @@ public final class ModItems {
 			new Item.Properties().pickaxe(SPARKLY, 1.0F, -2.8F).rarity(Rarity.RARE));
 
 	private ModItems() {
+	}
+
+	private static Item armor(String name, ArmorMaterial material, ArmorType type) {
+		return register(name, Item::new, new Item.Properties().humanoidArmor(material, type));
 	}
 
 	public static Item register(String name, Function<Item.Properties, Item> factory, Item.Properties properties) {

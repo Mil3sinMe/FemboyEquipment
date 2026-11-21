@@ -4,13 +4,11 @@
 	"key": {
 		"N": "minecraft:netherite_ingot",
 		"R": "femboyequipment:pink_ribbon",
-		"S": "femboyequipment:programming_socks",
-		"D": "minecraft:diamond_block"
+		"S": "femboyequipment:programming_socks"
 	},
 	"pattern": [
-		"NRN",
-		"S S",
-		"D D"
+		"RNR",
+		"S S"
 	],
 	"result": {
 		"count": 1,

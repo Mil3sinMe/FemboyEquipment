@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"H": "minecraft:rabbit_hide",
+		"W": "minecraft:white_wool",
+		"R": "femboyequipment:pink_ribbon"
+	},
+	"pattern": [
+		"H H",
+		"WRW"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:bunny_ears"
+	}
+}

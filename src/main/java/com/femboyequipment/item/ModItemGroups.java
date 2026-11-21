@@ -1,6 +1,7 @@
 package com.femboyequipment.item;
 
 import com.femboyequipment.FemboyEquipment;
+import com.femboyequipment.block.Blahaj;
 import com.femboyequipment.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
@@ -23,6 +24,13 @@ public final class ModItemGroups {
 				output.accept(ModItems.FEMBOY_HOODIE);
 				output.accept(ModItems.PLEATED_SKIRT);
 				output.accept(ModItems.THIGH_HIGHS);
+				output.accept(ModItems.MAID_HEADBAND);
+				output.accept(ModItems.MAID_DRESS);
+				output.accept(ModItems.MAID_APRON);
+				output.accept(ModItems.MARY_JANES);
+				output.accept(ModItems.BUNNY_EARS);
+				output.accept(ModItems.BUNNY_HOODIE);
+				output.accept(ModItems.FLUFFY_SLIPPERS);
 				output.accept(ModItems.SPARKLY_SWORD);
 				output.accept(ModItems.SPARKLY_PICKAXE);
 				output.accept(ModItems.PINK_RIBBON);
@@ -32,7 +40,18 @@ public final class ModItemGroups {
 				output.accept(ModItems.STRAWBERRY_MILK);
 				output.accept(ModBlocks.PASTEL_PINK_BRICKS);
 				output.accept(ModBlocks.RIBBON_BLOCK);
+				output.accept(ModBlocks.PASTEL_BLOOM);
+				output.accept(com.femboyequipment.entity.ModEntities.FEMBOY_VILLAGER_SPAWN_EGG);
 			})
+			.build();
+
+	public static final ResourceKey<CreativeModeTab> BLAHAJ_KEY =
+			ResourceKey.create(Registries.CREATIVE_MODE_TAB, FemboyEquipment.id("blahaj"));
+
+	public static final CreativeModeTab BLAHAJ = FabricItemGroup.builder()
+			.icon(() -> new ItemStack(Blahaj.items().get(1)))
+			.title(Component.translatable("itemGroup.femboyequipment.blahaj"))
+			.displayItems((parameters, output) -> Blahaj.items().forEach(output::accept))
 			.build();
 
 	private ModItemGroups() {
@@ -40,5 +59,6 @@ public final class ModItemGroups {
 
 	public static void initialize() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, MAIN_KEY, MAIN);
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, BLAHAJ_KEY, BLAHAJ);
 	}
 }

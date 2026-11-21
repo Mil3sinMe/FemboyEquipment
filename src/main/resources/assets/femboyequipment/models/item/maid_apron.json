@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "femboyequipment:item/maid_apron",
+		"layer1": "femboyequipment:item/maid_apron_overlay"
+	}
+}
