@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "blahaj",
+	"ingredients": [
+		"femboyequipment:blahaj",
+		"minecraft:slime_ball"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:slime_blahaj"
+	}
+}

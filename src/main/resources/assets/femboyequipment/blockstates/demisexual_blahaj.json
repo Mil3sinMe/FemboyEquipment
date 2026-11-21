@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/demisexual_blahaj"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/demisexual_blahaj",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/demisexual_blahaj",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/demisexual_blahaj",
+			"y": 270
+		}
+	}
+}

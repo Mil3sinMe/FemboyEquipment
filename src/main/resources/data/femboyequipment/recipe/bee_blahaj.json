@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "blahaj",
+	"ingredients": [
+		"femboyequipment:blahaj",
+		"minecraft:honeycomb"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:bee_blahaj"
+	}
+}

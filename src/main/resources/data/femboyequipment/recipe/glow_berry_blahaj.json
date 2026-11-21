@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "blahaj",
+	"ingredients": [
+		"femboyequipment:blahaj",
+		"minecraft:glow_berries"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:glow_berry_blahaj"
+	}
+}
