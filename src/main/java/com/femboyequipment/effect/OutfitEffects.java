@@ -1,6 +1,7 @@
 package com.femboyequipment.effect;
 
 import com.femboyequipment.block.Blahaj;
+import com.femboyequipment.compat.TrinketsCompat;
 import com.femboyequipment.entity.ModEntities;
 import net.minecraft.world.entity.animal.feline.Cat;
 import com.femboyequipment.item.ModItems;
@@ -60,7 +61,7 @@ public final class OutfitEffects {
 			new OutfitSet(List.of(ModItems.BUNNY_EARS, ModItems.BUNNY_HOODIE, ModItems.FLUFFY_SLIPPERS),
 					List.of(buff(MobEffects.SPEED, 1), buff(MobEffects.JUMP_BOOST, 2))));
 
-	/** Hold one of these in your offhand for a little buff. */
+	/** Hold one of these in your offhand (or wear it in a Trinkets slot) for a little buff. */
 	private static final Map<Item, Buff> OFFHAND = Map.of(
 			ModItems.PROGRAMMING_SOCKS, buff(MobEffects.HASTE, 1),
 			ModItems.HAIR_CLIP, buff(MobEffects.LUCK, 0),
@@ -99,14 +100,17 @@ public final class OutfitEffects {
 			}
 		}
 
-		Buff offhand = OFFHAND.get(player.getItemBySlot(EquipmentSlot.OFFHAND).getItem());
-		if (offhand != null) {
-			give(player, offhand);
-		}
+		// Accessories work held in your offhand, or worn in a Trinkets slot if Trinkets is installed.
+		Item offhandItem = player.getItemBySlot(EquipmentSlot.OFFHAND).getItem();
+		OFFHAND.forEach((item, buff) -> {
+			if (offhandItem == item || TrinketsCompat.isEquipped(player, stack -> stack.is(item))) {
+				give(player, buff);
+			}
+		});
 
 		// Hugging a Blåhaj (in either hand, or wearing one as a hat) is very comforting.
 		if (Blahaj.is(player.getMainHandItem()) || Blahaj.is(player.getOffhandItem())
-				|| Blahaj.is(player.getItemBySlot(EquipmentSlot.HEAD))) {
+				|| Blahaj.is(player.getItemBySlot(EquipmentSlot.HEAD)) || TrinketsCompat.isEquipped(player, Blahaj::is)) {
 			give(player, buff(MobEffects.REGENERATION, 0));
 		}
 

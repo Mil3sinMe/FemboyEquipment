@@ -93,6 +93,23 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
   - Star, Sun, Fire and Blaze Blåhaj glow; Fire, Blaze and Magma Blåhaj are fire-proof
 - **Fancy**: Classic Blåhaj + Gold Ingot (Golden), Diamond (Diamond), Netherite Scrap (Netherite, fire-proof), Glow Ink Sac (**Glow Blåhaj** glows in the dark!)
 
+### Accessory slots (Trinkets) 🎒
+
+![Trinkets slots in the inventory, a Blåhaj on the player's back, and the accessory buffs](docs/trinkets.png)
+
+Install **[Trinkets Canary](https://modrinth.com/mod/trinkets-canary)** (or another Trinkets fork for 1.21.11, like
+[Trinkets Updated](https://modrinth.com/mod/trinkets-updated)) to wear accessories in extra slots. Hover an armor slot
+in your inventory to open them:
+
+| Slot | Wear | Bonus |
+|---|---|---|
+| Head → Hat | Hair Clip, Pink Ribbon | Hair Clip: Luck |
+| Chest → Necklace | Choker | Strength |
+| Chest → Back | **Any Blåhaj** (it rides on your back!) | Regeneration |
+| Feet → Socks *(new slot)* | Programming Socks | Haste II |
+
+Trinkets is optional. Without it, everything still works (hold accessories in your offhand instead).
+
 ### Cute houses, traders & kitties 🏠
 
 ![A Femboy Trader in a Pastel Bloom patch next to a cute house, and the house interior](docs/cute_house.png)
