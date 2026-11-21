@@ -13,7 +13,7 @@ A cute little [Fabric](https://fabricmc.net/) mod for **Minecraft 1.21.11**.
 | Thing | Version |
 |---|---|
 | Minecraft | 1.21.11 |
-| Fabric Loader | ≥ 0.20.1 |
+| Fabric Loader | ≥ 0.18.4 |
 | Fabric API | 0.141.6+1.21.11 |
 | Java (to play) | 21+ |
 | Java (to build) | 25+ (needed by Fabric Loom 1.19) |
