@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public abstract class PlayerTabOverlayMixin {
 	@Inject(method = "getNameForDisplay", at = @At("RETURN"), cancellable = true)
 	private void femboy$addEmblem(PlayerInfo info, CallbackInfoReturnable<Component> cir) {
-		if (Emblems.isKnownUser(info.getProfile().id())) {
+		if (Emblems.shouldShow(info.getProfile().id())) {
 			cir.setReturnValue(Emblems.decorate(info.getProfile().id(), info.getProfile().name(), cir.getReturnValue()));
 		}
 	}

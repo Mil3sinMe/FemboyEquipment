@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "blahaj",
+	"ingredients": [
+		"femboyequipment:blahaj",
+		"minecraft:green_dye",
+		"minecraft:white_dye",
+		"minecraft:light_blue_dye"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:achillean_blahaj"
+	}
+}

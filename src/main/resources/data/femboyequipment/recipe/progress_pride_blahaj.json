@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "blahaj",
+	"ingredients": [
+		"femboyequipment:blahaj",
+		"minecraft:red_dye",
+		"minecraft:orange_dye",
+		"minecraft:yellow_dye",
+		"minecraft:green_dye",
+		"minecraft:blue_dye",
+		"minecraft:purple_dye",
+		"minecraft:light_blue_dye"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:progress_pride_blahaj"
+	}
+}

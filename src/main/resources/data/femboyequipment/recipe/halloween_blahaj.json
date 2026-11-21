@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "blahaj",
+	"ingredients": [
+		"femboyequipment:blahaj",
+		"minecraft:jack_o_lantern"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:halloween_blahaj"
+	}
+}

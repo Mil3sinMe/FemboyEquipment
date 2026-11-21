@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "blahaj",
+	"ingredients": [
+		"femboyequipment:blahaj",
+		"minecraft:fire_charge"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:fire_blahaj"
+	}
+}

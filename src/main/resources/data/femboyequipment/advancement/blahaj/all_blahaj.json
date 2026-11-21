@@ -1,5 +1,5 @@
 {
-	"parent": "femboyequipment:blahaj/root",
+	"parent": "femboyequipment:blahaj/classic_collection",
 	"display": {
 		"icon": {
 			"id": "femboyequipment:femboy_blahaj",
@@ -316,6 +316,1006 @@
 					}
 				]
 			}
+		},
+		"progress_pride_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:progress_pride_blahaj"
+					}
+				]
+			}
+		},
+		"transfem_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:transfem_blahaj"
+					}
+				]
+			}
+		},
+		"transmasc_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:transmasc_blahaj"
+					}
+				]
+			}
+		},
+		"genderqueer_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:genderqueer_blahaj"
+					}
+				]
+			}
+		},
+		"bigender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bigender_blahaj"
+					}
+				]
+			}
+		},
+		"polysexual_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:polysexual_blahaj"
+					}
+				]
+			}
+		},
+		"omnisexual_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:omnisexual_blahaj"
+					}
+				]
+			}
+		},
+		"aroace_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:aroace_blahaj"
+					}
+				]
+			}
+		},
+		"demisexual_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:demisexual_blahaj"
+					}
+				]
+			}
+		},
+		"demiromantic_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:demiromantic_blahaj"
+					}
+				]
+			}
+		},
+		"graysexual_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:graysexual_blahaj"
+					}
+				]
+			}
+		},
+		"abrosexual_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:abrosexual_blahaj"
+					}
+				]
+			}
+		},
+		"sapphic_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sapphic_blahaj"
+					}
+				]
+			}
+		},
+		"achillean_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:achillean_blahaj"
+					}
+				]
+			}
+		},
+		"androgyne_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:androgyne_blahaj"
+					}
+				]
+			}
+		},
+		"neutrois_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:neutrois_blahaj"
+					}
+				]
+			}
+		},
+		"genderflux_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:genderflux_blahaj"
+					}
+				]
+			}
+		},
+		"maverique_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:maverique_blahaj"
+					}
+				]
+			}
+		},
+		"polyamorous_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:polyamorous_blahaj"
+					}
+				]
+			}
+		},
+		"pangender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pangender_blahaj"
+					}
+				]
+			}
+		},
+		"strawberry_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:strawberry_blahaj"
+					}
+				]
+			}
+		},
+		"blueberry_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blueberry_blahaj"
+					}
+				]
+			}
+		},
+		"watermelon_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:watermelon_blahaj"
+					}
+				]
+			}
+		},
+		"pumpkin_spice_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pumpkin_spice_blahaj"
+					}
+				]
+			}
+		},
+		"apple_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:apple_blahaj"
+					}
+				]
+			}
+		},
+		"cookie_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cookie_blahaj"
+					}
+				]
+			}
+		},
+		"cake_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cake_blahaj"
+					}
+				]
+			}
+		},
+		"honey_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:honey_blahaj"
+					}
+				]
+			}
+		},
+		"glow_berry_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_berry_blahaj"
+					}
+				]
+			}
+		},
+		"mushroom_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mushroom_blahaj"
+					}
+				]
+			}
+		},
+		"cotton_candy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cotton_candy_blahaj"
+					}
+				]
+			}
+		},
+		"mocha_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mocha_blahaj"
+					}
+				]
+			}
+		},
+		"mint_chip_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mint_chip_blahaj"
+					}
+				]
+			}
+		},
+		"bubblegum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bubblegum_blahaj"
+					}
+				]
+			}
+		},
+		"emerald_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:emerald_blahaj"
+					}
+				]
+			}
+		},
+		"amethyst_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:amethyst_blahaj"
+					}
+				]
+			}
+		},
+		"copper_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:copper_blahaj"
+					}
+				]
+			}
+		},
+		"iron_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:iron_blahaj"
+					}
+				]
+			}
+		},
+		"redstone_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:redstone_blahaj"
+					}
+				]
+			}
+		},
+		"lapis_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lapis_blahaj"
+					}
+				]
+			}
+		},
+		"quartz_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:quartz_blahaj"
+					}
+				]
+			}
+		},
+		"prismarine_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:prismarine_blahaj"
+					}
+				]
+			}
+		},
+		"resin_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:resin_blahaj"
+					}
+				]
+			}
+		},
+		"echo_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:echo_blahaj"
+					}
+				]
+			}
+		},
+		"creeper_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:creeper_blahaj"
+					}
+				]
+			}
+		},
+		"enderman_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:enderman_blahaj"
+					}
+				]
+			}
+		},
+		"slime_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:slime_blahaj"
+					}
+				]
+			}
+		},
+		"magma_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:magma_blahaj"
+					}
+				]
+			}
+		},
+		"blaze_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blaze_blahaj"
+					}
+				]
+			}
+		},
+		"wither_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:wither_blahaj"
+					}
+				]
+			}
+		},
+		"axolotl_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:axolotl_blahaj"
+					}
+				]
+			}
+		},
+		"frog_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:frog_blahaj"
+					}
+				]
+			}
+		},
+		"bee_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bee_blahaj"
+					}
+				]
+			}
+		},
+		"warden_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:warden_blahaj"
+					}
+				]
+			}
+		},
+		"sniffer_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sniffer_blahaj"
+					}
+				]
+			}
+		},
+		"squid_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:squid_blahaj"
+					}
+				]
+			}
+		},
+		"phantom_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:phantom_blahaj"
+					}
+				]
+			}
+		},
+		"ghast_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ghast_blahaj"
+					}
+				]
+			}
+		},
+		"shulker_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:shulker_blahaj"
+					}
+				]
+			}
+		},
+		"turtle_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:turtle_blahaj"
+					}
+				]
+			}
+		},
+		"armadillo_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:armadillo_blahaj"
+					}
+				]
+			}
+		},
+		"breeze_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:breeze_blahaj"
+					}
+				]
+			}
+		},
+		"dragon_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:dragon_blahaj"
+					}
+				]
+			}
+		},
+		"panda_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:panda_blahaj"
+					}
+				]
+			}
+		},
+		"sakura_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sakura_blahaj"
+					}
+				]
+			}
+		},
+		"sunflower_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sunflower_blahaj"
+					}
+				]
+			}
+		},
+		"lilac_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lilac_blahaj"
+					}
+				]
+			}
+		},
+		"rose_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:rose_blahaj"
+					}
+				]
+			}
+		},
+		"cornflower_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cornflower_blahaj"
+					}
+				]
+			}
+		},
+		"lily_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lily_blahaj"
+					}
+				]
+			}
+		},
+		"tulip_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tulip_blahaj"
+					}
+				]
+			}
+		},
+		"moss_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:moss_blahaj"
+					}
+				]
+			}
+		},
+		"cactus_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cactus_blahaj"
+					}
+				]
+			}
+		},
+		"snow_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:snow_blahaj"
+					}
+				]
+			}
+		},
+		"ice_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ice_blahaj"
+					}
+				]
+			}
+		},
+		"coral_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:coral_blahaj"
+					}
+				]
+			}
+		},
+		"sunset_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sunset_blahaj"
+					}
+				]
+			}
+		},
+		"sunrise_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sunrise_blahaj"
+					}
+				]
+			}
+		},
+		"midnight_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:midnight_blahaj"
+					}
+				]
+			}
+		},
+		"aurora_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:aurora_blahaj"
+					}
+				]
+			}
+		},
+		"galaxy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:galaxy_blahaj"
+					}
+				]
+			}
+		},
+		"ocean_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ocean_blahaj"
+					}
+				]
+			}
+		},
+		"storm_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:storm_blahaj"
+					}
+				]
+			}
+		},
+		"star_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:star_blahaj"
+					}
+				]
+			}
+		},
+		"sun_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sun_blahaj"
+					}
+				]
+			}
+		},
+		"moon_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:moon_blahaj"
+					}
+				]
+			}
+		},
+		"vaporwave_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:vaporwave_blahaj"
+					}
+				]
+			}
+		},
+		"pastel_goth_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pastel_goth_blahaj"
+					}
+				]
+			}
+		},
+		"emo_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:emo_blahaj"
+					}
+				]
+			}
+		},
+		"scene_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:scene_blahaj"
+					}
+				]
+			}
+		},
+		"y2k_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:y2k_blahaj"
+					}
+				]
+			}
+		},
+		"cottagecore_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cottagecore_blahaj"
+					}
+				]
+			}
+		},
+		"fire_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:fire_blahaj"
+					}
+				]
+			}
+		},
+		"water_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:water_blahaj"
+					}
+				]
+			}
+		},
+		"earth_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:earth_blahaj"
+					}
+				]
+			}
+		},
+		"lightning_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lightning_blahaj"
+					}
+				]
+			}
+		},
+		"void_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:void_blahaj"
+					}
+				]
+			}
+		},
+		"christmas_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:christmas_blahaj"
+					}
+				]
+			}
+		},
+		"halloween_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:halloween_blahaj"
+					}
+				]
+			}
+		},
+		"valentine_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:valentine_blahaj"
+					}
+				]
+			}
 		}
 	},
 	"requirements": [
@@ -408,9 +1408,309 @@
 		],
 		[
 			"glow_blahaj"
+		],
+		[
+			"progress_pride_blahaj"
+		],
+		[
+			"transfem_blahaj"
+		],
+		[
+			"transmasc_blahaj"
+		],
+		[
+			"genderqueer_blahaj"
+		],
+		[
+			"bigender_blahaj"
+		],
+		[
+			"polysexual_blahaj"
+		],
+		[
+			"omnisexual_blahaj"
+		],
+		[
+			"aroace_blahaj"
+		],
+		[
+			"demisexual_blahaj"
+		],
+		[
+			"demiromantic_blahaj"
+		],
+		[
+			"graysexual_blahaj"
+		],
+		[
+			"abrosexual_blahaj"
+		],
+		[
+			"sapphic_blahaj"
+		],
+		[
+			"achillean_blahaj"
+		],
+		[
+			"androgyne_blahaj"
+		],
+		[
+			"neutrois_blahaj"
+		],
+		[
+			"genderflux_blahaj"
+		],
+		[
+			"maverique_blahaj"
+		],
+		[
+			"polyamorous_blahaj"
+		],
+		[
+			"pangender_blahaj"
+		],
+		[
+			"strawberry_blahaj"
+		],
+		[
+			"blueberry_blahaj"
+		],
+		[
+			"watermelon_blahaj"
+		],
+		[
+			"pumpkin_spice_blahaj"
+		],
+		[
+			"apple_blahaj"
+		],
+		[
+			"cookie_blahaj"
+		],
+		[
+			"cake_blahaj"
+		],
+		[
+			"honey_blahaj"
+		],
+		[
+			"glow_berry_blahaj"
+		],
+		[
+			"mushroom_blahaj"
+		],
+		[
+			"cotton_candy_blahaj"
+		],
+		[
+			"mocha_blahaj"
+		],
+		[
+			"mint_chip_blahaj"
+		],
+		[
+			"bubblegum_blahaj"
+		],
+		[
+			"emerald_blahaj"
+		],
+		[
+			"amethyst_blahaj"
+		],
+		[
+			"copper_blahaj"
+		],
+		[
+			"iron_blahaj"
+		],
+		[
+			"redstone_blahaj"
+		],
+		[
+			"lapis_blahaj"
+		],
+		[
+			"quartz_blahaj"
+		],
+		[
+			"prismarine_blahaj"
+		],
+		[
+			"resin_blahaj"
+		],
+		[
+			"echo_blahaj"
+		],
+		[
+			"creeper_blahaj"
+		],
+		[
+			"enderman_blahaj"
+		],
+		[
+			"slime_blahaj"
+		],
+		[
+			"magma_blahaj"
+		],
+		[
+			"blaze_blahaj"
+		],
+		[
+			"wither_blahaj"
+		],
+		[
+			"axolotl_blahaj"
+		],
+		[
+			"frog_blahaj"
+		],
+		[
+			"bee_blahaj"
+		],
+		[
+			"warden_blahaj"
+		],
+		[
+			"sniffer_blahaj"
+		],
+		[
+			"squid_blahaj"
+		],
+		[
+			"phantom_blahaj"
+		],
+		[
+			"ghast_blahaj"
+		],
+		[
+			"shulker_blahaj"
+		],
+		[
+			"turtle_blahaj"
+		],
+		[
+			"armadillo_blahaj"
+		],
+		[
+			"breeze_blahaj"
+		],
+		[
+			"dragon_blahaj"
+		],
+		[
+			"panda_blahaj"
+		],
+		[
+			"sakura_blahaj"
+		],
+		[
+			"sunflower_blahaj"
+		],
+		[
+			"lilac_blahaj"
+		],
+		[
+			"rose_blahaj"
+		],
+		[
+			"cornflower_blahaj"
+		],
+		[
+			"lily_blahaj"
+		],
+		[
+			"tulip_blahaj"
+		],
+		[
+			"moss_blahaj"
+		],
+		[
+			"cactus_blahaj"
+		],
+		[
+			"snow_blahaj"
+		],
+		[
+			"ice_blahaj"
+		],
+		[
+			"coral_blahaj"
+		],
+		[
+			"sunset_blahaj"
+		],
+		[
+			"sunrise_blahaj"
+		],
+		[
+			"midnight_blahaj"
+		],
+		[
+			"aurora_blahaj"
+		],
+		[
+			"galaxy_blahaj"
+		],
+		[
+			"ocean_blahaj"
+		],
+		[
+			"storm_blahaj"
+		],
+		[
+			"star_blahaj"
+		],
+		[
+			"sun_blahaj"
+		],
+		[
+			"moon_blahaj"
+		],
+		[
+			"vaporwave_blahaj"
+		],
+		[
+			"pastel_goth_blahaj"
+		],
+		[
+			"emo_blahaj"
+		],
+		[
+			"scene_blahaj"
+		],
+		[
+			"y2k_blahaj"
+		],
+		[
+			"cottagecore_blahaj"
+		],
+		[
+			"fire_blahaj"
+		],
+		[
+			"water_blahaj"
+		],
+		[
+			"earth_blahaj"
+		],
+		[
+			"lightning_blahaj"
+		],
+		[
+			"void_blahaj"
+		],
+		[
+			"christmas_blahaj"
+		],
+		[
+			"halloween_blahaj"
+		],
+		[
+			"valentine_blahaj"
 		]
 	],
 	"rewards": {
-		"experience": 1000
+		"experience": 2000
 	}
 }
