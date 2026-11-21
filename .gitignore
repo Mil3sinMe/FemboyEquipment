@@ -31,3 +31,7 @@ hs_err_*.log
 replay_*.log
 *.hprof
 *.jfr
+
+# generator scratch output
+tools/generators/*_meta.json
+tools/generators/__pycache__/
