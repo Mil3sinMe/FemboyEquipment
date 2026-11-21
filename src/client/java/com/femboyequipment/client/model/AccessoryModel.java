@@ -2,14 +2,14 @@ package com.femboyequipment.client.model;
 
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.model.geom.ModelPart;
-import net.minecraft.client.renderer.entity.state.AvatarRenderState;
+import net.minecraft.client.renderer.entity.state.HumanoidRenderState;
 import net.minecraft.util.Mth;
 
 /**
  * A player-shaped model whose only cubes are the accessory (ears, tail, skirt).
  * It copies the player's pose, so the accessory follows the head and body.
  */
-public class AccessoryModel extends HumanoidModel<AvatarRenderState> {
+public class AccessoryModel extends HumanoidModel<HumanoidRenderState> {
 	private final ModelPart tail;
 
 	public AccessoryModel(ModelPart root) {
@@ -18,7 +18,7 @@ public class AccessoryModel extends HumanoidModel<AvatarRenderState> {
 	}
 
 	@Override
-	public void setupAnim(AvatarRenderState state) {
+	public void setupAnim(HumanoidRenderState state) {
 		super.setupAnim(state);
 		if (this.tail != null) {
 			// Lazy swish, faster while walking.

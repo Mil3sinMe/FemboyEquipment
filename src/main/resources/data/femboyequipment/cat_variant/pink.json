@@ -1,0 +1,15 @@
+{
+	"asset_id": "femboyequipment:entity/cat/pink",
+	"spawn_conditions": [
+		{
+			"condition": {
+				"type": "minecraft:structure",
+				"structures": "#femboyequipment:cats_spawn_as_pink"
+			},
+			"priority": 1
+		},
+		{
+			"priority": 0
+		}
+	]
+}

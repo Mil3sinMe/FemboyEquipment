@@ -40,6 +40,8 @@ public final class ModItemGroups {
 				output.accept(ModItems.STRAWBERRY_MILK);
 				output.accept(ModBlocks.PASTEL_PINK_BRICKS);
 				output.accept(ModBlocks.RIBBON_BLOCK);
+				output.accept(ModBlocks.PASTEL_BLOOM);
+				output.accept(com.femboyequipment.entity.ModEntities.FEMBOY_VILLAGER_SPAWN_EGG);
 			})
 			.build();
 
