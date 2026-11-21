@@ -116,9 +116,9 @@ public final class ModItems {
 
 	// Gacha capsules
 	public static final Item BLAHAJ_CAPSULE = register("blahaj_capsule",
-			p -> new CapsuleItem(com.femboyequipment.block.Blahaj::items, p), new Item.Properties().stacksTo(64));
+			p -> new CapsuleItem(com.femboyequipment.api.FemboyEquipmentApi.Capsule.BLAHAJ, com.femboyequipment.block.Blahaj::items, p), new Item.Properties().stacksTo(64));
 	public static final Item FIH_CAPSULE = register("fih_capsule",
-			p -> new CapsuleItem(com.femboyequipment.block.Fih::items, p), new Item.Properties().stacksTo(64));
+			p -> new CapsuleItem(com.femboyequipment.api.FemboyEquipmentApi.Capsule.FIH, com.femboyequipment.block.Fih::items, p), new Item.Properties().stacksTo(64));
 
 	private ModItems() {
 	}
