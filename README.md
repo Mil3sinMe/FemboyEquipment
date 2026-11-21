@@ -230,6 +230,15 @@ All outfits and the sparkly tools are repaired with Pink Wool or Pink Ribbons.
 
 See the [changelog](CHANGELOG.md) for what's new in each version.
 
+## Addons 🧩
+
+FemboyEquipment can be extended by **addon mods** (new plushies, outfit pieces with effects and set bonuses, 3D ears,
+tails and skirts with your own textures) and by **datapacks** (outfit effects for any item, capsule prizes).
+See **[ADDONS.md](ADDONS.md)**. There's a working example in [`example-addon/`](example-addon) that adds Fox Ears,
+a Fox Blåhaj and a Fox Fih.
+
+![The example addon: fox ears on mannequins, and a datapack effect (pumpkin, Night Vision)](docs/addon.png)
+
 ## Requirements
 
 | Thing | Version |

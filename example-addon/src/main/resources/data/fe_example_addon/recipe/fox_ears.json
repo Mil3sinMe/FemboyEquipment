@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"O": "minecraft:orange_wool",
+		"W": "minecraft:white_wool"
+	},
+	"pattern": [
+		"O O",
+		"OWO"
+	],
+	"result": {
+		"id": "fe_example_addon:fox_ears",
+		"count": 1
+	}
+}

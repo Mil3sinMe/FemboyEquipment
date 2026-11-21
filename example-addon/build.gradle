@@ -1,0 +1,73 @@
+// An example FemboyEquipment addon. It's a normal Fabric mod that depends on FemboyEquipment.
+// Copy this folder to start your own addon (see ADDONS.md).
+plugins {
+	id 'net.fabricmc.fabric-loom-remap'
+}
+
+version = "1.0.0"
+group = "com.example.femboyaddon"
+
+base {
+	archivesName = "femboyequipment-example-addon"
+}
+
+repositories {
+	exclusiveContent {
+		forRepository { maven { name = "Modrinth"; url = "https://api.modrinth.com/maven" } }
+		filter { includeGroup "maven.modrinth" }
+	}
+	exclusiveContent {
+		forRepository { maven { name = "Ladysnake"; url = "https://maven.ladysnake.org/releases" } }
+		filter { includeGroup "org.ladysnake.cardinal-components-api" }
+	}
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"fe_example_addon" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+		// In this repo we run against the FemboyEquipment source next door.
+		"femboyequipment" {
+			sourceSet rootProject.sourceSets.main
+			sourceSet rootProject.sourceSets.client
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	mappings loom.officialMojangMappings()
+	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+	// FemboyEquipment itself. Outside this repo, use the released jar instead, e.g.
+	//   modImplementation files("libs/femboyequipment-1.12.2.jar")
+	implementation project(path: ':', configuration: 'namedElements')
+	clientImplementation rootProject.sourceSets.client.output
+
+	// FemboyEquipment bundles Trinkets; mirror it for dev runs.
+	modLocalRuntime "maven.modrinth:trinkets-canary:${project.trinkets_version}"
+	modLocalRuntime "org.ladysnake.cardinal-components-api:cardinal-components-base:${project.cca_version}"
+	modLocalRuntime "org.ladysnake.cardinal-components-api:cardinal-components-entity:${project.cca_version}"
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}

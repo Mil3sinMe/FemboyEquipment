@@ -1,7 +1,6 @@
 package com.femboyequipment.block;
 
 import com.femboyequipment.FemboyEquipment;
-import com.femboyequipment.item.ModItems;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -9,6 +8,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -35,16 +35,21 @@ public final class Fih {
 	}
 
 	private static void register(String name) {
+		Integer light = FihVariants.LIGHT.get(name);
+		register(FemboyEquipment.id(name), light == null ? 0 : light, FihVariants.RARE.contains(name));
+	}
+
+	/** Registers a fih block + item. Used for the built-in ones and by addons (FemboyEquipmentApi). */
+	public static Block register(Identifier id, int lightLevel, boolean rare) {
 		BlockBehaviour.Properties props = BlockBehaviour.Properties.of()
 				.mapColor(MapColor.COLOR_LIGHT_GRAY)
 				.strength(0.3F)
 				.sound(SoundType.WOOL)
 				.noOcclusion();
-		Integer light = FihVariants.LIGHT.get(name);
-		if (light != null) {
-			props = props.lightLevel(state -> light);
+		if (lightLevel > 0) {
+			props = props.lightLevel(state -> lightLevel);
 		}
-		ResourceKey<Block> key = ResourceKey.create(Registries.BLOCK, FemboyEquipment.id(name));
+		ResourceKey<Block> key = ResourceKey.create(Registries.BLOCK, id);
 		Block block = Registry.register(BuiltInRegistries.BLOCK, key, new FihBlock(props.setId(key)));
 		Item.Properties itemProps = new Item.Properties()
 				.useBlockDescriptionPrefix()
@@ -53,10 +58,12 @@ public final class Fih {
 						.setEquipSound(SoundEvents.ARMOR_EQUIP_LEATHER)
 						.setSwappable(true)
 						.build());
-		if (FihVariants.RARE.contains(name)) {
+		if (rare) {
 			itemProps = itemProps.rarity(Rarity.RARE);
 		}
-		ITEMS.add(ModItems.register(name, p -> new BlockItem(block, p), itemProps));
+		ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM, id);
+		ITEMS.add(Registry.register(BuiltInRegistries.ITEM, itemKey, new BlockItem(block, itemProps.setId(itemKey))));
+		return block;
 	}
 
 	public static List<Item> items() {

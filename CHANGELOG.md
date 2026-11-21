@@ -3,6 +3,23 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.12.2: Addons Update 🧩
+
+### Added
+- **Addon API** (`com.femboyequipment.api`) for Fabric mods:
+  - `FemboyEquipmentApi`: worn effects, accessory effects, outfit set bonuses, register Blåhaj and fih plushies,
+    capsule prizes, creative tab keys
+  - `FemboyEquipmentClientApi`: reuse the 3D cat ears/tail, bunny ears/tail and skirt with your own textures
+  - `femboyequipment` / `femboyequipment-client` entrypoints that run once FemboyEquipment is ready
+- **Datapack addons**: `data/<ns>/femboyequipment/outfit_effects/*.json` (`worn`, `accessory`, `set`) for any item,
+  plus `femboyequipment:blahaj_capsule_prizes` / `fih_capsule_prizes` tags. Reloads with `/reload`
+- **Example addon** (`example-addon/`): Fox Ears with 3D fox ears + tail, a Fox Blåhaj, a Fox Fih, and a datapack effect
+  (carved pumpkin = Night Vision)
+- **ADDONS.md** guide. Releases now also include the sources jar and the example addon jar
+
+### Changed
+- FemboyEquipment's own outfit effects and 3D accessories now go through the same API addons use
+
 ## 1.12.1: Advancements for everything 🏆
 
 ### Added
