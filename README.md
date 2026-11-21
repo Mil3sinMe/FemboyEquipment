@@ -185,6 +185,8 @@ server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod 
 
 All outfits and the sparkly tools are repaired with Pink Wool or Pink Ribbons.
 
+See the [changelog](CHANGELOG.md) for what's new in each version.
+
 ## Requirements
 
 | Thing | Version |
