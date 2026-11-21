@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "femboyequipment",
+	"version": "${version}",
+	"name": "Femboy Equipment",
+	"description": "Cute equipment for cute people~ Adds pink ribbons and programming socks!",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"contact": {
+		"sources": "https://github.com/Mil3sinMe/FemboyEquipment"
+	},
+	"license": "MIT",
+	"icon": "assets/femboyequipment/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.femboyequipment.FemboyEquipment"
+		],
+		"client": [
+			"com.femboyequipment.client.FemboyEquipmentClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
