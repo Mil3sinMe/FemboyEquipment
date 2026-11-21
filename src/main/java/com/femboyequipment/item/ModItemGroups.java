@@ -1,6 +1,7 @@
 package com.femboyequipment.item;
 
 import com.femboyequipment.FemboyEquipment;
+import com.femboyequipment.block.Blahaj;
 import com.femboyequipment.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
@@ -42,10 +43,20 @@ public final class ModItemGroups {
 			})
 			.build();
 
+	public static final ResourceKey<CreativeModeTab> BLAHAJ_KEY =
+			ResourceKey.create(Registries.CREATIVE_MODE_TAB, FemboyEquipment.id("blahaj"));
+
+	public static final CreativeModeTab BLAHAJ = FabricItemGroup.builder()
+			.icon(() -> new ItemStack(Blahaj.items().get(1)))
+			.title(Component.translatable("itemGroup.femboyequipment.blahaj"))
+			.displayItems((parameters, output) -> Blahaj.items().forEach(output::accept))
+			.build();
+
 	private ModItemGroups() {
 	}
 
 	public static void initialize() {
 		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, MAIN_KEY, MAIN);
+		Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, BLAHAJ_KEY, BLAHAJ);
 	}
 }

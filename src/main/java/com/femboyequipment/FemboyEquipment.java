@@ -1,5 +1,6 @@
 package com.femboyequipment;
 
+import com.femboyequipment.block.Blahaj;
 import com.femboyequipment.block.ModBlocks;
 import com.femboyequipment.effect.OutfitEffects;
 import com.femboyequipment.item.ModItemGroups;
@@ -17,6 +18,7 @@ public class FemboyEquipment implements ModInitializer {
 	public void onInitialize() {
 		ModItems.initialize();
 		ModBlocks.initialize();
+		Blahaj.initialize();
 		ModItemGroups.initialize();
 		OutfitEffects.initialize();
 
