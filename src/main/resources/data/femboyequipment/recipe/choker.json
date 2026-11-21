@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"S": "minecraft:string",
+		"D": "minecraft:pink_dye"
+	},
+	"pattern": [
+		"SSS",
+		"S S",
+		" D "
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:choker"
+	}
+}
