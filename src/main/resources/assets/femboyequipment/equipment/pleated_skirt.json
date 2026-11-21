@@ -2,7 +2,13 @@
 	"layers": {
 		"humanoid_leggings": [
 			{
-				"texture": "femboyequipment:pleated_skirt"
+				"texture": "femboyequipment:pleated_skirt",
+				"dyeable": {
+					"color_when_undyed": -1019728
+				}
+			},
+			{
+				"texture": "femboyequipment:pleated_skirt_overlay"
 			}
 		]
 	}

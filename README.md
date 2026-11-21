@@ -18,6 +18,8 @@ folder together with [Fabric API](https://modrinth.com/mod/fabric-api).
 | **Pleated Skirt** | Legs | Speed I |
 | **Thigh Highs** ✨ | Feet | Absolutely broken: Speed III, Haste III, Strength III, Resistance III, Jump Boost II, Regeneration II, Fire Resistance, Water Breathing, Dolphin's Grace, Saturation, no fall damage, slow falling while sneaking mid-air. Unbreakable, fire-proof, 8 armor, 6 toughness. |
 
+All four pieces are **dyeable** like leather armor. Craft one with any dye to recolor it.
+
 Wear all four for a set bonus: **Luck II** + **Hero of the Village** (cheap villager trades~).
 
 ### Accessories (hold in your offhand)
@@ -46,7 +48,7 @@ Wear all four for a set bonus: **Luck II** + **Hero of the Village** (cheap vill
 | Cat Ears | `P P` · `RHR` (Pink Wool, Ribbon, Hair Clip) |
 | Femboy Hoodie | `P P` · `PCP` · `PPP` (Pink Wool, Choker) |
 | Pleated Skirt | `PRP` · `P P` · `P P` (Pink Wool, Ribbon) |
-| Thigh Highs | `NRN` · `S S` · `D D` (Netherite Ingot, Ribbon, Programming Socks, Diamond Block) |
+| Thigh Highs | `RNR` · `S S` (Ribbon, Netherite Ingot, Programming Socks) |
 | Sparkly Sword | `RDR` · ` D ` · ` S ` (Ribbon, Diamond, Stick) |
 | Sparkly Pickaxe | `DDD` · `RSR` · ` S ` (Diamond, Ribbon, Stick) |
 | Pastel Pink Bricks ×8 | 8 Bricks around a Pink Dye |

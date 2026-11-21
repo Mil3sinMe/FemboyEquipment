@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "femboyequipment:item/thigh_highs"
+		"layer0": "femboyequipment:item/thigh_highs",
+		"layer1": "femboyequipment:item/thigh_highs_overlay"
 	}
 }

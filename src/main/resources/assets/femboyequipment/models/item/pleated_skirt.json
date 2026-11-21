@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "femboyequipment:item/pleated_skirt"
+		"layer0": "femboyequipment:item/pleated_skirt",
+		"layer1": "femboyequipment:item/pleated_skirt_overlay"
 	}
 }

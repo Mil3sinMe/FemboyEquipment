@@ -2,7 +2,13 @@
 	"layers": {
 		"humanoid": [
 			{
-				"texture": "femboyequipment:cat_ears"
+				"texture": "femboyequipment:cat_ears",
+				"dyeable": {
+					"color_when_undyed": -1019728
+				}
+			},
+			{
+				"texture": "femboyequipment:cat_ears_overlay"
 			}
 		]
 	}
