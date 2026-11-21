@@ -368,7 +368,7 @@ SHAPE_BASES = {"pastel_pink_brick": "pastel_pink_bricks", "pastel_blue_brick": "
 
 import zipfile  # noqa: E402
 
-_CLIENT = zipfile.ZipFile("/root/.gradle/caches/fabric-loom/1.21.11/minecraft-client.jar")
+_CLIENT = zipfile.ZipFile(os.path.expanduser("~/.gradle/caches/fabric-loom/1.21.11/minecraft-client.jar"))
 
 
 def vanilla_states(vanilla, ours):
