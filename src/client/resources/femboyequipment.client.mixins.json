@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.femboyequipment.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"AvatarAccessor",
+		"AvatarRendererMixin",
+		"OptionsMixin",
+		"PlayerTabOverlayMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
