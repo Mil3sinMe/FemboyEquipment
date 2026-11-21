@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"N": "minecraft:netherite_ingot",
+		"R": "femboyequipment:pink_ribbon",
+		"S": "femboyequipment:programming_socks",
+		"D": "minecraft:diamond_block"
+	},
+	"pattern": [
+		"NRN",
+		"S S",
+		"D D"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:thigh_highs"
+	}
+}

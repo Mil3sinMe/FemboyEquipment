@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"R": "femboyequipment:pink_ribbon"
+	},
+	"pattern": [
+		"RRR",
+		"RRR",
+		"RRR"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:ribbon_block"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"P": "minecraft:pink_wool",
+		"C": "femboyequipment:choker"
+	},
+	"pattern": [
+		"P P",
+		"PCP",
+		"PPP"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:femboy_hoodie"
+	}
+}

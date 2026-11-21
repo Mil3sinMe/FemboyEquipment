@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"R": "femboyequipment:pink_ribbon",
+		"D": "minecraft:diamond",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"DDD",
+		"RSR",
+		" S "
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:sparkly_pickaxe"
+	}
+}

@@ -1,6 +1,7 @@
 package com.femboyequipment.item;
 
 import com.femboyequipment.FemboyEquipment;
+import com.femboyequipment.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -18,8 +19,19 @@ public final class ModItemGroups {
 			.icon(() -> new ItemStack(ModItems.PINK_RIBBON))
 			.title(Component.translatable("itemGroup.femboyequipment.main"))
 			.displayItems((parameters, output) -> {
+				output.accept(ModItems.CAT_EARS);
+				output.accept(ModItems.FEMBOY_HOODIE);
+				output.accept(ModItems.PLEATED_SKIRT);
+				output.accept(ModItems.THIGH_HIGHS);
+				output.accept(ModItems.SPARKLY_SWORD);
+				output.accept(ModItems.SPARKLY_PICKAXE);
 				output.accept(ModItems.PINK_RIBBON);
 				output.accept(ModItems.PROGRAMMING_SOCKS);
+				output.accept(ModItems.HAIR_CLIP);
+				output.accept(ModItems.CHOKER);
+				output.accept(ModItems.STRAWBERRY_MILK);
+				output.accept(ModBlocks.PASTEL_PINK_BRICKS);
+				output.accept(ModBlocks.RIBBON_BLOCK);
 			})
 			.build();
 
