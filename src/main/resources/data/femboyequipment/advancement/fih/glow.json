@@ -1,0 +1,729 @@
+{
+	"parent": "femboyequipment:fih/capsule",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:glow_fih_glow",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.glow.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.glow.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"silver_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:silver_fih_glow"
+					}
+				]
+			}
+		},
+		"gold_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:gold_fih_glow"
+					}
+				]
+			}
+		},
+		"koi_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:koi_fih_glow"
+					}
+				]
+			}
+		},
+		"clown_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_glow"
+					}
+				]
+			}
+		},
+		"salmon_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:salmon_fih_glow"
+					}
+				]
+			}
+		},
+		"cod_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cod_fih_glow"
+					}
+				]
+			}
+		},
+		"tropical_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tropical_fih_glow"
+					}
+				]
+			}
+		},
+		"puffer_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:puffer_fih_glow"
+					}
+				]
+			}
+		},
+		"rainbow_trout_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:rainbow_trout_fih_glow"
+					}
+				]
+			}
+		},
+		"bass_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bass_fih_glow"
+					}
+				]
+			}
+		},
+		"catfish_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:catfish_fih_glow"
+					}
+				]
+			}
+		},
+		"goldfish_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:goldfish_fih_glow"
+					}
+				]
+			}
+		},
+		"betta_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:betta_fih_glow"
+					}
+				]
+			}
+		},
+		"blue_tang_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blue_tang_fih_glow"
+					}
+				]
+			}
+		},
+		"neon_tetra_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:neon_tetra_fih_glow"
+					}
+				]
+			}
+		},
+		"angelfish_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:angelfish_fih_glow"
+					}
+				]
+			}
+		},
+		"carp_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:carp_fih_glow"
+					}
+				]
+			}
+		},
+		"tuna_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tuna_fih_glow"
+					}
+				]
+			}
+		},
+		"mackerel_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mackerel_fih_glow"
+					}
+				]
+			}
+		},
+		"sardine_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sardine_fih_glow"
+					}
+				]
+			}
+		},
+		"pike_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pike_fih_glow"
+					}
+				]
+			}
+		},
+		"perch_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:perch_fih_glow"
+					}
+				]
+			}
+		},
+		"guppy_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:guppy_fih_glow"
+					}
+				]
+			}
+		},
+		"piranha_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:piranha_fih_glow"
+					}
+				]
+			}
+		},
+		"anglerfish_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:anglerfish_fih_glow"
+					}
+				]
+			}
+		},
+		"lionfish_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lionfish_fih_glow"
+					}
+				]
+			}
+		},
+		"mandarin_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mandarin_fih_glow"
+					}
+				]
+			}
+		},
+		"discus_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:discus_fih_glow"
+					}
+				]
+			}
+		},
+		"oscar_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:oscar_fih_glow"
+					}
+				]
+			}
+		},
+		"arowana_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:arowana_fih_glow"
+					}
+				]
+			}
+		},
+		"sturgeon_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sturgeon_fih_glow"
+					}
+				]
+			}
+		},
+		"eel_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:eel_fih_glow"
+					}
+				]
+			}
+		},
+		"flounder_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:flounder_fih_glow"
+					}
+				]
+			}
+		},
+		"snapper_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:snapper_fih_glow"
+					}
+				]
+			}
+		},
+		"barracuda_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:barracuda_fih_glow"
+					}
+				]
+			}
+		},
+		"trans_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:trans_fih_glow"
+					}
+				]
+			}
+		},
+		"pride_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pride_fih_glow"
+					}
+				]
+			}
+		},
+		"ghost_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ghost_fih_glow"
+					}
+				]
+			}
+		},
+		"shadow_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:shadow_fih_glow"
+					}
+				]
+			}
+		},
+		"glow_fih_white": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_white"
+					}
+				]
+			}
+		},
+		"glow_fih_black": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_black"
+					}
+				]
+			}
+		},
+		"glow_fih_red": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_red"
+					}
+				]
+			}
+		},
+		"glow_fih_pink": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_pink"
+					}
+				]
+			}
+		},
+		"glow_fih_blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_blue"
+					}
+				]
+			}
+		},
+		"glow_fih_navy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_navy"
+					}
+				]
+			}
+		},
+		"glow_fih_green": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_green"
+					}
+				]
+			}
+		},
+		"glow_fih_lime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_lime"
+					}
+				]
+			}
+		},
+		"glow_fih_yellow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_yellow"
+					}
+				]
+			}
+		},
+		"glow_fih_orange": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_orange"
+					}
+				]
+			}
+		},
+		"glow_fih_purple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_purple"
+					}
+				]
+			}
+		},
+		"glow_fih_lavender": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_lavender"
+					}
+				]
+			}
+		},
+		"glow_fih_cyan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_cyan"
+					}
+				]
+			}
+		},
+		"glow_fih_brown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_brown"
+					}
+				]
+			}
+		},
+		"glow_fih_gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_gray"
+					}
+				]
+			}
+		},
+		"glow_fih_rainbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_rainbow"
+					}
+				]
+			}
+		},
+		"glow_fih_trans": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_trans"
+					}
+				]
+			}
+		},
+		"glow_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_gold"
+					}
+				]
+			}
+		},
+		"glow_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_diamond"
+					}
+				]
+			}
+		},
+		"glow_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_netherite"
+					}
+				]
+			}
+		},
+		"glow_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_glow"
+					}
+				]
+			}
+		},
+		"glow_fih_camo": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_camo"
+					}
+				]
+			}
+		},
+		"glow_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_checkered"
+					}
+				]
+			}
+		},
+		"glow_fih_galaxy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_galaxy"
+					}
+				]
+			}
+		},
+		"glow_fih_leopard": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_leopard"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"silver_fih_glow",
+			"gold_fih_glow",
+			"koi_fih_glow",
+			"clown_fih_glow",
+			"salmon_fih_glow",
+			"cod_fih_glow",
+			"tropical_fih_glow",
+			"puffer_fih_glow",
+			"rainbow_trout_fih_glow",
+			"bass_fih_glow",
+			"catfish_fih_glow",
+			"goldfish_fih_glow",
+			"betta_fih_glow",
+			"blue_tang_fih_glow",
+			"neon_tetra_fih_glow",
+			"angelfish_fih_glow",
+			"carp_fih_glow",
+			"tuna_fih_glow",
+			"mackerel_fih_glow",
+			"sardine_fih_glow",
+			"pike_fih_glow",
+			"perch_fih_glow",
+			"guppy_fih_glow",
+			"piranha_fih_glow",
+			"anglerfish_fih_glow",
+			"lionfish_fih_glow",
+			"mandarin_fih_glow",
+			"discus_fih_glow",
+			"oscar_fih_glow",
+			"arowana_fih_glow",
+			"sturgeon_fih_glow",
+			"eel_fih_glow",
+			"flounder_fih_glow",
+			"snapper_fih_glow",
+			"barracuda_fih_glow",
+			"trans_fih_glow",
+			"pride_fih_glow",
+			"ghost_fih_glow",
+			"shadow_fih_glow",
+			"glow_fih_white",
+			"glow_fih_black",
+			"glow_fih_red",
+			"glow_fih_pink",
+			"glow_fih_blue",
+			"glow_fih_navy",
+			"glow_fih_green",
+			"glow_fih_lime",
+			"glow_fih_yellow",
+			"glow_fih_orange",
+			"glow_fih_purple",
+			"glow_fih_lavender",
+			"glow_fih_cyan",
+			"glow_fih_brown",
+			"glow_fih_gray",
+			"glow_fih_rainbow",
+			"glow_fih_trans",
+			"glow_fih_gold",
+			"glow_fih_diamond",
+			"glow_fih_netherite",
+			"glow_fih_glow",
+			"glow_fih_camo",
+			"glow_fih_checkered",
+			"glow_fih_galaxy",
+			"glow_fih_leopard"
+		]
+	]
+}

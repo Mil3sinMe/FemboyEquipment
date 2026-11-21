@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/silver_fih_blue"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/silver_fih_blue",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/silver_fih_blue",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/silver_fih_blue",
+			"y": 270
+		}
+	}
+}

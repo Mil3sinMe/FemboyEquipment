@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "femboyequipment:block/fih/salmon_fih_rainbow"
+	}
+}

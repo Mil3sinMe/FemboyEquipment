@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:blahaj/root",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:blahaj_capsule",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.blahaj.capsule.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.blahaj.capsule.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blahaj_capsule"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

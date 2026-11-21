@@ -128,6 +128,8 @@ public class FemboyVillager extends AbstractVillager {
 		offers.add(sell(1, new ItemStack(ModItems.PINK_RIBBON, 4), 16));
 		offers.add(sell(1, new ItemStack(ModItems.STRAWBERRY_MILK, 2), 12));
 		offers.add(new MerchantOffer(new ItemCost(Items.PINK_WOOL, 8), new ItemStack(Items.EMERALD), 16, 2, 0.05F));
+		offers.add(sell(3, new ItemStack(ModItems.BLAHAJ_CAPSULE), 12));
+		offers.add(sell(3, new ItemStack(ModItems.FIH_CAPSULE), 12));
 
 		// A few random goodies
 		List<MerchantOffer> extras = new ArrayList<>(List.of(

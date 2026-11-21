@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/mackerel_fih_camo"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/mackerel_fih_camo",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/mackerel_fih_camo",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/mackerel_fih_camo",
+			"y": 270
+		}
+	}
+}

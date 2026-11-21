@@ -1,0 +1,36 @@
+{
+	"parent": "femboyequipment:main/fih_slapper",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:blahaj_bat",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.main.blahaj_bat.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.main.blahaj_bat.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blahaj_bat"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

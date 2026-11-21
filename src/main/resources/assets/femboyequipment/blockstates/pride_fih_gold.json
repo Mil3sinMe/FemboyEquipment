@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/fih/pride_fih_gold"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/fih/pride_fih_gold",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/fih/pride_fih_gold",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/fih/pride_fih_gold",
+			"y": 270
+		}
+	}
+}

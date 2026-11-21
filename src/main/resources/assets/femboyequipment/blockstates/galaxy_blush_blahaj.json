@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "femboyequipment:block/galaxy_blush_blahaj"
+		},
+		"facing=east": {
+			"model": "femboyequipment:block/galaxy_blush_blahaj",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "femboyequipment:block/galaxy_blush_blahaj",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "femboyequipment:block/galaxy_blush_blahaj",
+			"y": 270
+		}
+	}
+}

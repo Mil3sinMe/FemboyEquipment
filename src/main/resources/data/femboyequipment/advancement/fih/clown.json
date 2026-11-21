@@ -1,0 +1,300 @@
+{
+	"parent": "femboyequipment:fih/capsule",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:clown_fih_white",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.clown.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.clown.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"clown_fih_white": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_white"
+					}
+				]
+			}
+		},
+		"clown_fih_black": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_black"
+					}
+				]
+			}
+		},
+		"clown_fih_red": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_red"
+					}
+				]
+			}
+		},
+		"clown_fih_pink": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_pink"
+					}
+				]
+			}
+		},
+		"clown_fih_blue": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_blue"
+					}
+				]
+			}
+		},
+		"clown_fih_navy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_navy"
+					}
+				]
+			}
+		},
+		"clown_fih_green": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_green"
+					}
+				]
+			}
+		},
+		"clown_fih_lime": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_lime"
+					}
+				]
+			}
+		},
+		"clown_fih_yellow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_yellow"
+					}
+				]
+			}
+		},
+		"clown_fih_orange": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_orange"
+					}
+				]
+			}
+		},
+		"clown_fih_purple": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_purple"
+					}
+				]
+			}
+		},
+		"clown_fih_lavender": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_lavender"
+					}
+				]
+			}
+		},
+		"clown_fih_cyan": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_cyan"
+					}
+				]
+			}
+		},
+		"clown_fih_brown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_brown"
+					}
+				]
+			}
+		},
+		"clown_fih_gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_gray"
+					}
+				]
+			}
+		},
+		"clown_fih_rainbow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_rainbow"
+					}
+				]
+			}
+		},
+		"clown_fih_trans": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_trans"
+					}
+				]
+			}
+		},
+		"clown_fih_gold": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_gold"
+					}
+				]
+			}
+		},
+		"clown_fih_diamond": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_diamond"
+					}
+				]
+			}
+		},
+		"clown_fih_netherite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_netherite"
+					}
+				]
+			}
+		},
+		"clown_fih_glow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_glow"
+					}
+				]
+			}
+		},
+		"clown_fih_camo": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_camo"
+					}
+				]
+			}
+		},
+		"clown_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_checkered"
+					}
+				]
+			}
+		},
+		"clown_fih_galaxy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_galaxy"
+					}
+				]
+			}
+		},
+		"clown_fih_leopard": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_leopard"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"clown_fih_white",
+			"clown_fih_black",
+			"clown_fih_red",
+			"clown_fih_pink",
+			"clown_fih_blue",
+			"clown_fih_navy",
+			"clown_fih_green",
+			"clown_fih_lime",
+			"clown_fih_yellow",
+			"clown_fih_orange",
+			"clown_fih_purple",
+			"clown_fih_lavender",
+			"clown_fih_cyan",
+			"clown_fih_brown",
+			"clown_fih_gray",
+			"clown_fih_rainbow",
+			"clown_fih_trans",
+			"clown_fih_gold",
+			"clown_fih_diamond",
+			"clown_fih_netherite",
+			"clown_fih_glow",
+			"clown_fih_camo",
+			"clown_fih_checkered",
+			"clown_fih_galaxy",
+			"clown_fih_leopard"
+		]
+	]
+}

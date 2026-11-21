@@ -51,7 +51,8 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
 
 ### Blåhaj 🦈
 
-**130** squishy shark plushies! Place them on the floor (they look at you), **wear one as a hat**, or **hug one**
+**1000** squishy shark plushies! 130 hand-made ones with recipes, plus 870 capsule-only ones
+(29 colors × 30 patterns: striped, polka dot, galaxy, tie-dye, holographic, cursed…). Place them on the floor (they look at you), **wear one as a hat**, or **hug one**
 (hold it in either hand or wear it) for Regeneration. They have their own creative tab.
 
 - **Classic Blåhaj**: craft with `" C "` · `"CBC"` · `"WWB"` (Cyan Wool, Light Blue Wool, White Wool)
@@ -92,6 +93,32 @@ Full set bonus (all three): **Speed II** + **Jump Boost III**.
   - **Holidays**: Christmas, Halloween, Valentine
   - Star, Sun, Fire and Blaze Blåhaj glow; Fire, Blaze and Magma Blåhaj are fire-proof
 - **Fancy**: Classic Blåhaj + Gold Ingot (Golden), Diamond (Diamond), Netherite Scrap (Netherite, fire-proof), Glow Ink Sac (**Glow Blåhaj** glows in the dark!)
+
+### fih. 🐟👟
+
+![fih standing in sneakers, and opening a Fih Capsule](docs/fih.png)
+
+**1000 fih**: a fish standing in a pair of high-top sneakers. 40 fish (Silver, Koi, Clownfish, Pufferfish, Betta,
+Lionfish, Trans, Pride, Glow…) × 25 kicks (White, Black, Rainbow, Trans, Checkered, Galaxy, Leopard, Gold, Diamond…).
+The one true **fih.** is the Silver Fih in White Kicks. Place them, wear them as hats, and get them from **Fih Capsules**
+(Cod + Leather + Emerald, or from Femboy Traders). They have their own creative tab and advancement tab.
+
+### Gacha capsules 🎰
+
+Right-click a **Blåhaj Capsule** (Light Blue Wool + White Wool + Emerald) or **Fih Capsule** (Cod + Leather + Emerald)
+to get a random plushie. This is the only way to get the 870 capsule-only Blåhaj.
+
+### Gear ⚔️
+
+![A mannequin in Rose Quartz armor with a Rose Quartz Spear and Fih Slapper, and one with a fih hat and Blåhaj Bat](docs/gear.png)
+
+- **Rose Quartz**: craft from Amethyst Shard + Quartz + Pink Dye (→ 2). Diamond-tier armor (full set: Resistance + Haste),
+  sword, pickaxe, axe, shovel, hoe and a **spear**, plus Rose Quartz Block and Bricks
+- **Sparkly Axe, Shovel & Hoe**: a diamond tool + 2 Pink Ribbons
+- **Fih Slapper** (Cod, Cod, Stick): slaps things away with a flop sound
+- **Blåhaj Bat** (Blåhaj, Blåhaj, Stick): sends mobs flying. Bonk
+- **Pastel bricks** in pink, blue, lavender, mint and yellow, and **stairs, slabs and walls** for every pastel and
+  Rose Quartz brick
 
 ### Accessory slots (Trinkets) 🎒
 

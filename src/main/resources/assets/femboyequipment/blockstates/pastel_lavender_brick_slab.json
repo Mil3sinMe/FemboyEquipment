@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "femboyequipment:block/pastel_lavender_brick_slab"
+		},
+		"type=top": {
+			"model": "femboyequipment:block/pastel_lavender_brick_slab_top"
+		},
+		"type=double": {
+			"model": "femboyequipment:block/pastel_lavender_bricks"
+		}
+	}
+}

@@ -1,0 +1,465 @@
+{
+	"parent": "femboyequipment:fih/capsule",
+	"display": {
+		"icon": {
+			"id": "femboyequipment:silver_fih_checkered",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.femboyequipment.fih.checkered.title"
+		},
+		"description": {
+			"translate": "advancements.femboyequipment.fih.checkered.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"silver_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:silver_fih_checkered"
+					}
+				]
+			}
+		},
+		"gold_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:gold_fih_checkered"
+					}
+				]
+			}
+		},
+		"koi_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:koi_fih_checkered"
+					}
+				]
+			}
+		},
+		"clown_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:clown_fih_checkered"
+					}
+				]
+			}
+		},
+		"salmon_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:salmon_fih_checkered"
+					}
+				]
+			}
+		},
+		"cod_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:cod_fih_checkered"
+					}
+				]
+			}
+		},
+		"tropical_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tropical_fih_checkered"
+					}
+				]
+			}
+		},
+		"puffer_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:puffer_fih_checkered"
+					}
+				]
+			}
+		},
+		"rainbow_trout_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:rainbow_trout_fih_checkered"
+					}
+				]
+			}
+		},
+		"bass_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:bass_fih_checkered"
+					}
+				]
+			}
+		},
+		"catfish_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:catfish_fih_checkered"
+					}
+				]
+			}
+		},
+		"goldfish_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:goldfish_fih_checkered"
+					}
+				]
+			}
+		},
+		"betta_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:betta_fih_checkered"
+					}
+				]
+			}
+		},
+		"blue_tang_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:blue_tang_fih_checkered"
+					}
+				]
+			}
+		},
+		"neon_tetra_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:neon_tetra_fih_checkered"
+					}
+				]
+			}
+		},
+		"angelfish_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:angelfish_fih_checkered"
+					}
+				]
+			}
+		},
+		"carp_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:carp_fih_checkered"
+					}
+				]
+			}
+		},
+		"tuna_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:tuna_fih_checkered"
+					}
+				]
+			}
+		},
+		"mackerel_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mackerel_fih_checkered"
+					}
+				]
+			}
+		},
+		"sardine_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sardine_fih_checkered"
+					}
+				]
+			}
+		},
+		"pike_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pike_fih_checkered"
+					}
+				]
+			}
+		},
+		"perch_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:perch_fih_checkered"
+					}
+				]
+			}
+		},
+		"guppy_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:guppy_fih_checkered"
+					}
+				]
+			}
+		},
+		"piranha_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:piranha_fih_checkered"
+					}
+				]
+			}
+		},
+		"anglerfish_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:anglerfish_fih_checkered"
+					}
+				]
+			}
+		},
+		"lionfish_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:lionfish_fih_checkered"
+					}
+				]
+			}
+		},
+		"mandarin_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:mandarin_fih_checkered"
+					}
+				]
+			}
+		},
+		"discus_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:discus_fih_checkered"
+					}
+				]
+			}
+		},
+		"oscar_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:oscar_fih_checkered"
+					}
+				]
+			}
+		},
+		"arowana_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:arowana_fih_checkered"
+					}
+				]
+			}
+		},
+		"sturgeon_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:sturgeon_fih_checkered"
+					}
+				]
+			}
+		},
+		"eel_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:eel_fih_checkered"
+					}
+				]
+			}
+		},
+		"flounder_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:flounder_fih_checkered"
+					}
+				]
+			}
+		},
+		"snapper_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:snapper_fih_checkered"
+					}
+				]
+			}
+		},
+		"barracuda_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:barracuda_fih_checkered"
+					}
+				]
+			}
+		},
+		"trans_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:trans_fih_checkered"
+					}
+				]
+			}
+		},
+		"pride_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:pride_fih_checkered"
+					}
+				]
+			}
+		},
+		"ghost_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:ghost_fih_checkered"
+					}
+				]
+			}
+		},
+		"shadow_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:shadow_fih_checkered"
+					}
+				]
+			}
+		},
+		"glow_fih_checkered": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "femboyequipment:glow_fih_checkered"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"silver_fih_checkered",
+			"gold_fih_checkered",
+			"koi_fih_checkered",
+			"clown_fih_checkered",
+			"salmon_fih_checkered",
+			"cod_fih_checkered",
+			"tropical_fih_checkered",
+			"puffer_fih_checkered",
+			"rainbow_trout_fih_checkered",
+			"bass_fih_checkered",
+			"catfish_fih_checkered",
+			"goldfish_fih_checkered",
+			"betta_fih_checkered",
+			"blue_tang_fih_checkered",
+			"neon_tetra_fih_checkered",
+			"angelfish_fih_checkered",
+			"carp_fih_checkered",
+			"tuna_fih_checkered",
+			"mackerel_fih_checkered",
+			"sardine_fih_checkered",
+			"pike_fih_checkered",
+			"perch_fih_checkered",
+			"guppy_fih_checkered",
+			"piranha_fih_checkered",
+			"anglerfish_fih_checkered",
+			"lionfish_fih_checkered",
+			"mandarin_fih_checkered",
+			"discus_fih_checkered",
+			"oscar_fih_checkered",
+			"arowana_fih_checkered",
+			"sturgeon_fih_checkered",
+			"eel_fih_checkered",
+			"flounder_fih_checkered",
+			"snapper_fih_checkered",
+			"barracuda_fih_checkered",
+			"trans_fih_checkered",
+			"pride_fih_checkered",
+			"ghost_fih_checkered",
+			"shadow_fih_checkered",
+			"glow_fih_checkered"
+		]
+	]
+}

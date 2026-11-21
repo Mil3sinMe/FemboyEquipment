@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"bottom": "femboyequipment:block/rose_quartz_bricks",
+		"top": "femboyequipment:block/rose_quartz_bricks",
+		"side": "femboyequipment:block/rose_quartz_bricks"
+	}
+}

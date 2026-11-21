@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:leather",
+		"minecraft:emerald"
+	],
+	"result": {
+		"count": 1,
+		"id": "femboyequipment:fih_capsule"
+	}
+}
