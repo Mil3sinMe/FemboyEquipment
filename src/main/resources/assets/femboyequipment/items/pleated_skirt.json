@@ -1,6 +1,12 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "femboyequipment:item/pleated_skirt"
+		"model": "femboyequipment:item/pleated_skirt",
+		"tints": [
+			{
+				"type": "minecraft:dye",
+				"default": -1019728
+			}
+		]
 	}
 }

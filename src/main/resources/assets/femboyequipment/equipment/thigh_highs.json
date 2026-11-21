@@ -2,7 +2,13 @@
 	"layers": {
 		"humanoid": [
 			{
-				"texture": "femboyequipment:thigh_highs"
+				"texture": "femboyequipment:thigh_highs",
+				"dyeable": {
+					"color_when_undyed": -1019728
+				}
+			},
+			{
+				"texture": "femboyequipment:thigh_highs_overlay"
 			}
 		]
 	}

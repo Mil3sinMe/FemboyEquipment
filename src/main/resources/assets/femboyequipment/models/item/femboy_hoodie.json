@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:item/generated",
 	"textures": {
-		"layer0": "femboyequipment:item/femboy_hoodie"
+		"layer0": "femboyequipment:item/femboy_hoodie",
+		"layer1": "femboyequipment:item/femboy_hoodie_overlay"
 	}
 }
