@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/chip_bat",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:fudge_hammer",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.fudge_hammer.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.fudge_hammer.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:fudge_hammer"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

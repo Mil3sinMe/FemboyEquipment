@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_sunset_beach:coral_gem_ore",
+		"fe_sunset_beach:deepslate_coral_gem_ore",
+		"fe_sunset_beach:coral_gem_block",
+		"fe_sunset_beach:raw_coral_gem_block"
+	]
+}

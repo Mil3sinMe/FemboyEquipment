@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_cottagecore_garden:block/moss_agate_mosaic",
+		"top": "fe_cottagecore_garden:block/moss_agate_mosaic",
+		"side": "fe_cottagecore_garden:block/moss_agate_mosaic"
+	}
+}

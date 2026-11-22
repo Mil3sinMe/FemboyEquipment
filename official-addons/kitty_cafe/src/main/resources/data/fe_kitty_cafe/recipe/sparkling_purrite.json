@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_kitty_cafe:polished_purrite",
+		"fe_kitty_cafe:purrite_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:sparkling_purrite"
+	}
+}

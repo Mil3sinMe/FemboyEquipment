@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cherry_blossom:main/starry_sakura_jade",
+	"display": {
+		"icon": {
+			"id": "fe_cherry_blossom:sparkling_sakura_jade",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cherry_blossom.main.sparkling_sakura_jade.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cherry_blossom.main.sparkling_sakura_jade.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sparkling_sakura_jade"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

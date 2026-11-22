@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:sugar",
+		"minecraft:sugar",
+		"fe_royal_ball:royal_sapphire_dust"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_royal_ball:champagne_candy"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_bunny_meadow:block/floppy_bunny_fih"
+		},
+		"facing=east": {
+			"model": "fe_bunny_meadow:block/floppy_bunny_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_bunny_meadow:block/floppy_bunny_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_bunny_meadow:block/floppy_bunny_fih",
+			"y": 270
+		}
+	}
+}

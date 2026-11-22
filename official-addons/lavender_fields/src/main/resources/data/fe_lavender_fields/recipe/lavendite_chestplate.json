@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_lavender_fields:lavendite"
+	},
+	"pattern": [
+		"# #",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lavender_fields:lavendite_chestplate"
+	}
+}

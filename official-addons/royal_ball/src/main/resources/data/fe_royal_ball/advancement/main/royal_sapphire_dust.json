@@ -1,0 +1,39 @@
+{
+	"parent": "fe_royal_ball:main/royal_sapphire_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_royal_ball:royal_sapphire_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_royal_ball.main.royal_sapphire_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_royal_ball.main.royal_sapphire_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_royal_ball:royal_sapphire_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

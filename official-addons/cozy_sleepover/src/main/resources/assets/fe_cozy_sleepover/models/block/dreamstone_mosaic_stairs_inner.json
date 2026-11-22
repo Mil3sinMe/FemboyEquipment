@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"bottom": "fe_cozy_sleepover:block/dreamstone_mosaic",
+		"top": "fe_cozy_sleepover:block/dreamstone_mosaic",
+		"side": "fe_cozy_sleepover:block/dreamstone_mosaic"
+	}
+}

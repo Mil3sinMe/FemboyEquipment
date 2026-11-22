@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_starlight_sky:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_starlight_sky:starstone_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_starlight_sky.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_starlight_sky.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"starstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone"
+					}
+				]
+			}
+		},
+		"raw_starstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:raw_starstone"
+					}
+				]
+			}
+		},
+		"starstone_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_nugget"
+					}
+				]
+			}
+		},
+		"starstone_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_dust"
+					}
+				]
+			}
+		},
+		"starstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_ore"
+					}
+				]
+			}
+		},
+		"deepslate_starstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:deepslate_starstone_ore"
+					}
+				]
+			}
+		},
+		"starstone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_block"
+					}
+				]
+			}
+		},
+		"raw_starstone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:raw_starstone_block"
+					}
+				]
+			}
+		},
+		"starstone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_bricks"
+					}
+				]
+			}
+		},
+		"starstone_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_brick_stairs"
+					}
+				]
+			}
+		},
+		"starstone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_brick_slab"
+					}
+				]
+			}
+		},
+		"starstone_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_brick_wall"
+					}
+				]
+			}
+		},
+		"starstone_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_tiles"
+					}
+				]
+			}
+		},
+		"starstone_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_tile_stairs"
+					}
+				]
+			}
+		},
+		"starstone_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_tile_slab"
+					}
+				]
+			}
+		},
+		"starstone_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_starstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:polished_starstone"
+					}
+				]
+			}
+		},
+		"polished_starstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:polished_starstone_stairs"
+					}
+				]
+			}
+		},
+		"polished_starstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:polished_starstone_slab"
+					}
+				]
+			}
+		},
+		"polished_starstone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:polished_starstone_wall"
+					}
+				]
+			}
+		},
+		"cobbled_starstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:cobbled_starstone"
+					}
+				]
+			}
+		},
+		"cobbled_starstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:cobbled_starstone_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_starstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:cobbled_starstone_slab"
+					}
+				]
+			}
+		},
+		"cobbled_starstone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:cobbled_starstone_wall"
+					}
+				]
+			}
+		},
+		"starstone_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_mosaic"
+					}
+				]
+			}
+		},
+		"starstone_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"starstone_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_mosaic_slab"
+					}
+				]
+			}
+		},
+		"starstone_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_mosaic_wall"
+					}
+				]
+			}
+		},
+		"starstone_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_lamp"
+					}
+				]
+			}
+		},
+		"starlight_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_cushion"
+					}
+				]
+			}
+		},
+		"starlight_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_crate"
+					}
+				]
+			}
+		},
+		"starstone_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_starstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:chiseled_starstone"
+					}
+				]
+			}
+		},
+		"starstone_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_shingles"
+					}
+				]
+			}
+		},
+		"starlight_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_starstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:glazed_starstone"
+					}
+				]
+			}
+		},
+		"starry_starstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starry_starstone"
+					}
+				]
+			}
+		},
+		"sparkling_starstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:sparkling_starstone"
+					}
+				]
+			}
+		},
+		"starstone_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_sword"
+					}
+				]
+			}
+		},
+		"starstone_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_pickaxe"
+					}
+				]
+			}
+		},
+		"starstone_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_axe"
+					}
+				]
+			}
+		},
+		"starstone_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_shovel"
+					}
+				]
+			}
+		},
+		"starstone_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_hoe"
+					}
+				]
+			}
+		},
+		"starstone_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_spear"
+					}
+				]
+			}
+		},
+		"meteor_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:meteor_bat"
+					}
+				]
+			}
+		},
+		"supernova_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:supernova_hammer"
+					}
+				]
+			}
+		},
+		"crescent_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:crescent_scythe"
+					}
+				]
+			}
+		},
+		"wishing_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:wishing_wand"
+					}
+				]
+			}
+		},
+		"starstone_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_helmet"
+					}
+				]
+			}
+		},
+		"starstone_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_chestplate"
+					}
+				]
+			}
+		},
+		"starstone_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_leggings"
+					}
+				]
+			}
+		},
+		"starstone_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_boots"
+					}
+				]
+			}
+		},
+		"stardust_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:stardust_soda"
+					}
+				]
+			}
+		},
+		"moonbeam_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:moonbeam_cookie"
+					}
+				]
+			}
+		},
+		"comet_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:comet_cupcake"
+					}
+				]
+			}
+		},
+		"stardust_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:stardust_candy"
+					}
+				]
+			}
+		},
+		"moonbeam_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:moonbeam_soup"
+					}
+				]
+			}
+		},
+		"comet_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:comet_donut"
+					}
+				]
+			}
+		},
+		"stardust_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:stardust_popsicle"
+					}
+				]
+			}
+		},
+		"moonbeam_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:moonbeam_lollipop"
+					}
+				]
+			}
+		},
+		"comet_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:comet_macaron"
+					}
+				]
+			}
+		},
+		"stardust_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:stardust_pie"
+					}
+				]
+			}
+		},
+		"moonbeam_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:moonbeam_bun"
+					}
+				]
+			}
+		},
+		"comet_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:comet_jelly"
+					}
+				]
+			}
+		},
+		"starlight_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_ribbon_charm"
+					}
+				]
+			}
+		},
+		"starlight_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_heart_locket"
+					}
+				]
+			}
+		},
+		"starlight_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_bell_collar"
+					}
+				]
+			}
+		},
+		"starlight_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_star_pin"
+					}
+				]
+			}
+		},
+		"starlight_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_moon_pendant"
+					}
+				]
+			}
+		},
+		"starlight_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_bow_clip"
+					}
+				]
+			}
+		},
+		"starlight_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"starlight_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_lucky_coin"
+					}
+				]
+			}
+		},
+		"starlight_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_anklet"
+					}
+				]
+			}
+		},
+		"starlight_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_earrings"
+					}
+				]
+			}
+		},
+		"starlight_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_bead_necklace"
+					}
+				]
+			}
+		},
+		"starlight_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_keychain"
+					}
+				]
+			}
+		},
+		"twinkly_starlight_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:twinkly_starlight_blahaj"
+					}
+				]
+			}
+		},
+		"cosmic_starlight_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:cosmic_starlight_blahaj"
+					}
+				]
+			}
+		},
+		"dreamy_starlight_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:dreamy_starlight_blahaj"
+					}
+				]
+			}
+		},
+		"shooting_starlight_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:shooting_starlight_blahaj"
+					}
+				]
+			}
+		},
+		"glowy_starlight_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:glowy_starlight_blahaj"
+					}
+				]
+			}
+		},
+		"twinkly_starlight_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:twinkly_starlight_fih"
+					}
+				]
+			}
+		},
+		"cosmic_starlight_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:cosmic_starlight_fih"
+					}
+				]
+			}
+		},
+		"dreamy_starlight_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:dreamy_starlight_fih"
+					}
+				]
+			}
+		},
+		"shooting_starlight_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:shooting_starlight_fih"
+					}
+				]
+			}
+		},
+		"glowy_starlight_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:glowy_starlight_fih"
+					}
+				]
+			}
+		},
+		"starlight_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_heart_sticker"
+					}
+				]
+			}
+		},
+		"starlight_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_star_sticker"
+					}
+				]
+			}
+		},
+		"starlight_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_moon_sticker"
+					}
+				]
+			}
+		},
+		"starlight_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_flower_sticker"
+					}
+				]
+			}
+		},
+		"starlight_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_paw_sticker"
+					}
+				]
+			}
+		},
+		"starlight_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_bow_sticker"
+					}
+				]
+			}
+		},
+		"starlight_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_cloud_sticker"
+					}
+				]
+			}
+		},
+		"starlight_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"starlight_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_smiley_sticker"
+					}
+				]
+			}
+		},
+		"starlight_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_music_note_sticker"
+					}
+				]
+			}
+		},
+		"starlight_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_crown_sticker"
+					}
+				]
+			}
+		},
+		"starlight_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"starlight_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"starlight_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starlight_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"starstone",
+			"raw_starstone",
+			"starstone_nugget",
+			"starstone_dust",
+			"starstone_ore",
+			"deepslate_starstone_ore",
+			"starstone_block",
+			"raw_starstone_block",
+			"starstone_bricks",
+			"starstone_brick_stairs",
+			"starstone_brick_slab",
+			"starstone_brick_wall",
+			"starstone_tiles",
+			"starstone_tile_stairs",
+			"starstone_tile_slab",
+			"starstone_tile_wall",
+			"polished_starstone",
+			"polished_starstone_stairs",
+			"polished_starstone_slab",
+			"polished_starstone_wall",
+			"cobbled_starstone",
+			"cobbled_starstone_stairs",
+			"cobbled_starstone_slab",
+			"cobbled_starstone_wall",
+			"starstone_mosaic",
+			"starstone_mosaic_stairs",
+			"starstone_mosaic_slab",
+			"starstone_mosaic_wall",
+			"starstone_lamp",
+			"starlight_cushion",
+			"starlight_crate",
+			"starstone_pillar",
+			"chiseled_starstone",
+			"starstone_shingles",
+			"starlight_quilt_block",
+			"glazed_starstone",
+			"starry_starstone",
+			"sparkling_starstone",
+			"starstone_sword",
+			"starstone_pickaxe",
+			"starstone_axe",
+			"starstone_shovel",
+			"starstone_hoe",
+			"starstone_spear",
+			"meteor_bat",
+			"supernova_hammer",
+			"crescent_scythe",
+			"wishing_wand",
+			"starstone_helmet",
+			"starstone_chestplate",
+			"starstone_leggings",
+			"starstone_boots",
+			"stardust_soda",
+			"moonbeam_cookie",
+			"comet_cupcake",
+			"stardust_candy",
+			"moonbeam_soup",
+			"comet_donut",
+			"stardust_popsicle",
+			"moonbeam_lollipop",
+			"comet_macaron",
+			"stardust_pie",
+			"moonbeam_bun",
+			"comet_jelly",
+			"starlight_ribbon_charm",
+			"starlight_heart_locket",
+			"starlight_bell_collar",
+			"starlight_star_pin",
+			"starlight_moon_pendant",
+			"starlight_bow_clip",
+			"starlight_friendship_bracelet",
+			"starlight_lucky_coin",
+			"starlight_anklet",
+			"starlight_earrings",
+			"starlight_bead_necklace",
+			"starlight_keychain",
+			"twinkly_starlight_blahaj",
+			"cosmic_starlight_blahaj",
+			"dreamy_starlight_blahaj",
+			"shooting_starlight_blahaj",
+			"glowy_starlight_blahaj",
+			"twinkly_starlight_fih",
+			"cosmic_starlight_fih",
+			"dreamy_starlight_fih",
+			"shooting_starlight_fih",
+			"glowy_starlight_fih",
+			"starlight_heart_sticker",
+			"starlight_star_sticker",
+			"starlight_moon_sticker",
+			"starlight_flower_sticker",
+			"starlight_paw_sticker",
+			"starlight_bow_sticker",
+			"starlight_cloud_sticker",
+			"starlight_sparkle_sticker",
+			"starlight_smiley_sticker",
+			"starlight_music_note_sticker",
+			"starlight_crown_sticker",
+			"starlight_rainbow_sticker",
+			"starlight_butterfly_sticker",
+			"starlight_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

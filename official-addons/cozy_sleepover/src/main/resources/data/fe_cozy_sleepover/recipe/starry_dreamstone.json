@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_cozy_sleepover:cobbled_dreamstone",
+		"G": "minecraft:glowstone_dust"
+	},
+	"pattern": [
+		"###",
+		"#G#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_cozy_sleepover:starry_dreamstone"
+	}
+}

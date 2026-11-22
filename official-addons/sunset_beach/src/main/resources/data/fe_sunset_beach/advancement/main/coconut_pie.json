@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/pineapple_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:coconut_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.coconut_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.coconut_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coconut_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

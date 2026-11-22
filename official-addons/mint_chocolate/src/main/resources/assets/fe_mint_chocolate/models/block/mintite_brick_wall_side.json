@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_side",
+	"textures": {
+		"wall": "fe_mint_chocolate:block/mintite_bricks"
+	}
+}

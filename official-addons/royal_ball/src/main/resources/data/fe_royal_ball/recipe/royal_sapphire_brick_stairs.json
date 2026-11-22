@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_royal_ball:royal_sapphire_bricks"
+	},
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_royal_ball:royal_sapphire_brick_stairs"
+	}
+}

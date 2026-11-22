@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lemonade_summer:main/citrine_block",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:raw_citrine_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.raw_citrine_block.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.raw_citrine_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:raw_citrine_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lavender_fields:main/lavendite_pickaxe",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:lavendite_axe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.lavendite_axe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.lavendite_axe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_axe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

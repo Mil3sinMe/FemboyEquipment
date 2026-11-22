@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_sunset_beach:block/coral_gem_tile_slab"
+		},
+		"type=top": {
+			"model": "fe_sunset_beach:block/coral_gem_tile_slab_top"
+		},
+		"type=double": {
+			"model": "fe_sunset_beach:block/coral_gem_tiles"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_witchy_moon:block/hexed_witchy_fih"
+		},
+		"facing=east": {
+			"model": "fe_witchy_moon:block/hexed_witchy_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_witchy_moon:block/hexed_witchy_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_witchy_moon:block/hexed_witchy_fih",
+			"y": 270
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_royal_ball:polished_royal_sapphire"
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_royal_ball:royal_sapphire_pillar"
+	}
+}

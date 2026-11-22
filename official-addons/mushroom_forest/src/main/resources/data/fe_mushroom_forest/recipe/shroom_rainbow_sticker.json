@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_mushroom_forest:sporestone_dust",
+		"minecraft:blue_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_mushroom_forest:shroom_rainbow_sticker"
+	}
+}

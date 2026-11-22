@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_cozy_sleepover",
+	"version": "${version}",
+	"name": "FemboyEquipment: Cozy Sleepover",
+	"description": "Official FemboyEquipment addon. Pillow forts and midnight snacks. 100 new things: Dreamstone ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_cozy_sleepover/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.cozysleepover.CozySleepoverAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

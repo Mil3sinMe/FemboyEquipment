@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_cloud_kingdom:cloudsilver_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cloud_kingdom:marshmallow_bun"
+	}
+}

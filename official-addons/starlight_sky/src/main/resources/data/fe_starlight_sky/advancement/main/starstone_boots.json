@@ -1,0 +1,39 @@
+{
+	"parent": "fe_starlight_sky:main/starstone_leggings",
+	"display": {
+		"icon": {
+			"id": "fe_starlight_sky:starstone_boots",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_starlight_sky.main.starstone_boots.title"
+		},
+		"description": {
+			"translate": "advancements.fe_starlight_sky.main.starstone_boots.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

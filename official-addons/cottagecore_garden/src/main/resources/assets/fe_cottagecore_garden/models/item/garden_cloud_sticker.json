@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_cottagecore_garden:item/garden_cloud_sticker"
+	}
+}

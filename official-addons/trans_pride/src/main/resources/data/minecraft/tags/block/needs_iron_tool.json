@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_trans_pride:transcendite_ore",
+		"fe_trans_pride:deepslate_transcendite_ore",
+		"fe_trans_pride:transcendite_block",
+		"fe_trans_pride:raw_transcendite_block"
+	]
+}

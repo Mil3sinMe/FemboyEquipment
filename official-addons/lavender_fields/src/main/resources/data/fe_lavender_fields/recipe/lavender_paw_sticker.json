@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_lavender_fields:lavendite_dust",
+		"minecraft:yellow_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_lavender_fields:lavender_paw_sticker"
+	}
+}

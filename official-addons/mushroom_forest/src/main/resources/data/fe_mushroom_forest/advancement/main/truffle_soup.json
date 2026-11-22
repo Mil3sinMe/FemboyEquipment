@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mushroom_forest:main/mushroom_candy",
+	"display": {
+		"icon": {
+			"id": "fe_mushroom_forest:truffle_soup",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mushroom_forest.main.truffle_soup.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mushroom_forest.main.truffle_soup.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:truffle_soup"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "fe_pumpkin_spice:main/reaper_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:cinnamon_stick_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.cinnamon_stick_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.cinnamon_stick_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cinnamon_stick_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

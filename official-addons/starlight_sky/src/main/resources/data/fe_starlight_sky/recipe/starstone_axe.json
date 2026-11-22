@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_starlight_sky:starstone",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"##",
+		"#S",
+		" S"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_starlight_sky:starstone_axe"
+	}
+}

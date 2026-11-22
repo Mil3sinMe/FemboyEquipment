@@ -1,0 +1,36 @@
+{
+	"parent": "fe_axolotl_pond:main/bubble_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_axolotl_pond:pond_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_axolotl_pond.main.pond_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_axolotl_pond.main.pond_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:pond_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

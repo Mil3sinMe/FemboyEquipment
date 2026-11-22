@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_pumpkin_spice:block/cobbled_spiced_amber_slab"
+		},
+		"type=top": {
+			"model": "fe_pumpkin_spice:block/cobbled_spiced_amber_slab_top"
+		},
+		"type=double": {
+			"model": "fe_pumpkin_spice:block/cobbled_spiced_amber"
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cloud_kingdom:cloudsilver",
+		"minecraft:emerald"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cloud_kingdom:cloud_lucky_coin"
+	}
+}

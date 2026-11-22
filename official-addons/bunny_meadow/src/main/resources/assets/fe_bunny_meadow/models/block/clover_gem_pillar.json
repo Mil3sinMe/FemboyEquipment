@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_bunny_meadow:block/polished_clover_gem",
+		"side": "fe_bunny_meadow:block/clover_gem_pillar"
+	}
+}

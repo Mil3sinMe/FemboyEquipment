@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_ocean_dreams:sea_glass_brick_stairs",
+		"fe_ocean_dreams:sea_glass_tile_stairs",
+		"fe_ocean_dreams:polished_sea_glass_stairs",
+		"fe_ocean_dreams:cobbled_sea_glass_stairs",
+		"fe_ocean_dreams:sea_glass_mosaic_stairs"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_sunset_beach:polished_coral_gem",
+	"result": {
+		"id": "fe_sunset_beach:glazed_coral_gem"
+	}
+}

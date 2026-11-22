@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_mushroom_forest:block/spotty_shroom_fih"
+	}
+}

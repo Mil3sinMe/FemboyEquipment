@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pastel_goth:main/goth_anklet",
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:goth_earrings",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.goth_earrings.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.goth_earrings.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pastel_goth:goth_earrings"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_frosted_winter:frost_opal_tiles"
+	},
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_frosted_winter:frost_opal_tile_stairs"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mushroom_forest:main/truffle_cookie",
+	"display": {
+		"icon": {
+			"id": "fe_mushroom_forest:forest_berry_cupcake",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mushroom_forest.main.forest_berry_cupcake.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mushroom_forest.main.forest_berry_cupcake.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:forest_berry_cupcake"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

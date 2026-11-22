@@ -1,0 +1,39 @@
+{
+	"parent": "fe_kitty_cafe:main/purrite_leggings",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:purrite_boots",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.purrite_boots.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.purrite_boots.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

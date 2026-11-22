@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_bunny_meadow:raw_clover_gem_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_bunny_meadow:raw_clover_gem"
+	}
+}

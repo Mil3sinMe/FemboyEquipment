@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_side",
+	"textures": {
+		"wall": "fe_strawberry_shortcake:block/strawberry_quartz_bricks"
+	}
+}

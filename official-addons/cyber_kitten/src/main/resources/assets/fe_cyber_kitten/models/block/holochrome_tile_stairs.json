@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_cyber_kitten:block/holochrome_tiles",
+		"top": "fe_cyber_kitten:block/holochrome_tiles",
+		"side": "fe_cyber_kitten:block/holochrome_tiles"
+	}
+}

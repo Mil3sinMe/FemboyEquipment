@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_boba_tea:cobbled_taro_pearl",
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:cobbled_taro_pearl_wall"
+	}
+}

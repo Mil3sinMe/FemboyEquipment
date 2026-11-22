@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_space_cadet:meteorite"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_space_cadet:meteorite"
+			}
+		]
+	}
+}

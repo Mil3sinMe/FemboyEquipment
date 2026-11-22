@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "fe_sunset_beach:coral_gem_block",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"BBB",
+		" S ",
+		" S "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_sunset_beach:sandcastle_hammer"
+	}
+}

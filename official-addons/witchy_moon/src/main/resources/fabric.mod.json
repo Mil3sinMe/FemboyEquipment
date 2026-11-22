@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_witchy_moon",
+	"version": "${version}",
+	"name": "FemboyEquipment: Witchy Moon",
+	"description": "Official FemboyEquipment addon. Moon phases and cozy little spells. 100 new things: Moonstone ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_witchy_moon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.witchymoon.WitchyMoonAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

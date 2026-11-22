@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_pastel_goth:block/gothite_mosaic",
+		"top": "fe_pastel_goth:block/gothite_mosaic",
+		"side": "fe_pastel_goth:block/gothite_mosaic"
+	}
+}

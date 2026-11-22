@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:stone_bricks",
+		"D": "fe_trans_pride:transcendite_dust"
+	},
+	"pattern": [
+		"###",
+		"#D#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_trans_pride:transcendite_bricks"
+	}
+}

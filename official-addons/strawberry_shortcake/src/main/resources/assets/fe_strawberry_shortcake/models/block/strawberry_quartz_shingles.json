@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_strawberry_shortcake:block/strawberry_quartz_shingles"
+	}
+}

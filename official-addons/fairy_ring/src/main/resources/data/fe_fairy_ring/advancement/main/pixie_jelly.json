@@ -1,0 +1,39 @@
+{
+	"parent": "fe_fairy_ring:main/dewdrop_bun",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:pixie_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.pixie_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.pixie_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:pixie_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/cobbled_cloudsilver",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cobbled_cloudsilver_stairs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.cobbled_cloudsilver_stairs.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.cobbled_cloudsilver_stairs.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cobbled_cloudsilver_stairs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

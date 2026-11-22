@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mushroom_forest:main/cobbled_sporestone_stairs",
+	"display": {
+		"icon": {
+			"id": "fe_mushroom_forest:cobbled_sporestone_slab",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mushroom_forest.main.cobbled_sporestone_slab.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mushroom_forest.main.cobbled_sporestone_slab.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:cobbled_sporestone_slab"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_kitty_cafe:cobbled_purrite",
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:cobbled_purrite_stairs"
+	}
+}

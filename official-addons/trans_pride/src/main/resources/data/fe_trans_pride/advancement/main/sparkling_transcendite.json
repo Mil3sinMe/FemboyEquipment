@@ -1,0 +1,39 @@
+{
+	"parent": "fe_trans_pride:main/starry_transcendite",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:sparkling_transcendite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.sparkling_transcendite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.sparkling_transcendite.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:sparkling_transcendite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

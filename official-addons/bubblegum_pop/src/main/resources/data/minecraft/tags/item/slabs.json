@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_bubblegum_pop:bubblegem_brick_slab",
+		"fe_bubblegum_pop:bubblegem_tile_slab",
+		"fe_bubblegum_pop:polished_bubblegem_slab",
+		"fe_bubblegum_pop:cobbled_bubblegem_slab",
+		"fe_bubblegum_pop:bubblegem_mosaic_slab"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_lavender_fields:lavendite",
+		"minecraft:flint"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_lavender_fields:lavendite_dust"
+	}
+}

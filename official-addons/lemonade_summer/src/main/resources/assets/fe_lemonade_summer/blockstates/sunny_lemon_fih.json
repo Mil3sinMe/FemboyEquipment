@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_lemonade_summer:block/sunny_lemon_fih"
+		},
+		"facing=east": {
+			"model": "fe_lemonade_summer:block/sunny_lemon_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_lemonade_summer:block/sunny_lemon_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_lemonade_summer:block/sunny_lemon_fih",
+			"y": 270
+		}
+	}
+}

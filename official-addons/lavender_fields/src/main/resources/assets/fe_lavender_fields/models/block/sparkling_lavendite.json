@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_lavender_fields:block/sparkling_lavendite"
+	}
+}

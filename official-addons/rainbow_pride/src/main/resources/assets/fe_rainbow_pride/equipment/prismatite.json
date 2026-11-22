@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_rainbow_pride:prismatite"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_rainbow_pride:prismatite"
+			}
+		]
+	}
+}

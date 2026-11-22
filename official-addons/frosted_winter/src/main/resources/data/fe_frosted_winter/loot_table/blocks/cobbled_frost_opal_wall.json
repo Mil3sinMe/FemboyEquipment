@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_frosted_winter:cobbled_frost_opal_wall"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_frosted_winter:blocks/cobbled_frost_opal_wall"
+}

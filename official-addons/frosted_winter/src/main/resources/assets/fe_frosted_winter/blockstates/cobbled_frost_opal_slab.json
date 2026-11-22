@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_frosted_winter:block/cobbled_frost_opal_slab"
+		},
+		"type=top": {
+			"model": "fe_frosted_winter:block/cobbled_frost_opal_slab_top"
+		},
+		"type=double": {
+			"model": "fe_frosted_winter:block/cobbled_frost_opal"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_space_cadet:block/meteorite_brick_slab"
+		},
+		"type=top": {
+			"model": "fe_space_cadet:block/meteorite_brick_slab_top"
+		},
+		"type=double": {
+			"model": "fe_space_cadet:block/meteorite_bricks"
+		}
+	}
+}

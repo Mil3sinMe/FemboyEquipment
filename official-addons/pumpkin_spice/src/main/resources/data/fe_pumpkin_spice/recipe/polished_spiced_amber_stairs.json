@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_pumpkin_spice:polished_spiced_amber"
+	},
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_pumpkin_spice:polished_spiced_amber_stairs"
+	}
+}

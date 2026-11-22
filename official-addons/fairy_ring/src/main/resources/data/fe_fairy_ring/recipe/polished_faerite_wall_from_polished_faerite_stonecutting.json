@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_fairy_ring:polished_faerite",
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:polished_faerite_wall"
+	}
+}

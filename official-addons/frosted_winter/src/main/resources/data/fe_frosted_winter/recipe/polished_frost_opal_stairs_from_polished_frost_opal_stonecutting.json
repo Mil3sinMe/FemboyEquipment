@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_frosted_winter:polished_frost_opal",
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:polished_frost_opal_stairs"
+	}
+}

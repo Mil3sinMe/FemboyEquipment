@@ -1,0 +1,36 @@
+{
+	"parent": "fe_honey_bee:main/honey_anklet",
+	"display": {
+		"icon": {
+			"id": "fe_honey_bee:honey_earrings",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_honey_bee.main.honey_earrings.title"
+		},
+		"description": {
+			"translate": "advancements.fe_honey_bee.main.honey_earrings.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_earrings"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_witchy_moon:moonstone_brick_stairs",
+		"fe_witchy_moon:moonstone_tile_stairs",
+		"fe_witchy_moon:polished_moonstone_stairs",
+		"fe_witchy_moon:cobbled_moonstone_stairs",
+		"fe_witchy_moon:moonstone_mosaic_stairs"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_rainbow_pride:block/prismatite_tile_slab"
+		},
+		"type=top": {
+			"model": "fe_rainbow_pride:block/prismatite_tile_slab_top"
+		},
+		"type=double": {
+			"model": "fe_rainbow_pride:block/prismatite_tiles"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/cotton_candy_pie",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:bubblegum_bun",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.bubblegum_bun.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.bubblegum_bun.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:bubblegum_bun"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

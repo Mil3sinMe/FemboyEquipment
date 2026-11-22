@@ -1,0 +1,39 @@
+{
+	"parent": "fe_dragon_hoard:main/wyrm_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:ember_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.ember_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.ember_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:ember_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

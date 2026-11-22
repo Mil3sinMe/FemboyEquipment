@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:sugar",
+		"fe_sunset_beach:coral_gem_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_sunset_beach:mango_lollipop"
+	}
+}

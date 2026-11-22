@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_boba_tea:block/taro_pearl_tiles",
+		"top": "fe_boba_tea:block/taro_pearl_tiles",
+		"side": "fe_boba_tea:block/taro_pearl_tiles"
+	}
+}

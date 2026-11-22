@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_fairy_ring:faerite_brick_slab"
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:chiseled_faerite"
+	}
+}

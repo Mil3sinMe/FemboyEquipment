@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_pastel_goth:polished_gothite",
+	"result": {
+		"count": 1,
+		"id": "fe_pastel_goth:gothite_pillar"
+	}
+}

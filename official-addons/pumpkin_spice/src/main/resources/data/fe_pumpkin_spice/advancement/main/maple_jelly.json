@@ -1,0 +1,39 @@
+{
+	"parent": "fe_pumpkin_spice:main/cinnamon_bun",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:maple_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.maple_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.maple_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:maple_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

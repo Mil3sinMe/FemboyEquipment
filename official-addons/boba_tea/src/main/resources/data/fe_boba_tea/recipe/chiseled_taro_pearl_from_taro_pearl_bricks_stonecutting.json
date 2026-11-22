@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_boba_tea:taro_pearl_bricks",
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:chiseled_taro_pearl"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_ocean_dreams:polished_sea_glass",
+	"result": {
+		"id": "fe_ocean_dreams:glazed_sea_glass"
+	}
+}

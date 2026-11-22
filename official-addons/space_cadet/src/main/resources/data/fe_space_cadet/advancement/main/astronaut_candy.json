@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/rocket_cupcake",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:astronaut_candy",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.astronaut_candy.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.astronaut_candy.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:astronaut_candy"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

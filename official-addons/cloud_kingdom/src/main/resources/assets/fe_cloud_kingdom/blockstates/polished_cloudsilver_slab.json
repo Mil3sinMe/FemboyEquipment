@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_cloud_kingdom:block/polished_cloudsilver_slab"
+		},
+		"type=top": {
+			"model": "fe_cloud_kingdom:block/polished_cloudsilver_slab_top"
+		},
+		"type=double": {
+			"model": "fe_cloud_kingdom:block/polished_cloudsilver"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_dragon_hoard:cobbled_dragon_garnet",
+	"result": {
+		"count": 1,
+		"id": "fe_dragon_hoard:cobbled_dragon_garnet_wall"
+	}
+}

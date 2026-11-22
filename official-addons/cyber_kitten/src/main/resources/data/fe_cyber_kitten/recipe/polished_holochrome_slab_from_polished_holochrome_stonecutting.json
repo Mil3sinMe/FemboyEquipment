@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_cyber_kitten:polished_holochrome",
+	"result": {
+		"count": 2,
+		"id": "fe_cyber_kitten:polished_holochrome_slab"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_mushroom_forest:sporestone",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"##",
+		"#S",
+		" S"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mushroom_forest:sporestone_axe"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_dragon_hoard:dragon_garnet"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_dragon_hoard:dragon_garnet"
+			}
+		]
+	}
+}

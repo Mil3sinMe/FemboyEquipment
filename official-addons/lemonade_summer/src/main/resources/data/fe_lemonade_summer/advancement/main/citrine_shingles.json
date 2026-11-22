@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lemonade_summer:main/chiseled_citrine",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:citrine_shingles",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_shingles.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_shingles.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:citrine_shingles"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

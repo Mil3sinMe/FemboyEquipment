@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_starlight_sky:starstone_sword",
+		"fe_starlight_sky:meteor_bat",
+		"fe_starlight_sky:supernova_hammer",
+		"fe_starlight_sky:crescent_scythe",
+		"fe_starlight_sky:wishing_wand"
+	]
+}

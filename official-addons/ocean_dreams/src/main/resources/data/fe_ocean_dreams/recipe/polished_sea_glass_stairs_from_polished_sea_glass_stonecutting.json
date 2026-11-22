@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_ocean_dreams:polished_sea_glass",
+	"result": {
+		"count": 1,
+		"id": "fe_ocean_dreams:polished_sea_glass_stairs"
+	}
+}

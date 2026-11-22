@@ -1,0 +1,36 @@
+{
+	"parent": "fe_royal_ball:main/cobbled_royal_sapphire_wall",
+	"display": {
+		"icon": {
+			"id": "fe_royal_ball:royal_sapphire_mosaic",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_royal_ball.main.royal_sapphire_mosaic.title"
+		},
+		"description": {
+			"translate": "advancements.fe_royal_ball.main.royal_sapphire_mosaic.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_royal_ball:royal_sapphire_mosaic"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

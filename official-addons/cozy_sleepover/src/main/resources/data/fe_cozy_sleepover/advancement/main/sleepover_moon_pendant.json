@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cozy_sleepover:main/sleepover_star_pin",
+	"display": {
+		"icon": {
+			"id": "fe_cozy_sleepover:sleepover_moon_pendant",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cozy_sleepover.main.sleepover_moon_pendant.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cozy_sleepover.main.sleepover_moon_pendant.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cozy_sleepover:sleepover_moon_pendant"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

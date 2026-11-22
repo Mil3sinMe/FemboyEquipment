@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"bottom": "fe_space_cadet:block/cobbled_meteorite",
+		"top": "fe_space_cadet:block/cobbled_meteorite",
+		"side": "fe_space_cadet:block/cobbled_meteorite"
+	}
+}

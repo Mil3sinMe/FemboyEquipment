@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_cyber_kitten:block/polished_holochrome"
+	}
+}

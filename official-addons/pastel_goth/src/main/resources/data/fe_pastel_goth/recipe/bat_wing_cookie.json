@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"fe_pastel_goth:gothite_dust"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_pastel_goth:bat_wing_cookie"
+	}
+}

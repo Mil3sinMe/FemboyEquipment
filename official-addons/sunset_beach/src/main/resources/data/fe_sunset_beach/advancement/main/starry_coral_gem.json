@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/glazed_coral_gem",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:starry_coral_gem",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.starry_coral_gem.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.starry_coral_gem.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:starry_coral_gem"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

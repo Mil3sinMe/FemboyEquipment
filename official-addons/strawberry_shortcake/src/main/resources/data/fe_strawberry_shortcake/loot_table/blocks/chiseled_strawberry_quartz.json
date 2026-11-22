@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_strawberry_shortcake:chiseled_strawberry_quartz"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_strawberry_shortcake:blocks/chiseled_strawberry_quartz"
+}

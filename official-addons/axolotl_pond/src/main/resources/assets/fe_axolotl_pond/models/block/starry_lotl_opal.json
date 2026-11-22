@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_axolotl_pond:block/starry_lotl_opal"
+	}
+}

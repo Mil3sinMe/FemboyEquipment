@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cottagecore_garden:moss_agate_ore",
+		"fe_cottagecore_garden:deepslate_moss_agate_ore",
+		"fe_cottagecore_garden:moss_agate_block",
+		"fe_cottagecore_garden:raw_moss_agate_block"
+	]
+}

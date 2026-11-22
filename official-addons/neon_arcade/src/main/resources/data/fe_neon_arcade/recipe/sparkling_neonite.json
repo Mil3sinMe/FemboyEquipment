@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_neon_arcade:polished_neonite",
+		"fe_neon_arcade:neonite_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_neon_arcade:sparkling_neonite"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cottagecore_garden:main/garden_bead_necklace",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:garden_keychain",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.garden_keychain.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.garden_keychain.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:garden_keychain"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

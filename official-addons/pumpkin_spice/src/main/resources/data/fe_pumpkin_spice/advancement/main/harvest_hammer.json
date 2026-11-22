@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pumpkin_spice:main/gourd_bat",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:harvest_hammer",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.harvest_hammer.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.harvest_hammer.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:harvest_hammer"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

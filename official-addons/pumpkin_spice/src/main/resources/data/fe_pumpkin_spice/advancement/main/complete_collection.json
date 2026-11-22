@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_pumpkin_spice:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:spiced_amber_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"spiced_amber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber"
+					}
+				]
+			}
+		},
+		"raw_spiced_amber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:raw_spiced_amber"
+					}
+				]
+			}
+		},
+		"spiced_amber_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_nugget"
+					}
+				]
+			}
+		},
+		"spiced_amber_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_dust"
+					}
+				]
+			}
+		},
+		"spiced_amber_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_ore"
+					}
+				]
+			}
+		},
+		"deepslate_spiced_amber_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:deepslate_spiced_amber_ore"
+					}
+				]
+			}
+		},
+		"spiced_amber_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_block"
+					}
+				]
+			}
+		},
+		"raw_spiced_amber_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:raw_spiced_amber_block"
+					}
+				]
+			}
+		},
+		"spiced_amber_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_bricks"
+					}
+				]
+			}
+		},
+		"spiced_amber_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_brick_stairs"
+					}
+				]
+			}
+		},
+		"spiced_amber_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_brick_slab"
+					}
+				]
+			}
+		},
+		"spiced_amber_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_brick_wall"
+					}
+				]
+			}
+		},
+		"spiced_amber_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_tiles"
+					}
+				]
+			}
+		},
+		"spiced_amber_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_tile_stairs"
+					}
+				]
+			}
+		},
+		"spiced_amber_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_tile_slab"
+					}
+				]
+			}
+		},
+		"spiced_amber_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_spiced_amber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:polished_spiced_amber"
+					}
+				]
+			}
+		},
+		"polished_spiced_amber_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:polished_spiced_amber_stairs"
+					}
+				]
+			}
+		},
+		"polished_spiced_amber_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:polished_spiced_amber_slab"
+					}
+				]
+			}
+		},
+		"polished_spiced_amber_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:polished_spiced_amber_wall"
+					}
+				]
+			}
+		},
+		"cobbled_spiced_amber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cobbled_spiced_amber"
+					}
+				]
+			}
+		},
+		"cobbled_spiced_amber_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cobbled_spiced_amber_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_spiced_amber_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cobbled_spiced_amber_slab"
+					}
+				]
+			}
+		},
+		"cobbled_spiced_amber_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cobbled_spiced_amber_wall"
+					}
+				]
+			}
+		},
+		"spiced_amber_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_mosaic"
+					}
+				]
+			}
+		},
+		"spiced_amber_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"spiced_amber_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_mosaic_slab"
+					}
+				]
+			}
+		},
+		"spiced_amber_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_mosaic_wall"
+					}
+				]
+			}
+		},
+		"spiced_amber_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_lamp"
+					}
+				]
+			}
+		},
+		"pumpkin_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_cushion"
+					}
+				]
+			}
+		},
+		"pumpkin_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_crate"
+					}
+				]
+			}
+		},
+		"spiced_amber_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_spiced_amber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:chiseled_spiced_amber"
+					}
+				]
+			}
+		},
+		"spiced_amber_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_shingles"
+					}
+				]
+			}
+		},
+		"pumpkin_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_spiced_amber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:glazed_spiced_amber"
+					}
+				]
+			}
+		},
+		"starry_spiced_amber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:starry_spiced_amber"
+					}
+				]
+			}
+		},
+		"sparkling_spiced_amber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:sparkling_spiced_amber"
+					}
+				]
+			}
+		},
+		"spiced_amber_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_sword"
+					}
+				]
+			}
+		},
+		"spiced_amber_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_pickaxe"
+					}
+				]
+			}
+		},
+		"spiced_amber_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_axe"
+					}
+				]
+			}
+		},
+		"spiced_amber_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_shovel"
+					}
+				]
+			}
+		},
+		"spiced_amber_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_hoe"
+					}
+				]
+			}
+		},
+		"spiced_amber_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_spear"
+					}
+				]
+			}
+		},
+		"gourd_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:gourd_bat"
+					}
+				]
+			}
+		},
+		"harvest_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:harvest_hammer"
+					}
+				]
+			}
+		},
+		"reaper_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:reaper_scythe"
+					}
+				]
+			}
+		},
+		"cinnamon_stick_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cinnamon_stick_wand"
+					}
+				]
+			}
+		},
+		"spiced_amber_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_helmet"
+					}
+				]
+			}
+		},
+		"spiced_amber_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_chestplate"
+					}
+				]
+			}
+		},
+		"spiced_amber_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_leggings"
+					}
+				]
+			}
+		},
+		"spiced_amber_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_boots"
+					}
+				]
+			}
+		},
+		"pumpkin_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_soda"
+					}
+				]
+			}
+		},
+		"cinnamon_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cinnamon_cookie"
+					}
+				]
+			}
+		},
+		"maple_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:maple_cupcake"
+					}
+				]
+			}
+		},
+		"pumpkin_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_candy"
+					}
+				]
+			}
+		},
+		"cinnamon_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cinnamon_soup"
+					}
+				]
+			}
+		},
+		"maple_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:maple_donut"
+					}
+				]
+			}
+		},
+		"pumpkin_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_popsicle"
+					}
+				]
+			}
+		},
+		"cinnamon_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cinnamon_lollipop"
+					}
+				]
+			}
+		},
+		"maple_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:maple_macaron"
+					}
+				]
+			}
+		},
+		"pumpkin_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_pie"
+					}
+				]
+			}
+		},
+		"cinnamon_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cinnamon_bun"
+					}
+				]
+			}
+		},
+		"maple_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:maple_jelly"
+					}
+				]
+			}
+		},
+		"pumpkin_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_ribbon_charm"
+					}
+				]
+			}
+		},
+		"pumpkin_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_heart_locket"
+					}
+				]
+			}
+		},
+		"pumpkin_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_bell_collar"
+					}
+				]
+			}
+		},
+		"pumpkin_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_star_pin"
+					}
+				]
+			}
+		},
+		"pumpkin_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_moon_pendant"
+					}
+				]
+			}
+		},
+		"pumpkin_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_bow_clip"
+					}
+				]
+			}
+		},
+		"pumpkin_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"pumpkin_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_lucky_coin"
+					}
+				]
+			}
+		},
+		"pumpkin_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_anklet"
+					}
+				]
+			}
+		},
+		"pumpkin_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_earrings"
+					}
+				]
+			}
+		},
+		"pumpkin_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_bead_necklace"
+					}
+				]
+			}
+		},
+		"pumpkin_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_keychain"
+					}
+				]
+			}
+		},
+		"spooky_pumpkin_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spooky_pumpkin_blahaj"
+					}
+				]
+			}
+		},
+		"spiced_pumpkin_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_pumpkin_blahaj"
+					}
+				]
+			}
+		},
+		"cozy_pumpkin_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cozy_pumpkin_blahaj"
+					}
+				]
+			}
+		},
+		"crunchy_pumpkin_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:crunchy_pumpkin_blahaj"
+					}
+				]
+			}
+		},
+		"glowing_pumpkin_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:glowing_pumpkin_blahaj"
+					}
+				]
+			}
+		},
+		"spooky_pumpkin_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spooky_pumpkin_fih"
+					}
+				]
+			}
+		},
+		"spiced_pumpkin_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_pumpkin_fih"
+					}
+				]
+			}
+		},
+		"cozy_pumpkin_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cozy_pumpkin_fih"
+					}
+				]
+			}
+		},
+		"crunchy_pumpkin_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:crunchy_pumpkin_fih"
+					}
+				]
+			}
+		},
+		"glowing_pumpkin_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:glowing_pumpkin_fih"
+					}
+				]
+			}
+		},
+		"pumpkin_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_heart_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_star_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_moon_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_flower_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_paw_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_bow_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_cloud_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_smiley_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_music_note_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_crown_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"pumpkin_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:pumpkin_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"spiced_amber",
+			"raw_spiced_amber",
+			"spiced_amber_nugget",
+			"spiced_amber_dust",
+			"spiced_amber_ore",
+			"deepslate_spiced_amber_ore",
+			"spiced_amber_block",
+			"raw_spiced_amber_block",
+			"spiced_amber_bricks",
+			"spiced_amber_brick_stairs",
+			"spiced_amber_brick_slab",
+			"spiced_amber_brick_wall",
+			"spiced_amber_tiles",
+			"spiced_amber_tile_stairs",
+			"spiced_amber_tile_slab",
+			"spiced_amber_tile_wall",
+			"polished_spiced_amber",
+			"polished_spiced_amber_stairs",
+			"polished_spiced_amber_slab",
+			"polished_spiced_amber_wall",
+			"cobbled_spiced_amber",
+			"cobbled_spiced_amber_stairs",
+			"cobbled_spiced_amber_slab",
+			"cobbled_spiced_amber_wall",
+			"spiced_amber_mosaic",
+			"spiced_amber_mosaic_stairs",
+			"spiced_amber_mosaic_slab",
+			"spiced_amber_mosaic_wall",
+			"spiced_amber_lamp",
+			"pumpkin_cushion",
+			"pumpkin_crate",
+			"spiced_amber_pillar",
+			"chiseled_spiced_amber",
+			"spiced_amber_shingles",
+			"pumpkin_quilt_block",
+			"glazed_spiced_amber",
+			"starry_spiced_amber",
+			"sparkling_spiced_amber",
+			"spiced_amber_sword",
+			"spiced_amber_pickaxe",
+			"spiced_amber_axe",
+			"spiced_amber_shovel",
+			"spiced_amber_hoe",
+			"spiced_amber_spear",
+			"gourd_bat",
+			"harvest_hammer",
+			"reaper_scythe",
+			"cinnamon_stick_wand",
+			"spiced_amber_helmet",
+			"spiced_amber_chestplate",
+			"spiced_amber_leggings",
+			"spiced_amber_boots",
+			"pumpkin_soda",
+			"cinnamon_cookie",
+			"maple_cupcake",
+			"pumpkin_candy",
+			"cinnamon_soup",
+			"maple_donut",
+			"pumpkin_popsicle",
+			"cinnamon_lollipop",
+			"maple_macaron",
+			"pumpkin_pie",
+			"cinnamon_bun",
+			"maple_jelly",
+			"pumpkin_ribbon_charm",
+			"pumpkin_heart_locket",
+			"pumpkin_bell_collar",
+			"pumpkin_star_pin",
+			"pumpkin_moon_pendant",
+			"pumpkin_bow_clip",
+			"pumpkin_friendship_bracelet",
+			"pumpkin_lucky_coin",
+			"pumpkin_anklet",
+			"pumpkin_earrings",
+			"pumpkin_bead_necklace",
+			"pumpkin_keychain",
+			"spooky_pumpkin_blahaj",
+			"spiced_pumpkin_blahaj",
+			"cozy_pumpkin_blahaj",
+			"crunchy_pumpkin_blahaj",
+			"glowing_pumpkin_blahaj",
+			"spooky_pumpkin_fih",
+			"spiced_pumpkin_fih",
+			"cozy_pumpkin_fih",
+			"crunchy_pumpkin_fih",
+			"glowing_pumpkin_fih",
+			"pumpkin_heart_sticker",
+			"pumpkin_star_sticker",
+			"pumpkin_moon_sticker",
+			"pumpkin_flower_sticker",
+			"pumpkin_paw_sticker",
+			"pumpkin_bow_sticker",
+			"pumpkin_cloud_sticker",
+			"pumpkin_sparkle_sticker",
+			"pumpkin_smiley_sticker",
+			"pumpkin_music_note_sticker",
+			"pumpkin_crown_sticker",
+			"pumpkin_rainbow_sticker",
+			"pumpkin_butterfly_sticker",
+			"pumpkin_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

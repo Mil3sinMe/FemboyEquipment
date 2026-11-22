@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lavender_fields:main/honey_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:lavender_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.lavender_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.lavender_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

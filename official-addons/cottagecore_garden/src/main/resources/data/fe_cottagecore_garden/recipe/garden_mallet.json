@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "fe_cottagecore_garden:moss_agate_block",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"BBB",
+		" S ",
+		" S "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cottagecore_garden:garden_mallet"
+	}
+}

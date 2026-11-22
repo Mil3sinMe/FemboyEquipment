@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lavender_fields:main/soft_lavender_blahaj",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:floral_lavender_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.floral_lavender_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.floral_lavender_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:floral_lavender_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

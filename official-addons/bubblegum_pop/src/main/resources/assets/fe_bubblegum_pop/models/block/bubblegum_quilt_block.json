@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_bubblegum_pop:block/bubblegum_quilt_block"
+	}
+}

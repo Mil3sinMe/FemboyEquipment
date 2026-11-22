@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_axolotl_pond:lotl_opal_brick_wall",
+		"fe_axolotl_pond:lotl_opal_tile_wall",
+		"fe_axolotl_pond:polished_lotl_opal_wall",
+		"fe_axolotl_pond:cobbled_lotl_opal_wall",
+		"fe_axolotl_pond:lotl_opal_mosaic_wall"
+	]
+}

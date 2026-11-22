@@ -1,0 +1,39 @@
+{
+	"parent": "fe_dragon_hoard:main/gold_leaf_bun",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:ember_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.ember_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.ember_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:ember_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

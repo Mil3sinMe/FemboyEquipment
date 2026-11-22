@@ -1,0 +1,35 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_axolotl_pond:polished_lotl_opal_slab",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 2.0,
+							"add": false,
+							"conditions": [
+								{
+									"condition": "minecraft:block_state_property",
+									"block": "fe_axolotl_pond:polished_lotl_opal_slab",
+									"properties": {
+										"type": "double"
+									}
+								}
+							]
+						},
+						{
+							"function": "minecraft:explosion_decay"
+						}
+					]
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_axolotl_pond:blocks/polished_lotl_opal_slab"
+}

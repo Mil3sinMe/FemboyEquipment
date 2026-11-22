@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"bottom": "fe_fairy_ring:block/cobbled_faerite",
+		"top": "fe_fairy_ring:block/cobbled_faerite",
+		"side": "fe_fairy_ring:block/cobbled_faerite"
+	}
+}

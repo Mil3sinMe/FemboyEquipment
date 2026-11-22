@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/coral_gem_helmet",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:coral_gem_chestplate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.coral_gem_chestplate.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.coral_gem_chestplate.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_chestplate"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

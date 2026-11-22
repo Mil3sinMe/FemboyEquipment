@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_boba_tea:taro_pearl"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_boba_tea:taro_pearl"
+			}
+		]
+	}
+}

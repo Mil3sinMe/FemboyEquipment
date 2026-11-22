@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_witchy_moon:cobbled_moonstone",
+		"G": "minecraft:glowstone_dust"
+	},
+	"pattern": [
+		"###",
+		"#G#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_witchy_moon:starry_moonstone"
+	}
+}

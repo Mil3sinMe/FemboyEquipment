@@ -1,0 +1,36 @@
+{
+	"parent": "fe_ocean_dreams:main/seafoam_popsicle",
+	"display": {
+		"icon": {
+			"id": "fe_ocean_dreams:kelp_lollipop",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_ocean_dreams.main.kelp_lollipop.title"
+		},
+		"description": {
+			"translate": "advancements.fe_ocean_dreams.main.kelp_lollipop.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_ocean_dreams:kelp_lollipop"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

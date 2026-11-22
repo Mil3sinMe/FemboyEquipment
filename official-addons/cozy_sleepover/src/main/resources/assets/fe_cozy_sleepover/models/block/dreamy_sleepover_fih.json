@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_cozy_sleepover:block/dreamy_sleepover_fih"
+	}
+}

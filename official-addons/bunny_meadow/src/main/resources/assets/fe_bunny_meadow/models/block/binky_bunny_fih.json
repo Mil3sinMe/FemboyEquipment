@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_bunny_meadow:block/binky_bunny_fih"
+	}
+}

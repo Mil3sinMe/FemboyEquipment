@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_cozy_sleepover:dreamstone_tiles",
+	"result": {
+		"count": 1,
+		"id": "fe_cozy_sleepover:dreamstone_tile_wall"
+	}
+}

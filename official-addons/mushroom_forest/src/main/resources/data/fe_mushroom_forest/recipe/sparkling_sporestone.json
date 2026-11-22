@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_mushroom_forest:polished_sporestone",
+		"fe_mushroom_forest:sporestone_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mushroom_forest:sparkling_sporestone"
+	}
+}

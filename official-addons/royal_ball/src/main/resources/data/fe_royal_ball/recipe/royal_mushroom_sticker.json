@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_royal_ball:royal_sapphire_dust",
+		"minecraft:green_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_royal_ball:royal_mushroom_sticker"
+	}
+}

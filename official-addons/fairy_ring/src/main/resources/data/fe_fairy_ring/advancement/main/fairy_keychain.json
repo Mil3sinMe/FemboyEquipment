@@ -1,0 +1,39 @@
+{
+	"parent": "fe_fairy_ring:main/fairy_bead_necklace",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:fairy_keychain",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.fairy_keychain.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.fairy_keychain.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_keychain"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

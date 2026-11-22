@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"minecraft:sugar",
+		"fe_cyber_kitten:holochrome_dust"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_cyber_kitten:byte_donut"
+	}
+}

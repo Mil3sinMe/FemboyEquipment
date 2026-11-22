@@ -1,0 +1,39 @@
+{
+	"parent": "fe_space_cadet:main/meteorite_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:meteorite_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.meteorite_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.meteorite_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:meteorite_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

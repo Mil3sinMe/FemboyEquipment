@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lavender_fields:main/honey_donut",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:lavender_popsicle",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.lavender_popsicle.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.lavender_popsicle.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_popsicle"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

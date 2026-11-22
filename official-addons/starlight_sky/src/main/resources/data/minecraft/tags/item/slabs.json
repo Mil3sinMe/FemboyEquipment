@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_starlight_sky:starstone_brick_slab",
+		"fe_starlight_sky:starstone_tile_slab",
+		"fe_starlight_sky:polished_starstone_slab",
+		"fe_starlight_sky:cobbled_starstone_slab",
+		"fe_starlight_sky:starstone_mosaic_slab"
+	]
+}

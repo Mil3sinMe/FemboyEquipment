@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"bottom": "fe_pumpkin_spice:block/cobbled_spiced_amber",
+		"top": "fe_pumpkin_spice:block/cobbled_spiced_amber",
+		"side": "fe_pumpkin_spice:block/cobbled_spiced_amber"
+	}
+}

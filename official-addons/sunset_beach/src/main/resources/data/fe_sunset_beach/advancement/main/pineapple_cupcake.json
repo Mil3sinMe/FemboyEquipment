@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/mango_cookie",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:pineapple_cupcake",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.pineapple_cupcake.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.pineapple_cupcake.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:pineapple_cupcake"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

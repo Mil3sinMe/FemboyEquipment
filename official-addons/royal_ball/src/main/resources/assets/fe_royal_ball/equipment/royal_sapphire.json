@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_royal_ball:royal_sapphire"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_royal_ball:royal_sapphire"
+			}
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:pink_wool",
+		"minecraft:white_wool",
+		"fe_cloud_kingdom:cloudsilver"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cloud_kingdom:floaty_cloud_blahaj"
+	}
+}

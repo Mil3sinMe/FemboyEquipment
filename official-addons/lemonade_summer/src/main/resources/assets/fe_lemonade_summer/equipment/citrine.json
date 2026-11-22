@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_lemonade_summer:citrine"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_lemonade_summer:citrine"
+			}
+		]
+	}
+}

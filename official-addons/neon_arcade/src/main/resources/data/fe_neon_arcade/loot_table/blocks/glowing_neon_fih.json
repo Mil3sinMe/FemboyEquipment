@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_neon_arcade:glowing_neon_fih"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_neon_arcade:blocks/glowing_neon_fih"
+}

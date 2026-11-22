@@ -1,0 +1,39 @@
+{
+	"parent": "fe_starlight_sky:main/starstone_hoe",
+	"display": {
+		"icon": {
+			"id": "fe_starlight_sky:starstone_spear",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_starlight_sky.main.starstone_spear.title"
+		},
+		"description": {
+			"translate": "advancements.fe_starlight_sky.main.starstone_spear.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:starstone_spear"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

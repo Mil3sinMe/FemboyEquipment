@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_fairy_ring:block/faerite_mosaic",
+		"top": "fe_fairy_ring:block/faerite_mosaic",
+		"side": "fe_fairy_ring:block/faerite_mosaic"
+	}
+}

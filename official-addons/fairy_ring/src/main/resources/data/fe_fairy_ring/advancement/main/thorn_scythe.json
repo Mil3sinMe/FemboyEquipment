@@ -1,0 +1,36 @@
+{
+	"parent": "fe_fairy_ring:main/toadstool_hammer",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:thorn_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.thorn_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.thorn_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:thorn_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

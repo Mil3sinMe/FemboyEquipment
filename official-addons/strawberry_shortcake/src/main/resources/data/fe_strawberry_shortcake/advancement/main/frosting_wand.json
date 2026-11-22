@@ -1,0 +1,39 @@
+{
+	"parent": "fe_strawberry_shortcake:main/berry_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_strawberry_shortcake:frosting_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_strawberry_shortcake.main.frosting_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_strawberry_shortcake.main.frosting_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_strawberry_shortcake:frosting_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

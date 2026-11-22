@@ -1,0 +1,36 @@
+{
+	"parent": "fe_dragon_hoard:main/cobbled_dragon_garnet_stairs",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:cobbled_dragon_garnet_slab",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.cobbled_dragon_garnet_slab.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.cobbled_dragon_garnet_slab.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:cobbled_dragon_garnet_slab"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

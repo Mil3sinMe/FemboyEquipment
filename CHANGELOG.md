@@ -3,6 +3,29 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.13.0: 30 Official Addons 🎁
+
+### Added
+- **30 official addons** in [`official-addons/`](official-addons), each its own mod jar (install any you like) with
+  **100 new things**, its own creative tab and its own advancement tab. **3000 things in total**:
+  - a new gem with ore + deepslate ore that generates in the Overworld (Fortune and Silk Touch work), raw chunk,
+    nugget, dust and storage blocks
+  - 20 building blocks (bricks, tiles, polished, cobbled, mosaic + stairs, slabs, walls) and 10 fun blocks
+    (lamp, cushion, crate, pillar, chiseled heart, shingles, quilt, glazed, glowing starry and sparkling blocks)
+  - sword, pickaxe, axe, shovel, hoe and spear (iron, diamond or netherite tier) and 4 knockback weapons
+  - armor with a full set bonus, 12 snacks with effects, 12 charms (offhand or Trinkets necklace slot)
+  - 5 Blåhaj + 5 fih plushies (also in the plushie tabs and capsules) and 14 stickers
+  - **102 advancements per addon** (3060 total) including a *Completionist* challenge for all 100
+  - themes: Strawberry Shortcake, Ocean Dreams, Starlight Sky, Cottagecore Garden, Bubblegum Pop, Lavender Fields,
+    Kitty Café, Frosted Winter, Pumpkin Spice, Cherry Blossom, Pastel Goth, Rainbow Pride, Trans Pride, Honey Bee,
+    Mushroom Forest, Bunny Meadow, Neon Arcade, Witchy Moon, Dragon Hoard, Cloud Kingdom, Lemonade Summer,
+    Mint Chocolate, Space Cadet, Fairy Ring, Boba Tea Shop, Sunset Beach, Axolotl Pond, Royal Ball, Cozy Sleepover,
+    Cyber Kitten
+- **`AddonKit`** in the addon API: register items, blocks (+ stairs/slab/wall), tools, knockback weapons, armor, food,
+  charms, plushies, an Overworld ore and a creative tab in one line each
+- Generator scripts `tools/generators/official_addons.py` + `addon_themes.py`; the addon jars are attached to
+  releases and kept in `dist/official-addons/`
+
 ## 1.12.2: Addons Update 🧩
 
 ### Added

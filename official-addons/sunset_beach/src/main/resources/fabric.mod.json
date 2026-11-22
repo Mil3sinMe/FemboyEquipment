@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_sunset_beach",
+	"version": "${version}",
+	"name": "FemboyEquipment: Sunset Beach",
+	"description": "Official FemboyEquipment addon. Golden hour, forever. 100 new things: Coral Gem ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_sunset_beach/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.sunsetbeach.SunsetBeachAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

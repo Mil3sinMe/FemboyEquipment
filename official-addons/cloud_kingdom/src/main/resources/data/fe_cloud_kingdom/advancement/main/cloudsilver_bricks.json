@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/raw_cloudsilver_block",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cloudsilver_bricks",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloudsilver_bricks.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloudsilver_bricks.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_bricks"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

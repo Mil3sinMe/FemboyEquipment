@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_royal_ball:royal_sapphire_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_royal_ball:royal_sapphire"
+	}
+}

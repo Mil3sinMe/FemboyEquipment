@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_cherry_blossom:block/petal_sakura_fih"
+		},
+		"facing=east": {
+			"model": "fe_cherry_blossom:block/petal_sakura_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_cherry_blossom:block/petal_sakura_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_cherry_blossom:block/petal_sakura_fih",
+			"y": 270
+		}
+	}
+}

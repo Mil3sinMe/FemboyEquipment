@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"bottom": "fe_frosted_winter:block/cobbled_frost_opal",
+		"top": "fe_frosted_winter:block/cobbled_frost_opal",
+		"side": "fe_frosted_winter:block/cobbled_frost_opal"
+	}
+}

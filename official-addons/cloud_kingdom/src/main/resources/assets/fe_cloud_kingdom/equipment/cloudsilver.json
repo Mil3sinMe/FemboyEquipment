@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_cloud_kingdom:cloudsilver"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_cloud_kingdom:cloudsilver"
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_side",
+	"textures": {
+		"wall": "fe_pumpkin_spice:block/cobbled_spiced_amber"
+	}
+}

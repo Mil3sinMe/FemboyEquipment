@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_fairy_ring:faerite_sword",
+		"fe_fairy_ring:acorn_bat",
+		"fe_fairy_ring:toadstool_hammer",
+		"fe_fairy_ring:thorn_scythe",
+		"fe_fairy_ring:pixie_dust_wand"
+	]
+}

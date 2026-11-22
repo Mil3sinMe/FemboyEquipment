@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cozy_sleepover:dreamstone_brick_slab",
+		"fe_cozy_sleepover:dreamstone_tile_slab",
+		"fe_cozy_sleepover:polished_dreamstone_slab",
+		"fe_cozy_sleepover:cobbled_dreamstone_slab",
+		"fe_cozy_sleepover:dreamstone_mosaic_slab"
+	]
+}

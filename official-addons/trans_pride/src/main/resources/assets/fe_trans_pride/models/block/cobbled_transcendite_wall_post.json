@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_post",
+	"textures": {
+		"wall": "fe_trans_pride:block/cobbled_transcendite"
+	}
+}

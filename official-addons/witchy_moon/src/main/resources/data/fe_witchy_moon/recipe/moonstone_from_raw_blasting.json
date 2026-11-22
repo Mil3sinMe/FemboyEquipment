@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.7,
+	"ingredient": "fe_witchy_moon:raw_moonstone",
+	"result": {
+		"id": "fe_witchy_moon:moonstone"
+	}
+}

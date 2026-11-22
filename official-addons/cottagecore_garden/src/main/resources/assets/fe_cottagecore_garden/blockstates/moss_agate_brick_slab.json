@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_cottagecore_garden:block/moss_agate_brick_slab"
+		},
+		"type=top": {
+			"model": "fe_cottagecore_garden:block/moss_agate_brick_slab_top"
+		},
+		"type=double": {
+			"model": "fe_cottagecore_garden:block/moss_agate_bricks"
+		}
+	}
+}

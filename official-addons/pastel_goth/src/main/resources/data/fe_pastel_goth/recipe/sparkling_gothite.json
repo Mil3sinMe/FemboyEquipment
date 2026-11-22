@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_pastel_goth:polished_gothite",
+		"fe_pastel_goth:gothite_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pastel_goth:sparkling_gothite"
+	}
+}

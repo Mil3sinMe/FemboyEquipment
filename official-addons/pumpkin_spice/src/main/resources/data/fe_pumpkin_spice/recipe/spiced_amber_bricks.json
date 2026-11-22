@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:stone_bricks",
+		"D": "fe_pumpkin_spice:spiced_amber_dust"
+	},
+	"pattern": [
+		"###",
+		"#D#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_pumpkin_spice:spiced_amber_bricks"
+	}
+}

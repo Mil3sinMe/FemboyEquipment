@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_axolotl_pond:lotl_opal_ore",
+		"fe_axolotl_pond:deepslate_lotl_opal_ore",
+		"fe_axolotl_pond:lotl_opal_block",
+		"fe_axolotl_pond:raw_lotl_opal_block"
+	]
+}

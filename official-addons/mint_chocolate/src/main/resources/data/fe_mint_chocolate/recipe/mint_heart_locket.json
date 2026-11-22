@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_mint_chocolate:mintite",
+		"minecraft:gold_ingot"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mint_chocolate:mint_heart_locket"
+	}
+}

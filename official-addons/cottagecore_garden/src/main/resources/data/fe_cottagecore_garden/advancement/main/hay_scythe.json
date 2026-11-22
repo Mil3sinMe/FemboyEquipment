@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cottagecore_garden:main/garden_mallet",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:hay_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.hay_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.hay_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:hay_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

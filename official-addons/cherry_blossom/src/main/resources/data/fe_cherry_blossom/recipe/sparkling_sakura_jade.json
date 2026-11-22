@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cherry_blossom:polished_sakura_jade",
+		"fe_cherry_blossom:sakura_jade_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cherry_blossom:sparkling_sakura_jade"
+	}
+}

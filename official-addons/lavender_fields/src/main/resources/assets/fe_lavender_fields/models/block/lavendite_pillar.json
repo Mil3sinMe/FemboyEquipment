@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_lavender_fields:block/polished_lavendite",
+		"side": "fe_lavender_fields:block/lavendite_pillar"
+	}
+}

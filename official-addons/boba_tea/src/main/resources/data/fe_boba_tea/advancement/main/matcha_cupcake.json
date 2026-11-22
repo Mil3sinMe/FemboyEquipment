@@ -1,0 +1,36 @@
+{
+	"parent": "fe_boba_tea:main/brown_sugar_cookie",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:matcha_cupcake",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.matcha_cupcake.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.matcha_cupcake.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:matcha_cupcake"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

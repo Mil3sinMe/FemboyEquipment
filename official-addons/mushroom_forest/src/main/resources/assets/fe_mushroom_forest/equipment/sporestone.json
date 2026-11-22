@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_mushroom_forest:sporestone"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_mushroom_forest:sporestone"
+			}
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:gothite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.root.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "fe_pastel_goth:gui/advancements/backgrounds/main"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cloud_kingdom:cloudsilver_brick_wall",
+		"fe_cloud_kingdom:cloudsilver_tile_wall",
+		"fe_cloud_kingdom:polished_cloudsilver_wall",
+		"fe_cloud_kingdom:cobbled_cloudsilver_wall",
+		"fe_cloud_kingdom:cloudsilver_mosaic_wall"
+	]
+}

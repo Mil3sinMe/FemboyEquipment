@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_frosted_winter:frost_opal_brick_slab",
+		"fe_frosted_winter:frost_opal_tile_slab",
+		"fe_frosted_winter:polished_frost_opal_slab",
+		"fe_frosted_winter:cobbled_frost_opal_slab",
+		"fe_frosted_winter:frost_opal_mosaic_slab"
+	]
+}

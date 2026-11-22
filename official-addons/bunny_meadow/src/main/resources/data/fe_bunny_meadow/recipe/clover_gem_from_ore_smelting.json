@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredient": "fe_bunny_meadow:clover_gem_ore",
+	"result": {
+		"id": "fe_bunny_meadow:clover_gem"
+	}
+}

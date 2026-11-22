@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_mushroom_forest:block/sporestone_tiles",
+		"top": "fe_mushroom_forest:block/sporestone_tiles",
+		"side": "fe_mushroom_forest:block/sporestone_tiles"
+	}
+}

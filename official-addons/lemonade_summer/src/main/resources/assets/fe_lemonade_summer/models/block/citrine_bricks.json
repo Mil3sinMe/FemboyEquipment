@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_lemonade_summer:block/citrine_bricks"
+	}
+}

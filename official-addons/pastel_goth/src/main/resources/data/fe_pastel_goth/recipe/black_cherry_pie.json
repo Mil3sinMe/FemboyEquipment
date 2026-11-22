@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:apple",
+		"fe_pastel_goth:gothite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pastel_goth:black_cherry_pie"
+	}
+}

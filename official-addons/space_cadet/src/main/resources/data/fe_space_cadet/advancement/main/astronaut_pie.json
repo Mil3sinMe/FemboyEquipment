@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/rocket_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:astronaut_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.astronaut_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.astronaut_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:astronaut_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

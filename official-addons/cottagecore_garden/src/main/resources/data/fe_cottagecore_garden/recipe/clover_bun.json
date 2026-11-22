@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_cottagecore_garden:moss_agate_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cottagecore_garden:clover_bun"
+	}
+}

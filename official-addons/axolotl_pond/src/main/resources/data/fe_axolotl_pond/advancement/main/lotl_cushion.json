@@ -1,0 +1,36 @@
+{
+	"parent": "fe_axolotl_pond:main/lotl_opal_lamp",
+	"display": {
+		"icon": {
+			"id": "fe_axolotl_pond:lotl_cushion",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_axolotl_pond.main.lotl_cushion.title"
+		},
+		"description": {
+			"translate": "advancements.fe_axolotl_pond.main.lotl_cushion.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_cushion"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

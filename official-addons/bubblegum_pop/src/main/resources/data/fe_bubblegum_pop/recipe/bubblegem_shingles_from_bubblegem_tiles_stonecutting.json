@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_bubblegum_pop:bubblegem_tiles",
+	"result": {
+		"count": 1,
+		"id": "fe_bubblegum_pop:bubblegem_shingles"
+	}
+}

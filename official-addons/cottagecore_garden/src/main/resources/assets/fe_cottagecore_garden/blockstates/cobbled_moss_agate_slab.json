@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_cottagecore_garden:block/cobbled_moss_agate_slab"
+		},
+		"type=top": {
+			"model": "fe_cottagecore_garden:block/cobbled_moss_agate_slab_top"
+		},
+		"type=double": {
+			"model": "fe_cottagecore_garden:block/cobbled_moss_agate"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pumpkin_spice:main/pumpkin_candy",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:cinnamon_soup",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.cinnamon_soup.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.cinnamon_soup.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cinnamon_soup"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

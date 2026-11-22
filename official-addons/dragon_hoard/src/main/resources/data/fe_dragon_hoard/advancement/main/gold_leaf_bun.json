@@ -1,0 +1,36 @@
+{
+	"parent": "fe_dragon_hoard:main/fire_pie",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:gold_leaf_bun",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.gold_leaf_bun.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.gold_leaf_bun.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:gold_leaf_bun"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

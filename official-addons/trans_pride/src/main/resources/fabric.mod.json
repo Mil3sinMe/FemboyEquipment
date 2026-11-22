@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_trans_pride",
+	"version": "${version}",
+	"name": "FemboyEquipment: Trans Pride",
+	"description": "Official FemboyEquipment addon. Blue, pink, white and loved. 100 new things: Transcendite ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_trans_pride/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.transpride.TransPrideAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

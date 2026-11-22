@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/blahaj_base",
+	"textures": {
+		"shark": "fe_boba_tea:block/milky_boba_blahaj"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/meteorite_mosaic_wall",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:meteorite_lamp",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.meteorite_lamp.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.meteorite_lamp.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:meteorite_lamp"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

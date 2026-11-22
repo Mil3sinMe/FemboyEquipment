@@ -1,0 +1,36 @@
+{
+	"parent": "fe_boba_tea:main/taro_pearl_block",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:raw_taro_pearl_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.raw_taro_pearl_block.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.raw_taro_pearl_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:raw_taro_pearl_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

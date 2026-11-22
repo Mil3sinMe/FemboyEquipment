@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_mint_chocolate:block/mintite_mosaic",
+		"top": "fe_mint_chocolate:block/mintite_mosaic",
+		"side": "fe_mint_chocolate:block/mintite_mosaic"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_axolotl_pond:glowing_lotl_blahaj"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_axolotl_pond:blocks/glowing_lotl_blahaj"
+}

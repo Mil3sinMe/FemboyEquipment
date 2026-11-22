@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_cyber_kitten:polished_holochrome",
+	"result": {
+		"id": "fe_cyber_kitten:glazed_holochrome"
+	}
+}

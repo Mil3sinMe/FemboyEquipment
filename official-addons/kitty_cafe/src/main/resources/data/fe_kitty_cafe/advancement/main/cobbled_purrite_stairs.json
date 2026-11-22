@@ -1,0 +1,36 @@
+{
+	"parent": "fe_kitty_cafe:main/cobbled_purrite",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:cobbled_purrite_stairs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.cobbled_purrite_stairs.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.cobbled_purrite_stairs.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:cobbled_purrite_stairs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

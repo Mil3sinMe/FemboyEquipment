@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_boba_tea:block/chewy_boba_fih"
+		},
+		"facing=east": {
+			"model": "fe_boba_tea:block/chewy_boba_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_boba_tea:block/chewy_boba_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_boba_tea:block/chewy_boba_fih",
+			"y": 270
+		}
+	}
+}

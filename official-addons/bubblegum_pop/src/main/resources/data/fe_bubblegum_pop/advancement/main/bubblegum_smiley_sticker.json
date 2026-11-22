@@ -1,0 +1,36 @@
+{
+	"parent": "fe_bubblegum_pop:main/bubblegum_sparkle_sticker",
+	"display": {
+		"icon": {
+			"id": "fe_bubblegum_pop:bubblegum_smiley_sticker",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bubblegum_pop.main.bubblegum_smiley_sticker.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bubblegum_pop.main.bubblegum_smiley_sticker.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_smiley_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

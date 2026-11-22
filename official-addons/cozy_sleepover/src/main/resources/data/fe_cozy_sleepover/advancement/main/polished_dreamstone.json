@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cozy_sleepover:main/dreamstone_tile_wall",
+	"display": {
+		"icon": {
+			"id": "fe_cozy_sleepover:polished_dreamstone",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cozy_sleepover.main.polished_dreamstone.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cozy_sleepover.main.polished_dreamstone.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cozy_sleepover:polished_dreamstone"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

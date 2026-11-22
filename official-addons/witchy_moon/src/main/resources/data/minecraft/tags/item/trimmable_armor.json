@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_witchy_moon:moonstone_helmet",
+		"fe_witchy_moon:moonstone_chestplate",
+		"fe_witchy_moon:moonstone_leggings",
+		"fe_witchy_moon:moonstone_boots"
+	]
+}

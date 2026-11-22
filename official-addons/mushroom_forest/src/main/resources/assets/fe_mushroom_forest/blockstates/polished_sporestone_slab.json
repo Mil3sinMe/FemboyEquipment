@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_mushroom_forest:block/polished_sporestone_slab"
+		},
+		"type=top": {
+			"model": "fe_mushroom_forest:block/polished_sporestone_slab_top"
+		},
+		"type=double": {
+			"model": "fe_mushroom_forest:block/polished_sporestone"
+		}
+	}
+}

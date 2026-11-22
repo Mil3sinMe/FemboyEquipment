@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:apple",
+		"fe_lemonade_summer:citrine_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lemonade_summer:lemonade_pie"
+	}
+}

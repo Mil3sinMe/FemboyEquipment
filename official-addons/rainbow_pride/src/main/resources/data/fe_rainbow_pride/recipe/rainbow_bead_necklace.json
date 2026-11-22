@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_rainbow_pride:prismatite",
+		"minecraft:prismarine_shard"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_rainbow_pride:rainbow_bead_necklace"
+	}
+}

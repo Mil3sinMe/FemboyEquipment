@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_honey_bee:busy_honey_blahaj"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_honey_bee:blocks/busy_honey_blahaj"
+}

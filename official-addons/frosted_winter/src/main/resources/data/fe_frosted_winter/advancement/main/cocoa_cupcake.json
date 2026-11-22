@@ -1,0 +1,36 @@
+{
+	"parent": "fe_frosted_winter:main/snowflake_cookie",
+	"display": {
+		"icon": {
+			"id": "fe_frosted_winter:cocoa_cupcake",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_frosted_winter.main.cocoa_cupcake.title"
+		},
+		"description": {
+			"translate": "advancements.fe_frosted_winter.main.cocoa_cupcake.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_frosted_winter:cocoa_cupcake"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

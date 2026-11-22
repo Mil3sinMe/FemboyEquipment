@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_axolotl_pond:lotl_opal_dust",
+		"minecraft:light_gray_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_axolotl_pond:lotl_smiley_sticker"
+	}
+}

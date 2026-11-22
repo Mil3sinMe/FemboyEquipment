@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_boba_tea:block/deepslate_taro_pearl_ore"
+	}
+}

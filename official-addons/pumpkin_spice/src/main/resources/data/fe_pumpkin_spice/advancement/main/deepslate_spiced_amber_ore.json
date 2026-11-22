@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pumpkin_spice:main/spiced_amber_ore",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:deepslate_spiced_amber_ore",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.deepslate_spiced_amber_ore.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.deepslate_spiced_amber_ore.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:deepslate_spiced_amber_ore"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

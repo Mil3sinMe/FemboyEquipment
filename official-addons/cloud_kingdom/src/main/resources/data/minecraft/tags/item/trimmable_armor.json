@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cloud_kingdom:cloudsilver_helmet",
+		"fe_cloud_kingdom:cloudsilver_chestplate",
+		"fe_cloud_kingdom:cloudsilver_leggings",
+		"fe_cloud_kingdom:cloudsilver_boots"
+	]
+}

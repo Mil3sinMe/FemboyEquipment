@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fe_axolotl_pond:item/lotl_opal_sword"
+	}
+}

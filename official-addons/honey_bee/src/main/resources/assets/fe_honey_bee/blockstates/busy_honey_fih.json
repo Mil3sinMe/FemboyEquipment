@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_honey_bee:block/busy_honey_fih"
+		},
+		"facing=east": {
+			"model": "fe_honey_bee:block/busy_honey_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_honey_bee:block/busy_honey_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_honey_bee:block/busy_honey_fih",
+			"y": 270
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "#minecraft:planks",
+		"D": "fe_honey_bee:honeystone_dust"
+	},
+	"pattern": [
+		"###",
+		"#D#",
+		"###"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_honey_bee:honey_crate"
+	}
+}

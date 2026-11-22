@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:light_blue_wool",
+		"fe_lemonade_summer:citrine"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lemonade_summer:zesty_lemon_fih"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_cyber_kitten:holochrome_bricks",
+	"result": {
+		"count": 1,
+		"id": "fe_cyber_kitten:holochrome_brick_stairs"
+	}
+}

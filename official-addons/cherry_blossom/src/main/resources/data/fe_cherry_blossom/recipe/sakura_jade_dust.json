@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cherry_blossom:sakura_jade",
+		"minecraft:flint"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_cherry_blossom:sakura_jade_dust"
+	}
+}

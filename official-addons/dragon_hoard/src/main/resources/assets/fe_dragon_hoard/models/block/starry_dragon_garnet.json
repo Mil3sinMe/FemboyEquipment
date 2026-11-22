@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_dragon_hoard:block/starry_dragon_garnet"
+	}
+}

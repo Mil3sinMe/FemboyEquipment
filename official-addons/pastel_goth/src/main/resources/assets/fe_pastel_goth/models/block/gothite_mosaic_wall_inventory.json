@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_pastel_goth:block/gothite_mosaic"
+	}
+}

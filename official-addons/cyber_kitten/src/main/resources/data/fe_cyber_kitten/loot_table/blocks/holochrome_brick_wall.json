@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_cyber_kitten:holochrome_brick_wall"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_cyber_kitten:blocks/holochrome_brick_wall"
+}

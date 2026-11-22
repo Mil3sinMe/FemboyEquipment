@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_strawberry_shortcake:block/sleepy_strawberry_blahaj"
+		},
+		"facing=east": {
+			"model": "fe_strawberry_shortcake:block/sleepy_strawberry_blahaj",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_strawberry_shortcake:block/sleepy_strawberry_blahaj",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_strawberry_shortcake:block/sleepy_strawberry_blahaj",
+			"y": 270
+		}
+	}
+}

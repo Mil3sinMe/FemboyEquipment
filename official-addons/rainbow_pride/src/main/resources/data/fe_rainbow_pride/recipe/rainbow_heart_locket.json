@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_rainbow_pride:prismatite",
+		"minecraft:gold_ingot"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_rainbow_pride:rainbow_heart_locket"
+	}
+}

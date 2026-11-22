@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fe_cozy_sleepover:item/dreamstone_shovel"
+	}
+}

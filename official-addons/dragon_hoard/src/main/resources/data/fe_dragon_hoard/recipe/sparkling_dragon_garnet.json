@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_dragon_hoard:polished_dragon_garnet",
+		"fe_dragon_hoard:dragon_garnet_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_dragon_hoard:sparkling_dragon_garnet"
+	}
+}

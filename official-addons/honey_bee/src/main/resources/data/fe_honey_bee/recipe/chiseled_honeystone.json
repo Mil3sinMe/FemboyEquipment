@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_honey_bee:honeystone_brick_slab"
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_honey_bee:chiseled_honeystone"
+	}
+}

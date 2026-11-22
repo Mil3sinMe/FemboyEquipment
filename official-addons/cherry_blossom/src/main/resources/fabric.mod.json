@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_cherry_blossom",
+	"version": "${version}",
+	"name": "FemboyEquipment: Cherry Blossom",
+	"description": "Official FemboyEquipment addon. Petals drifting everywhere. 100 new things: Sakura Jade ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_cherry_blossom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.cherryblossom.CherryBlossomAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

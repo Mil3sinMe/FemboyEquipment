@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_strawberry_shortcake:block/polished_strawberry_quartz",
+		"side": "fe_strawberry_shortcake:block/strawberry_quartz_pillar"
+	}
+}

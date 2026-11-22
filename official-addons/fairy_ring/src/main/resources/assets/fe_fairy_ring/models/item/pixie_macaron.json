@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_fairy_ring:item/pixie_macaron"
+	}
+}

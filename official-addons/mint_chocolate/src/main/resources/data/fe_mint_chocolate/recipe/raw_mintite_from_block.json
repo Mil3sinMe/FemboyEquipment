@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_mint_chocolate:raw_mintite_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_mint_chocolate:raw_mintite"
+	}
+}

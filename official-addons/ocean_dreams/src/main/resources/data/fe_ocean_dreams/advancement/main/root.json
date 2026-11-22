@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "fe_ocean_dreams:sea_glass",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_ocean_dreams.main.root.title"
+		},
+		"description": {
+			"translate": "advancements.fe_ocean_dreams.main.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "fe_ocean_dreams:gui/advancements/backgrounds/main"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

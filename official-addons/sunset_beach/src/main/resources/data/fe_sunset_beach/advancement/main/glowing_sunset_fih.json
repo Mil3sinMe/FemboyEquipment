@@ -1,0 +1,39 @@
+{
+	"parent": "fe_sunset_beach:main/golden_sunset_fih",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:glowing_sunset_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.glowing_sunset_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.glowing_sunset_fih.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:glowing_sunset_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

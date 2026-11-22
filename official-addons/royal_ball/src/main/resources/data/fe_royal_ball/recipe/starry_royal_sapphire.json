@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_royal_ball:cobbled_royal_sapphire",
+		"G": "minecraft:glowstone_dust"
+	},
+	"pattern": [
+		"###",
+		"#G#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_royal_ball:starry_royal_sapphire"
+	}
+}

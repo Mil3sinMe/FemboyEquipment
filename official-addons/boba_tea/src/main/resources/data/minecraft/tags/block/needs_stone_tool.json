@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_boba_tea:taro_pearl_ore",
+		"fe_boba_tea:deepslate_taro_pearl_ore",
+		"fe_boba_tea:taro_pearl_block",
+		"fe_boba_tea:raw_taro_pearl_block"
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_fairy_ring:block/polished_faerite",
+		"side": "fe_fairy_ring:block/faerite_pillar"
+	}
+}

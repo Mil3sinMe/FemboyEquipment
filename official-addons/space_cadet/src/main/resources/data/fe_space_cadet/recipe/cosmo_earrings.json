@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_space_cadet:meteorite",
+		"minecraft:copper_ingot"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_space_cadet:cosmo_earrings"
+	}
+}

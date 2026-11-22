@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.7,
+	"ingredient": "fe_cyber_kitten:raw_holochrome",
+	"result": {
+		"id": "fe_cyber_kitten:holochrome"
+	}
+}

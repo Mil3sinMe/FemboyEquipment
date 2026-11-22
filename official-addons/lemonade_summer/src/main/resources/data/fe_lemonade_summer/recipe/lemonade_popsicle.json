@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:snowball",
+		"fe_lemonade_summer:citrine_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lemonade_summer:lemonade_popsicle"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_pastel_goth:gothite_brick_stairs",
+		"fe_pastel_goth:gothite_tile_stairs",
+		"fe_pastel_goth:polished_gothite_stairs",
+		"fe_pastel_goth:cobbled_gothite_stairs",
+		"fe_pastel_goth:gothite_mosaic_stairs"
+	]
+}

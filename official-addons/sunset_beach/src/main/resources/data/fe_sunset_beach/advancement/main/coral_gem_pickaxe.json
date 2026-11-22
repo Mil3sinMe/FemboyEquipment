@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/coral_gem_sword",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:coral_gem_pickaxe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.coral_gem_pickaxe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.coral_gem_pickaxe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_pickaxe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

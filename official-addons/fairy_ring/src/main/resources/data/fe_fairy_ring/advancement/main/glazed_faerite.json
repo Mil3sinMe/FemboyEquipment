@@ -1,0 +1,36 @@
+{
+	"parent": "fe_fairy_ring:main/fairy_quilt_block",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:glazed_faerite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.glazed_faerite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.glazed_faerite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:glazed_faerite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

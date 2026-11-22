@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_bubblegum_pop:bubblegem_helmet",
+		"fe_bubblegum_pop:bubblegem_chestplate",
+		"fe_bubblegum_pop:bubblegem_leggings",
+		"fe_bubblegum_pop:bubblegem_boots"
+	]
+}

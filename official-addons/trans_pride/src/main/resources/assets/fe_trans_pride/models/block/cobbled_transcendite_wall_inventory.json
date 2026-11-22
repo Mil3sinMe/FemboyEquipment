@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_trans_pride:block/cobbled_transcendite"
+	}
+}

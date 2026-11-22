@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_bubblegum_pop:block/fizzy_bubblegum_blahaj"
+		},
+		"facing=east": {
+			"model": "fe_bubblegum_pop:block/fizzy_bubblegum_blahaj",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_bubblegum_pop:block/fizzy_bubblegum_blahaj",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_bubblegum_pop:block/fizzy_bubblegum_blahaj",
+			"y": 270
+		}
+	}
+}

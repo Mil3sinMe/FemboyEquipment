@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.1,
+	"ingredient": "fe_fairy_ring:polished_faerite",
+	"result": {
+		"id": "fe_fairy_ring:glazed_faerite"
+	}
+}

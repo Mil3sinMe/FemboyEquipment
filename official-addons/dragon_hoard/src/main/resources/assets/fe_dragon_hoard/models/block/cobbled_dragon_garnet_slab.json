@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_dragon_hoard:block/cobbled_dragon_garnet",
+		"top": "fe_dragon_hoard:block/cobbled_dragon_garnet",
+		"side": "fe_dragon_hoard:block/cobbled_dragon_garnet"
+	}
+}

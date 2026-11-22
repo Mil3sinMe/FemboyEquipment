@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_neon_arcade:neonite"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_neon_arcade:neonite"
+			}
+		]
+	}
+}

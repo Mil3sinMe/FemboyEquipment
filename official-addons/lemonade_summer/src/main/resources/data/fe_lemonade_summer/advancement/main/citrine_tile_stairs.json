@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lemonade_summer:main/citrine_tiles",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:citrine_tile_stairs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_tile_stairs.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_tile_stairs.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:citrine_tile_stairs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_witchy_moon:polished_moonstone",
+		"fe_witchy_moon:moonstone_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_witchy_moon:sparkling_moonstone"
+	}
+}

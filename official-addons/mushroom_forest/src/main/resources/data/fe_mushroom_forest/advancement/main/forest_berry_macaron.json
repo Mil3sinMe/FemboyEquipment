@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mushroom_forest:main/truffle_lollipop",
+	"display": {
+		"icon": {
+			"id": "fe_mushroom_forest:forest_berry_macaron",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mushroom_forest.main.forest_berry_macaron.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mushroom_forest.main.forest_berry_macaron.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:forest_berry_macaron"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/mintite_brick_wall",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mintite_tiles",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_tiles.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_tiles.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mintite_tiles"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

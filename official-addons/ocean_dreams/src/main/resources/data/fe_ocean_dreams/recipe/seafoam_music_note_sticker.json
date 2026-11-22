@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_ocean_dreams:sea_glass_dust",
+		"minecraft:cyan_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_ocean_dreams:seafoam_music_note_sticker"
+	}
+}

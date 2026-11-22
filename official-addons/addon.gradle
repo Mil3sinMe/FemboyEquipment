@@ -1,0 +1,67 @@
+// Shared build logic for every official addon (each addon's build.gradle sets version + ext.addonModId).
+base {
+	archivesName = "femboyequipment-" + project.name.replace('_', '-')
+}
+group = "com.femboyequipment.official"
+
+repositories {
+	exclusiveContent {
+		forRepository { maven { name = "Modrinth"; url = "https://api.modrinth.com/maven" } }
+		filter { includeGroup "maven.modrinth" }
+	}
+	exclusiveContent {
+		forRepository { maven { name = "Ladysnake"; url = "https://maven.ladysnake.org/releases" } }
+		filter { includeGroup "org.ladysnake.cardinal-components-api" }
+	}
+}
+
+loom {
+	splitEnvironmentSourceSets()
+
+	mods {
+		"${project.ext.addonModId}" {
+			sourceSet sourceSets.main
+		}
+		"femboyequipment" {
+			sourceSet rootProject.sourceSets.main
+			sourceSet rootProject.sourceSets.client
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+	mappings loom.officialMojangMappings()
+	modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+
+	implementation project(path: ':', configuration: 'namedElements')
+	clientImplementation rootProject.sourceSets.client.output
+
+	modLocalRuntime "maven.modrinth:trinkets-canary:${rootProject.trinkets_version}"
+	modLocalRuntime "org.ladysnake.cardinal-components-api:cardinal-components-base:${rootProject.cca_version}"
+	modLocalRuntime "org.ladysnake.cardinal-components-api:cardinal-components-entity:${rootProject.cca_version}"
+}
+
+processResources {
+	def version = project.version
+	inputs.property "version", version
+	filesMatching("fabric.mod.json") {
+		expand "version": version
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 21
+}
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_21
+	targetCompatibility = JavaVersion.VERSION_21
+}
+
+jar {
+	from(rootProject.file("LICENSE")) {
+		rename { "${it}_femboyequipment" }
+	}
+}

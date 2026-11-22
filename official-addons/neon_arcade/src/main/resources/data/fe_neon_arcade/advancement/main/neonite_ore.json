@@ -1,0 +1,36 @@
+{
+	"parent": "fe_neon_arcade:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_neon_arcade:neonite_ore",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_neon_arcade.main.neonite_ore.title"
+		},
+		"description": {
+			"translate": "advancements.fe_neon_arcade.main.neonite_ore.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_ore"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

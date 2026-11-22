@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_bunny_meadow:block/clover_gem_tiles",
+		"top": "fe_bunny_meadow:block/clover_gem_tiles",
+		"side": "fe_bunny_meadow:block/clover_gem_tiles"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_kitty_cafe:raw_purrite_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_kitty_cafe:raw_purrite"
+	}
+}

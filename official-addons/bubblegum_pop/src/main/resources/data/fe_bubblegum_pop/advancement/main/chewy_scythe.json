@@ -1,0 +1,36 @@
+{
+	"parent": "fe_bubblegum_pop:main/pop_hammer",
+	"display": {
+		"icon": {
+			"id": "fe_bubblegum_pop:chewy_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bubblegum_pop.main.chewy_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bubblegum_pop.main.chewy_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:chewy_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

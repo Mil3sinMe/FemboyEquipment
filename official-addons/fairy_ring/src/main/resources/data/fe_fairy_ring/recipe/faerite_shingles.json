@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_fairy_ring:faerite_tiles"
+	},
+	"pattern": [
+		"##",
+		"##"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_fairy_ring:faerite_shingles"
+	}
+}

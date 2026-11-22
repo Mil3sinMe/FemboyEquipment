@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_kitty_cafe:purrite_dust",
+		"minecraft:pink_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_kitty_cafe:kitty_cloud_sticker"
+	}
+}

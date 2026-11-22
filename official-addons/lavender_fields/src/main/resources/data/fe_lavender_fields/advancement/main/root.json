@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:lavendite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.root.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "fe_lavender_fields:gui/advancements/backgrounds/main"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

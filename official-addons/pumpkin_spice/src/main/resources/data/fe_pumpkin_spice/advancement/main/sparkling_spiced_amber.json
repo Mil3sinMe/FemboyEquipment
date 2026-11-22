@@ -1,0 +1,39 @@
+{
+	"parent": "fe_pumpkin_spice:main/starry_spiced_amber",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:sparkling_spiced_amber",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.sparkling_spiced_amber.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.sparkling_spiced_amber.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:sparkling_spiced_amber"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

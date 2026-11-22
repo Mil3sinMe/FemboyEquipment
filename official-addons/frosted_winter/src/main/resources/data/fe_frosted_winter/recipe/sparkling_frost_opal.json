@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_frosted_winter:polished_frost_opal",
+		"fe_frosted_winter:frost_opal_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:sparkling_frost_opal"
+	}
+}

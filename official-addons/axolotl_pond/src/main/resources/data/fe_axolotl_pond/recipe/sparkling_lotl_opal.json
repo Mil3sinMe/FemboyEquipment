@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_axolotl_pond:polished_lotl_opal",
+		"fe_axolotl_pond:lotl_opal_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:sparkling_lotl_opal"
+	}
+}

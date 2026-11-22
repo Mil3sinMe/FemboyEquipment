@@ -1,0 +1,36 @@
+{
+	"parent": "fe_strawberry_shortcake:main/whipped_cream_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_strawberry_shortcake:strawberry_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_strawberry_shortcake.main.strawberry_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_strawberry_shortcake.main.strawberry_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_strawberry_shortcake:strawberry_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

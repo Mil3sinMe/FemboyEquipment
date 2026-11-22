@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_ocean_dreams:polished_sea_glass"
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_ocean_dreams:sea_glass_pillar"
+	}
+}

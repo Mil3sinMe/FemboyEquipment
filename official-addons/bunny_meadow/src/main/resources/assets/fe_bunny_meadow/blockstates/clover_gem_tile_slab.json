@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_bunny_meadow:block/clover_gem_tile_slab"
+		},
+		"type=top": {
+			"model": "fe_bunny_meadow:block/clover_gem_tile_slab_top"
+		},
+		"type=double": {
+			"model": "fe_bunny_meadow:block/clover_gem_tiles"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_witchy_moon:block/polished_moonstone",
+		"top": "fe_witchy_moon:block/polished_moonstone",
+		"side": "fe_witchy_moon:block/polished_moonstone"
+	}
+}

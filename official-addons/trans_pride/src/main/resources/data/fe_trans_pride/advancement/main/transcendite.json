@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:transcendite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.transcendite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.transcendite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

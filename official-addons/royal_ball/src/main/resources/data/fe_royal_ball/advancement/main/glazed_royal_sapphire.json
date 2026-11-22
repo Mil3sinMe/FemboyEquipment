@@ -1,0 +1,36 @@
+{
+	"parent": "fe_royal_ball:main/royal_quilt_block",
+	"display": {
+		"icon": {
+			"id": "fe_royal_ball:glazed_royal_sapphire",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_royal_ball.main.glazed_royal_sapphire.title"
+		},
+		"description": {
+			"translate": "advancements.fe_royal_ball.main.glazed_royal_sapphire.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_royal_ball:glazed_royal_sapphire"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

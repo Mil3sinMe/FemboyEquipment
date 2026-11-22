@@ -1,0 +1,36 @@
+{
+	"parent": "fe_boba_tea:main/shaker_hammer",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:tapioca_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.tapioca_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.tapioca_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:tapioca_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

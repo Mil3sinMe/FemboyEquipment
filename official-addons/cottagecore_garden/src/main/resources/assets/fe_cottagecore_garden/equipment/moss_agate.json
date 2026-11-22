@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_cottagecore_garden:moss_agate"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_cottagecore_garden:moss_agate"
+			}
+		]
+	}
+}

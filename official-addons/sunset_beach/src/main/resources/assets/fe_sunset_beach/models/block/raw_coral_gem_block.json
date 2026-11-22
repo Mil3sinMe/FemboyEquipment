@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_sunset_beach:block/raw_coral_gem_block"
+	}
+}

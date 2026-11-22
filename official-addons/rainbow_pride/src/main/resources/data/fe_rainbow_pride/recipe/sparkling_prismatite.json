@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_rainbow_pride:polished_prismatite",
+		"fe_rainbow_pride:prismatite_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_rainbow_pride:sparkling_prismatite"
+	}
+}

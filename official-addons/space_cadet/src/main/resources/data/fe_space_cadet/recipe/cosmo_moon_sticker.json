@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_space_cadet:meteorite_dust",
+		"minecraft:magenta_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_space_cadet:cosmo_moon_sticker"
+	}
+}

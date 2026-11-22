@@ -1,0 +1,36 @@
+{
+	"parent": "fe_honey_bee:main/buzzy_honey_blahaj",
+	"display": {
+		"icon": {
+			"id": "fe_honey_bee:sticky_honey_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_honey_bee.main.sticky_honey_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.fe_honey_bee.main.sticky_honey_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:sticky_honey_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

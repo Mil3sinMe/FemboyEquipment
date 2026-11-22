@@ -1,0 +1,36 @@
+{
+	"parent": "fe_kitty_cafe:main/cobbled_purrite_wall",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:purrite_mosaic",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.purrite_mosaic.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.purrite_mosaic.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_mosaic"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

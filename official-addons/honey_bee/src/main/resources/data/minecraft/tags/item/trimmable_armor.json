@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_honey_bee:honeystone_helmet",
+		"fe_honey_bee:honeystone_chestplate",
+		"fe_honey_bee:honeystone_leggings",
+		"fe_honey_bee:honeystone_boots"
+	]
+}

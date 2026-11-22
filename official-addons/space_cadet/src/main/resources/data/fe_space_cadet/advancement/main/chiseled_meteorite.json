@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/meteorite_pillar",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:chiseled_meteorite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.chiseled_meteorite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.chiseled_meteorite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:chiseled_meteorite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

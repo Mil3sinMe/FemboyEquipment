@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_trans_pride:block/glowing_trans_fih"
+	}
+}

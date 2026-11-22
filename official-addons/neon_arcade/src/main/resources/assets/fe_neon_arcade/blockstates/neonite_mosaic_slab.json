@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_neon_arcade:block/neonite_mosaic_slab"
+		},
+		"type=top": {
+			"model": "fe_neon_arcade:block/neonite_mosaic_slab_top"
+		},
+		"type=double": {
+			"model": "fe_neon_arcade:block/neonite_mosaic"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cozy_sleepover:main/comfy_hammer",
+	"display": {
+		"icon": {
+			"id": "fe_cozy_sleepover:dream_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cozy_sleepover.main.dream_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cozy_sleepover.main.dream_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cozy_sleepover:dream_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

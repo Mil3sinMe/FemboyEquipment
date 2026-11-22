@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_honey_bee:honeystone_mosaic",
+	"result": {
+		"count": 2,
+		"id": "fe_honey_bee:honeystone_mosaic_slab"
+	}
+}

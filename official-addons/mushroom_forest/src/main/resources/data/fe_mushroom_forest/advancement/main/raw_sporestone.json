@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mushroom_forest:main/sporestone",
+	"display": {
+		"icon": {
+			"id": "fe_mushroom_forest:raw_sporestone",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mushroom_forest.main.raw_sporestone.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mushroom_forest.main.raw_sporestone.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:raw_sporestone"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

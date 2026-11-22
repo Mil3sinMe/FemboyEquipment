@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lavender_fields:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:lavendite_sword",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.lavendite_sword.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.lavendite_sword.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_sword"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

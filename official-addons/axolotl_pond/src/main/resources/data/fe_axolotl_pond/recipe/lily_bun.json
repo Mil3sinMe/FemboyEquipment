@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_axolotl_pond:lotl_opal_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:lily_bun"
+	}
+}

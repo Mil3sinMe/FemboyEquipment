@@ -1,0 +1,39 @@
+{
+	"parent": "fe_lemonade_summer:main/citrine_hoe",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:citrine_spear",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_spear.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_spear.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:citrine_spear"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

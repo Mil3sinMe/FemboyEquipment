@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/sunset_friendship_bracelet",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:sunset_lucky_coin",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.sunset_lucky_coin.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.sunset_lucky_coin.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_lucky_coin"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/meteorite_block",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:raw_meteorite_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.raw_meteorite_block.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.raw_meteorite_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:raw_meteorite_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

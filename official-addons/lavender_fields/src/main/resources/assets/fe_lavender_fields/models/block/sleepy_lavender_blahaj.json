@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/blahaj_base",
+	"textures": {
+		"shark": "fe_lavender_fields:block/sleepy_lavender_blahaj"
+	}
+}

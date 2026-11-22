@@ -1,0 +1,36 @@
+{
+	"parent": "fe_kitty_cafe:main/paw_hammer",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:whisker_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.whisker_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.whisker_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:whisker_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

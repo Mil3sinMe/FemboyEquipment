@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_starlight_sky:block/polished_starstone",
+		"side": "fe_starlight_sky:block/starstone_pillar"
+	}
+}

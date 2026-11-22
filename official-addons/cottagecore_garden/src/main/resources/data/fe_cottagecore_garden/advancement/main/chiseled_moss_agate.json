@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cottagecore_garden:main/moss_agate_pillar",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:chiseled_moss_agate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.chiseled_moss_agate.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.chiseled_moss_agate.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:chiseled_moss_agate"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

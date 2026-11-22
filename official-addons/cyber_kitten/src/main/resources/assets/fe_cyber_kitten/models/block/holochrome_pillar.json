@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_cyber_kitten:block/polished_holochrome",
+		"side": "fe_cyber_kitten:block/holochrome_pillar"
+	}
+}

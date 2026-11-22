@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"bottom": "fe_bubblegum_pop:block/polished_bubblegem",
+		"top": "fe_bubblegum_pop:block/polished_bubblegem",
+		"side": "fe_bubblegum_pop:block/polished_bubblegem"
+	}
+}

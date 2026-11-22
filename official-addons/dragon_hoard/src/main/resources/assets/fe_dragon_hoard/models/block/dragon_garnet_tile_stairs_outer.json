@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"bottom": "fe_dragon_hoard:block/dragon_garnet_tiles",
+		"top": "fe_dragon_hoard:block/dragon_garnet_tiles",
+		"side": "fe_dragon_hoard:block/dragon_garnet_tiles"
+	}
+}

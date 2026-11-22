@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_sunset_beach:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:coral_gem_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"coral_gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem"
+					}
+				]
+			}
+		},
+		"raw_coral_gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:raw_coral_gem"
+					}
+				]
+			}
+		},
+		"coral_gem_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_nugget"
+					}
+				]
+			}
+		},
+		"coral_gem_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_dust"
+					}
+				]
+			}
+		},
+		"coral_gem_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_ore"
+					}
+				]
+			}
+		},
+		"deepslate_coral_gem_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:deepslate_coral_gem_ore"
+					}
+				]
+			}
+		},
+		"coral_gem_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_block"
+					}
+				]
+			}
+		},
+		"raw_coral_gem_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:raw_coral_gem_block"
+					}
+				]
+			}
+		},
+		"coral_gem_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_bricks"
+					}
+				]
+			}
+		},
+		"coral_gem_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_brick_stairs"
+					}
+				]
+			}
+		},
+		"coral_gem_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_brick_slab"
+					}
+				]
+			}
+		},
+		"coral_gem_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_brick_wall"
+					}
+				]
+			}
+		},
+		"coral_gem_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_tiles"
+					}
+				]
+			}
+		},
+		"coral_gem_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_tile_stairs"
+					}
+				]
+			}
+		},
+		"coral_gem_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_tile_slab"
+					}
+				]
+			}
+		},
+		"coral_gem_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_coral_gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:polished_coral_gem"
+					}
+				]
+			}
+		},
+		"polished_coral_gem_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:polished_coral_gem_stairs"
+					}
+				]
+			}
+		},
+		"polished_coral_gem_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:polished_coral_gem_slab"
+					}
+				]
+			}
+		},
+		"polished_coral_gem_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:polished_coral_gem_wall"
+					}
+				]
+			}
+		},
+		"cobbled_coral_gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:cobbled_coral_gem"
+					}
+				]
+			}
+		},
+		"cobbled_coral_gem_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:cobbled_coral_gem_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_coral_gem_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:cobbled_coral_gem_slab"
+					}
+				]
+			}
+		},
+		"cobbled_coral_gem_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:cobbled_coral_gem_wall"
+					}
+				]
+			}
+		},
+		"coral_gem_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_mosaic"
+					}
+				]
+			}
+		},
+		"coral_gem_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"coral_gem_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_mosaic_slab"
+					}
+				]
+			}
+		},
+		"coral_gem_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_mosaic_wall"
+					}
+				]
+			}
+		},
+		"coral_gem_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_lamp"
+					}
+				]
+			}
+		},
+		"sunset_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_cushion"
+					}
+				]
+			}
+		},
+		"sunset_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_crate"
+					}
+				]
+			}
+		},
+		"coral_gem_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_coral_gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:chiseled_coral_gem"
+					}
+				]
+			}
+		},
+		"coral_gem_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_shingles"
+					}
+				]
+			}
+		},
+		"sunset_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_coral_gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:glazed_coral_gem"
+					}
+				]
+			}
+		},
+		"starry_coral_gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:starry_coral_gem"
+					}
+				]
+			}
+		},
+		"sparkling_coral_gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sparkling_coral_gem"
+					}
+				]
+			}
+		},
+		"coral_gem_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_sword"
+					}
+				]
+			}
+		},
+		"coral_gem_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_pickaxe"
+					}
+				]
+			}
+		},
+		"coral_gem_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_axe"
+					}
+				]
+			}
+		},
+		"coral_gem_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_shovel"
+					}
+				]
+			}
+		},
+		"coral_gem_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_hoe"
+					}
+				]
+			}
+		},
+		"coral_gem_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_spear"
+					}
+				]
+			}
+		},
+		"surfboard_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:surfboard_bat"
+					}
+				]
+			}
+		},
+		"sandcastle_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sandcastle_hammer"
+					}
+				]
+			}
+		},
+		"palm_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:palm_scythe"
+					}
+				]
+			}
+		},
+		"seashell_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:seashell_wand"
+					}
+				]
+			}
+		},
+		"coral_gem_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_helmet"
+					}
+				]
+			}
+		},
+		"coral_gem_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_chestplate"
+					}
+				]
+			}
+		},
+		"coral_gem_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_leggings"
+					}
+				]
+			}
+		},
+		"coral_gem_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_boots"
+					}
+				]
+			}
+		},
+		"coconut_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coconut_soda"
+					}
+				]
+			}
+		},
+		"mango_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:mango_cookie"
+					}
+				]
+			}
+		},
+		"pineapple_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:pineapple_cupcake"
+					}
+				]
+			}
+		},
+		"coconut_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coconut_candy"
+					}
+				]
+			}
+		},
+		"mango_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:mango_soup"
+					}
+				]
+			}
+		},
+		"pineapple_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:pineapple_donut"
+					}
+				]
+			}
+		},
+		"coconut_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coconut_popsicle"
+					}
+				]
+			}
+		},
+		"mango_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:mango_lollipop"
+					}
+				]
+			}
+		},
+		"pineapple_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:pineapple_macaron"
+					}
+				]
+			}
+		},
+		"coconut_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coconut_pie"
+					}
+				]
+			}
+		},
+		"mango_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:mango_bun"
+					}
+				]
+			}
+		},
+		"pineapple_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:pineapple_jelly"
+					}
+				]
+			}
+		},
+		"sunset_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_ribbon_charm"
+					}
+				]
+			}
+		},
+		"sunset_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_heart_locket"
+					}
+				]
+			}
+		},
+		"sunset_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_bell_collar"
+					}
+				]
+			}
+		},
+		"sunset_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_star_pin"
+					}
+				]
+			}
+		},
+		"sunset_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_moon_pendant"
+					}
+				]
+			}
+		},
+		"sunset_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_bow_clip"
+					}
+				]
+			}
+		},
+		"sunset_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"sunset_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_lucky_coin"
+					}
+				]
+			}
+		},
+		"sunset_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_anklet"
+					}
+				]
+			}
+		},
+		"sunset_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_earrings"
+					}
+				]
+			}
+		},
+		"sunset_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_bead_necklace"
+					}
+				]
+			}
+		},
+		"sunset_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_keychain"
+					}
+				]
+			}
+		},
+		"sandy_sunset_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sandy_sunset_blahaj"
+					}
+				]
+			}
+		},
+		"sunkissed_sunset_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunkissed_sunset_blahaj"
+					}
+				]
+			}
+		},
+		"breezy_sunset_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:breezy_sunset_blahaj"
+					}
+				]
+			}
+		},
+		"golden_sunset_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:golden_sunset_blahaj"
+					}
+				]
+			}
+		},
+		"glowing_sunset_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:glowing_sunset_blahaj"
+					}
+				]
+			}
+		},
+		"sandy_sunset_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sandy_sunset_fih"
+					}
+				]
+			}
+		},
+		"sunkissed_sunset_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunkissed_sunset_fih"
+					}
+				]
+			}
+		},
+		"breezy_sunset_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:breezy_sunset_fih"
+					}
+				]
+			}
+		},
+		"golden_sunset_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:golden_sunset_fih"
+					}
+				]
+			}
+		},
+		"glowing_sunset_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:glowing_sunset_fih"
+					}
+				]
+			}
+		},
+		"sunset_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_heart_sticker"
+					}
+				]
+			}
+		},
+		"sunset_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_star_sticker"
+					}
+				]
+			}
+		},
+		"sunset_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_moon_sticker"
+					}
+				]
+			}
+		},
+		"sunset_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_flower_sticker"
+					}
+				]
+			}
+		},
+		"sunset_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_paw_sticker"
+					}
+				]
+			}
+		},
+		"sunset_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_bow_sticker"
+					}
+				]
+			}
+		},
+		"sunset_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_cloud_sticker"
+					}
+				]
+			}
+		},
+		"sunset_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"sunset_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_smiley_sticker"
+					}
+				]
+			}
+		},
+		"sunset_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_music_note_sticker"
+					}
+				]
+			}
+		},
+		"sunset_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_crown_sticker"
+					}
+				]
+			}
+		},
+		"sunset_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"sunset_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"sunset_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"coral_gem",
+			"raw_coral_gem",
+			"coral_gem_nugget",
+			"coral_gem_dust",
+			"coral_gem_ore",
+			"deepslate_coral_gem_ore",
+			"coral_gem_block",
+			"raw_coral_gem_block",
+			"coral_gem_bricks",
+			"coral_gem_brick_stairs",
+			"coral_gem_brick_slab",
+			"coral_gem_brick_wall",
+			"coral_gem_tiles",
+			"coral_gem_tile_stairs",
+			"coral_gem_tile_slab",
+			"coral_gem_tile_wall",
+			"polished_coral_gem",
+			"polished_coral_gem_stairs",
+			"polished_coral_gem_slab",
+			"polished_coral_gem_wall",
+			"cobbled_coral_gem",
+			"cobbled_coral_gem_stairs",
+			"cobbled_coral_gem_slab",
+			"cobbled_coral_gem_wall",
+			"coral_gem_mosaic",
+			"coral_gem_mosaic_stairs",
+			"coral_gem_mosaic_slab",
+			"coral_gem_mosaic_wall",
+			"coral_gem_lamp",
+			"sunset_cushion",
+			"sunset_crate",
+			"coral_gem_pillar",
+			"chiseled_coral_gem",
+			"coral_gem_shingles",
+			"sunset_quilt_block",
+			"glazed_coral_gem",
+			"starry_coral_gem",
+			"sparkling_coral_gem",
+			"coral_gem_sword",
+			"coral_gem_pickaxe",
+			"coral_gem_axe",
+			"coral_gem_shovel",
+			"coral_gem_hoe",
+			"coral_gem_spear",
+			"surfboard_bat",
+			"sandcastle_hammer",
+			"palm_scythe",
+			"seashell_wand",
+			"coral_gem_helmet",
+			"coral_gem_chestplate",
+			"coral_gem_leggings",
+			"coral_gem_boots",
+			"coconut_soda",
+			"mango_cookie",
+			"pineapple_cupcake",
+			"coconut_candy",
+			"mango_soup",
+			"pineapple_donut",
+			"coconut_popsicle",
+			"mango_lollipop",
+			"pineapple_macaron",
+			"coconut_pie",
+			"mango_bun",
+			"pineapple_jelly",
+			"sunset_ribbon_charm",
+			"sunset_heart_locket",
+			"sunset_bell_collar",
+			"sunset_star_pin",
+			"sunset_moon_pendant",
+			"sunset_bow_clip",
+			"sunset_friendship_bracelet",
+			"sunset_lucky_coin",
+			"sunset_anklet",
+			"sunset_earrings",
+			"sunset_bead_necklace",
+			"sunset_keychain",
+			"sandy_sunset_blahaj",
+			"sunkissed_sunset_blahaj",
+			"breezy_sunset_blahaj",
+			"golden_sunset_blahaj",
+			"glowing_sunset_blahaj",
+			"sandy_sunset_fih",
+			"sunkissed_sunset_fih",
+			"breezy_sunset_fih",
+			"golden_sunset_fih",
+			"glowing_sunset_fih",
+			"sunset_heart_sticker",
+			"sunset_star_sticker",
+			"sunset_moon_sticker",
+			"sunset_flower_sticker",
+			"sunset_paw_sticker",
+			"sunset_bow_sticker",
+			"sunset_cloud_sticker",
+			"sunset_sparkle_sticker",
+			"sunset_smiley_sticker",
+			"sunset_music_note_sticker",
+			"sunset_crown_sticker",
+			"sunset_rainbow_sticker",
+			"sunset_butterfly_sticker",
+			"sunset_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

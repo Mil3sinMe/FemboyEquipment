@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_cherry_blossom:sakura_jade",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"  #",
+		" S ",
+		"S  "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cherry_blossom:sakura_jade_spear"
+	}
+}

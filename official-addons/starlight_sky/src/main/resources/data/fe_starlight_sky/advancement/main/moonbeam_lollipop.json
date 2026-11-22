@@ -1,0 +1,36 @@
+{
+	"parent": "fe_starlight_sky:main/stardust_popsicle",
+	"display": {
+		"icon": {
+			"id": "fe_starlight_sky:moonbeam_lollipop",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_starlight_sky.main.moonbeam_lollipop.title"
+		},
+		"description": {
+			"translate": "advancements.fe_starlight_sky.main.moonbeam_lollipop.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:moonbeam_lollipop"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

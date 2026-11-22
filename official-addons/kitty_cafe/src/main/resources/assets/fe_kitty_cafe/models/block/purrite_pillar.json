@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_kitty_cafe:block/polished_purrite",
+		"side": "fe_kitty_cafe:block/purrite_pillar"
+	}
+}

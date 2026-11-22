@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_fairy_ring:faerite_brick_slab",
+		"fe_fairy_ring:faerite_tile_slab",
+		"fe_fairy_ring:polished_faerite_slab",
+		"fe_fairy_ring:cobbled_faerite_slab",
+		"fe_fairy_ring:faerite_mosaic_slab"
+	]
+}

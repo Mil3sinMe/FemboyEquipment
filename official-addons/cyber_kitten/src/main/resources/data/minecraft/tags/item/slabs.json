@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cyber_kitten:holochrome_brick_slab",
+		"fe_cyber_kitten:holochrome_tile_slab",
+		"fe_cyber_kitten:polished_holochrome_slab",
+		"fe_cyber_kitten:cobbled_holochrome_slab",
+		"fe_cyber_kitten:holochrome_mosaic_slab"
+	]
+}

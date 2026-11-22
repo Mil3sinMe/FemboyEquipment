@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_lavender_fields:lavendite_brick_slab",
+		"fe_lavender_fields:lavendite_tile_slab",
+		"fe_lavender_fields:polished_lavendite_slab",
+		"fe_lavender_fields:cobbled_lavendite_slab",
+		"fe_lavender_fields:lavendite_mosaic_slab"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_strawberry_shortcake:sleepy_strawberry_blahaj"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_strawberry_shortcake:blocks/sleepy_strawberry_blahaj"
+}

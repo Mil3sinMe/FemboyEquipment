@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_trans_pride:transcendite",
+		"minecraft:iron_ingot"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_trans_pride:trans_bell_collar"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_ocean_dreams:block/polished_sea_glass"
+	}
+}

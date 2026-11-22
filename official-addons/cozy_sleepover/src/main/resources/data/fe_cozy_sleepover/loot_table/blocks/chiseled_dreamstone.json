@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_cozy_sleepover:chiseled_dreamstone"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_cozy_sleepover:blocks/chiseled_dreamstone"
+}

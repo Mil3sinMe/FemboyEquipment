@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_pastel_goth:gothite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pastel_goth:bat_wing_bun"
+	}
+}

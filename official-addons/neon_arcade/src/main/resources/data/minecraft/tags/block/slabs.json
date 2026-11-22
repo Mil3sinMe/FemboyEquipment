@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_neon_arcade:neonite_brick_slab",
+		"fe_neon_arcade:neonite_tile_slab",
+		"fe_neon_arcade:polished_neonite_slab",
+		"fe_neon_arcade:cobbled_neonite_slab",
+		"fe_neon_arcade:neonite_mosaic_slab"
+	]
+}

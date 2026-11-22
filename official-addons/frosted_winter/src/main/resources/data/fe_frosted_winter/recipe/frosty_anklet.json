@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_frosted_winter:frost_opal",
+		"minecraft:rabbit_hide"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:frosty_anklet"
+	}
+}

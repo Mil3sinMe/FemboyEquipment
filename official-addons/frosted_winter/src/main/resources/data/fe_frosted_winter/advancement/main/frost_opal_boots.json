@@ -1,0 +1,39 @@
+{
+	"parent": "fe_frosted_winter:main/frost_opal_leggings",
+	"display": {
+		"icon": {
+			"id": "fe_frosted_winter:frost_opal_boots",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_frosted_winter.main.frost_opal_boots.title"
+		},
+		"description": {
+			"translate": "advancements.fe_frosted_winter.main.frost_opal_boots.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_frosted_winter:frost_opal_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lemonade_summer:main/lemon_ribbon_charm",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:lemon_heart_locket",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.lemon_heart_locket.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.lemon_heart_locket.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:lemon_heart_locket"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

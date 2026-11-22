@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bowl",
+		"minecraft:carrot",
+		"fe_mint_chocolate:mintite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mint_chocolate:chocolate_soup"
+	}
+}

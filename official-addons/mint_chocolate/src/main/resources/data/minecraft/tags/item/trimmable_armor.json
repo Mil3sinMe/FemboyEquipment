@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mint_chocolate:mintite_helmet",
+		"fe_mint_chocolate:mintite_chestplate",
+		"fe_mint_chocolate:mintite_leggings",
+		"fe_mint_chocolate:mintite_boots"
+	]
+}

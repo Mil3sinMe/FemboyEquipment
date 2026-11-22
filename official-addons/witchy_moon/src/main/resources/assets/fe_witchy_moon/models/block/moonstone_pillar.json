@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_witchy_moon:block/polished_moonstone",
+		"side": "fe_witchy_moon:block/moonstone_pillar"
+	}
+}

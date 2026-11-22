@@ -1,0 +1,36 @@
+{
+	"parent": "fe_honey_bee:main/honeystone_pickaxe",
+	"display": {
+		"icon": {
+			"id": "fe_honey_bee:honeystone_axe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_honey_bee.main.honeystone_axe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_honey_bee.main.honeystone_axe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_axe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

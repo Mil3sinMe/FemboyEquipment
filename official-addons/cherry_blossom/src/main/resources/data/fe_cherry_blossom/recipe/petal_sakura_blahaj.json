@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:light_blue_wool",
+		"minecraft:white_wool",
+		"fe_cherry_blossom:sakura_jade"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cherry_blossom:petal_sakura_blahaj"
+	}
+}

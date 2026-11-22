@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_lemonade_summer:citrine"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_lemonade_summer:citrine_nugget"
+	}
+}

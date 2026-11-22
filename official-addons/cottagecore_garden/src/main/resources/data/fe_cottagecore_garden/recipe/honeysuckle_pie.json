@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:apple",
+		"fe_cottagecore_garden:moss_agate_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cottagecore_garden:honeysuckle_pie"
+	}
+}

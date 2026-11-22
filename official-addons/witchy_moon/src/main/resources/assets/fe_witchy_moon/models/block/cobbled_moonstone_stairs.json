@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_witchy_moon:block/cobbled_moonstone",
+		"top": "fe_witchy_moon:block/cobbled_moonstone",
+		"side": "fe_witchy_moon:block/cobbled_moonstone"
+	}
+}

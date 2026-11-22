@@ -1,0 +1,36 @@
+{
+	"parent": "fe_bubblegum_pop:main/bubblegum_bow_clip",
+	"display": {
+		"icon": {
+			"id": "fe_bubblegum_pop:bubblegum_friendship_bracelet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bubblegum_pop.main.bubblegum_friendship_bracelet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bubblegum_pop.main.bubblegum_friendship_bracelet.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_friendship_bracelet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

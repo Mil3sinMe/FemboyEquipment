@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_mint_chocolate:mintite_brick_slab"
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mint_chocolate:chiseled_mintite"
+	}
+}

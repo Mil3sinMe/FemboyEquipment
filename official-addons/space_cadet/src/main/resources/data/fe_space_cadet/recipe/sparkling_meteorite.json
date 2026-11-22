@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_space_cadet:polished_meteorite",
+		"fe_space_cadet:meteorite_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_space_cadet:sparkling_meteorite"
+	}
+}

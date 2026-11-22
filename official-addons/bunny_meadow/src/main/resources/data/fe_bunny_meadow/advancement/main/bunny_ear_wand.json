@@ -1,0 +1,39 @@
+{
+	"parent": "fe_bunny_meadow:main/meadow_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_bunny_meadow:bunny_ear_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bunny_meadow.main.bunny_ear_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bunny_meadow.main.bunny_ear_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bunny_meadow:bunny_ear_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

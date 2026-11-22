@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/blahaj_base",
+	"textures": {
+		"shark": "fe_rainbow_pride:block/fabulous_rainbow_blahaj"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_pumpkin_spice:polished_spiced_amber",
+	"result": {
+		"count": 1,
+		"id": "fe_pumpkin_spice:polished_spiced_amber_wall"
+	}
+}

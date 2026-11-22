@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_royal_ball:block/glittering_royal_fih"
+		},
+		"facing=east": {
+			"model": "fe_royal_ball:block/glittering_royal_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_royal_ball:block/glittering_royal_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_royal_ball:block/glittering_royal_fih",
+			"y": 270
+		}
+	}
+}

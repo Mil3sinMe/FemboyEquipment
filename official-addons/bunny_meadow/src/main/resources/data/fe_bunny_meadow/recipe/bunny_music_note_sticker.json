@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_bunny_meadow:clover_gem_dust",
+		"minecraft:cyan_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_bunny_meadow:bunny_music_note_sticker"
+	}
+}

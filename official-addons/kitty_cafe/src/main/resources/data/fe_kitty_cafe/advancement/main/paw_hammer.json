@@ -1,0 +1,36 @@
+{
+	"parent": "fe_kitty_cafe:main/yarn_ball_bat",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:paw_hammer",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.paw_hammer.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.paw_hammer.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:paw_hammer"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

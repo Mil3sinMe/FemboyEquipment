@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_frosted_winter:frost_opal_helmet",
+		"fe_frosted_winter:frost_opal_chestplate",
+		"fe_frosted_winter:frost_opal_leggings",
+		"fe_frosted_winter:frost_opal_boots"
+	]
+}

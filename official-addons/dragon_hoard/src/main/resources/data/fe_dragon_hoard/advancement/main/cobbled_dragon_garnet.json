@@ -1,0 +1,36 @@
+{
+	"parent": "fe_dragon_hoard:main/polished_dragon_garnet_wall",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:cobbled_dragon_garnet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.cobbled_dragon_garnet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.cobbled_dragon_garnet.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:cobbled_dragon_garnet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}
