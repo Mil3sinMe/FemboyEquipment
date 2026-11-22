@@ -273,7 +273,8 @@ across Strawberry Shortcake, Ocean Dreams, Starlight Sky, Cottagecore Garden, Bu
 Kitty Café, Frosted Winter, Pumpkin Spice, Cherry Blossom, Pastel Goth, Rainbow Pride, Trans Pride, Honey Bee,
 Mushroom Forest, Bunny Meadow, Neon Arcade, Witchy Moon, Dragon Hoard, Cloud Kingdom, Lemonade Summer,
 Mint Chocolate, Space Cadet, Fairy Ring, Boba Tea Shop, Sunset Beach, Axolotl Pond, Royal Ball, Cozy Sleepover and
-Cyber Kitten. Grab the ones you like from the release (or `dist/official-addons/`). See
+Cyber Kitten. **Since 1.16.0 they're all inside the main FemboyEquipment jar**, so one download gets you everything
+(the separate addon jars are still on each release if you only want some). See
 [official-addons/README.md](official-addons/README.md).
 
 ![Official addons](docs/official-addons.png)

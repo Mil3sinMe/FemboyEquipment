@@ -3,6 +3,19 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.16.0: All addons included 🎁
+
+### Changed
+- **All 30 official addons are now bundled inside the FemboyEquipment jar** (jar-in-jar), so one download has
+  everything: 3000 more items and blocks, 30 more Cute Collection pages. Same item IDs as the separate jars, so
+  existing worlds keep everything. The separate addon jars are still attached to each release
+- Official addons 1.1.1
+
+### Fixed
+- The 30 addon *Completionist* challenges finished as soon as you collected **any one** item of that addon (they
+  needed one of the 100 items instead of all 100). They now need all 100. The main mod's challenges were already
+  correct
+
 ## 1.15.1: Fix
 
 ### Fixed
