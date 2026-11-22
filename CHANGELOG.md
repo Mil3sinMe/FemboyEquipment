@@ -3,6 +3,14 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.15.1: Fix
+
+### Fixed
+- A broken Trinkets slot-sync packet no longer disconnects you ("Packet handling error ... fieldSize is too long!
+  Length is 1, but maximum is 0"). This happens when another mod (e.g. a replay recorder like Flashback) reads the
+  packet before Trinkets does; the broken update is now skipped with a warning in the log, and the slots catch up
+  on the next sync
+
 ## 1.15.0: Badges 🏅
 
 ### Added
