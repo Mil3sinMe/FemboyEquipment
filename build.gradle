@@ -59,6 +59,13 @@ dependencies {
 	// Dev runs don't unpack the CCA jars nested inside Trinkets, so put CCA on the classpath directly.
 	modImplementation "org.ladysnake.cardinal-components-api:cardinal-components-base:${project.cca_version}"
 	modImplementation "org.ladysnake.cardinal-components-api:cardinal-components-entity:${project.cca_version}"
+
+	// Since 1.16.0 the 30 official addons ship inside the main jar (jar-in-jar), so one download has everything.
+	// Each one is still its own mod in official-addons/ (same item IDs as the standalone jars).
+	rootProject.file('official-addons').listFiles()
+			.findAll { it.isDirectory() && it.name != 'testbed' && new File(it, 'build.gradle').exists() }
+			.sort { it.name }
+			.each { include project(":official-addons:${it.name}") }
 }
 
 processResources {
