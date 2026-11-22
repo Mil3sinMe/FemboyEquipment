@@ -3,6 +3,21 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.15.0: Badges 🏅
+
+### Added
+- **Badges**: players listed in [FemboyEquipment-Badge-Users](https://github.com/NeonWardonmc/FemboyEquipment-Badge-Users)
+  get badge emblems in front of their name (chat, tab list, name tags): owner, developer, moderator, contributor,
+  artist, translator, media, bug hunter, tester, supporter, partner, OG and friend
+  - `badges.txt` format: `uuid | badge[,badge...] | backup-username` (the username is used on offline-mode servers)
+  - Downloaded on startup and every 30 minutes, cached in `config/femboyequipment-badges-cache.txt` for offline play
+  - Up to 3 emblems per player (best first); hover a name in chat to see all badges
+- **12 new emblems** (one per badge); the pink bow and the owner crown stay the same
+- `/emblem` now also lists your own badges
+
+### Changed
+- The people who already had the crown keep it: they're `owner` in the list, and still hardcoded as a fallback
+
 ## 1.14.0: Cute Collection 📖
 
 ### Added
