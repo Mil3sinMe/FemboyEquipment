@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/cosmo_quilt_block",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:glazed_meteorite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.glazed_meteorite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.glazed_meteorite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:glazed_meteorite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

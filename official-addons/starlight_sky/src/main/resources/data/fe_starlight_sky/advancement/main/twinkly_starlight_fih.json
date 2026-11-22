@@ -1,0 +1,36 @@
+{
+	"parent": "fe_starlight_sky:main/glowy_starlight_blahaj",
+	"display": {
+		"icon": {
+			"id": "fe_starlight_sky:twinkly_starlight_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_starlight_sky.main.twinkly_starlight_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_starlight_sky.main.twinkly_starlight_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:twinkly_starlight_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

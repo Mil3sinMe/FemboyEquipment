@@ -1,0 +1,39 @@
+{
+	"parent": "fe_starlight_sky:main/crescent_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_starlight_sky:wishing_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_starlight_sky.main.wishing_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_starlight_sky.main.wishing_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:wishing_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

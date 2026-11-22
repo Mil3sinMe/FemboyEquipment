@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_dragon_hoard:dragon_garnet_dust",
+		"minecraft:lime_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_dragon_hoard:dragon_bow_sticker"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/mint_chip_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mint_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mint_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mint_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mint_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

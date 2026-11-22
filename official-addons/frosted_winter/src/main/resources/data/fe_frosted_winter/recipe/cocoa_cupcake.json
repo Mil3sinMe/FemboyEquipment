@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:sugar",
+		"fe_frosted_winter:frost_opal_dust"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_frosted_winter:cocoa_cupcake"
+	}
+}

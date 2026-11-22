@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_frosted_winter:polished_frost_opal",
+	"result": {
+		"id": "fe_frosted_winter:glazed_frost_opal"
+	}
+}

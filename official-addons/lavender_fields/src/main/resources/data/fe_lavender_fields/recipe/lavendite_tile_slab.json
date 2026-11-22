@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_lavender_fields:lavendite_tiles"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_lavender_fields:lavendite_tile_slab"
+	}
+}

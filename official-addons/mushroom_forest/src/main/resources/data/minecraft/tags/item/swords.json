@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mushroom_forest:sporestone_sword",
+		"fe_mushroom_forest:toadstool_bat",
+		"fe_mushroom_forest:stump_hammer",
+		"fe_mushroom_forest:mycelium_scythe",
+		"fe_mushroom_forest:spore_wand"
+	]
+}

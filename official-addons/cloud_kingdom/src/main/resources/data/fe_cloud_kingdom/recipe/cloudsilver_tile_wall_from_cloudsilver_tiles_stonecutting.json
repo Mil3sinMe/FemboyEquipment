@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_cloud_kingdom:cloudsilver_tiles",
+	"result": {
+		"count": 1,
+		"id": "fe_cloud_kingdom:cloudsilver_tile_wall"
+	}
+}

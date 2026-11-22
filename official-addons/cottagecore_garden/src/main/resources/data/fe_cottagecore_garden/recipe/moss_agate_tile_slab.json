@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_cottagecore_garden:moss_agate_tiles"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_cottagecore_garden:moss_agate_tile_slab"
+	}
+}

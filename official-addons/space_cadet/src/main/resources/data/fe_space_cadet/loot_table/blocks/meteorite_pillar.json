@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_space_cadet:meteorite_pillar"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_space_cadet:blocks/meteorite_pillar"
+}

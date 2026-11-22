@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/sunset_bow_sticker",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:sunset_cloud_sticker",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.sunset_cloud_sticker.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.sunset_cloud_sticker.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sunset_cloud_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

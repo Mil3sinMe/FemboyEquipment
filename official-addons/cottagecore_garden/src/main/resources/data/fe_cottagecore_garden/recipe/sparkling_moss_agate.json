@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cottagecore_garden:polished_moss_agate",
+		"fe_cottagecore_garden:moss_agate_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cottagecore_garden:sparkling_moss_agate"
+	}
+}

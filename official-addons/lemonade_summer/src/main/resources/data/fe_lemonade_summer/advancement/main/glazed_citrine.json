@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lemonade_summer:main/lemon_quilt_block",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:glazed_citrine",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.glazed_citrine.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.glazed_citrine.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:glazed_citrine"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

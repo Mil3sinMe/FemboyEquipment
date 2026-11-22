@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:yellow_wool",
+		"minecraft:white_wool",
+		"fe_starlight_sky:starstone"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_starlight_sky:glowy_starlight_blahaj"
+	}
+}

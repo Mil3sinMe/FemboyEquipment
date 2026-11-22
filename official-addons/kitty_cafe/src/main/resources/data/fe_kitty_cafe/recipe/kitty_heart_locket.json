@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_kitty_cafe:purrite",
+		"minecraft:gold_ingot"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:kitty_heart_locket"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "fe_honey_bee:honeystone_block",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"B",
+		"S"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_honey_bee:hive_bat"
+	}
+}

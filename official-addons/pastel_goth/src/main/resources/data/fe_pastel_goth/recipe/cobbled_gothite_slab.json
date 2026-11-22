@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_pastel_goth:cobbled_gothite"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_pastel_goth:cobbled_gothite_slab"
+	}
+}

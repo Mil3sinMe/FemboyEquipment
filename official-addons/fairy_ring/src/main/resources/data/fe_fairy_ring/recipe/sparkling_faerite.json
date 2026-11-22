@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_fairy_ring:polished_faerite",
+		"fe_fairy_ring:faerite_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:sparkling_faerite"
+	}
+}

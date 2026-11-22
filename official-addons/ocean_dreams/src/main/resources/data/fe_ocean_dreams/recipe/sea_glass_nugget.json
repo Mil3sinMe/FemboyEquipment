@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_ocean_dreams:sea_glass"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_ocean_dreams:sea_glass_nugget"
+	}
+}

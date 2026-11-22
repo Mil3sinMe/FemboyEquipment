@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_trans_pride:block/polished_transcendite",
+		"side": "fe_trans_pride:block/transcendite_pillar"
+	}
+}

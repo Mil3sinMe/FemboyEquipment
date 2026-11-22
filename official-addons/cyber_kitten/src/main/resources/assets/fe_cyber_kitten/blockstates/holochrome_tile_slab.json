@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_cyber_kitten:block/holochrome_tile_slab"
+		},
+		"type=top": {
+			"model": "fe_cyber_kitten:block/holochrome_tile_slab_top"
+		},
+		"type=double": {
+			"model": "fe_cyber_kitten:block/holochrome_tiles"
+		}
+	}
+}

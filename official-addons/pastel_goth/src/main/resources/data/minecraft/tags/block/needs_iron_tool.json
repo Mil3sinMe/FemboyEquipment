@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_pastel_goth:gothite_ore",
+		"fe_pastel_goth:deepslate_gothite_ore",
+		"fe_pastel_goth:gothite_block",
+		"fe_pastel_goth:raw_gothite_block"
+	]
+}

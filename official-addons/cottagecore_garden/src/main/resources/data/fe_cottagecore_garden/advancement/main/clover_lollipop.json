@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cottagecore_garden:main/honeysuckle_popsicle",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:clover_lollipop",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.clover_lollipop.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.clover_lollipop.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:clover_lollipop"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

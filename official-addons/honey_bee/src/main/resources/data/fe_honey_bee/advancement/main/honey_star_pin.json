@@ -1,0 +1,36 @@
+{
+	"parent": "fe_honey_bee:main/honey_bell_collar",
+	"display": {
+		"icon": {
+			"id": "fe_honey_bee:honey_star_pin",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_honey_bee.main.honey_star_pin.title"
+		},
+		"description": {
+			"translate": "advancements.fe_honey_bee.main.honey_star_pin.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_star_pin"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

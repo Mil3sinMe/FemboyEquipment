@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_rainbow_pride:prismatite_mosaic",
+	"result": {
+		"count": 1,
+		"id": "fe_rainbow_pride:prismatite_mosaic_wall"
+	}
+}

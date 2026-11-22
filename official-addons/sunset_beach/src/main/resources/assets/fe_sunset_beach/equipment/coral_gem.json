@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_sunset_beach:coral_gem"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_sunset_beach:coral_gem"
+			}
+		]
+	}
+}

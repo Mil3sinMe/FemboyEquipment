@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_cozy_sleepover:block/polished_dreamstone",
+		"side": "fe_cozy_sleepover:block/dreamstone_pillar"
+	}
+}

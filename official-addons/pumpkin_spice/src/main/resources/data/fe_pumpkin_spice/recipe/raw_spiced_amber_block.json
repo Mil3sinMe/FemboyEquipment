@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_pumpkin_spice:raw_spiced_amber"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pumpkin_spice:raw_spiced_amber_block"
+	}
+}

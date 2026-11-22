@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_cottagecore_garden:moss_agate_mosaic",
+	"result": {
+		"count": 2,
+		"id": "fe_cottagecore_garden:moss_agate_mosaic_slab"
+	}
+}

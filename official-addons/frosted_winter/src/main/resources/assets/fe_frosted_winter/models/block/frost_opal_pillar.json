@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_frosted_winter:block/polished_frost_opal",
+		"side": "fe_frosted_winter:block/frost_opal_pillar"
+	}
+}

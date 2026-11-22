@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pumpkin_spice:main/cinnamon_cookie",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:maple_cupcake",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.maple_cupcake.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.maple_cupcake.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:maple_cupcake"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

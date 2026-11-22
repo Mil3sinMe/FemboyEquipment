@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:apple",
+		"fe_witchy_moon:moonstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_witchy_moon:moon_milk_pie"
+	}
+}

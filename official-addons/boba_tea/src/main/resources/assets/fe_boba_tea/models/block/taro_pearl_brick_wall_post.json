@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_post",
+	"textures": {
+		"wall": "fe_boba_tea:block/taro_pearl_bricks"
+	}
+}

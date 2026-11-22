@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cyber_kitten:holochrome"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_cyber_kitten:holochrome_nugget"
+	}
+}

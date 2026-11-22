@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_trans_pride:item/transcendite_leggings"
+	}
+}

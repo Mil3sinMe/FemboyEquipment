@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_sunset_beach:block/coral_gem_tiles"
+	}
+}

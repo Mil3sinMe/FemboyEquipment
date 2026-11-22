@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_pastel_goth:item/bat_wing_cookie"
+	}
+}

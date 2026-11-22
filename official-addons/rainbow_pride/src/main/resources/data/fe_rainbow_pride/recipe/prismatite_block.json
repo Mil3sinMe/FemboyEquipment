@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_rainbow_pride:prismatite"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_rainbow_pride:prismatite_block"
+	}
+}

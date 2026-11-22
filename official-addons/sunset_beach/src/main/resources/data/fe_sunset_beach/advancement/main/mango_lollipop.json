@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/coconut_popsicle",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:mango_lollipop",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.mango_lollipop.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.mango_lollipop.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:mango_lollipop"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

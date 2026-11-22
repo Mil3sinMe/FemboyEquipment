@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bowl",
+		"minecraft:carrot",
+		"fe_starlight_sky:starstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_starlight_sky:moonbeam_soup"
+	}
+}

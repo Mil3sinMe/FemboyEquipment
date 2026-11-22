@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_space_cadet:meteorite_sword",
+		"fe_space_cadet:asteroid_bat",
+		"fe_space_cadet:gravity_hammer",
+		"fe_space_cadet:orbit_scythe",
+		"fe_space_cadet:ray_gun_wand"
+	]
+}

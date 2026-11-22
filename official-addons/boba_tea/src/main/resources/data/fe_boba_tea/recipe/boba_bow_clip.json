@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_boba_tea:taro_pearl",
+		"minecraft:feather"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:boba_bow_clip"
+	}
+}

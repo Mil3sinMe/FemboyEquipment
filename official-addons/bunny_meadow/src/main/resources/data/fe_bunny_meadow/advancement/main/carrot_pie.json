@@ -1,0 +1,36 @@
+{
+	"parent": "fe_bunny_meadow:main/dandelion_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_bunny_meadow:carrot_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bunny_meadow.main.carrot_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bunny_meadow.main.carrot_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bunny_meadow:carrot_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

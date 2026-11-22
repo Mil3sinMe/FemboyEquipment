@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_starlight_sky:block/starstone_shingles"
+	}
+}

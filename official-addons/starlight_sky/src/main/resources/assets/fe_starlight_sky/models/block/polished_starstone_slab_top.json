@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_starlight_sky:block/polished_starstone",
+		"top": "fe_starlight_sky:block/polished_starstone",
+		"side": "fe_starlight_sky:block/polished_starstone"
+	}
+}

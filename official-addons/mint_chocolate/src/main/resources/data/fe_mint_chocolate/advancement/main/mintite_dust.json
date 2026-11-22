@@ -1,0 +1,39 @@
+{
+	"parent": "fe_mint_chocolate:main/mintite_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mintite_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mintite_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

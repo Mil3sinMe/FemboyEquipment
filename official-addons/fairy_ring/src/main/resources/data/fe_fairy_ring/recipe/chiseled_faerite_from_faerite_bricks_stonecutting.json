@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_fairy_ring:faerite_bricks",
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:chiseled_faerite"
+	}
+}

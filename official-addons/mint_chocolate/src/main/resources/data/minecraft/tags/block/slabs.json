@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mint_chocolate:mintite_brick_slab",
+		"fe_mint_chocolate:mintite_tile_slab",
+		"fe_mint_chocolate:polished_mintite_slab",
+		"fe_mint_chocolate:cobbled_mintite_slab",
+		"fe_mint_chocolate:mintite_mosaic_slab"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_honey_bee:block/cobbled_honeystone_slab"
+		},
+		"type=top": {
+			"model": "fe_honey_bee:block/cobbled_honeystone_slab_top"
+		},
+		"type=double": {
+			"model": "fe_honey_bee:block/cobbled_honeystone"
+		}
+	}
+}

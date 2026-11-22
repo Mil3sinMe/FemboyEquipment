@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_neon_arcade:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_neon_arcade:neonite_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_neon_arcade.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_neon_arcade.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"neonite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite"
+					}
+				]
+			}
+		},
+		"raw_neonite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:raw_neonite"
+					}
+				]
+			}
+		},
+		"neonite_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_nugget"
+					}
+				]
+			}
+		},
+		"neonite_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_dust"
+					}
+				]
+			}
+		},
+		"neonite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_ore"
+					}
+				]
+			}
+		},
+		"deepslate_neonite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:deepslate_neonite_ore"
+					}
+				]
+			}
+		},
+		"neonite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_block"
+					}
+				]
+			}
+		},
+		"raw_neonite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:raw_neonite_block"
+					}
+				]
+			}
+		},
+		"neonite_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_bricks"
+					}
+				]
+			}
+		},
+		"neonite_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_brick_stairs"
+					}
+				]
+			}
+		},
+		"neonite_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_brick_slab"
+					}
+				]
+			}
+		},
+		"neonite_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_brick_wall"
+					}
+				]
+			}
+		},
+		"neonite_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_tiles"
+					}
+				]
+			}
+		},
+		"neonite_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_tile_stairs"
+					}
+				]
+			}
+		},
+		"neonite_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_tile_slab"
+					}
+				]
+			}
+		},
+		"neonite_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_neonite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:polished_neonite"
+					}
+				]
+			}
+		},
+		"polished_neonite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:polished_neonite_stairs"
+					}
+				]
+			}
+		},
+		"polished_neonite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:polished_neonite_slab"
+					}
+				]
+			}
+		},
+		"polished_neonite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:polished_neonite_wall"
+					}
+				]
+			}
+		},
+		"cobbled_neonite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:cobbled_neonite"
+					}
+				]
+			}
+		},
+		"cobbled_neonite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:cobbled_neonite_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_neonite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:cobbled_neonite_slab"
+					}
+				]
+			}
+		},
+		"cobbled_neonite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:cobbled_neonite_wall"
+					}
+				]
+			}
+		},
+		"neonite_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_mosaic"
+					}
+				]
+			}
+		},
+		"neonite_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"neonite_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_mosaic_slab"
+					}
+				]
+			}
+		},
+		"neonite_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_mosaic_wall"
+					}
+				]
+			}
+		},
+		"neonite_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_lamp"
+					}
+				]
+			}
+		},
+		"neon_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_cushion"
+					}
+				]
+			}
+		},
+		"neon_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_crate"
+					}
+				]
+			}
+		},
+		"neonite_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_neonite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:chiseled_neonite"
+					}
+				]
+			}
+		},
+		"neonite_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_shingles"
+					}
+				]
+			}
+		},
+		"neon_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_neonite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glazed_neonite"
+					}
+				]
+			}
+		},
+		"starry_neonite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:starry_neonite"
+					}
+				]
+			}
+		},
+		"sparkling_neonite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:sparkling_neonite"
+					}
+				]
+			}
+		},
+		"neonite_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_sword"
+					}
+				]
+			}
+		},
+		"neonite_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_pickaxe"
+					}
+				]
+			}
+		},
+		"neonite_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_axe"
+					}
+				]
+			}
+		},
+		"neonite_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_shovel"
+					}
+				]
+			}
+		},
+		"neonite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_hoe"
+					}
+				]
+			}
+		},
+		"neonite_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_spear"
+					}
+				]
+			}
+		},
+		"joystick_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:joystick_bat"
+					}
+				]
+			}
+		},
+		"ban_hammer_9000": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:ban_hammer_9000"
+					}
+				]
+			}
+		},
+		"pixel_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:pixel_scythe"
+					}
+				]
+			}
+		},
+		"glowstick_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glowstick_wand"
+					}
+				]
+			}
+		},
+		"neonite_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_helmet"
+					}
+				]
+			}
+		},
+		"neonite_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_chestplate"
+					}
+				]
+			}
+		},
+		"neonite_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_leggings"
+					}
+				]
+			}
+		},
+		"neonite_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_boots"
+					}
+				]
+			}
+		},
+		"blue_raspberry_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:blue_raspberry_soda"
+					}
+				]
+			}
+		},
+		"energy_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:energy_cookie"
+					}
+				]
+			}
+		},
+		"glitch_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glitch_cupcake"
+					}
+				]
+			}
+		},
+		"blue_raspberry_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:blue_raspberry_candy"
+					}
+				]
+			}
+		},
+		"energy_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:energy_soup"
+					}
+				]
+			}
+		},
+		"glitch_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glitch_donut"
+					}
+				]
+			}
+		},
+		"blue_raspberry_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:blue_raspberry_popsicle"
+					}
+				]
+			}
+		},
+		"energy_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:energy_lollipop"
+					}
+				]
+			}
+		},
+		"glitch_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glitch_macaron"
+					}
+				]
+			}
+		},
+		"blue_raspberry_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:blue_raspberry_pie"
+					}
+				]
+			}
+		},
+		"energy_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:energy_bun"
+					}
+				]
+			}
+		},
+		"glitch_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glitch_jelly"
+					}
+				]
+			}
+		},
+		"neon_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_ribbon_charm"
+					}
+				]
+			}
+		},
+		"neon_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_heart_locket"
+					}
+				]
+			}
+		},
+		"neon_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_bell_collar"
+					}
+				]
+			}
+		},
+		"neon_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_star_pin"
+					}
+				]
+			}
+		},
+		"neon_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_moon_pendant"
+					}
+				]
+			}
+		},
+		"neon_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_bow_clip"
+					}
+				]
+			}
+		},
+		"neon_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"neon_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_lucky_coin"
+					}
+				]
+			}
+		},
+		"neon_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_anklet"
+					}
+				]
+			}
+		},
+		"neon_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_earrings"
+					}
+				]
+			}
+		},
+		"neon_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_bead_necklace"
+					}
+				]
+			}
+		},
+		"neon_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_keychain"
+					}
+				]
+			}
+		},
+		"glitchy_neon_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glitchy_neon_blahaj"
+					}
+				]
+			}
+		},
+		"pixel_neon_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:pixel_neon_blahaj"
+					}
+				]
+			}
+		},
+		"retro_neon_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:retro_neon_blahaj"
+					}
+				]
+			}
+		},
+		"turbo_neon_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:turbo_neon_blahaj"
+					}
+				]
+			}
+		},
+		"glowing_neon_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glowing_neon_blahaj"
+					}
+				]
+			}
+		},
+		"glitchy_neon_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glitchy_neon_fih"
+					}
+				]
+			}
+		},
+		"pixel_neon_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:pixel_neon_fih"
+					}
+				]
+			}
+		},
+		"retro_neon_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:retro_neon_fih"
+					}
+				]
+			}
+		},
+		"turbo_neon_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:turbo_neon_fih"
+					}
+				]
+			}
+		},
+		"glowing_neon_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glowing_neon_fih"
+					}
+				]
+			}
+		},
+		"neon_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_heart_sticker"
+					}
+				]
+			}
+		},
+		"neon_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_star_sticker"
+					}
+				]
+			}
+		},
+		"neon_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_moon_sticker"
+					}
+				]
+			}
+		},
+		"neon_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_flower_sticker"
+					}
+				]
+			}
+		},
+		"neon_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_paw_sticker"
+					}
+				]
+			}
+		},
+		"neon_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_bow_sticker"
+					}
+				]
+			}
+		},
+		"neon_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_cloud_sticker"
+					}
+				]
+			}
+		},
+		"neon_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"neon_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_smiley_sticker"
+					}
+				]
+			}
+		},
+		"neon_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_music_note_sticker"
+					}
+				]
+			}
+		},
+		"neon_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_crown_sticker"
+					}
+				]
+			}
+		},
+		"neon_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"neon_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"neon_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neon_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"neonite",
+			"raw_neonite",
+			"neonite_nugget",
+			"neonite_dust",
+			"neonite_ore",
+			"deepslate_neonite_ore",
+			"neonite_block",
+			"raw_neonite_block",
+			"neonite_bricks",
+			"neonite_brick_stairs",
+			"neonite_brick_slab",
+			"neonite_brick_wall",
+			"neonite_tiles",
+			"neonite_tile_stairs",
+			"neonite_tile_slab",
+			"neonite_tile_wall",
+			"polished_neonite",
+			"polished_neonite_stairs",
+			"polished_neonite_slab",
+			"polished_neonite_wall",
+			"cobbled_neonite",
+			"cobbled_neonite_stairs",
+			"cobbled_neonite_slab",
+			"cobbled_neonite_wall",
+			"neonite_mosaic",
+			"neonite_mosaic_stairs",
+			"neonite_mosaic_slab",
+			"neonite_mosaic_wall",
+			"neonite_lamp",
+			"neon_cushion",
+			"neon_crate",
+			"neonite_pillar",
+			"chiseled_neonite",
+			"neonite_shingles",
+			"neon_quilt_block",
+			"glazed_neonite",
+			"starry_neonite",
+			"sparkling_neonite",
+			"neonite_sword",
+			"neonite_pickaxe",
+			"neonite_axe",
+			"neonite_shovel",
+			"neonite_hoe",
+			"neonite_spear",
+			"joystick_bat",
+			"ban_hammer_9000",
+			"pixel_scythe",
+			"glowstick_wand",
+			"neonite_helmet",
+			"neonite_chestplate",
+			"neonite_leggings",
+			"neonite_boots",
+			"blue_raspberry_soda",
+			"energy_cookie",
+			"glitch_cupcake",
+			"blue_raspberry_candy",
+			"energy_soup",
+			"glitch_donut",
+			"blue_raspberry_popsicle",
+			"energy_lollipop",
+			"glitch_macaron",
+			"blue_raspberry_pie",
+			"energy_bun",
+			"glitch_jelly",
+			"neon_ribbon_charm",
+			"neon_heart_locket",
+			"neon_bell_collar",
+			"neon_star_pin",
+			"neon_moon_pendant",
+			"neon_bow_clip",
+			"neon_friendship_bracelet",
+			"neon_lucky_coin",
+			"neon_anklet",
+			"neon_earrings",
+			"neon_bead_necklace",
+			"neon_keychain",
+			"glitchy_neon_blahaj",
+			"pixel_neon_blahaj",
+			"retro_neon_blahaj",
+			"turbo_neon_blahaj",
+			"glowing_neon_blahaj",
+			"glitchy_neon_fih",
+			"pixel_neon_fih",
+			"retro_neon_fih",
+			"turbo_neon_fih",
+			"glowing_neon_fih",
+			"neon_heart_sticker",
+			"neon_star_sticker",
+			"neon_moon_sticker",
+			"neon_flower_sticker",
+			"neon_paw_sticker",
+			"neon_bow_sticker",
+			"neon_cloud_sticker",
+			"neon_sparkle_sticker",
+			"neon_smiley_sticker",
+			"neon_music_note_sticker",
+			"neon_crown_sticker",
+			"neon_rainbow_sticker",
+			"neon_butterfly_sticker",
+			"neon_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

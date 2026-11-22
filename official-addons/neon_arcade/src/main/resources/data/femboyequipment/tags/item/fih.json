@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_neon_arcade:glitchy_neon_fih",
+		"fe_neon_arcade:pixel_neon_fih",
+		"fe_neon_arcade:retro_neon_fih",
+		"fe_neon_arcade:turbo_neon_fih",
+		"fe_neon_arcade:glowing_neon_fih"
+	]
+}

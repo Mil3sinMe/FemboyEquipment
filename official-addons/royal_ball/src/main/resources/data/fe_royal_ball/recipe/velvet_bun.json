@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_royal_ball:royal_sapphire_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_royal_ball:velvet_bun"
+	}
+}

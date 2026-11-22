@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_space_cadet:polished_meteorite",
+	"result": {
+		"id": "fe_space_cadet:glazed_meteorite"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "fe_axolotl_pond:main/lotl_bead_necklace",
+	"display": {
+		"icon": {
+			"id": "fe_axolotl_pond:lotl_keychain",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_axolotl_pond.main.lotl_keychain.title"
+		},
+		"description": {
+			"translate": "advancements.fe_axolotl_pond.main.lotl_keychain.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_keychain"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_fairy_ring:faerite",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:fairy_star_pin"
+	}
+}

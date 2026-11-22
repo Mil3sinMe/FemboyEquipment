@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_starlight_sky:starstone_mosaic",
+	"result": {
+		"count": 1,
+		"id": "fe_starlight_sky:starstone_mosaic_stairs"
+	}
+}

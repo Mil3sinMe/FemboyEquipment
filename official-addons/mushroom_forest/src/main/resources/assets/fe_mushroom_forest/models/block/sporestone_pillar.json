@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_mushroom_forest:block/polished_sporestone",
+		"side": "fe_mushroom_forest:block/sporestone_pillar"
+	}
+}

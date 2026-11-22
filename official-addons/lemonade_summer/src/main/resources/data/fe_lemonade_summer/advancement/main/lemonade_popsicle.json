@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lemonade_summer:main/lime_donut",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:lemonade_popsicle",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.lemonade_popsicle.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.lemonade_popsicle.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:lemonade_popsicle"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

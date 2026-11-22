@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_lemonade_summer:citrine"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lemonade_summer:citrine_block"
+	}
+}

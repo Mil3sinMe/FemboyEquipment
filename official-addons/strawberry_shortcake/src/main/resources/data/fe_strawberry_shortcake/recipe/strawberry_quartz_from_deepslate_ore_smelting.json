@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredient": "fe_strawberry_shortcake:deepslate_strawberry_quartz_ore",
+	"result": {
+		"id": "fe_strawberry_shortcake:strawberry_quartz"
+	}
+}

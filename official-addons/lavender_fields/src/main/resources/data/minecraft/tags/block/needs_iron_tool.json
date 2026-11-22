@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_lavender_fields:lavendite_ore",
+		"fe_lavender_fields:deepslate_lavendite_ore",
+		"fe_lavender_fields:lavendite_block",
+		"fe_lavender_fields:raw_lavendite_block"
+	]
+}

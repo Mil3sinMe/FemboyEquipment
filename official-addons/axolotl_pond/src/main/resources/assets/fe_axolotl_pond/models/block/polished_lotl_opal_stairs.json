@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_axolotl_pond:block/polished_lotl_opal",
+		"top": "fe_axolotl_pond:block/polished_lotl_opal",
+		"side": "fe_axolotl_pond:block/polished_lotl_opal"
+	}
+}

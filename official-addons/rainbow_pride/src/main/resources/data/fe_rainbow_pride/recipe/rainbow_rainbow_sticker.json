@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_rainbow_pride:prismatite_dust",
+		"minecraft:blue_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_rainbow_pride:rainbow_rainbow_sticker"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/floating_cosmo_fih",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:alien_cosmo_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.alien_cosmo_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.alien_cosmo_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:alien_cosmo_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

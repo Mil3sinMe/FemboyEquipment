@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lemonade_summer:main/lemon_crate",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:citrine_pillar",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_pillar.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_pillar.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:citrine_pillar"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

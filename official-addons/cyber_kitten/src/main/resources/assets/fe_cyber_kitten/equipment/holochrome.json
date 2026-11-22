@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_cyber_kitten:holochrome"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_cyber_kitten:holochrome"
+			}
+		]
+	}
+}

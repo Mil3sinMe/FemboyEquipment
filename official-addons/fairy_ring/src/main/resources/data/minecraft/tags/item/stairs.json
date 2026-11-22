@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_fairy_ring:faerite_brick_stairs",
+		"fe_fairy_ring:faerite_tile_stairs",
+		"fe_fairy_ring:polished_faerite_stairs",
+		"fe_fairy_ring:cobbled_faerite_stairs",
+		"fe_fairy_ring:faerite_mosaic_stairs"
+	]
+}

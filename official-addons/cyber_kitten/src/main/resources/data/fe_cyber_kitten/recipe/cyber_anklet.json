@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cyber_kitten:holochrome",
+		"minecraft:rabbit_hide"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cyber_kitten:cyber_anklet"
+	}
+}

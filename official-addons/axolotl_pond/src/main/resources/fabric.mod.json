@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_axolotl_pond",
+	"version": "${version}",
+	"name": "FemboyEquipment: Axolotl Pond",
+	"description": "Official FemboyEquipment addon. Smiley pond friends with frilly gills. 100 new things: Lotl Opal ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_axolotl_pond/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.axolotlpond.AxolotlPondAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_trans_pride:transcendite_helmet",
+		"fe_trans_pride:transcendite_chestplate",
+		"fe_trans_pride:transcendite_leggings",
+		"fe_trans_pride:transcendite_boots"
+	]
+}

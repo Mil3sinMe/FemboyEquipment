@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_pastel_goth:block/gothite_tile_slab"
+		},
+		"type=top": {
+			"model": "fe_pastel_goth:block/gothite_tile_slab_top"
+		},
+		"type=double": {
+			"model": "fe_pastel_goth:block/gothite_tiles"
+		}
+	}
+}

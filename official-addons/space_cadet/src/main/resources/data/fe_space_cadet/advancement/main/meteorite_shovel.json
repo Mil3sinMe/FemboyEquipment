@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/meteorite_axe",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:meteorite_shovel",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.meteorite_shovel.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.meteorite_shovel.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:meteorite_shovel"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

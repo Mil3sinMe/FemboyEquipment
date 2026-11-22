@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:purple_wool",
+		"fe_mint_chocolate:mintite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mint_chocolate:chippy_mint_fih"
+	}
+}

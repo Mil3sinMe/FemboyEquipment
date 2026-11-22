@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:yellow_wool",
+		"fe_honey_bee:honeystone"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_honey_bee:busy_honey_fih"
+	}
+}

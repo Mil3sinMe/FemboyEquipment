@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.7,
+	"ingredient": "fe_axolotl_pond:raw_lotl_opal",
+	"result": {
+		"id": "fe_axolotl_pond:lotl_opal"
+	}
+}

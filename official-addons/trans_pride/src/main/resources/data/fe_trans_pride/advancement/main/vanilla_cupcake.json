@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/bubblegum_cookie",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:vanilla_cupcake",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.vanilla_cupcake.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.vanilla_cupcake.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:vanilla_cupcake"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

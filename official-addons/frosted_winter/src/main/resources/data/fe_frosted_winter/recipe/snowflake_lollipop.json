@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:sugar",
+		"fe_frosted_winter:frost_opal_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:snowflake_lollipop"
+	}
+}

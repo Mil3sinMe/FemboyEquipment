@@ -1,0 +1,36 @@
+{
+	"parent": "fe_frosted_winter:main/frost_opal_block",
+	"display": {
+		"icon": {
+			"id": "fe_frosted_winter:raw_frost_opal_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_frosted_winter.main.raw_frost_opal_block.title"
+		},
+		"description": {
+			"translate": "advancements.fe_frosted_winter.main.raw_frost_opal_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_frosted_winter:raw_frost_opal_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

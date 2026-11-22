@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_space_cadet:item/cosmo_star_pin"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_witchy_moon:block/cobbled_moonstone_slab"
+		},
+		"type=top": {
+			"model": "fe_witchy_moon:block/cobbled_moonstone_slab_top"
+		},
+		"type=double": {
+			"model": "fe_witchy_moon:block/cobbled_moonstone"
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:apple",
+		"fe_frosted_winter:frost_opal_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:peppermint_pie"
+	}
+}

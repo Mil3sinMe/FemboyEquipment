@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cottagecore_garden:main/mossy_garden_fih",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:flowery_garden_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.flowery_garden_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.flowery_garden_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:flowery_garden_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

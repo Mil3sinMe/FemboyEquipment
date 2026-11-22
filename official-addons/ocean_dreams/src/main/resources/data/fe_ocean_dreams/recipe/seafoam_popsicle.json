@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:snowball",
+		"fe_ocean_dreams:sea_glass_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_ocean_dreams:seafoam_popsicle"
+	}
+}

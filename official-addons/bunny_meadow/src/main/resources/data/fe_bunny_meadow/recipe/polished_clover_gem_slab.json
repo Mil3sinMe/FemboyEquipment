@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_bunny_meadow:polished_clover_gem"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_bunny_meadow:polished_clover_gem_slab"
+	}
+}

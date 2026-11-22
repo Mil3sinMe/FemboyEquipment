@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/cloudsilver_helmet",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cloudsilver_chestplate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloudsilver_chestplate.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloudsilver_chestplate.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_chestplate"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

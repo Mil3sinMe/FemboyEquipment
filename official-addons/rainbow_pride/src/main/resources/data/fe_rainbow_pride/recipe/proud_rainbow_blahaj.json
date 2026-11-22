@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:light_blue_wool",
+		"minecraft:white_wool",
+		"fe_rainbow_pride:prismatite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_rainbow_pride:proud_rainbow_blahaj"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pastel_goth:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:goth_ribbon_charm",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.goth_ribbon_charm.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.goth_ribbon_charm.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pastel_goth:goth_ribbon_charm"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

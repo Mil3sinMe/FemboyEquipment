@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_bubblegum_pop:polished_bubblegem",
+		"fe_bubblegum_pop:bubblegem_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bubblegum_pop:sparkling_bubblegem"
+	}
+}

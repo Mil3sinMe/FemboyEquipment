@@ -1,0 +1,39 @@
+{
+	"parent": "fe_dragon_hoard:main/starry_dragon_garnet",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:sparkling_dragon_garnet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.sparkling_dragon_garnet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.sparkling_dragon_garnet.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:sparkling_dragon_garnet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_honey_bee:polished_honeystone",
+		"fe_honey_bee:honeystone_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_honey_bee:sparkling_honeystone"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/chilly_mint_blahaj",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:chippy_mint_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.chippy_mint_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.chippy_mint_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:chippy_mint_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

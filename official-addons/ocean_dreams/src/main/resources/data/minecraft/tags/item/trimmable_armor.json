@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_ocean_dreams:sea_glass_helmet",
+		"fe_ocean_dreams:sea_glass_chestplate",
+		"fe_ocean_dreams:sea_glass_leggings",
+		"fe_ocean_dreams:sea_glass_boots"
+	]
+}

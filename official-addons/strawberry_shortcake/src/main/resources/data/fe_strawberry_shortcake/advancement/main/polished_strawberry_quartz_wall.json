@@ -1,0 +1,36 @@
+{
+	"parent": "fe_strawberry_shortcake:main/polished_strawberry_quartz_slab",
+	"display": {
+		"icon": {
+			"id": "fe_strawberry_shortcake:polished_strawberry_quartz_wall",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_strawberry_shortcake.main.polished_strawberry_quartz_wall.title"
+		},
+		"description": {
+			"translate": "advancements.fe_strawberry_shortcake.main.polished_strawberry_quartz_wall.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_strawberry_shortcake:polished_strawberry_quartz_wall"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

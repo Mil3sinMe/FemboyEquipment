@@ -1,0 +1,36 @@
+{
+	"parent": "fe_boba_tea:main/boba_lucky_coin",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:boba_anklet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.boba_anklet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.boba_anklet.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:boba_anklet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

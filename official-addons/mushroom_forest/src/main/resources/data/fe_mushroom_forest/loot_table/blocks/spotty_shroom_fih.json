@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_mushroom_forest:spotty_shroom_fih"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_mushroom_forest:blocks/spotty_shroom_fih"
+}

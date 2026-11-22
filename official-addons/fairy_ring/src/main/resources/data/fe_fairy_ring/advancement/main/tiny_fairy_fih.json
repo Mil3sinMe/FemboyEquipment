@@ -1,0 +1,36 @@
+{
+	"parent": "fe_fairy_ring:main/glowing_fairy_blahaj",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:tiny_fairy_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.tiny_fairy_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.tiny_fairy_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:tiny_fairy_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

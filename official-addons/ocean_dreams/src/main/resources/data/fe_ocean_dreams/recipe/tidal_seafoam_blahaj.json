@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:yellow_wool",
+		"minecraft:white_wool",
+		"fe_ocean_dreams:sea_glass"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_ocean_dreams:tidal_seafoam_blahaj"
+	}
+}

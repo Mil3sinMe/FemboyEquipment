@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pastel_goth:main/gothite_helmet",
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:gothite_chestplate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.gothite_chestplate.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.gothite_chestplate.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pastel_goth:gothite_chestplate"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

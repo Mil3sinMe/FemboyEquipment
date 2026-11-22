@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:sugar",
+		"minecraft:apple",
+		"fe_dragon_hoard:dragon_garnet_dust"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_dragon_hoard:ember_jelly"
+	}
+}

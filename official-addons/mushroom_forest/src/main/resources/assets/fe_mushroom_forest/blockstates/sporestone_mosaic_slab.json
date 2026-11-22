@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_mushroom_forest:block/sporestone_mosaic_slab"
+		},
+		"type=top": {
+			"model": "fe_mushroom_forest:block/sporestone_mosaic_slab_top"
+		},
+		"type=double": {
+			"model": "fe_mushroom_forest:block/sporestone_mosaic"
+		}
+	}
+}

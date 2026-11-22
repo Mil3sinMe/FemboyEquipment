@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_kitty_cafe:purrite"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_kitty_cafe:purrite_nugget"
+	}
+}

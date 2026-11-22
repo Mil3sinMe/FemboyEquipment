@@ -1,0 +1,39 @@
+{
+	"parent": "fe_trans_pride:main/dysphoria_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:estradiol_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.estradiol_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.estradiol_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:estradiol_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

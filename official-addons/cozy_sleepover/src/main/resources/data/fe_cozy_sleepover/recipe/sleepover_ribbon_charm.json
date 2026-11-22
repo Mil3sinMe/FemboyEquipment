@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cozy_sleepover:dreamstone",
+		"minecraft:string"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cozy_sleepover:sleepover_ribbon_charm"
+	}
+}

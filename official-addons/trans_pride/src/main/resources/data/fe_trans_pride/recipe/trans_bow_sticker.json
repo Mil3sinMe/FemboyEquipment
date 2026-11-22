@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_trans_pride:transcendite_dust",
+		"minecraft:lime_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_trans_pride:trans_bow_sticker"
+	}
+}

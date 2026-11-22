@@ -1,0 +1,39 @@
+{
+	"parent": "fe_lavender_fields:main/floral_lavender_fih",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:misty_lavender_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.misty_lavender_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.misty_lavender_fih.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:misty_lavender_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

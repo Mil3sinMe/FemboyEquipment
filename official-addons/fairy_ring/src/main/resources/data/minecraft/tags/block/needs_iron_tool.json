@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_fairy_ring:faerite_ore",
+		"fe_fairy_ring:deepslate_faerite_ore",
+		"fe_fairy_ring:faerite_block",
+		"fe_fairy_ring:raw_faerite_block"
+	]
+}

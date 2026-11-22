@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cottagecore_garden:moss_agate",
+		"minecraft:gold_ingot"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cottagecore_garden:garden_heart_locket"
+	}
+}

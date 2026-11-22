@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "fe_fairy_ring:faerite_block",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"BBB",
+		" S ",
+		" S "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:toadstool_hammer"
+	}
+}

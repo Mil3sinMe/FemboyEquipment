@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:pink_wool",
+		"minecraft:white_wool",
+		"fe_witchy_moon:moonstone"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_witchy_moon:hexed_witchy_blahaj"
+	}
+}

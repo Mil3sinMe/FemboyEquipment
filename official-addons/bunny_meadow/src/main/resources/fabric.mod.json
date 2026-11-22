@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_bunny_meadow",
+	"version": "${version}",
+	"name": "FemboyEquipment: Bunny Meadow",
+	"description": "Official FemboyEquipment addon. Hop, hop, binky! 100 new things: Clover Gem ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_bunny_meadow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.bunnymeadow.BunnyMeadowAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

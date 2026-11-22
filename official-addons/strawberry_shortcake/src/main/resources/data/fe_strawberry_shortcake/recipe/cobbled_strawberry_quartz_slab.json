@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_strawberry_shortcake:cobbled_strawberry_quartz"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_strawberry_shortcake:cobbled_strawberry_quartz_slab"
+	}
+}

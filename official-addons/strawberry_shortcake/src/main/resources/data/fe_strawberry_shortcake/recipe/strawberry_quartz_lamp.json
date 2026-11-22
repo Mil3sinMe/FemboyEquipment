@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"D": "fe_strawberry_shortcake:strawberry_quartz_dust",
+		"G": "minecraft:glowstone"
+	},
+	"pattern": [
+		" D ",
+		"DGD",
+		" D "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_strawberry_shortcake:strawberry_quartz_lamp"
+	}
+}

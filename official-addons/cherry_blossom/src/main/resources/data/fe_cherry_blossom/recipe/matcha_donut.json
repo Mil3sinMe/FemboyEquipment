@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"minecraft:sugar",
+		"fe_cherry_blossom:sakura_jade_dust"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_cherry_blossom:matcha_donut"
+	}
+}

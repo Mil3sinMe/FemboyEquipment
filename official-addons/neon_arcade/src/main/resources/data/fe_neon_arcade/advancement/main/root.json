@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "fe_neon_arcade:neonite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_neon_arcade.main.root.title"
+		},
+		"description": {
+			"translate": "advancements.fe_neon_arcade.main.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "fe_neon_arcade:gui/advancements/backgrounds/main"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

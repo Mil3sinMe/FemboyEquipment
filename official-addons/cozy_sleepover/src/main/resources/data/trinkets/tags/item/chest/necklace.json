@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cozy_sleepover:sleepover_ribbon_charm",
+		"fe_cozy_sleepover:sleepover_heart_locket",
+		"fe_cozy_sleepover:sleepover_bell_collar",
+		"fe_cozy_sleepover:sleepover_star_pin",
+		"fe_cozy_sleepover:sleepover_moon_pendant",
+		"fe_cozy_sleepover:sleepover_bow_clip",
+		"fe_cozy_sleepover:sleepover_friendship_bracelet",
+		"fe_cozy_sleepover:sleepover_lucky_coin",
+		"fe_cozy_sleepover:sleepover_anklet",
+		"fe_cozy_sleepover:sleepover_earrings",
+		"fe_cozy_sleepover:sleepover_bead_necklace",
+		"fe_cozy_sleepover:sleepover_keychain"
+	]
+}

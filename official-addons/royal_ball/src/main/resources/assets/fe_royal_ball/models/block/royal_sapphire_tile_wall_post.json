@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_post",
+	"textures": {
+		"wall": "fe_royal_ball:block/royal_sapphire_tiles"
+	}
+}

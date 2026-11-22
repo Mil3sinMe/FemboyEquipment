@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_trans_pride:cobbled_transcendite",
+	"result": {
+		"count": 2,
+		"id": "fe_trans_pride:cobbled_transcendite_slab"
+	}
+}

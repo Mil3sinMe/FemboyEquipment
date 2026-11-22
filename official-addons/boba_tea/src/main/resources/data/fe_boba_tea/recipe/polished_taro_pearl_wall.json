@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": "fe_boba_tea:polished_taro_pearl"
+	},
+	"pattern": [
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_boba_tea:polished_taro_pearl_wall"
+	}
+}

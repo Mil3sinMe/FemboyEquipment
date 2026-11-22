@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_mushroom_forest:block/sporestone_mosaic"
+	}
+}

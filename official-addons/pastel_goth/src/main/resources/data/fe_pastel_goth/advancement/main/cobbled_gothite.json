@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pastel_goth:main/polished_gothite_wall",
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:cobbled_gothite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.cobbled_gothite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.cobbled_gothite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pastel_goth:cobbled_gothite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

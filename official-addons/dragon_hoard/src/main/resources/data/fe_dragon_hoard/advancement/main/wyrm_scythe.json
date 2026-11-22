@@ -1,0 +1,36 @@
+{
+	"parent": "fe_dragon_hoard:main/hoard_hammer",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:wyrm_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.wyrm_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.wyrm_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:wyrm_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_kitty_cafe:purrite",
+		"minecraft:prismarine_shard"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:kitty_bead_necklace"
+	}
+}

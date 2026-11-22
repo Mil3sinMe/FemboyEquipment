@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lavender_fields:main/lilac_cookie",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:honey_cupcake",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.honey_cupcake.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.honey_cupcake.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:honey_cupcake"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

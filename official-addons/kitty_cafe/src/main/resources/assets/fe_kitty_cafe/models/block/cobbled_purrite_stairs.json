@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_kitty_cafe:block/cobbled_purrite",
+		"top": "fe_kitty_cafe:block/cobbled_purrite",
+		"side": "fe_kitty_cafe:block/cobbled_purrite"
+	}
+}

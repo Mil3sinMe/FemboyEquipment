@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_mint_chocolate:block/mintite_tiles",
+		"top": "fe_mint_chocolate:block/mintite_tiles",
+		"side": "fe_mint_chocolate:block/mintite_tiles"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_mushroom_forest:sporestone"
+	},
+	"pattern": [
+		"###",
+		"# #"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mushroom_forest:sporestone_helmet"
+	}
+}

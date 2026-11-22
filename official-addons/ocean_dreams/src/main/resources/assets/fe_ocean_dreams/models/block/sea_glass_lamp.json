@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_ocean_dreams:block/sea_glass_lamp"
+	}
+}

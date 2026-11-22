@@ -1,0 +1,36 @@
+{
+	"parent": "fe_neon_arcade:main/glitchy_neon_fih",
+	"display": {
+		"icon": {
+			"id": "fe_neon_arcade:pixel_neon_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_neon_arcade.main.pixel_neon_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_neon_arcade.main.pixel_neon_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:pixel_neon_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

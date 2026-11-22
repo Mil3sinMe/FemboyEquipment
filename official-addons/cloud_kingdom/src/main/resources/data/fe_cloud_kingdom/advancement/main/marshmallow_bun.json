@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/cloud_pie",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:marshmallow_bun",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.marshmallow_bun.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.marshmallow_bun.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:marshmallow_bun"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

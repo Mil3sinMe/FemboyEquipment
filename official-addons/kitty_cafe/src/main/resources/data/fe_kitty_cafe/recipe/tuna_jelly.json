@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:sugar",
+		"minecraft:apple",
+		"fe_kitty_cafe:purrite_dust"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_kitty_cafe:tuna_jelly"
+	}
+}

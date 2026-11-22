@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mushroom_forest:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_mushroom_forest:shroom_ribbon_charm",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mushroom_forest.main.shroom_ribbon_charm.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mushroom_forest.main.shroom_ribbon_charm.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_ribbon_charm"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

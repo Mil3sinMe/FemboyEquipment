@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": "fe_pumpkin_spice:spiced_amber_tiles"
+	},
+	"pattern": [
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_pumpkin_spice:spiced_amber_tile_wall"
+	}
+}

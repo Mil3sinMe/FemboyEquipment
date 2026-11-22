@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"bottom": "fe_ocean_dreams:block/sea_glass_mosaic",
+		"top": "fe_ocean_dreams:block/sea_glass_mosaic",
+		"side": "fe_ocean_dreams:block/sea_glass_mosaic"
+	}
+}

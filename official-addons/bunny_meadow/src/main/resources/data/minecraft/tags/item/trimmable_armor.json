@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_bunny_meadow:clover_gem_helmet",
+		"fe_bunny_meadow:clover_gem_chestplate",
+		"fe_bunny_meadow:clover_gem_leggings",
+		"fe_bunny_meadow:clover_gem_boots"
+	]
+}

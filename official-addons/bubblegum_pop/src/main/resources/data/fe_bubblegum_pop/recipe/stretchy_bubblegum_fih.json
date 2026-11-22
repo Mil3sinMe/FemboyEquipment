@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:pink_wool",
+		"fe_bubblegum_pop:bubblegem"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bubblegum_pop:stretchy_bubblegum_fih"
+	}
+}

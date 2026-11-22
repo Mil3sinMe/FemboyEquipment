@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_fairy_ring:polished_faerite_wall"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_fairy_ring:blocks/polished_faerite_wall"
+}

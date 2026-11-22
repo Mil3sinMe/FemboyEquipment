@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "#minecraft:planks",
+		"D": "fe_cozy_sleepover:dreamstone_dust"
+	},
+	"pattern": [
+		"###",
+		"#D#",
+		"###"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_cozy_sleepover:sleepover_crate"
+	}
+}

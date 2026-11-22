@@ -1,0 +1,39 @@
+{
+	"parent": "fe_bunny_meadow:main/clover_bun",
+	"display": {
+		"icon": {
+			"id": "fe_bunny_meadow:dandelion_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bunny_meadow.main.dandelion_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bunny_meadow.main.dandelion_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bunny_meadow:dandelion_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

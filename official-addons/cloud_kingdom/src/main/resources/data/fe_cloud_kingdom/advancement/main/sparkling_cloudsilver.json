@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cloud_kingdom:main/starry_cloudsilver",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:sparkling_cloudsilver",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.sparkling_cloudsilver.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.sparkling_cloudsilver.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:sparkling_cloudsilver"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_axolotl_pond:block/lotl_opal_bricks"
+	}
+}

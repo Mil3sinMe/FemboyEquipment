@@ -1,0 +1,36 @@
+{
+	"parent": "fe_neon_arcade:main/glitch_cupcake",
+	"display": {
+		"icon": {
+			"id": "fe_neon_arcade:blue_raspberry_candy",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_neon_arcade.main.blue_raspberry_candy.title"
+		},
+		"description": {
+			"translate": "advancements.fe_neon_arcade.main.blue_raspberry_candy.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:blue_raspberry_candy"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

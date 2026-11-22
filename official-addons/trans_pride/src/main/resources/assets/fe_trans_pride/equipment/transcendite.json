@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_trans_pride:transcendite"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_trans_pride:transcendite"
+			}
+		]
+	}
+}

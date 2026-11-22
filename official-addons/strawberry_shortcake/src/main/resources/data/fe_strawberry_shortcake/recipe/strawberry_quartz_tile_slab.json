@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_strawberry_shortcake:strawberry_quartz_tiles"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_strawberry_shortcake:strawberry_quartz_tile_slab"
+	}
+}

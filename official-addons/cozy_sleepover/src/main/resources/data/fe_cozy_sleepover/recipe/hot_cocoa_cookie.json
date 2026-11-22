@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"fe_cozy_sleepover:dreamstone_dust"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_cozy_sleepover:hot_cocoa_cookie"
+	}
+}

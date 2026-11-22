@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"fe_lemonade_summer:citrine_dust"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_lemonade_summer:orange_cookie"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": "fe_fairy_ring:faerite_bricks"
+	},
+	"pattern": [
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_fairy_ring:faerite_brick_wall"
+	}
+}

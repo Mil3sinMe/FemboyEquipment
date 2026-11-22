@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glass_bottle",
+		"minecraft:sugar",
+		"fe_cottagecore_garden:moss_agate_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cottagecore_garden:honeysuckle_soda"
+	}
+}

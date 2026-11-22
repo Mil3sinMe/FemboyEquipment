@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": "fe_cloud_kingdom:cloudsilver_bricks"
+	},
+	"pattern": [
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_cloud_kingdom:cloudsilver_brick_wall"
+	}
+}

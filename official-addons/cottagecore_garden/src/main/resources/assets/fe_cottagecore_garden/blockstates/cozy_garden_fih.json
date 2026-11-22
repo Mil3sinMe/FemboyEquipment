@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_cottagecore_garden:block/cozy_garden_fih"
+		},
+		"facing=east": {
+			"model": "fe_cottagecore_garden:block/cozy_garden_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_cottagecore_garden:block/cozy_garden_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_cottagecore_garden:block/cozy_garden_fih",
+			"y": 270
+		}
+	}
+}

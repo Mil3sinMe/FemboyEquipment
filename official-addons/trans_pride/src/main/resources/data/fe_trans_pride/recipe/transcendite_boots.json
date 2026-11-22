@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_trans_pride:transcendite"
+	},
+	"pattern": [
+		"# #",
+		"# #"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_trans_pride:transcendite_boots"
+	}
+}

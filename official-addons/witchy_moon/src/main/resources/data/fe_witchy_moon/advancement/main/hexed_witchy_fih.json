@@ -1,0 +1,36 @@
+{
+	"parent": "fe_witchy_moon:main/mystic_witchy_fih",
+	"display": {
+		"icon": {
+			"id": "fe_witchy_moon:hexed_witchy_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_witchy_moon.main.hexed_witchy_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_witchy_moon.main.hexed_witchy_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:hexed_witchy_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

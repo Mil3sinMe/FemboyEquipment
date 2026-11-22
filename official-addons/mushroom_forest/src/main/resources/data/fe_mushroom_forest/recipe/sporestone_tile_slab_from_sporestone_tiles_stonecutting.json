@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_mushroom_forest:sporestone_tiles",
+	"result": {
+		"count": 2,
+		"id": "fe_mushroom_forest:sporestone_tile_slab"
+	}
+}

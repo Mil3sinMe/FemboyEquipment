@@ -1,0 +1,36 @@
+{
+	"parent": "fe_bunny_meadow:main/nibbly_bunny_blahaj",
+	"display": {
+		"icon": {
+			"id": "fe_bunny_meadow:hoppy_bunny_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bunny_meadow.main.hoppy_bunny_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bunny_meadow.main.hoppy_bunny_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bunny_meadow:hoppy_bunny_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_pumpkin_spice:spiced_amber_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pumpkin_spice:cinnamon_bun"
+	}
+}

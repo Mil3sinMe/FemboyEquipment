@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cherry_blossom:main/polished_sakura_jade",
+	"display": {
+		"icon": {
+			"id": "fe_cherry_blossom:polished_sakura_jade_stairs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cherry_blossom.main.polished_sakura_jade_stairs.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cherry_blossom.main.polished_sakura_jade_stairs.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:polished_sakura_jade_stairs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

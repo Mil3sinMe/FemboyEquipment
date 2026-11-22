@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:white_wool",
+		"minecraft:white_wool",
+		"fe_cyber_kitten:holochrome"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cyber_kitten:holo_cyber_blahaj"
+	}
+}

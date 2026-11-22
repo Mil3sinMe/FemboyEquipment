@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_trans_pride:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:transcendite_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"transcendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite"
+					}
+				]
+			}
+		},
+		"raw_transcendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:raw_transcendite"
+					}
+				]
+			}
+		},
+		"transcendite_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_nugget"
+					}
+				]
+			}
+		},
+		"transcendite_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_dust"
+					}
+				]
+			}
+		},
+		"transcendite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_ore"
+					}
+				]
+			}
+		},
+		"deepslate_transcendite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:deepslate_transcendite_ore"
+					}
+				]
+			}
+		},
+		"transcendite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_block"
+					}
+				]
+			}
+		},
+		"raw_transcendite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:raw_transcendite_block"
+					}
+				]
+			}
+		},
+		"transcendite_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_bricks"
+					}
+				]
+			}
+		},
+		"transcendite_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_brick_stairs"
+					}
+				]
+			}
+		},
+		"transcendite_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_brick_slab"
+					}
+				]
+			}
+		},
+		"transcendite_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_brick_wall"
+					}
+				]
+			}
+		},
+		"transcendite_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_tiles"
+					}
+				]
+			}
+		},
+		"transcendite_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_tile_stairs"
+					}
+				]
+			}
+		},
+		"transcendite_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_tile_slab"
+					}
+				]
+			}
+		},
+		"transcendite_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_transcendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:polished_transcendite"
+					}
+				]
+			}
+		},
+		"polished_transcendite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:polished_transcendite_stairs"
+					}
+				]
+			}
+		},
+		"polished_transcendite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:polished_transcendite_slab"
+					}
+				]
+			}
+		},
+		"polished_transcendite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:polished_transcendite_wall"
+					}
+				]
+			}
+		},
+		"cobbled_transcendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cobbled_transcendite"
+					}
+				]
+			}
+		},
+		"cobbled_transcendite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cobbled_transcendite_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_transcendite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cobbled_transcendite_slab"
+					}
+				]
+			}
+		},
+		"cobbled_transcendite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cobbled_transcendite_wall"
+					}
+				]
+			}
+		},
+		"transcendite_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_mosaic"
+					}
+				]
+			}
+		},
+		"transcendite_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"transcendite_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_mosaic_slab"
+					}
+				]
+			}
+		},
+		"transcendite_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_mosaic_wall"
+					}
+				]
+			}
+		},
+		"transcendite_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_lamp"
+					}
+				]
+			}
+		},
+		"trans_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_cushion"
+					}
+				]
+			}
+		},
+		"trans_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_crate"
+					}
+				]
+			}
+		},
+		"transcendite_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_transcendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:chiseled_transcendite"
+					}
+				]
+			}
+		},
+		"transcendite_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_shingles"
+					}
+				]
+			}
+		},
+		"trans_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_transcendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:glazed_transcendite"
+					}
+				]
+			}
+		},
+		"starry_transcendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:starry_transcendite"
+					}
+				]
+			}
+		},
+		"sparkling_transcendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:sparkling_transcendite"
+					}
+				]
+			}
+		},
+		"transcendite_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_sword"
+					}
+				]
+			}
+		},
+		"transcendite_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_pickaxe"
+					}
+				]
+			}
+		},
+		"transcendite_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_axe"
+					}
+				]
+			}
+		},
+		"transcendite_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_shovel"
+					}
+				]
+			}
+		},
+		"transcendite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_hoe"
+					}
+				]
+			}
+		},
+		"transcendite_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_spear"
+					}
+				]
+			}
+		},
+		"euphoria_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:euphoria_bat"
+					}
+				]
+			}
+		},
+		"ban_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:ban_hammer"
+					}
+				]
+			}
+		},
+		"dysphoria_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:dysphoria_scythe"
+					}
+				]
+			}
+		},
+		"estradiol_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:estradiol_wand"
+					}
+				]
+			}
+		},
+		"transcendite_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_helmet"
+					}
+				]
+			}
+		},
+		"transcendite_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_chestplate"
+					}
+				]
+			}
+		},
+		"transcendite_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_leggings"
+					}
+				]
+			}
+		},
+		"transcendite_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:transcendite_boots"
+					}
+				]
+			}
+		},
+		"cotton_candy_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cotton_candy_soda"
+					}
+				]
+			}
+		},
+		"bubblegum_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:bubblegum_cookie"
+					}
+				]
+			}
+		},
+		"vanilla_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:vanilla_cupcake"
+					}
+				]
+			}
+		},
+		"cotton_candy_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cotton_candy_candy"
+					}
+				]
+			}
+		},
+		"bubblegum_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:bubblegum_soup"
+					}
+				]
+			}
+		},
+		"vanilla_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:vanilla_donut"
+					}
+				]
+			}
+		},
+		"cotton_candy_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cotton_candy_popsicle"
+					}
+				]
+			}
+		},
+		"bubblegum_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:bubblegum_lollipop"
+					}
+				]
+			}
+		},
+		"vanilla_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:vanilla_macaron"
+					}
+				]
+			}
+		},
+		"cotton_candy_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cotton_candy_pie"
+					}
+				]
+			}
+		},
+		"bubblegum_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:bubblegum_bun"
+					}
+				]
+			}
+		},
+		"vanilla_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:vanilla_jelly"
+					}
+				]
+			}
+		},
+		"trans_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_ribbon_charm"
+					}
+				]
+			}
+		},
+		"trans_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_heart_locket"
+					}
+				]
+			}
+		},
+		"trans_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_bell_collar"
+					}
+				]
+			}
+		},
+		"trans_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_star_pin"
+					}
+				]
+			}
+		},
+		"trans_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_moon_pendant"
+					}
+				]
+			}
+		},
+		"trans_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_bow_clip"
+					}
+				]
+			}
+		},
+		"trans_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"trans_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_lucky_coin"
+					}
+				]
+			}
+		},
+		"trans_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_anklet"
+					}
+				]
+			}
+		},
+		"trans_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_earrings"
+					}
+				]
+			}
+		},
+		"trans_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_bead_necklace"
+					}
+				]
+			}
+		},
+		"trans_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_keychain"
+					}
+				]
+			}
+		},
+		"valid_trans_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:valid_trans_blahaj"
+					}
+				]
+			}
+		},
+		"euphoric_trans_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:euphoric_trans_blahaj"
+					}
+				]
+			}
+		},
+		"glowing_trans_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:glowing_trans_blahaj"
+					}
+				]
+			}
+		},
+		"proud_trans_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:proud_trans_blahaj"
+					}
+				]
+			}
+		},
+		"thriving_trans_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:thriving_trans_blahaj"
+					}
+				]
+			}
+		},
+		"valid_trans_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:valid_trans_fih"
+					}
+				]
+			}
+		},
+		"euphoric_trans_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:euphoric_trans_fih"
+					}
+				]
+			}
+		},
+		"glowing_trans_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:glowing_trans_fih"
+					}
+				]
+			}
+		},
+		"proud_trans_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:proud_trans_fih"
+					}
+				]
+			}
+		},
+		"thriving_trans_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:thriving_trans_fih"
+					}
+				]
+			}
+		},
+		"trans_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_heart_sticker"
+					}
+				]
+			}
+		},
+		"trans_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_star_sticker"
+					}
+				]
+			}
+		},
+		"trans_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_moon_sticker"
+					}
+				]
+			}
+		},
+		"trans_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_flower_sticker"
+					}
+				]
+			}
+		},
+		"trans_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_paw_sticker"
+					}
+				]
+			}
+		},
+		"trans_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_bow_sticker"
+					}
+				]
+			}
+		},
+		"trans_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_cloud_sticker"
+					}
+				]
+			}
+		},
+		"trans_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"trans_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_smiley_sticker"
+					}
+				]
+			}
+		},
+		"trans_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_music_note_sticker"
+					}
+				]
+			}
+		},
+		"trans_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_crown_sticker"
+					}
+				]
+			}
+		},
+		"trans_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"trans_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"trans_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"transcendite",
+			"raw_transcendite",
+			"transcendite_nugget",
+			"transcendite_dust",
+			"transcendite_ore",
+			"deepslate_transcendite_ore",
+			"transcendite_block",
+			"raw_transcendite_block",
+			"transcendite_bricks",
+			"transcendite_brick_stairs",
+			"transcendite_brick_slab",
+			"transcendite_brick_wall",
+			"transcendite_tiles",
+			"transcendite_tile_stairs",
+			"transcendite_tile_slab",
+			"transcendite_tile_wall",
+			"polished_transcendite",
+			"polished_transcendite_stairs",
+			"polished_transcendite_slab",
+			"polished_transcendite_wall",
+			"cobbled_transcendite",
+			"cobbled_transcendite_stairs",
+			"cobbled_transcendite_slab",
+			"cobbled_transcendite_wall",
+			"transcendite_mosaic",
+			"transcendite_mosaic_stairs",
+			"transcendite_mosaic_slab",
+			"transcendite_mosaic_wall",
+			"transcendite_lamp",
+			"trans_cushion",
+			"trans_crate",
+			"transcendite_pillar",
+			"chiseled_transcendite",
+			"transcendite_shingles",
+			"trans_quilt_block",
+			"glazed_transcendite",
+			"starry_transcendite",
+			"sparkling_transcendite",
+			"transcendite_sword",
+			"transcendite_pickaxe",
+			"transcendite_axe",
+			"transcendite_shovel",
+			"transcendite_hoe",
+			"transcendite_spear",
+			"euphoria_bat",
+			"ban_hammer",
+			"dysphoria_scythe",
+			"estradiol_wand",
+			"transcendite_helmet",
+			"transcendite_chestplate",
+			"transcendite_leggings",
+			"transcendite_boots",
+			"cotton_candy_soda",
+			"bubblegum_cookie",
+			"vanilla_cupcake",
+			"cotton_candy_candy",
+			"bubblegum_soup",
+			"vanilla_donut",
+			"cotton_candy_popsicle",
+			"bubblegum_lollipop",
+			"vanilla_macaron",
+			"cotton_candy_pie",
+			"bubblegum_bun",
+			"vanilla_jelly",
+			"trans_ribbon_charm",
+			"trans_heart_locket",
+			"trans_bell_collar",
+			"trans_star_pin",
+			"trans_moon_pendant",
+			"trans_bow_clip",
+			"trans_friendship_bracelet",
+			"trans_lucky_coin",
+			"trans_anklet",
+			"trans_earrings",
+			"trans_bead_necklace",
+			"trans_keychain",
+			"valid_trans_blahaj",
+			"euphoric_trans_blahaj",
+			"glowing_trans_blahaj",
+			"proud_trans_blahaj",
+			"thriving_trans_blahaj",
+			"valid_trans_fih",
+			"euphoric_trans_fih",
+			"glowing_trans_fih",
+			"proud_trans_fih",
+			"thriving_trans_fih",
+			"trans_heart_sticker",
+			"trans_star_sticker",
+			"trans_moon_sticker",
+			"trans_flower_sticker",
+			"trans_paw_sticker",
+			"trans_bow_sticker",
+			"trans_cloud_sticker",
+			"trans_sparkle_sticker",
+			"trans_smiley_sticker",
+			"trans_music_note_sticker",
+			"trans_crown_sticker",
+			"trans_rainbow_sticker",
+			"trans_butterfly_sticker",
+			"trans_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

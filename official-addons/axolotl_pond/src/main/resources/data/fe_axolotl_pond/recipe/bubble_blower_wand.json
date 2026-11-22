@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"D": "fe_axolotl_pond:lotl_opal_dust",
+		"S": "minecraft:blaze_rod"
+	},
+	"pattern": [
+		"  D",
+		" S ",
+		"S  "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:bubble_blower_wand"
+	}
+}

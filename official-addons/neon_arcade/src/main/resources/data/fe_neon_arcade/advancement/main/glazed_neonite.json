@@ -1,0 +1,36 @@
+{
+	"parent": "fe_neon_arcade:main/neon_quilt_block",
+	"display": {
+		"icon": {
+			"id": "fe_neon_arcade:glazed_neonite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_neon_arcade.main.glazed_neonite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_neon_arcade.main.glazed_neonite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glazed_neonite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

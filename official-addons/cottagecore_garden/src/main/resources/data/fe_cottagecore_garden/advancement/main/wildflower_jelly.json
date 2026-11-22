@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cottagecore_garden:main/clover_bun",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:wildflower_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.wildflower_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.wildflower_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:wildflower_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

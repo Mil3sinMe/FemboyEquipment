@@ -1,0 +1,36 @@
+{
+	"parent": "fe_ocean_dreams:main/salty_seafoam_fih",
+	"display": {
+		"icon": {
+			"id": "fe_ocean_dreams:pearly_seafoam_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_ocean_dreams.main.pearly_seafoam_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_ocean_dreams.main.pearly_seafoam_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_ocean_dreams:pearly_seafoam_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

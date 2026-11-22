@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 1.0,
+	"ingredient": "fe_cherry_blossom:deepslate_sakura_jade_ore",
+	"result": {
+		"id": "fe_cherry_blossom:sakura_jade"
+	}
+}

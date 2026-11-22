@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_cloud_kingdom:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cloudsilver_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"cloudsilver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver"
+					}
+				]
+			}
+		},
+		"raw_cloudsilver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:raw_cloudsilver"
+					}
+				]
+			}
+		},
+		"cloudsilver_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_nugget"
+					}
+				]
+			}
+		},
+		"cloudsilver_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_dust"
+					}
+				]
+			}
+		},
+		"cloudsilver_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_ore"
+					}
+				]
+			}
+		},
+		"deepslate_cloudsilver_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:deepslate_cloudsilver_ore"
+					}
+				]
+			}
+		},
+		"cloudsilver_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_block"
+					}
+				]
+			}
+		},
+		"raw_cloudsilver_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:raw_cloudsilver_block"
+					}
+				]
+			}
+		},
+		"cloudsilver_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_bricks"
+					}
+				]
+			}
+		},
+		"cloudsilver_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_brick_stairs"
+					}
+				]
+			}
+		},
+		"cloudsilver_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_brick_slab"
+					}
+				]
+			}
+		},
+		"cloudsilver_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_brick_wall"
+					}
+				]
+			}
+		},
+		"cloudsilver_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_tiles"
+					}
+				]
+			}
+		},
+		"cloudsilver_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_tile_stairs"
+					}
+				]
+			}
+		},
+		"cloudsilver_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_tile_slab"
+					}
+				]
+			}
+		},
+		"cloudsilver_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_cloudsilver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:polished_cloudsilver"
+					}
+				]
+			}
+		},
+		"polished_cloudsilver_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:polished_cloudsilver_stairs"
+					}
+				]
+			}
+		},
+		"polished_cloudsilver_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:polished_cloudsilver_slab"
+					}
+				]
+			}
+		},
+		"polished_cloudsilver_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:polished_cloudsilver_wall"
+					}
+				]
+			}
+		},
+		"cobbled_cloudsilver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cobbled_cloudsilver"
+					}
+				]
+			}
+		},
+		"cobbled_cloudsilver_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cobbled_cloudsilver_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_cloudsilver_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cobbled_cloudsilver_slab"
+					}
+				]
+			}
+		},
+		"cobbled_cloudsilver_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cobbled_cloudsilver_wall"
+					}
+				]
+			}
+		},
+		"cloudsilver_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_mosaic"
+					}
+				]
+			}
+		},
+		"cloudsilver_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"cloudsilver_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_mosaic_slab"
+					}
+				]
+			}
+		},
+		"cloudsilver_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_mosaic_wall"
+					}
+				]
+			}
+		},
+		"cloudsilver_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_lamp"
+					}
+				]
+			}
+		},
+		"cloud_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_cushion"
+					}
+				]
+			}
+		},
+		"cloud_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_crate"
+					}
+				]
+			}
+		},
+		"cloudsilver_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_cloudsilver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:chiseled_cloudsilver"
+					}
+				]
+			}
+		},
+		"cloudsilver_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_shingles"
+					}
+				]
+			}
+		},
+		"cloud_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_cloudsilver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:glazed_cloudsilver"
+					}
+				]
+			}
+		},
+		"starry_cloudsilver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:starry_cloudsilver"
+					}
+				]
+			}
+		},
+		"sparkling_cloudsilver": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:sparkling_cloudsilver"
+					}
+				]
+			}
+		},
+		"cloudsilver_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_sword"
+					}
+				]
+			}
+		},
+		"cloudsilver_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_pickaxe"
+					}
+				]
+			}
+		},
+		"cloudsilver_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_axe"
+					}
+				]
+			}
+		},
+		"cloudsilver_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_shovel"
+					}
+				]
+			}
+		},
+		"cloudsilver_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_hoe"
+					}
+				]
+			}
+		},
+		"cloudsilver_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_spear"
+					}
+				]
+			}
+		},
+		"fluffy_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:fluffy_bat"
+					}
+				]
+			}
+		},
+		"thunder_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:thunder_hammer"
+					}
+				]
+			}
+		},
+		"breeze_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:breeze_scythe"
+					}
+				]
+			}
+		},
+		"rainbow_cloud_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:rainbow_cloud_wand"
+					}
+				]
+			}
+		},
+		"cloudsilver_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_helmet"
+					}
+				]
+			}
+		},
+		"cloudsilver_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_chestplate"
+					}
+				]
+			}
+		},
+		"cloudsilver_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_leggings"
+					}
+				]
+			}
+		},
+		"cloudsilver_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_boots"
+					}
+				]
+			}
+		},
+		"cloud_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_soda"
+					}
+				]
+			}
+		},
+		"marshmallow_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:marshmallow_cookie"
+					}
+				]
+			}
+		},
+		"sky_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:sky_cupcake"
+					}
+				]
+			}
+		},
+		"cloud_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_candy"
+					}
+				]
+			}
+		},
+		"marshmallow_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:marshmallow_soup"
+					}
+				]
+			}
+		},
+		"sky_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:sky_donut"
+					}
+				]
+			}
+		},
+		"cloud_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_popsicle"
+					}
+				]
+			}
+		},
+		"marshmallow_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:marshmallow_lollipop"
+					}
+				]
+			}
+		},
+		"sky_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:sky_macaron"
+					}
+				]
+			}
+		},
+		"cloud_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_pie"
+					}
+				]
+			}
+		},
+		"marshmallow_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:marshmallow_bun"
+					}
+				]
+			}
+		},
+		"sky_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:sky_jelly"
+					}
+				]
+			}
+		},
+		"cloud_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_ribbon_charm"
+					}
+				]
+			}
+		},
+		"cloud_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_heart_locket"
+					}
+				]
+			}
+		},
+		"cloud_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_bell_collar"
+					}
+				]
+			}
+		},
+		"cloud_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_star_pin"
+					}
+				]
+			}
+		},
+		"cloud_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_moon_pendant"
+					}
+				]
+			}
+		},
+		"cloud_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_bow_clip"
+					}
+				]
+			}
+		},
+		"cloud_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"cloud_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_lucky_coin"
+					}
+				]
+			}
+		},
+		"cloud_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_anklet"
+					}
+				]
+			}
+		},
+		"cloud_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_earrings"
+					}
+				]
+			}
+		},
+		"cloud_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_bead_necklace"
+					}
+				]
+			}
+		},
+		"cloud_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_keychain"
+					}
+				]
+			}
+		},
+		"fluffy_cloud_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:fluffy_cloud_blahaj"
+					}
+				]
+			}
+		},
+		"floaty_cloud_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:floaty_cloud_blahaj"
+					}
+				]
+			}
+		},
+		"sleepy_cloud_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:sleepy_cloud_blahaj"
+					}
+				]
+			}
+		},
+		"puffy_cloud_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:puffy_cloud_blahaj"
+					}
+				]
+			}
+		},
+		"shining_cloud_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:shining_cloud_blahaj"
+					}
+				]
+			}
+		},
+		"fluffy_cloud_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:fluffy_cloud_fih"
+					}
+				]
+			}
+		},
+		"floaty_cloud_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:floaty_cloud_fih"
+					}
+				]
+			}
+		},
+		"sleepy_cloud_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:sleepy_cloud_fih"
+					}
+				]
+			}
+		},
+		"puffy_cloud_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:puffy_cloud_fih"
+					}
+				]
+			}
+		},
+		"shining_cloud_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:shining_cloud_fih"
+					}
+				]
+			}
+		},
+		"cloud_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_heart_sticker"
+					}
+				]
+			}
+		},
+		"cloud_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_star_sticker"
+					}
+				]
+			}
+		},
+		"cloud_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_moon_sticker"
+					}
+				]
+			}
+		},
+		"cloud_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_flower_sticker"
+					}
+				]
+			}
+		},
+		"cloud_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_paw_sticker"
+					}
+				]
+			}
+		},
+		"cloud_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_bow_sticker"
+					}
+				]
+			}
+		},
+		"cloud_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_cloud_sticker"
+					}
+				]
+			}
+		},
+		"cloud_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"cloud_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_smiley_sticker"
+					}
+				]
+			}
+		},
+		"cloud_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_music_note_sticker"
+					}
+				]
+			}
+		},
+		"cloud_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_crown_sticker"
+					}
+				]
+			}
+		},
+		"cloud_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"cloud_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"cloud_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"cloudsilver",
+			"raw_cloudsilver",
+			"cloudsilver_nugget",
+			"cloudsilver_dust",
+			"cloudsilver_ore",
+			"deepslate_cloudsilver_ore",
+			"cloudsilver_block",
+			"raw_cloudsilver_block",
+			"cloudsilver_bricks",
+			"cloudsilver_brick_stairs",
+			"cloudsilver_brick_slab",
+			"cloudsilver_brick_wall",
+			"cloudsilver_tiles",
+			"cloudsilver_tile_stairs",
+			"cloudsilver_tile_slab",
+			"cloudsilver_tile_wall",
+			"polished_cloudsilver",
+			"polished_cloudsilver_stairs",
+			"polished_cloudsilver_slab",
+			"polished_cloudsilver_wall",
+			"cobbled_cloudsilver",
+			"cobbled_cloudsilver_stairs",
+			"cobbled_cloudsilver_slab",
+			"cobbled_cloudsilver_wall",
+			"cloudsilver_mosaic",
+			"cloudsilver_mosaic_stairs",
+			"cloudsilver_mosaic_slab",
+			"cloudsilver_mosaic_wall",
+			"cloudsilver_lamp",
+			"cloud_cushion",
+			"cloud_crate",
+			"cloudsilver_pillar",
+			"chiseled_cloudsilver",
+			"cloudsilver_shingles",
+			"cloud_quilt_block",
+			"glazed_cloudsilver",
+			"starry_cloudsilver",
+			"sparkling_cloudsilver",
+			"cloudsilver_sword",
+			"cloudsilver_pickaxe",
+			"cloudsilver_axe",
+			"cloudsilver_shovel",
+			"cloudsilver_hoe",
+			"cloudsilver_spear",
+			"fluffy_bat",
+			"thunder_hammer",
+			"breeze_scythe",
+			"rainbow_cloud_wand",
+			"cloudsilver_helmet",
+			"cloudsilver_chestplate",
+			"cloudsilver_leggings",
+			"cloudsilver_boots",
+			"cloud_soda",
+			"marshmallow_cookie",
+			"sky_cupcake",
+			"cloud_candy",
+			"marshmallow_soup",
+			"sky_donut",
+			"cloud_popsicle",
+			"marshmallow_lollipop",
+			"sky_macaron",
+			"cloud_pie",
+			"marshmallow_bun",
+			"sky_jelly",
+			"cloud_ribbon_charm",
+			"cloud_heart_locket",
+			"cloud_bell_collar",
+			"cloud_star_pin",
+			"cloud_moon_pendant",
+			"cloud_bow_clip",
+			"cloud_friendship_bracelet",
+			"cloud_lucky_coin",
+			"cloud_anklet",
+			"cloud_earrings",
+			"cloud_bead_necklace",
+			"cloud_keychain",
+			"fluffy_cloud_blahaj",
+			"floaty_cloud_blahaj",
+			"sleepy_cloud_blahaj",
+			"puffy_cloud_blahaj",
+			"shining_cloud_blahaj",
+			"fluffy_cloud_fih",
+			"floaty_cloud_fih",
+			"sleepy_cloud_fih",
+			"puffy_cloud_fih",
+			"shining_cloud_fih",
+			"cloud_heart_sticker",
+			"cloud_star_sticker",
+			"cloud_moon_sticker",
+			"cloud_flower_sticker",
+			"cloud_paw_sticker",
+			"cloud_bow_sticker",
+			"cloud_cloud_sticker",
+			"cloud_sparkle_sticker",
+			"cloud_smiley_sticker",
+			"cloud_music_note_sticker",
+			"cloud_crown_sticker",
+			"cloud_rainbow_sticker",
+			"cloud_butterfly_sticker",
+			"cloud_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_sunset_beach:coral_gem_dust",
+		"minecraft:light_blue_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_sunset_beach:sunset_flower_sticker"
+	}
+}

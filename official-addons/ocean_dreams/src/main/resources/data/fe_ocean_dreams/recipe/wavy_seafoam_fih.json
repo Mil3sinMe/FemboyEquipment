@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:pink_wool",
+		"fe_ocean_dreams:sea_glass"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_ocean_dreams:wavy_seafoam_fih"
+	}
+}

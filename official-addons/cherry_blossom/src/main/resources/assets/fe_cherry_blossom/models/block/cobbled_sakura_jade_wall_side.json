@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_side",
+	"textures": {
+		"wall": "fe_cherry_blossom:block/cobbled_sakura_jade"
+	}
+}

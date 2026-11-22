@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:purple_wool",
+		"minecraft:white_wool",
+		"fe_bunny_meadow:clover_gem"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bunny_meadow:fluffy_bunny_blahaj"
+	}
+}

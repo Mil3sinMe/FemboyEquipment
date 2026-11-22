@@ -1,0 +1,36 @@
+{
+	"parent": "fe_bunny_meadow:main/clover_gem",
+	"display": {
+		"icon": {
+			"id": "fe_bunny_meadow:raw_clover_gem",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bunny_meadow.main.raw_clover_gem.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bunny_meadow.main.raw_clover_gem.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bunny_meadow:raw_clover_gem"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

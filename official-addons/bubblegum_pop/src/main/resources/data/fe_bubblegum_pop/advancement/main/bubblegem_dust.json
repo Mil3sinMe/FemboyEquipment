@@ -1,0 +1,39 @@
+{
+	"parent": "fe_bubblegum_pop:main/bubblegem_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_bubblegum_pop:bubblegem_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bubblegum_pop.main.bubblegem_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bubblegum_pop.main.bubblegem_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

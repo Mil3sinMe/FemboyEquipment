@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cherry_blossom:main/temple_mallet",
+	"display": {
+		"icon": {
+			"id": "fe_cherry_blossom:petal_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cherry_blossom.main.petal_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cherry_blossom.main.petal_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:petal_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

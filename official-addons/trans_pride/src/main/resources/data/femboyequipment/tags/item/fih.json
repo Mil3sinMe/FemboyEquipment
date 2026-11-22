@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_trans_pride:valid_trans_fih",
+		"fe_trans_pride:euphoric_trans_fih",
+		"fe_trans_pride:glowing_trans_fih",
+		"fe_trans_pride:proud_trans_fih",
+		"fe_trans_pride:thriving_trans_fih"
+	]
+}

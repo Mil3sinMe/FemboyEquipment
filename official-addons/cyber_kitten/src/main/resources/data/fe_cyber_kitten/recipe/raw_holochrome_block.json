@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_cyber_kitten:raw_holochrome"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cyber_kitten:raw_holochrome_block"
+	}
+}

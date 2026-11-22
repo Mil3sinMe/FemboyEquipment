@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"D": "fe_witchy_moon:moonstone_dust",
+		"S": "minecraft:blaze_rod"
+	},
+	"pattern": [
+		"  D",
+		" S ",
+		"S  "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_witchy_moon:witchs_wand"
+	}
+}

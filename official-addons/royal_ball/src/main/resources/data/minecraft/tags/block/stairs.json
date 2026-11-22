@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_royal_ball:royal_sapphire_brick_stairs",
+		"fe_royal_ball:royal_sapphire_tile_stairs",
+		"fe_royal_ball:polished_royal_sapphire_stairs",
+		"fe_royal_ball:cobbled_royal_sapphire_stairs",
+		"fe_royal_ball:royal_sapphire_mosaic_stairs"
+	]
+}

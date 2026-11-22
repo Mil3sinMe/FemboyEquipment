@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_space_cadet:meteorite_ore",
+		"fe_space_cadet:deepslate_meteorite_ore",
+		"fe_space_cadet:meteorite_block",
+		"fe_space_cadet:raw_meteorite_block"
+	]
+}

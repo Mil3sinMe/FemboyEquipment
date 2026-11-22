@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_lavender_fields:lavender_quilt_block"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_lavender_fields:blocks/lavender_quilt_block"
+}

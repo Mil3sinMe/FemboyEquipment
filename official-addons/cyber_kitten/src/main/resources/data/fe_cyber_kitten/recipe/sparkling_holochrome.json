@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cyber_kitten:polished_holochrome",
+		"fe_cyber_kitten:holochrome_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cyber_kitten:sparkling_holochrome"
+	}
+}

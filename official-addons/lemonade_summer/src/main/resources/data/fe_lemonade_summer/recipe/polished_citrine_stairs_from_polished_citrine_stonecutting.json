@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_lemonade_summer:polished_citrine",
+	"result": {
+		"count": 1,
+		"id": "fe_lemonade_summer:polished_citrine_stairs"
+	}
+}

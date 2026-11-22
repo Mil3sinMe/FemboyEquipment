@@ -1,0 +1,39 @@
+{
+	"parent": "fe_boba_tea:main/bouncy_boba_fih",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:iced_boba_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.iced_boba_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.iced_boba_fih.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:iced_boba_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

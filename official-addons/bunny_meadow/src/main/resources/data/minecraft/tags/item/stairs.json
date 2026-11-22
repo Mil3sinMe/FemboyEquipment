@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_bunny_meadow:clover_gem_brick_stairs",
+		"fe_bunny_meadow:clover_gem_tile_stairs",
+		"fe_bunny_meadow:polished_clover_gem_stairs",
+		"fe_bunny_meadow:cobbled_clover_gem_stairs",
+		"fe_bunny_meadow:clover_gem_mosaic_stairs"
+	]
+}

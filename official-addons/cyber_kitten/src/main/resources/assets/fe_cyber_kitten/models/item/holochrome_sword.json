@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fe_cyber_kitten:item/holochrome_sword"
+	}
+}

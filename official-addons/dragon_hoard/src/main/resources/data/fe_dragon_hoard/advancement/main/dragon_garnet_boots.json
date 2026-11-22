@@ -1,0 +1,39 @@
+{
+	"parent": "fe_dragon_hoard:main/dragon_garnet_leggings",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:dragon_garnet_boots",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.dragon_garnet_boots.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.dragon_garnet_boots.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:dragon_garnet_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

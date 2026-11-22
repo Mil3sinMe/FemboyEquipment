@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:pink_wool",
+		"fe_neon_arcade:neonite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_neon_arcade:pixel_neon_fih"
+	}
+}

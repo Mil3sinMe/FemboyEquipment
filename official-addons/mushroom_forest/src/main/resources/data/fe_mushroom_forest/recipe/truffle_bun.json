@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_mushroom_forest:sporestone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mushroom_forest:truffle_bun"
+	}
+}

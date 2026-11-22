@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_lemonade_summer:citrine_dust",
+		"minecraft:gray_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_lemonade_summer:lemon_sparkle_sticker"
+	}
+}

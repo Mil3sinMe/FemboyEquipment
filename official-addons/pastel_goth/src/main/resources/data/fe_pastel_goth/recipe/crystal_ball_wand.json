@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"D": "fe_pastel_goth:gothite_dust",
+		"S": "minecraft:blaze_rod"
+	},
+	"pattern": [
+		"  D",
+		" S ",
+		"S  "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pastel_goth:crystal_ball_wand"
+	}
+}

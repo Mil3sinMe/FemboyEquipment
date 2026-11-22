@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_axolotl_pond:lotl_opal"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_axolotl_pond:lotl_opal"
+			}
+		]
+	}
+}

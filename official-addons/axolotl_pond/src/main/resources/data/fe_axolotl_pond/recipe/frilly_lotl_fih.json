@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:white_wool",
+		"fe_axolotl_pond:lotl_opal"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:frilly_lotl_fih"
+	}
+}

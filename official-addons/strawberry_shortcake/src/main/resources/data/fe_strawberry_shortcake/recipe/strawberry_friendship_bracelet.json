@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_strawberry_shortcake:strawberry_quartz",
+		"minecraft:leather"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_strawberry_shortcake:strawberry_friendship_bracelet"
+	}
+}

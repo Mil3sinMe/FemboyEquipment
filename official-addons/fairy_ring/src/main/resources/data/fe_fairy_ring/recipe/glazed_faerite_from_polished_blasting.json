@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_fairy_ring:polished_faerite",
+	"result": {
+		"id": "fe_fairy_ring:glazed_faerite"
+	}
+}

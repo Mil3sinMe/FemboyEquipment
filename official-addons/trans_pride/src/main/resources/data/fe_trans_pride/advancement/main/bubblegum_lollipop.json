@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/cotton_candy_popsicle",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:bubblegum_lollipop",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.bubblegum_lollipop.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.bubblegum_lollipop.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:bubblegum_lollipop"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

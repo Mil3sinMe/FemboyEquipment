@@ -1,0 +1,39 @@
+{
+	"parent": "fe_axolotl_pond:main/splashy_lotl_fih",
+	"display": {
+		"icon": {
+			"id": "fe_axolotl_pond:glowing_lotl_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_axolotl_pond.main.glowing_lotl_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_axolotl_pond.main.glowing_lotl_fih.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:glowing_lotl_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

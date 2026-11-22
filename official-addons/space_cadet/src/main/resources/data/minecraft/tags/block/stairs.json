@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_space_cadet:meteorite_brick_stairs",
+		"fe_space_cadet:meteorite_tile_stairs",
+		"fe_space_cadet:polished_meteorite_stairs",
+		"fe_space_cadet:cobbled_meteorite_stairs",
+		"fe_space_cadet:meteorite_mosaic_stairs"
+	]
+}

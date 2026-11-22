@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/bubblegum_soup",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:vanilla_donut",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.vanilla_donut.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.vanilla_donut.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:vanilla_donut"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_space_cadet:meteorite",
+		"minecraft:amethyst_shard"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_space_cadet:cosmo_moon_pendant"
+	}
+}

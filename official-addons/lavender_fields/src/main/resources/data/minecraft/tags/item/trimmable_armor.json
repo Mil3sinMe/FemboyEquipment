@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_lavender_fields:lavendite_helmet",
+		"fe_lavender_fields:lavendite_chestplate",
+		"fe_lavender_fields:lavendite_leggings",
+		"fe_lavender_fields:lavendite_boots"
+	]
+}

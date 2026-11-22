@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_cherry_blossom:polished_sakura_jade",
+	"result": {
+		"count": 1,
+		"id": "fe_cherry_blossom:polished_sakura_jade_wall"
+	}
+}

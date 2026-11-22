@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_sunset_beach:item/coconut_soda"
+	}
+}

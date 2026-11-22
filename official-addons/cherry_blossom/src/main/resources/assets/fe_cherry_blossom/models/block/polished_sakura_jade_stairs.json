@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_cherry_blossom:block/polished_sakura_jade",
+		"top": "fe_cherry_blossom:block/polished_sakura_jade",
+		"side": "fe_cherry_blossom:block/polished_sakura_jade"
+	}
+}

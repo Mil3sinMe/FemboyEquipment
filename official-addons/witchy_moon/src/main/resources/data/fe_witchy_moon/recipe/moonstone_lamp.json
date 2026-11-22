@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"D": "fe_witchy_moon:moonstone_dust",
+		"G": "minecraft:glowstone"
+	},
+	"pattern": [
+		" D ",
+		"DGD",
+		" D "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_witchy_moon:moonstone_lamp"
+	}
+}

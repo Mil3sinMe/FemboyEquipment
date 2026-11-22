@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_space_cadet:block/polished_meteorite",
+		"side": "fe_space_cadet:block/meteorite_pillar"
+	}
+}

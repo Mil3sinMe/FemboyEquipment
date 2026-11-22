@@ -1,0 +1,39 @@
+{
+	"parent": "fe_lemonade_summer:main/citrine_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:citrine_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.citrine_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:citrine_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

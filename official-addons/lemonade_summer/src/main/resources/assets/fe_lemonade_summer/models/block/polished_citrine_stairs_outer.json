@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"bottom": "fe_lemonade_summer:block/polished_citrine",
+		"top": "fe_lemonade_summer:block/polished_citrine",
+		"side": "fe_lemonade_summer:block/polished_citrine"
+	}
+}

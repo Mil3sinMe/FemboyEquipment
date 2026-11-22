@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_pumpkin_spice:spiced_amber_mosaic"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_pumpkin_spice:spiced_amber_mosaic_slab"
+	}
+}

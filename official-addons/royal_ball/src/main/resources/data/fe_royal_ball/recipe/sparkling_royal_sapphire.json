@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_royal_ball:polished_royal_sapphire",
+		"fe_royal_ball:royal_sapphire_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_royal_ball:sparkling_royal_sapphire"
+	}
+}

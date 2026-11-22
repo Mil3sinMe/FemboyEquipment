@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_lavender_fields:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:lavendite_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"lavendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite"
+					}
+				]
+			}
+		},
+		"raw_lavendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:raw_lavendite"
+					}
+				]
+			}
+		},
+		"lavendite_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_nugget"
+					}
+				]
+			}
+		},
+		"lavendite_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_dust"
+					}
+				]
+			}
+		},
+		"lavendite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_ore"
+					}
+				]
+			}
+		},
+		"deepslate_lavendite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:deepslate_lavendite_ore"
+					}
+				]
+			}
+		},
+		"lavendite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_block"
+					}
+				]
+			}
+		},
+		"raw_lavendite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:raw_lavendite_block"
+					}
+				]
+			}
+		},
+		"lavendite_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_bricks"
+					}
+				]
+			}
+		},
+		"lavendite_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_brick_stairs"
+					}
+				]
+			}
+		},
+		"lavendite_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_brick_slab"
+					}
+				]
+			}
+		},
+		"lavendite_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_brick_wall"
+					}
+				]
+			}
+		},
+		"lavendite_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_tiles"
+					}
+				]
+			}
+		},
+		"lavendite_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_tile_stairs"
+					}
+				]
+			}
+		},
+		"lavendite_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_tile_slab"
+					}
+				]
+			}
+		},
+		"lavendite_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_lavendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:polished_lavendite"
+					}
+				]
+			}
+		},
+		"polished_lavendite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:polished_lavendite_stairs"
+					}
+				]
+			}
+		},
+		"polished_lavendite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:polished_lavendite_slab"
+					}
+				]
+			}
+		},
+		"polished_lavendite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:polished_lavendite_wall"
+					}
+				]
+			}
+		},
+		"cobbled_lavendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:cobbled_lavendite"
+					}
+				]
+			}
+		},
+		"cobbled_lavendite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:cobbled_lavendite_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_lavendite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:cobbled_lavendite_slab"
+					}
+				]
+			}
+		},
+		"cobbled_lavendite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:cobbled_lavendite_wall"
+					}
+				]
+			}
+		},
+		"lavendite_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_mosaic"
+					}
+				]
+			}
+		},
+		"lavendite_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"lavendite_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_mosaic_slab"
+					}
+				]
+			}
+		},
+		"lavendite_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_mosaic_wall"
+					}
+				]
+			}
+		},
+		"lavendite_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_lamp"
+					}
+				]
+			}
+		},
+		"lavender_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_cushion"
+					}
+				]
+			}
+		},
+		"lavender_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_crate"
+					}
+				]
+			}
+		},
+		"lavendite_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_lavendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:chiseled_lavendite"
+					}
+				]
+			}
+		},
+		"lavendite_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_shingles"
+					}
+				]
+			}
+		},
+		"lavender_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_lavendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:glazed_lavendite"
+					}
+				]
+			}
+		},
+		"starry_lavendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:starry_lavendite"
+					}
+				]
+			}
+		},
+		"sparkling_lavendite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:sparkling_lavendite"
+					}
+				]
+			}
+		},
+		"lavendite_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_sword"
+					}
+				]
+			}
+		},
+		"lavendite_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_pickaxe"
+					}
+				]
+			}
+		},
+		"lavendite_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_axe"
+					}
+				]
+			}
+		},
+		"lavendite_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_shovel"
+					}
+				]
+			}
+		},
+		"lavendite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_hoe"
+					}
+				]
+			}
+		},
+		"lavendite_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_spear"
+					}
+				]
+			}
+		},
+		"pillow_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:pillow_bat"
+					}
+				]
+			}
+		},
+		"lavender_mallet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_mallet"
+					}
+				]
+			}
+		},
+		"harvest_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:harvest_scythe"
+					}
+				]
+			}
+		},
+		"calming_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:calming_wand"
+					}
+				]
+			}
+		},
+		"lavendite_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_helmet"
+					}
+				]
+			}
+		},
+		"lavendite_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_chestplate"
+					}
+				]
+			}
+		},
+		"lavendite_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_leggings"
+					}
+				]
+			}
+		},
+		"lavendite_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_boots"
+					}
+				]
+			}
+		},
+		"lavender_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_soda"
+					}
+				]
+			}
+		},
+		"lilac_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lilac_cookie"
+					}
+				]
+			}
+		},
+		"honey_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:honey_cupcake"
+					}
+				]
+			}
+		},
+		"lavender_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_candy"
+					}
+				]
+			}
+		},
+		"lilac_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lilac_soup"
+					}
+				]
+			}
+		},
+		"honey_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:honey_donut"
+					}
+				]
+			}
+		},
+		"lavender_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_popsicle"
+					}
+				]
+			}
+		},
+		"lilac_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lilac_lollipop"
+					}
+				]
+			}
+		},
+		"honey_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:honey_macaron"
+					}
+				]
+			}
+		},
+		"lavender_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_pie"
+					}
+				]
+			}
+		},
+		"lilac_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lilac_bun"
+					}
+				]
+			}
+		},
+		"honey_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:honey_jelly"
+					}
+				]
+			}
+		},
+		"lavender_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_ribbon_charm"
+					}
+				]
+			}
+		},
+		"lavender_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_heart_locket"
+					}
+				]
+			}
+		},
+		"lavender_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_bell_collar"
+					}
+				]
+			}
+		},
+		"lavender_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_star_pin"
+					}
+				]
+			}
+		},
+		"lavender_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_moon_pendant"
+					}
+				]
+			}
+		},
+		"lavender_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_bow_clip"
+					}
+				]
+			}
+		},
+		"lavender_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"lavender_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_lucky_coin"
+					}
+				]
+			}
+		},
+		"lavender_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_anklet"
+					}
+				]
+			}
+		},
+		"lavender_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_earrings"
+					}
+				]
+			}
+		},
+		"lavender_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_bead_necklace"
+					}
+				]
+			}
+		},
+		"lavender_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_keychain"
+					}
+				]
+			}
+		},
+		"calm_lavender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:calm_lavender_blahaj"
+					}
+				]
+			}
+		},
+		"sleepy_lavender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:sleepy_lavender_blahaj"
+					}
+				]
+			}
+		},
+		"soft_lavender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:soft_lavender_blahaj"
+					}
+				]
+			}
+		},
+		"floral_lavender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:floral_lavender_blahaj"
+					}
+				]
+			}
+		},
+		"misty_lavender_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:misty_lavender_blahaj"
+					}
+				]
+			}
+		},
+		"calm_lavender_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:calm_lavender_fih"
+					}
+				]
+			}
+		},
+		"sleepy_lavender_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:sleepy_lavender_fih"
+					}
+				]
+			}
+		},
+		"soft_lavender_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:soft_lavender_fih"
+					}
+				]
+			}
+		},
+		"floral_lavender_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:floral_lavender_fih"
+					}
+				]
+			}
+		},
+		"misty_lavender_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:misty_lavender_fih"
+					}
+				]
+			}
+		},
+		"lavender_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_heart_sticker"
+					}
+				]
+			}
+		},
+		"lavender_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_star_sticker"
+					}
+				]
+			}
+		},
+		"lavender_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_moon_sticker"
+					}
+				]
+			}
+		},
+		"lavender_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_flower_sticker"
+					}
+				]
+			}
+		},
+		"lavender_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_paw_sticker"
+					}
+				]
+			}
+		},
+		"lavender_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_bow_sticker"
+					}
+				]
+			}
+		},
+		"lavender_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_cloud_sticker"
+					}
+				]
+			}
+		},
+		"lavender_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"lavender_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_smiley_sticker"
+					}
+				]
+			}
+		},
+		"lavender_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_music_note_sticker"
+					}
+				]
+			}
+		},
+		"lavender_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_crown_sticker"
+					}
+				]
+			}
+		},
+		"lavender_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"lavender_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"lavender_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavender_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"lavendite",
+			"raw_lavendite",
+			"lavendite_nugget",
+			"lavendite_dust",
+			"lavendite_ore",
+			"deepslate_lavendite_ore",
+			"lavendite_block",
+			"raw_lavendite_block",
+			"lavendite_bricks",
+			"lavendite_brick_stairs",
+			"lavendite_brick_slab",
+			"lavendite_brick_wall",
+			"lavendite_tiles",
+			"lavendite_tile_stairs",
+			"lavendite_tile_slab",
+			"lavendite_tile_wall",
+			"polished_lavendite",
+			"polished_lavendite_stairs",
+			"polished_lavendite_slab",
+			"polished_lavendite_wall",
+			"cobbled_lavendite",
+			"cobbled_lavendite_stairs",
+			"cobbled_lavendite_slab",
+			"cobbled_lavendite_wall",
+			"lavendite_mosaic",
+			"lavendite_mosaic_stairs",
+			"lavendite_mosaic_slab",
+			"lavendite_mosaic_wall",
+			"lavendite_lamp",
+			"lavender_cushion",
+			"lavender_crate",
+			"lavendite_pillar",
+			"chiseled_lavendite",
+			"lavendite_shingles",
+			"lavender_quilt_block",
+			"glazed_lavendite",
+			"starry_lavendite",
+			"sparkling_lavendite",
+			"lavendite_sword",
+			"lavendite_pickaxe",
+			"lavendite_axe",
+			"lavendite_shovel",
+			"lavendite_hoe",
+			"lavendite_spear",
+			"pillow_bat",
+			"lavender_mallet",
+			"harvest_scythe",
+			"calming_wand",
+			"lavendite_helmet",
+			"lavendite_chestplate",
+			"lavendite_leggings",
+			"lavendite_boots",
+			"lavender_soda",
+			"lilac_cookie",
+			"honey_cupcake",
+			"lavender_candy",
+			"lilac_soup",
+			"honey_donut",
+			"lavender_popsicle",
+			"lilac_lollipop",
+			"honey_macaron",
+			"lavender_pie",
+			"lilac_bun",
+			"honey_jelly",
+			"lavender_ribbon_charm",
+			"lavender_heart_locket",
+			"lavender_bell_collar",
+			"lavender_star_pin",
+			"lavender_moon_pendant",
+			"lavender_bow_clip",
+			"lavender_friendship_bracelet",
+			"lavender_lucky_coin",
+			"lavender_anklet",
+			"lavender_earrings",
+			"lavender_bead_necklace",
+			"lavender_keychain",
+			"calm_lavender_blahaj",
+			"sleepy_lavender_blahaj",
+			"soft_lavender_blahaj",
+			"floral_lavender_blahaj",
+			"misty_lavender_blahaj",
+			"calm_lavender_fih",
+			"sleepy_lavender_fih",
+			"soft_lavender_fih",
+			"floral_lavender_fih",
+			"misty_lavender_fih",
+			"lavender_heart_sticker",
+			"lavender_star_sticker",
+			"lavender_moon_sticker",
+			"lavender_flower_sticker",
+			"lavender_paw_sticker",
+			"lavender_bow_sticker",
+			"lavender_cloud_sticker",
+			"lavender_sparkle_sticker",
+			"lavender_smiley_sticker",
+			"lavender_music_note_sticker",
+			"lavender_crown_sticker",
+			"lavender_rainbow_sticker",
+			"lavender_butterfly_sticker",
+			"lavender_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

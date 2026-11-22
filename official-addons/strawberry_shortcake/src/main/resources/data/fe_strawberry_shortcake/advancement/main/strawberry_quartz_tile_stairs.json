@@ -1,0 +1,36 @@
+{
+	"parent": "fe_strawberry_shortcake:main/strawberry_quartz_tiles",
+	"display": {
+		"icon": {
+			"id": "fe_strawberry_shortcake:strawberry_quartz_tile_stairs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_strawberry_shortcake.main.strawberry_quartz_tile_stairs.title"
+		},
+		"description": {
+			"translate": "advancements.fe_strawberry_shortcake.main.strawberry_quartz_tile_stairs.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_strawberry_shortcake:strawberry_quartz_tile_stairs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

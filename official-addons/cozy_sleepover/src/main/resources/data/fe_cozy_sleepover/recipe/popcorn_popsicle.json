@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:snowball",
+		"fe_cozy_sleepover:dreamstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cozy_sleepover:popcorn_popsicle"
+	}
+}

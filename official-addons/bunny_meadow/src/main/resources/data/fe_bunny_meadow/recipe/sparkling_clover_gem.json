@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_bunny_meadow:polished_clover_gem",
+		"fe_bunny_meadow:clover_gem_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bunny_meadow:sparkling_clover_gem"
+	}
+}

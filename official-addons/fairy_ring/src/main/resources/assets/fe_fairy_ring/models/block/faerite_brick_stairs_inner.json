@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"bottom": "fe_fairy_ring:block/faerite_bricks",
+		"top": "fe_fairy_ring:block/faerite_bricks",
+		"side": "fe_fairy_ring:block/faerite_bricks"
+	}
+}

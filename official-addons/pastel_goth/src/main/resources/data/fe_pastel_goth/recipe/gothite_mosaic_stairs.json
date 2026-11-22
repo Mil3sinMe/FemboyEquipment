@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_pastel_goth:gothite_mosaic"
+	},
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_pastel_goth:gothite_mosaic_stairs"
+	}
+}

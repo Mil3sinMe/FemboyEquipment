@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "fe_boba_tea:taro_pearl_block",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"B",
+		"S"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:straw_bat"
+	}
+}

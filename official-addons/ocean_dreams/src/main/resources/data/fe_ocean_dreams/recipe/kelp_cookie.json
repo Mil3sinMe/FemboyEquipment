@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:wheat",
+		"fe_ocean_dreams:sea_glass_dust"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_ocean_dreams:kelp_cookie"
+	}
+}

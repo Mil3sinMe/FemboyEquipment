@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.1,
+	"ingredient": "fe_starlight_sky:polished_starstone",
+	"result": {
+		"id": "fe_starlight_sky:glazed_starstone"
+	}
+}

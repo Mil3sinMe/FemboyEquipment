@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cherry_blossom:main/spring_sakura_fih",
+	"display": {
+		"icon": {
+			"id": "fe_cherry_blossom:lantern_sakura_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cherry_blossom.main.lantern_sakura_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cherry_blossom.main.lantern_sakura_fih.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:lantern_sakura_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

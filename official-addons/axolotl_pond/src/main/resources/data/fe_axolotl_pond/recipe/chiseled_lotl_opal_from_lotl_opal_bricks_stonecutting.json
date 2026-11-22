@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_axolotl_pond:lotl_opal_bricks",
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:chiseled_lotl_opal"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:white_wool",
+		"minecraft:white_wool",
+		"fe_kitty_cafe:purrite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:curious_kitty_blahaj"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_ocean_dreams:block/polished_sea_glass",
+		"side": "fe_ocean_dreams:block/sea_glass_pillar"
+	}
+}

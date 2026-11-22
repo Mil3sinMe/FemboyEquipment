@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_starlight_sky:item/starlight_friendship_bracelet"
+	}
+}

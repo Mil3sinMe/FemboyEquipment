@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_pumpkin_spice:block/cobbled_spiced_amber"
+	}
+}

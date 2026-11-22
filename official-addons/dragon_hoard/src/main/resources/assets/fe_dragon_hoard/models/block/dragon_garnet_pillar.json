@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_dragon_hoard:block/polished_dragon_garnet",
+		"side": "fe_dragon_hoard:block/dragon_garnet_pillar"
+	}
+}

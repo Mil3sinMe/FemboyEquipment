@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.1,
+	"ingredient": "fe_cottagecore_garden:polished_moss_agate",
+	"result": {
+		"id": "fe_cottagecore_garden:glazed_moss_agate"
+	}
+}

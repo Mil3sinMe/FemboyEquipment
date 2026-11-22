@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_axolotl_pond:cobbled_lotl_opal",
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:cobbled_lotl_opal_stairs"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_starlight_sky:block/starstone_mosaic",
+		"top": "fe_starlight_sky:block/starstone_mosaic",
+		"side": "fe_starlight_sky:block/starstone_mosaic"
+	}
+}

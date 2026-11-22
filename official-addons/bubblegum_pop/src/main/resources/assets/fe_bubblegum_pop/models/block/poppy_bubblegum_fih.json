@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_bubblegum_pop:block/poppy_bubblegum_fih"
+	}
+}

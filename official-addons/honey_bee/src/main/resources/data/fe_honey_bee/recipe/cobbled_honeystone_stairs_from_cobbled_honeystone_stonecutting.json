@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_honey_bee:cobbled_honeystone",
+	"result": {
+		"count": 1,
+		"id": "fe_honey_bee:cobbled_honeystone_stairs"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cozy_sleepover:main/sleepover_anklet",
+	"display": {
+		"icon": {
+			"id": "fe_cozy_sleepover:sleepover_earrings",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cozy_sleepover.main.sleepover_earrings.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cozy_sleepover.main.sleepover_earrings.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cozy_sleepover:sleepover_earrings"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_lavender_fields:lavendite_sword",
+		"fe_lavender_fields:pillow_bat",
+		"fe_lavender_fields:lavender_mallet",
+		"fe_lavender_fields:harvest_scythe",
+		"fe_lavender_fields:calming_wand"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"#": "fe_neon_arcade:neonite_nugget"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_neon_arcade:neonite"
+	}
+}

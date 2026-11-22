@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_dragon_hoard:dragon_garnet",
+		"minecraft:string"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_dragon_hoard:dragon_ribbon_charm"
+	}
+}

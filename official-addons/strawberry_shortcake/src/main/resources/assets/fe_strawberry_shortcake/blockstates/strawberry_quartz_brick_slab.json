@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_strawberry_shortcake:block/strawberry_quartz_brick_slab"
+		},
+		"type=top": {
+			"model": "fe_strawberry_shortcake:block/strawberry_quartz_brick_slab_top"
+		},
+		"type=double": {
+			"model": "fe_strawberry_shortcake:block/strawberry_quartz_bricks"
+		}
+	}
+}

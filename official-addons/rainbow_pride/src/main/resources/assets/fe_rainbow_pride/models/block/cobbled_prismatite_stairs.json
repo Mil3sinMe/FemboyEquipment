@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_rainbow_pride:block/cobbled_prismatite",
+		"top": "fe_rainbow_pride:block/cobbled_prismatite",
+		"side": "fe_rainbow_pride:block/cobbled_prismatite"
+	}
+}

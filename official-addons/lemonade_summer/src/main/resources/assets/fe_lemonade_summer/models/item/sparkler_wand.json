@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fe_lemonade_summer:item/sparkler_wand"
+	}
+}

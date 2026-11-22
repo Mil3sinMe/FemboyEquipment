@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_bunny_meadow:clover_gem",
+		"minecraft:string"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bunny_meadow:bunny_ribbon_charm"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "fe_mint_chocolate:main/chippy_mint_fih",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:fresh_mint_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.fresh_mint_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.fresh_mint_fih.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:fresh_mint_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

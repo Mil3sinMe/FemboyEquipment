@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:polished_andesite",
+		"D": "fe_lemonade_summer:citrine_dust"
+	},
+	"pattern": [
+		"###",
+		"#D#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_lemonade_summer:polished_citrine"
+	}
+}

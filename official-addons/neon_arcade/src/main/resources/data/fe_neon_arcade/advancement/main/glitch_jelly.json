@@ -1,0 +1,39 @@
+{
+	"parent": "fe_neon_arcade:main/energy_bun",
+	"display": {
+		"icon": {
+			"id": "fe_neon_arcade:glitch_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_neon_arcade.main.glitch_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_neon_arcade.main.glitch_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:glitch_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fe_mushroom_forest:item/sporestone_pickaxe"
+	}
+}

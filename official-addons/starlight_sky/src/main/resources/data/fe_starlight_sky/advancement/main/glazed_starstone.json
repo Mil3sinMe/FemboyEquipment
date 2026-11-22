@@ -1,0 +1,36 @@
+{
+	"parent": "fe_starlight_sky:main/starlight_quilt_block",
+	"display": {
+		"icon": {
+			"id": "fe_starlight_sky:glazed_starstone",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_starlight_sky.main.glazed_starstone.title"
+		},
+		"description": {
+			"translate": "advancements.fe_starlight_sky.main.glazed_starstone.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_starlight_sky:glazed_starstone"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

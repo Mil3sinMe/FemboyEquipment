@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 1.0,
+	"ingredient": "fe_cloud_kingdom:deepslate_cloudsilver_ore",
+	"result": {
+		"id": "fe_cloud_kingdom:cloudsilver"
+	}
+}

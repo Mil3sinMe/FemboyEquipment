@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_strawberry_shortcake:item/shortcake_lollipop"
+	}
+}

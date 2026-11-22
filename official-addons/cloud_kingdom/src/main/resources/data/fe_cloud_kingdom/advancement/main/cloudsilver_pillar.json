@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/cloud_crate",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cloudsilver_pillar",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloudsilver_pillar.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloudsilver_pillar.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_pillar"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

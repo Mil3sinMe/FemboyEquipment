@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_kitty_cafe:block/kitty_crate"
+	}
+}

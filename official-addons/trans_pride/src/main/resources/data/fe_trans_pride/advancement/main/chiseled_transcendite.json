@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/transcendite_pillar",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:chiseled_transcendite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.chiseled_transcendite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.chiseled_transcendite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:chiseled_transcendite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

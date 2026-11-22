@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_axolotl_pond:lotl_opal",
+		"minecraft:string"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:lotl_ribbon_charm"
+	}
+}

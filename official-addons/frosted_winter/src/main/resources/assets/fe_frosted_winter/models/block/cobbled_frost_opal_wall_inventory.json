@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_frosted_winter:block/cobbled_frost_opal"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_ocean_dreams:sea_glass",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"###",
+		" S ",
+		" S "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_ocean_dreams:sea_glass_pickaxe"
+	}
+}

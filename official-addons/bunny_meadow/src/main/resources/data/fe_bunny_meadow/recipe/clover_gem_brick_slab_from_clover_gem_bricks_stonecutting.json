@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_bunny_meadow:clover_gem_bricks",
+	"result": {
+		"count": 2,
+		"id": "fe_bunny_meadow:clover_gem_brick_slab"
+	}
+}

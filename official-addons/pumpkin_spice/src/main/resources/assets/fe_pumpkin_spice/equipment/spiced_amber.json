@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_pumpkin_spice:spiced_amber"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_pumpkin_spice:spiced_amber"
+			}
+		]
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lemonade_summer:main/zesty_lemon_fih",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:sunny_lemon_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.sunny_lemon_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.sunny_lemon_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:sunny_lemon_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

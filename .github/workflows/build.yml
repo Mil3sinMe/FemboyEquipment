@@ -38,6 +38,12 @@ jobs:
           name: femboyequipment-${{ steps.jar.outputs.version }}
           path: ${{ steps.jar.outputs.path }}
 
+      - name: Upload official addons
+        uses: actions/upload-artifact@v4
+        with:
+          name: official-addons-${{ steps.jar.outputs.version }}
+          path: official-addons/*/build/libs/femboyequipment-*.jar
+
       # Only create a release the first time a version reaches main, so later pushes
       # (docs, fixes without a version bump) never overwrite hand-written release notes.
       - name: Check for an existing release
@@ -64,7 +70,9 @@ jobs:
             ${{ steps.jar.outputs.path }}
             build/libs/femboyequipment-${{ steps.jar.outputs.version }}-sources.jar
             example-addon/build/libs/femboyequipment-example-addon-*.jar
+            official-addons/*/build/libs/femboyequipment-*.jar
           body: |
             Minecraft 1.21.11 · Fabric Loader 0.18.4+ · needs Fabric API.
             Drop `femboyequipment-<version>.jar` into your `mods` folder together with Fabric API.
             Making an addon? See ADDONS.md (the `-sources.jar` and the example addon jar are attached too).
+            The 30 official addons (`femboyequipment-<theme>-1.0.0.jar`, 100 things each) are attached too: add any you like.

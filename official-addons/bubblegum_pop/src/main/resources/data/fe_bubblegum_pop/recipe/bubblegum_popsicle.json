@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:snowball",
+		"fe_bubblegum_pop:bubblegem_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bubblegum_pop:bubblegum_popsicle"
+	}
+}

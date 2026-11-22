@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cottagecore_garden:mossy_garden_blahaj",
+		"fe_cottagecore_garden:flowery_garden_blahaj",
+		"fe_cottagecore_garden:cozy_garden_blahaj",
+		"fe_cottagecore_garden:sunny_garden_blahaj",
+		"fe_cottagecore_garden:fuzzy_garden_blahaj"
+	]
+}

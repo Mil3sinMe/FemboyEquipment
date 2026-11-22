@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_rainbow_pride:starry_prismatite"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_rainbow_pride:blocks/starry_prismatite"
+}

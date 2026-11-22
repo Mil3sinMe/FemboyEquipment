@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:smooth_stone",
+		"D": "fe_cyber_kitten:holochrome_dust"
+	},
+	"pattern": [
+		"###",
+		"#D#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_cyber_kitten:holochrome_tiles"
+	}
+}

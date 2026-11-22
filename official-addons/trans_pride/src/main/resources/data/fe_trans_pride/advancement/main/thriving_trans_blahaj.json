@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/proud_trans_blahaj",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:thriving_trans_blahaj",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.thriving_trans_blahaj.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.thriving_trans_blahaj.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:thriving_trans_blahaj"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

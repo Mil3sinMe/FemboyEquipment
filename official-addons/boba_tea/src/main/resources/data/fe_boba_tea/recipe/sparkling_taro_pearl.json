@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_boba_tea:polished_taro_pearl",
+		"fe_boba_tea:taro_pearl_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:sparkling_taro_pearl"
+	}
+}

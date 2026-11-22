@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/mint_crate",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mintite_pillar",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_pillar.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_pillar.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mintite_pillar"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_dragon_hoard:dragon_garnet_brick_slab"
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_dragon_hoard:chiseled_dragon_garnet"
+	}
+}

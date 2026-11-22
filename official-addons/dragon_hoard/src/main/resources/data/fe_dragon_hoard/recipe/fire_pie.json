@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:apple",
+		"fe_dragon_hoard:dragon_garnet_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_dragon_hoard:fire_pie"
+	}
+}

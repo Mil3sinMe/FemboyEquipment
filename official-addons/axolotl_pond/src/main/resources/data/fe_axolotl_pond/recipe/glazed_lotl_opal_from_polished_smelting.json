@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.1,
+	"ingredient": "fe_axolotl_pond:polished_lotl_opal",
+	"result": {
+		"id": "fe_axolotl_pond:glazed_lotl_opal"
+	}
+}

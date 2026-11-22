@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_rainbow_pride:prismatite_brick_stairs",
+		"fe_rainbow_pride:prismatite_tile_stairs",
+		"fe_rainbow_pride:polished_prismatite_stairs",
+		"fe_rainbow_pride:cobbled_prismatite_stairs",
+		"fe_rainbow_pride:prismatite_mosaic_stairs"
+	]
+}

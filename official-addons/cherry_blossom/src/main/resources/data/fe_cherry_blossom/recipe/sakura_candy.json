@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:sugar",
+		"minecraft:sugar",
+		"fe_cherry_blossom:sakura_jade_dust"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_cherry_blossom:sakura_candy"
+	}
+}

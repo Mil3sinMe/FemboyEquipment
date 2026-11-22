@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"D": "fe_boba_tea:taro_pearl_dust",
+		"S": "minecraft:blaze_rod"
+	},
+	"pattern": [
+		"  D",
+		" S ",
+		"S  "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:big_straw_wand"
+	}
+}

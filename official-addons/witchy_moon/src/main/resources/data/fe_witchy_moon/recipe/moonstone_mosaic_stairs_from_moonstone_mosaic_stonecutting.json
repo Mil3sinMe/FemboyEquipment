@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_witchy_moon:moonstone_mosaic",
+	"result": {
+		"count": 1,
+		"id": "fe_witchy_moon:moonstone_mosaic_stairs"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_axolotl_pond:main/lotl_opal_tile_wall",
+	"display": {
+		"icon": {
+			"id": "fe_axolotl_pond:polished_lotl_opal",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_axolotl_pond.main.polished_lotl_opal.title"
+		},
+		"description": {
+			"translate": "advancements.fe_axolotl_pond.main.polished_lotl_opal.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:polished_lotl_opal"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

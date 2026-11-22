@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cottagecore_garden:main/moss_agate_shingles",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:garden_quilt_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.garden_quilt_block.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.garden_quilt_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:garden_quilt_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

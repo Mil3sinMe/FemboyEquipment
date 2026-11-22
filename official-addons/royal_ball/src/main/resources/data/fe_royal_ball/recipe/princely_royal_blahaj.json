@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:light_blue_wool",
+		"minecraft:white_wool",
+		"fe_royal_ball:royal_sapphire"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_royal_ball:princely_royal_blahaj"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_ocean_dreams:cobbled_sea_glass",
+		"G": "minecraft:glowstone_dust"
+	},
+	"pattern": [
+		"###",
+		"#G#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_ocean_dreams:starry_sea_glass"
+	}
+}

@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_axolotl_pond:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_axolotl_pond:lotl_opal_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_axolotl_pond.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_axolotl_pond.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"lotl_opal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal"
+					}
+				]
+			}
+		},
+		"raw_lotl_opal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:raw_lotl_opal"
+					}
+				]
+			}
+		},
+		"lotl_opal_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_nugget"
+					}
+				]
+			}
+		},
+		"lotl_opal_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_dust"
+					}
+				]
+			}
+		},
+		"lotl_opal_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_ore"
+					}
+				]
+			}
+		},
+		"deepslate_lotl_opal_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:deepslate_lotl_opal_ore"
+					}
+				]
+			}
+		},
+		"lotl_opal_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_block"
+					}
+				]
+			}
+		},
+		"raw_lotl_opal_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:raw_lotl_opal_block"
+					}
+				]
+			}
+		},
+		"lotl_opal_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_bricks"
+					}
+				]
+			}
+		},
+		"lotl_opal_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_brick_stairs"
+					}
+				]
+			}
+		},
+		"lotl_opal_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_brick_slab"
+					}
+				]
+			}
+		},
+		"lotl_opal_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_brick_wall"
+					}
+				]
+			}
+		},
+		"lotl_opal_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_tiles"
+					}
+				]
+			}
+		},
+		"lotl_opal_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_tile_stairs"
+					}
+				]
+			}
+		},
+		"lotl_opal_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_tile_slab"
+					}
+				]
+			}
+		},
+		"lotl_opal_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_lotl_opal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:polished_lotl_opal"
+					}
+				]
+			}
+		},
+		"polished_lotl_opal_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:polished_lotl_opal_stairs"
+					}
+				]
+			}
+		},
+		"polished_lotl_opal_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:polished_lotl_opal_slab"
+					}
+				]
+			}
+		},
+		"polished_lotl_opal_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:polished_lotl_opal_wall"
+					}
+				]
+			}
+		},
+		"cobbled_lotl_opal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:cobbled_lotl_opal"
+					}
+				]
+			}
+		},
+		"cobbled_lotl_opal_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:cobbled_lotl_opal_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_lotl_opal_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:cobbled_lotl_opal_slab"
+					}
+				]
+			}
+		},
+		"cobbled_lotl_opal_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:cobbled_lotl_opal_wall"
+					}
+				]
+			}
+		},
+		"lotl_opal_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_mosaic"
+					}
+				]
+			}
+		},
+		"lotl_opal_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"lotl_opal_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_mosaic_slab"
+					}
+				]
+			}
+		},
+		"lotl_opal_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_mosaic_wall"
+					}
+				]
+			}
+		},
+		"lotl_opal_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_lamp"
+					}
+				]
+			}
+		},
+		"lotl_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_cushion"
+					}
+				]
+			}
+		},
+		"lotl_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_crate"
+					}
+				]
+			}
+		},
+		"lotl_opal_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_lotl_opal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:chiseled_lotl_opal"
+					}
+				]
+			}
+		},
+		"lotl_opal_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_shingles"
+					}
+				]
+			}
+		},
+		"lotl_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_lotl_opal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:glazed_lotl_opal"
+					}
+				]
+			}
+		},
+		"starry_lotl_opal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:starry_lotl_opal"
+					}
+				]
+			}
+		},
+		"sparkling_lotl_opal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:sparkling_lotl_opal"
+					}
+				]
+			}
+		},
+		"lotl_opal_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_sword"
+					}
+				]
+			}
+		},
+		"lotl_opal_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_pickaxe"
+					}
+				]
+			}
+		},
+		"lotl_opal_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_axe"
+					}
+				]
+			}
+		},
+		"lotl_opal_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_shovel"
+					}
+				]
+			}
+		},
+		"lotl_opal_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_hoe"
+					}
+				]
+			}
+		},
+		"lotl_opal_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_spear"
+					}
+				]
+			}
+		},
+		"gill_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:gill_bat"
+					}
+				]
+			}
+		},
+		"lily_pad_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lily_pad_hammer"
+					}
+				]
+			}
+		},
+		"frilly_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:frilly_scythe"
+					}
+				]
+			}
+		},
+		"bubble_blower_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:bubble_blower_wand"
+					}
+				]
+			}
+		},
+		"lotl_opal_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_helmet"
+					}
+				]
+			}
+		},
+		"lotl_opal_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_chestplate"
+					}
+				]
+			}
+		},
+		"lotl_opal_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_leggings"
+					}
+				]
+			}
+		},
+		"lotl_opal_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_boots"
+					}
+				]
+			}
+		},
+		"pond_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:pond_soda"
+					}
+				]
+			}
+		},
+		"lily_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lily_cookie"
+					}
+				]
+			}
+		},
+		"bubble_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:bubble_cupcake"
+					}
+				]
+			}
+		},
+		"pond_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:pond_candy"
+					}
+				]
+			}
+		},
+		"lily_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lily_soup"
+					}
+				]
+			}
+		},
+		"bubble_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:bubble_donut"
+					}
+				]
+			}
+		},
+		"pond_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:pond_popsicle"
+					}
+				]
+			}
+		},
+		"lily_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lily_lollipop"
+					}
+				]
+			}
+		},
+		"bubble_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:bubble_macaron"
+					}
+				]
+			}
+		},
+		"pond_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:pond_pie"
+					}
+				]
+			}
+		},
+		"lily_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lily_bun"
+					}
+				]
+			}
+		},
+		"bubble_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:bubble_jelly"
+					}
+				]
+			}
+		},
+		"lotl_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_ribbon_charm"
+					}
+				]
+			}
+		},
+		"lotl_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_heart_locket"
+					}
+				]
+			}
+		},
+		"lotl_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_bell_collar"
+					}
+				]
+			}
+		},
+		"lotl_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_star_pin"
+					}
+				]
+			}
+		},
+		"lotl_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_moon_pendant"
+					}
+				]
+			}
+		},
+		"lotl_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_bow_clip"
+					}
+				]
+			}
+		},
+		"lotl_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"lotl_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_lucky_coin"
+					}
+				]
+			}
+		},
+		"lotl_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_anklet"
+					}
+				]
+			}
+		},
+		"lotl_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_earrings"
+					}
+				]
+			}
+		},
+		"lotl_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_bead_necklace"
+					}
+				]
+			}
+		},
+		"lotl_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_keychain"
+					}
+				]
+			}
+		},
+		"smiley_lotl_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:smiley_lotl_blahaj"
+					}
+				]
+			}
+		},
+		"wiggly_lotl_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:wiggly_lotl_blahaj"
+					}
+				]
+			}
+		},
+		"frilly_lotl_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:frilly_lotl_blahaj"
+					}
+				]
+			}
+		},
+		"splashy_lotl_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:splashy_lotl_blahaj"
+					}
+				]
+			}
+		},
+		"glowing_lotl_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:glowing_lotl_blahaj"
+					}
+				]
+			}
+		},
+		"smiley_lotl_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:smiley_lotl_fih"
+					}
+				]
+			}
+		},
+		"wiggly_lotl_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:wiggly_lotl_fih"
+					}
+				]
+			}
+		},
+		"frilly_lotl_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:frilly_lotl_fih"
+					}
+				]
+			}
+		},
+		"splashy_lotl_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:splashy_lotl_fih"
+					}
+				]
+			}
+		},
+		"glowing_lotl_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:glowing_lotl_fih"
+					}
+				]
+			}
+		},
+		"lotl_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_heart_sticker"
+					}
+				]
+			}
+		},
+		"lotl_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_star_sticker"
+					}
+				]
+			}
+		},
+		"lotl_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_moon_sticker"
+					}
+				]
+			}
+		},
+		"lotl_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_flower_sticker"
+					}
+				]
+			}
+		},
+		"lotl_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_paw_sticker"
+					}
+				]
+			}
+		},
+		"lotl_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_bow_sticker"
+					}
+				]
+			}
+		},
+		"lotl_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_cloud_sticker"
+					}
+				]
+			}
+		},
+		"lotl_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"lotl_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_smiley_sticker"
+					}
+				]
+			}
+		},
+		"lotl_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_music_note_sticker"
+					}
+				]
+			}
+		},
+		"lotl_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_crown_sticker"
+					}
+				]
+			}
+		},
+		"lotl_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"lotl_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"lotl_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"lotl_opal",
+			"raw_lotl_opal",
+			"lotl_opal_nugget",
+			"lotl_opal_dust",
+			"lotl_opal_ore",
+			"deepslate_lotl_opal_ore",
+			"lotl_opal_block",
+			"raw_lotl_opal_block",
+			"lotl_opal_bricks",
+			"lotl_opal_brick_stairs",
+			"lotl_opal_brick_slab",
+			"lotl_opal_brick_wall",
+			"lotl_opal_tiles",
+			"lotl_opal_tile_stairs",
+			"lotl_opal_tile_slab",
+			"lotl_opal_tile_wall",
+			"polished_lotl_opal",
+			"polished_lotl_opal_stairs",
+			"polished_lotl_opal_slab",
+			"polished_lotl_opal_wall",
+			"cobbled_lotl_opal",
+			"cobbled_lotl_opal_stairs",
+			"cobbled_lotl_opal_slab",
+			"cobbled_lotl_opal_wall",
+			"lotl_opal_mosaic",
+			"lotl_opal_mosaic_stairs",
+			"lotl_opal_mosaic_slab",
+			"lotl_opal_mosaic_wall",
+			"lotl_opal_lamp",
+			"lotl_cushion",
+			"lotl_crate",
+			"lotl_opal_pillar",
+			"chiseled_lotl_opal",
+			"lotl_opal_shingles",
+			"lotl_quilt_block",
+			"glazed_lotl_opal",
+			"starry_lotl_opal",
+			"sparkling_lotl_opal",
+			"lotl_opal_sword",
+			"lotl_opal_pickaxe",
+			"lotl_opal_axe",
+			"lotl_opal_shovel",
+			"lotl_opal_hoe",
+			"lotl_opal_spear",
+			"gill_bat",
+			"lily_pad_hammer",
+			"frilly_scythe",
+			"bubble_blower_wand",
+			"lotl_opal_helmet",
+			"lotl_opal_chestplate",
+			"lotl_opal_leggings",
+			"lotl_opal_boots",
+			"pond_soda",
+			"lily_cookie",
+			"bubble_cupcake",
+			"pond_candy",
+			"lily_soup",
+			"bubble_donut",
+			"pond_popsicle",
+			"lily_lollipop",
+			"bubble_macaron",
+			"pond_pie",
+			"lily_bun",
+			"bubble_jelly",
+			"lotl_ribbon_charm",
+			"lotl_heart_locket",
+			"lotl_bell_collar",
+			"lotl_star_pin",
+			"lotl_moon_pendant",
+			"lotl_bow_clip",
+			"lotl_friendship_bracelet",
+			"lotl_lucky_coin",
+			"lotl_anklet",
+			"lotl_earrings",
+			"lotl_bead_necklace",
+			"lotl_keychain",
+			"smiley_lotl_blahaj",
+			"wiggly_lotl_blahaj",
+			"frilly_lotl_blahaj",
+			"splashy_lotl_blahaj",
+			"glowing_lotl_blahaj",
+			"smiley_lotl_fih",
+			"wiggly_lotl_fih",
+			"frilly_lotl_fih",
+			"splashy_lotl_fih",
+			"glowing_lotl_fih",
+			"lotl_heart_sticker",
+			"lotl_star_sticker",
+			"lotl_moon_sticker",
+			"lotl_flower_sticker",
+			"lotl_paw_sticker",
+			"lotl_bow_sticker",
+			"lotl_cloud_sticker",
+			"lotl_sparkle_sticker",
+			"lotl_smiley_sticker",
+			"lotl_music_note_sticker",
+			"lotl_crown_sticker",
+			"lotl_rainbow_sticker",
+			"lotl_butterfly_sticker",
+			"lotl_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

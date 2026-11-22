@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "fe_frosted_winter:frost_opal_block",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"B",
+		"S"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:icicle_bat"
+	}
+}

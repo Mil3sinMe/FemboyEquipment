@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_space_cadet:cobbled_meteorite"
+	},
+	"pattern": [
+		"#  ",
+		"## ",
+		"###"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_space_cadet:cobbled_meteorite_stairs"
+	}
+}

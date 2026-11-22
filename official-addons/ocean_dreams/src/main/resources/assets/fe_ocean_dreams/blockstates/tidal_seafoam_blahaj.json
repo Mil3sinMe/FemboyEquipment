@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_ocean_dreams:block/tidal_seafoam_blahaj"
+		},
+		"facing=east": {
+			"model": "fe_ocean_dreams:block/tidal_seafoam_blahaj",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_ocean_dreams:block/tidal_seafoam_blahaj",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_ocean_dreams:block/tidal_seafoam_blahaj",
+			"y": 270
+		}
+	}
+}

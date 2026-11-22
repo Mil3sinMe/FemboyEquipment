@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_bubblegum_pop:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_bubblegum_pop:bubblegem_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bubblegum_pop.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bubblegum_pop.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bubblegem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem"
+					}
+				]
+			}
+		},
+		"raw_bubblegem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:raw_bubblegem"
+					}
+				]
+			}
+		},
+		"bubblegem_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_nugget"
+					}
+				]
+			}
+		},
+		"bubblegem_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_dust"
+					}
+				]
+			}
+		},
+		"bubblegem_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_ore"
+					}
+				]
+			}
+		},
+		"deepslate_bubblegem_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:deepslate_bubblegem_ore"
+					}
+				]
+			}
+		},
+		"bubblegem_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_block"
+					}
+				]
+			}
+		},
+		"raw_bubblegem_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:raw_bubblegem_block"
+					}
+				]
+			}
+		},
+		"bubblegem_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_bricks"
+					}
+				]
+			}
+		},
+		"bubblegem_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_brick_stairs"
+					}
+				]
+			}
+		},
+		"bubblegem_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_brick_slab"
+					}
+				]
+			}
+		},
+		"bubblegem_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_brick_wall"
+					}
+				]
+			}
+		},
+		"bubblegem_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_tiles"
+					}
+				]
+			}
+		},
+		"bubblegem_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_tile_stairs"
+					}
+				]
+			}
+		},
+		"bubblegem_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_tile_slab"
+					}
+				]
+			}
+		},
+		"bubblegem_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_bubblegem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:polished_bubblegem"
+					}
+				]
+			}
+		},
+		"polished_bubblegem_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:polished_bubblegem_stairs"
+					}
+				]
+			}
+		},
+		"polished_bubblegem_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:polished_bubblegem_slab"
+					}
+				]
+			}
+		},
+		"polished_bubblegem_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:polished_bubblegem_wall"
+					}
+				]
+			}
+		},
+		"cobbled_bubblegem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:cobbled_bubblegem"
+					}
+				]
+			}
+		},
+		"cobbled_bubblegem_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:cobbled_bubblegem_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_bubblegem_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:cobbled_bubblegem_slab"
+					}
+				]
+			}
+		},
+		"cobbled_bubblegem_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:cobbled_bubblegem_wall"
+					}
+				]
+			}
+		},
+		"bubblegem_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_mosaic"
+					}
+				]
+			}
+		},
+		"bubblegem_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"bubblegem_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_mosaic_slab"
+					}
+				]
+			}
+		},
+		"bubblegem_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_mosaic_wall"
+					}
+				]
+			}
+		},
+		"bubblegem_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_lamp"
+					}
+				]
+			}
+		},
+		"bubblegum_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_cushion"
+					}
+				]
+			}
+		},
+		"bubblegum_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_crate"
+					}
+				]
+			}
+		},
+		"bubblegem_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_bubblegem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:chiseled_bubblegem"
+					}
+				]
+			}
+		},
+		"bubblegem_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_shingles"
+					}
+				]
+			}
+		},
+		"bubblegum_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_bubblegem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:glazed_bubblegem"
+					}
+				]
+			}
+		},
+		"starry_bubblegem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:starry_bubblegem"
+					}
+				]
+			}
+		},
+		"sparkling_bubblegem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:sparkling_bubblegem"
+					}
+				]
+			}
+		},
+		"bubblegem_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_sword"
+					}
+				]
+			}
+		},
+		"bubblegem_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_pickaxe"
+					}
+				]
+			}
+		},
+		"bubblegem_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_axe"
+					}
+				]
+			}
+		},
+		"bubblegem_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_shovel"
+					}
+				]
+			}
+		},
+		"bubblegem_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_hoe"
+					}
+				]
+			}
+		},
+		"bubblegem_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_spear"
+					}
+				]
+			}
+		},
+		"bubble_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubble_bat"
+					}
+				]
+			}
+		},
+		"pop_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:pop_hammer"
+					}
+				]
+			}
+		},
+		"chewy_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:chewy_scythe"
+					}
+				]
+			}
+		},
+		"bubble_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubble_wand"
+					}
+				]
+			}
+		},
+		"bubblegem_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_helmet"
+					}
+				]
+			}
+		},
+		"bubblegem_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_chestplate"
+					}
+				]
+			}
+		},
+		"bubblegem_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_leggings"
+					}
+				]
+			}
+		},
+		"bubblegem_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegem_boots"
+					}
+				]
+			}
+		},
+		"bubblegum_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_soda"
+					}
+				]
+			}
+		},
+		"cotton_candy_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:cotton_candy_cookie"
+					}
+				]
+			}
+		},
+		"fizzy_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:fizzy_cupcake"
+					}
+				]
+			}
+		},
+		"bubblegum_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_candy"
+					}
+				]
+			}
+		},
+		"cotton_candy_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:cotton_candy_soup"
+					}
+				]
+			}
+		},
+		"fizzy_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:fizzy_donut"
+					}
+				]
+			}
+		},
+		"bubblegum_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_popsicle"
+					}
+				]
+			}
+		},
+		"cotton_candy_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:cotton_candy_lollipop"
+					}
+				]
+			}
+		},
+		"fizzy_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:fizzy_macaron"
+					}
+				]
+			}
+		},
+		"bubblegum_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_pie"
+					}
+				]
+			}
+		},
+		"cotton_candy_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:cotton_candy_bun"
+					}
+				]
+			}
+		},
+		"fizzy_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:fizzy_jelly"
+					}
+				]
+			}
+		},
+		"bubblegum_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_ribbon_charm"
+					}
+				]
+			}
+		},
+		"bubblegum_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_heart_locket"
+					}
+				]
+			}
+		},
+		"bubblegum_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_bell_collar"
+					}
+				]
+			}
+		},
+		"bubblegum_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_star_pin"
+					}
+				]
+			}
+		},
+		"bubblegum_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_moon_pendant"
+					}
+				]
+			}
+		},
+		"bubblegum_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_bow_clip"
+					}
+				]
+			}
+		},
+		"bubblegum_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"bubblegum_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_lucky_coin"
+					}
+				]
+			}
+		},
+		"bubblegum_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_anklet"
+					}
+				]
+			}
+		},
+		"bubblegum_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_earrings"
+					}
+				]
+			}
+		},
+		"bubblegum_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_bead_necklace"
+					}
+				]
+			}
+		},
+		"bubblegum_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_keychain"
+					}
+				]
+			}
+		},
+		"poppy_bubblegum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:poppy_bubblegum_blahaj"
+					}
+				]
+			}
+		},
+		"stretchy_bubblegum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:stretchy_bubblegum_blahaj"
+					}
+				]
+			}
+		},
+		"fizzy_bubblegum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:fizzy_bubblegum_blahaj"
+					}
+				]
+			}
+		},
+		"chewy_bubblegum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:chewy_bubblegum_blahaj"
+					}
+				]
+			}
+		},
+		"sparkly_bubblegum_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:sparkly_bubblegum_blahaj"
+					}
+				]
+			}
+		},
+		"poppy_bubblegum_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:poppy_bubblegum_fih"
+					}
+				]
+			}
+		},
+		"stretchy_bubblegum_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:stretchy_bubblegum_fih"
+					}
+				]
+			}
+		},
+		"fizzy_bubblegum_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:fizzy_bubblegum_fih"
+					}
+				]
+			}
+		},
+		"chewy_bubblegum_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:chewy_bubblegum_fih"
+					}
+				]
+			}
+		},
+		"sparkly_bubblegum_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:sparkly_bubblegum_fih"
+					}
+				]
+			}
+		},
+		"bubblegum_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_heart_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_star_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_moon_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_flower_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_paw_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_bow_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_cloud_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_smiley_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_music_note_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_crown_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"bubblegum_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubblegum_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"bubblegem",
+			"raw_bubblegem",
+			"bubblegem_nugget",
+			"bubblegem_dust",
+			"bubblegem_ore",
+			"deepslate_bubblegem_ore",
+			"bubblegem_block",
+			"raw_bubblegem_block",
+			"bubblegem_bricks",
+			"bubblegem_brick_stairs",
+			"bubblegem_brick_slab",
+			"bubblegem_brick_wall",
+			"bubblegem_tiles",
+			"bubblegem_tile_stairs",
+			"bubblegem_tile_slab",
+			"bubblegem_tile_wall",
+			"polished_bubblegem",
+			"polished_bubblegem_stairs",
+			"polished_bubblegem_slab",
+			"polished_bubblegem_wall",
+			"cobbled_bubblegem",
+			"cobbled_bubblegem_stairs",
+			"cobbled_bubblegem_slab",
+			"cobbled_bubblegem_wall",
+			"bubblegem_mosaic",
+			"bubblegem_mosaic_stairs",
+			"bubblegem_mosaic_slab",
+			"bubblegem_mosaic_wall",
+			"bubblegem_lamp",
+			"bubblegum_cushion",
+			"bubblegum_crate",
+			"bubblegem_pillar",
+			"chiseled_bubblegem",
+			"bubblegem_shingles",
+			"bubblegum_quilt_block",
+			"glazed_bubblegem",
+			"starry_bubblegem",
+			"sparkling_bubblegem",
+			"bubblegem_sword",
+			"bubblegem_pickaxe",
+			"bubblegem_axe",
+			"bubblegem_shovel",
+			"bubblegem_hoe",
+			"bubblegem_spear",
+			"bubble_bat",
+			"pop_hammer",
+			"chewy_scythe",
+			"bubble_wand",
+			"bubblegem_helmet",
+			"bubblegem_chestplate",
+			"bubblegem_leggings",
+			"bubblegem_boots",
+			"bubblegum_soda",
+			"cotton_candy_cookie",
+			"fizzy_cupcake",
+			"bubblegum_candy",
+			"cotton_candy_soup",
+			"fizzy_donut",
+			"bubblegum_popsicle",
+			"cotton_candy_lollipop",
+			"fizzy_macaron",
+			"bubblegum_pie",
+			"cotton_candy_bun",
+			"fizzy_jelly",
+			"bubblegum_ribbon_charm",
+			"bubblegum_heart_locket",
+			"bubblegum_bell_collar",
+			"bubblegum_star_pin",
+			"bubblegum_moon_pendant",
+			"bubblegum_bow_clip",
+			"bubblegum_friendship_bracelet",
+			"bubblegum_lucky_coin",
+			"bubblegum_anklet",
+			"bubblegum_earrings",
+			"bubblegum_bead_necklace",
+			"bubblegum_keychain",
+			"poppy_bubblegum_blahaj",
+			"stretchy_bubblegum_blahaj",
+			"fizzy_bubblegum_blahaj",
+			"chewy_bubblegum_blahaj",
+			"sparkly_bubblegum_blahaj",
+			"poppy_bubblegum_fih",
+			"stretchy_bubblegum_fih",
+			"fizzy_bubblegum_fih",
+			"chewy_bubblegum_fih",
+			"sparkly_bubblegum_fih",
+			"bubblegum_heart_sticker",
+			"bubblegum_star_sticker",
+			"bubblegum_moon_sticker",
+			"bubblegum_flower_sticker",
+			"bubblegum_paw_sticker",
+			"bubblegum_bow_sticker",
+			"bubblegum_cloud_sticker",
+			"bubblegum_sparkle_sticker",
+			"bubblegum_smiley_sticker",
+			"bubblegum_music_note_sticker",
+			"bubblegum_crown_sticker",
+			"bubblegum_rainbow_sticker",
+			"bubblegum_butterfly_sticker",
+			"bubblegum_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

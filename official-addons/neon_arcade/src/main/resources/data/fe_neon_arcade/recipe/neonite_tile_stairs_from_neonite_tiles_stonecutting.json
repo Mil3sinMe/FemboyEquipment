@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_neon_arcade:neonite_tiles",
+	"result": {
+		"count": 1,
+		"id": "fe_neon_arcade:neonite_tile_stairs"
+	}
+}

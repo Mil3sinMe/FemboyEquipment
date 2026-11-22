@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_pastel_goth:cobbled_gothite",
+		"G": "minecraft:glowstone_dust"
+	},
+	"pattern": [
+		"###",
+		"#G#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_pastel_goth:starry_gothite"
+	}
+}

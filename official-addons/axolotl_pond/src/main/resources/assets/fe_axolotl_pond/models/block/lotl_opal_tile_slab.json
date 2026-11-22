@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_axolotl_pond:block/lotl_opal_tiles",
+		"top": "fe_axolotl_pond:block/lotl_opal_tiles",
+		"side": "fe_axolotl_pond:block/lotl_opal_tiles"
+	}
+}

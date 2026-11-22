@@ -1,0 +1,39 @@
+{
+	"parent": "fe_mint_chocolate:main/mint_bead_necklace",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mint_keychain",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mint_keychain.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mint_keychain.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mint_keychain"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

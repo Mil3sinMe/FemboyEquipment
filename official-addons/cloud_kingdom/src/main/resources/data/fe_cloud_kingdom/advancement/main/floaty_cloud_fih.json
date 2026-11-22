@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/fluffy_cloud_fih",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:floaty_cloud_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.floaty_cloud_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.floaty_cloud_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:floaty_cloud_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

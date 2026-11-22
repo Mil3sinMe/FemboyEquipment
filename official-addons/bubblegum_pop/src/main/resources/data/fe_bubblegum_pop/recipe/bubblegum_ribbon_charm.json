@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_bubblegum_pop:bubblegem",
+		"minecraft:string"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bubblegum_pop:bubblegum_ribbon_charm"
+	}
+}

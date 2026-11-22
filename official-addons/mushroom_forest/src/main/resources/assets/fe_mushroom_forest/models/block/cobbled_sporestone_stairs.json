@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_mushroom_forest:block/cobbled_sporestone",
+		"top": "fe_mushroom_forest:block/cobbled_sporestone",
+		"side": "fe_mushroom_forest:block/cobbled_sporestone"
+	}
+}

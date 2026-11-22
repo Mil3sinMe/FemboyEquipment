@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_royal_ball:royal_sapphire",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"##",
+		" S",
+		" S"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_royal_ball:royal_sapphire_hoe"
+	}
+}

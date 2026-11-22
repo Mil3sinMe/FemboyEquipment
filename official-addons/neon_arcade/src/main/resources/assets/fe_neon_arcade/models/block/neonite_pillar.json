@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_neon_arcade:block/polished_neonite",
+		"side": "fe_neon_arcade:block/neonite_pillar"
+	}
+}

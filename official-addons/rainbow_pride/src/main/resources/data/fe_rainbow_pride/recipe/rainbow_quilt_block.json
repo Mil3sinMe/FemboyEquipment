@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_rainbow_pride:rainbow_cushion"
+	},
+	"pattern": [
+		"##",
+		"##"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_rainbow_pride:rainbow_quilt_block"
+	}
+}

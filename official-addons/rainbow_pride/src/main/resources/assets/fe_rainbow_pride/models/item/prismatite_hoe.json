@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fe_rainbow_pride:item/prismatite_hoe"
+	}
+}

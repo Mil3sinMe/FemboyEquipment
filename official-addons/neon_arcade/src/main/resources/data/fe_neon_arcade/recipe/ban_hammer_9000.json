@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "fe_neon_arcade:neonite_block",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"BBB",
+		" S ",
+		" S "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_neon_arcade:ban_hammer_9000"
+	}
+}

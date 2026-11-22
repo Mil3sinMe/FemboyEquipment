@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_rainbow_pride:prismatite_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_rainbow_pride:prismatite"
+	}
+}

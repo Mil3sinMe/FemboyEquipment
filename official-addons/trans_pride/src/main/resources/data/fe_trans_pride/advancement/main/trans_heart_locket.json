@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/trans_ribbon_charm",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:trans_heart_locket",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.trans_heart_locket.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.trans_heart_locket.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:trans_heart_locket"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

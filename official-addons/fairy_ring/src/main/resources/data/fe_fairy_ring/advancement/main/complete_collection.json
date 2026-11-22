@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_fairy_ring:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:faerite_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"faerite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite"
+					}
+				]
+			}
+		},
+		"raw_faerite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:raw_faerite"
+					}
+				]
+			}
+		},
+		"faerite_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_nugget"
+					}
+				]
+			}
+		},
+		"faerite_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_dust"
+					}
+				]
+			}
+		},
+		"faerite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_ore"
+					}
+				]
+			}
+		},
+		"deepslate_faerite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:deepslate_faerite_ore"
+					}
+				]
+			}
+		},
+		"faerite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_block"
+					}
+				]
+			}
+		},
+		"raw_faerite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:raw_faerite_block"
+					}
+				]
+			}
+		},
+		"faerite_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_bricks"
+					}
+				]
+			}
+		},
+		"faerite_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_brick_stairs"
+					}
+				]
+			}
+		},
+		"faerite_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_brick_slab"
+					}
+				]
+			}
+		},
+		"faerite_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_brick_wall"
+					}
+				]
+			}
+		},
+		"faerite_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_tiles"
+					}
+				]
+			}
+		},
+		"faerite_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_tile_stairs"
+					}
+				]
+			}
+		},
+		"faerite_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_tile_slab"
+					}
+				]
+			}
+		},
+		"faerite_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_faerite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:polished_faerite"
+					}
+				]
+			}
+		},
+		"polished_faerite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:polished_faerite_stairs"
+					}
+				]
+			}
+		},
+		"polished_faerite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:polished_faerite_slab"
+					}
+				]
+			}
+		},
+		"polished_faerite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:polished_faerite_wall"
+					}
+				]
+			}
+		},
+		"cobbled_faerite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:cobbled_faerite"
+					}
+				]
+			}
+		},
+		"cobbled_faerite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:cobbled_faerite_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_faerite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:cobbled_faerite_slab"
+					}
+				]
+			}
+		},
+		"cobbled_faerite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:cobbled_faerite_wall"
+					}
+				]
+			}
+		},
+		"faerite_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_mosaic"
+					}
+				]
+			}
+		},
+		"faerite_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"faerite_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_mosaic_slab"
+					}
+				]
+			}
+		},
+		"faerite_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_mosaic_wall"
+					}
+				]
+			}
+		},
+		"faerite_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_lamp"
+					}
+				]
+			}
+		},
+		"fairy_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_cushion"
+					}
+				]
+			}
+		},
+		"fairy_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_crate"
+					}
+				]
+			}
+		},
+		"faerite_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_faerite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:chiseled_faerite"
+					}
+				]
+			}
+		},
+		"faerite_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_shingles"
+					}
+				]
+			}
+		},
+		"fairy_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_faerite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:glazed_faerite"
+					}
+				]
+			}
+		},
+		"starry_faerite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:starry_faerite"
+					}
+				]
+			}
+		},
+		"sparkling_faerite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:sparkling_faerite"
+					}
+				]
+			}
+		},
+		"faerite_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_sword"
+					}
+				]
+			}
+		},
+		"faerite_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_pickaxe"
+					}
+				]
+			}
+		},
+		"faerite_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_axe"
+					}
+				]
+			}
+		},
+		"faerite_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_shovel"
+					}
+				]
+			}
+		},
+		"faerite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_hoe"
+					}
+				]
+			}
+		},
+		"faerite_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_spear"
+					}
+				]
+			}
+		},
+		"acorn_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:acorn_bat"
+					}
+				]
+			}
+		},
+		"toadstool_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:toadstool_hammer"
+					}
+				]
+			}
+		},
+		"thorn_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:thorn_scythe"
+					}
+				]
+			}
+		},
+		"pixie_dust_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:pixie_dust_wand"
+					}
+				]
+			}
+		},
+		"faerite_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_helmet"
+					}
+				]
+			}
+		},
+		"faerite_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_chestplate"
+					}
+				]
+			}
+		},
+		"faerite_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_leggings"
+					}
+				]
+			}
+		},
+		"faerite_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_boots"
+					}
+				]
+			}
+		},
+		"nectar_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:nectar_soda"
+					}
+				]
+			}
+		},
+		"dewdrop_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:dewdrop_cookie"
+					}
+				]
+			}
+		},
+		"pixie_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:pixie_cupcake"
+					}
+				]
+			}
+		},
+		"nectar_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:nectar_candy"
+					}
+				]
+			}
+		},
+		"dewdrop_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:dewdrop_soup"
+					}
+				]
+			}
+		},
+		"pixie_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:pixie_donut"
+					}
+				]
+			}
+		},
+		"nectar_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:nectar_popsicle"
+					}
+				]
+			}
+		},
+		"dewdrop_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:dewdrop_lollipop"
+					}
+				]
+			}
+		},
+		"pixie_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:pixie_macaron"
+					}
+				]
+			}
+		},
+		"nectar_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:nectar_pie"
+					}
+				]
+			}
+		},
+		"dewdrop_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:dewdrop_bun"
+					}
+				]
+			}
+		},
+		"pixie_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:pixie_jelly"
+					}
+				]
+			}
+		},
+		"fairy_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_ribbon_charm"
+					}
+				]
+			}
+		},
+		"fairy_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_heart_locket"
+					}
+				]
+			}
+		},
+		"fairy_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_bell_collar"
+					}
+				]
+			}
+		},
+		"fairy_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_star_pin"
+					}
+				]
+			}
+		},
+		"fairy_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_moon_pendant"
+					}
+				]
+			}
+		},
+		"fairy_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_bow_clip"
+					}
+				]
+			}
+		},
+		"fairy_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"fairy_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_lucky_coin"
+					}
+				]
+			}
+		},
+		"fairy_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_anklet"
+					}
+				]
+			}
+		},
+		"fairy_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_earrings"
+					}
+				]
+			}
+		},
+		"fairy_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_bead_necklace"
+					}
+				]
+			}
+		},
+		"fairy_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_keychain"
+					}
+				]
+			}
+		},
+		"tiny_fairy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:tiny_fairy_blahaj"
+					}
+				]
+			}
+		},
+		"glimmering_fairy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:glimmering_fairy_blahaj"
+					}
+				]
+			}
+		},
+		"winged_fairy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:winged_fairy_blahaj"
+					}
+				]
+			}
+		},
+		"mischievous_fairy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:mischievous_fairy_blahaj"
+					}
+				]
+			}
+		},
+		"glowing_fairy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:glowing_fairy_blahaj"
+					}
+				]
+			}
+		},
+		"tiny_fairy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:tiny_fairy_fih"
+					}
+				]
+			}
+		},
+		"glimmering_fairy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:glimmering_fairy_fih"
+					}
+				]
+			}
+		},
+		"winged_fairy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:winged_fairy_fih"
+					}
+				]
+			}
+		},
+		"mischievous_fairy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:mischievous_fairy_fih"
+					}
+				]
+			}
+		},
+		"glowing_fairy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:glowing_fairy_fih"
+					}
+				]
+			}
+		},
+		"fairy_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_heart_sticker"
+					}
+				]
+			}
+		},
+		"fairy_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_star_sticker"
+					}
+				]
+			}
+		},
+		"fairy_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_moon_sticker"
+					}
+				]
+			}
+		},
+		"fairy_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_flower_sticker"
+					}
+				]
+			}
+		},
+		"fairy_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_paw_sticker"
+					}
+				]
+			}
+		},
+		"fairy_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_bow_sticker"
+					}
+				]
+			}
+		},
+		"fairy_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_cloud_sticker"
+					}
+				]
+			}
+		},
+		"fairy_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"fairy_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_smiley_sticker"
+					}
+				]
+			}
+		},
+		"fairy_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_music_note_sticker"
+					}
+				]
+			}
+		},
+		"fairy_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_crown_sticker"
+					}
+				]
+			}
+		},
+		"fairy_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"fairy_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"fairy_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:fairy_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"faerite",
+			"raw_faerite",
+			"faerite_nugget",
+			"faerite_dust",
+			"faerite_ore",
+			"deepslate_faerite_ore",
+			"faerite_block",
+			"raw_faerite_block",
+			"faerite_bricks",
+			"faerite_brick_stairs",
+			"faerite_brick_slab",
+			"faerite_brick_wall",
+			"faerite_tiles",
+			"faerite_tile_stairs",
+			"faerite_tile_slab",
+			"faerite_tile_wall",
+			"polished_faerite",
+			"polished_faerite_stairs",
+			"polished_faerite_slab",
+			"polished_faerite_wall",
+			"cobbled_faerite",
+			"cobbled_faerite_stairs",
+			"cobbled_faerite_slab",
+			"cobbled_faerite_wall",
+			"faerite_mosaic",
+			"faerite_mosaic_stairs",
+			"faerite_mosaic_slab",
+			"faerite_mosaic_wall",
+			"faerite_lamp",
+			"fairy_cushion",
+			"fairy_crate",
+			"faerite_pillar",
+			"chiseled_faerite",
+			"faerite_shingles",
+			"fairy_quilt_block",
+			"glazed_faerite",
+			"starry_faerite",
+			"sparkling_faerite",
+			"faerite_sword",
+			"faerite_pickaxe",
+			"faerite_axe",
+			"faerite_shovel",
+			"faerite_hoe",
+			"faerite_spear",
+			"acorn_bat",
+			"toadstool_hammer",
+			"thorn_scythe",
+			"pixie_dust_wand",
+			"faerite_helmet",
+			"faerite_chestplate",
+			"faerite_leggings",
+			"faerite_boots",
+			"nectar_soda",
+			"dewdrop_cookie",
+			"pixie_cupcake",
+			"nectar_candy",
+			"dewdrop_soup",
+			"pixie_donut",
+			"nectar_popsicle",
+			"dewdrop_lollipop",
+			"pixie_macaron",
+			"nectar_pie",
+			"dewdrop_bun",
+			"pixie_jelly",
+			"fairy_ribbon_charm",
+			"fairy_heart_locket",
+			"fairy_bell_collar",
+			"fairy_star_pin",
+			"fairy_moon_pendant",
+			"fairy_bow_clip",
+			"fairy_friendship_bracelet",
+			"fairy_lucky_coin",
+			"fairy_anklet",
+			"fairy_earrings",
+			"fairy_bead_necklace",
+			"fairy_keychain",
+			"tiny_fairy_blahaj",
+			"glimmering_fairy_blahaj",
+			"winged_fairy_blahaj",
+			"mischievous_fairy_blahaj",
+			"glowing_fairy_blahaj",
+			"tiny_fairy_fih",
+			"glimmering_fairy_fih",
+			"winged_fairy_fih",
+			"mischievous_fairy_fih",
+			"glowing_fairy_fih",
+			"fairy_heart_sticker",
+			"fairy_star_sticker",
+			"fairy_moon_sticker",
+			"fairy_flower_sticker",
+			"fairy_paw_sticker",
+			"fairy_bow_sticker",
+			"fairy_cloud_sticker",
+			"fairy_sparkle_sticker",
+			"fairy_smiley_sticker",
+			"fairy_music_note_sticker",
+			"fairy_crown_sticker",
+			"fairy_rainbow_sticker",
+			"fairy_butterfly_sticker",
+			"fairy_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

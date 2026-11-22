@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_lavender_fields:polished_lavendite",
+		"fe_lavender_fields:lavendite_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lavender_fields:sparkling_lavendite"
+	}
+}

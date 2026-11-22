@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_witchy_moon:moonstone"
+	},
+	"pattern": [
+		"# #",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_witchy_moon:moonstone_chestplate"
+	}
+}

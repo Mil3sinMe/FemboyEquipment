@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:pink_wool",
+		"minecraft:white_wool",
+		"fe_trans_pride:transcendite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_trans_pride:euphoric_trans_blahaj"
+	}
+}

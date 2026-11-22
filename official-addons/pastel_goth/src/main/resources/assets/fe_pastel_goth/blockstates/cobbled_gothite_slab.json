@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_pastel_goth:block/cobbled_gothite_slab"
+		},
+		"type=top": {
+			"model": "fe_pastel_goth:block/cobbled_gothite_slab_top"
+		},
+		"type=double": {
+			"model": "fe_pastel_goth:block/cobbled_gothite"
+		}
+	}
+}

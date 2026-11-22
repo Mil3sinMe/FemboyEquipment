@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_dragon_hoard:cobbled_dragon_garnet"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_dragon_hoard:cobbled_dragon_garnet_slab"
+	}
+}

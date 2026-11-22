@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_cottagecore_garden:garden_cushion"
+	},
+	"pattern": [
+		"##",
+		"##"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_cottagecore_garden:garden_quilt_block"
+	}
+}

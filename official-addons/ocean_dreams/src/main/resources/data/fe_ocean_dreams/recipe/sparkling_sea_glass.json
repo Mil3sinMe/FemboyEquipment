@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_ocean_dreams:polished_sea_glass",
+		"fe_ocean_dreams:sea_glass_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_ocean_dreams:sparkling_sea_glass"
+	}
+}

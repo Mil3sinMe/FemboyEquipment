@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:sugar",
+		"fe_dragon_hoard:dragon_garnet_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_dragon_hoard:gold_leaf_lollipop"
+	}
+}

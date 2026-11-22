@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/cobbled_mintite_stairs",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:cobbled_mintite_slab",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.cobbled_mintite_slab.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.cobbled_mintite_slab.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:cobbled_mintite_slab"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

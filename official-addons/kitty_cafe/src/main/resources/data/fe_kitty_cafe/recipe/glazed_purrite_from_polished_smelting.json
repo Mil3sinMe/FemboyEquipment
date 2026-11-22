@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 0.1,
+	"ingredient": "fe_kitty_cafe:polished_purrite",
+	"result": {
+		"id": "fe_kitty_cafe:glazed_purrite"
+	}
+}

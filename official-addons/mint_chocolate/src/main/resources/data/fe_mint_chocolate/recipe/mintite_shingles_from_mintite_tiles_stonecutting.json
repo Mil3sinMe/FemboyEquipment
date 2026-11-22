@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_mint_chocolate:mintite_tiles",
+	"result": {
+		"count": 1,
+		"id": "fe_mint_chocolate:mintite_shingles"
+	}
+}

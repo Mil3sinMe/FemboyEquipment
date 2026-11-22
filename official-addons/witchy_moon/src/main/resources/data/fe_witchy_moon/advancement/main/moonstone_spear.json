@@ -1,0 +1,39 @@
+{
+	"parent": "fe_witchy_moon:main/moonstone_hoe",
+	"display": {
+		"icon": {
+			"id": "fe_witchy_moon:moonstone_spear",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_witchy_moon.main.moonstone_spear.title"
+		},
+		"description": {
+			"translate": "advancements.fe_witchy_moon.main.moonstone_spear.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_spear"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

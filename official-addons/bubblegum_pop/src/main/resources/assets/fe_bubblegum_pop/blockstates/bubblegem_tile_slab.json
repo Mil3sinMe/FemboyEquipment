@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_bubblegum_pop:block/bubblegem_tile_slab"
+		},
+		"type=top": {
+			"model": "fe_bubblegum_pop:block/bubblegem_tile_slab_top"
+		},
+		"type=double": {
+			"model": "fe_bubblegum_pop:block/bubblegem_tiles"
+		}
+	}
+}

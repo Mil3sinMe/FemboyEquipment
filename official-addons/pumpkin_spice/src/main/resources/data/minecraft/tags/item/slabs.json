@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_pumpkin_spice:spiced_amber_brick_slab",
+		"fe_pumpkin_spice:spiced_amber_tile_slab",
+		"fe_pumpkin_spice:polished_spiced_amber_slab",
+		"fe_pumpkin_spice:cobbled_spiced_amber_slab",
+		"fe_pumpkin_spice:spiced_amber_mosaic_slab"
+	]
+}

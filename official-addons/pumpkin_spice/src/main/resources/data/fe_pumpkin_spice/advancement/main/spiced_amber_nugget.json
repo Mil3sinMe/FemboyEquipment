@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pumpkin_spice:main/raw_spiced_amber",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:spiced_amber_nugget",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.spiced_amber_nugget.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.spiced_amber_nugget.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_nugget"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

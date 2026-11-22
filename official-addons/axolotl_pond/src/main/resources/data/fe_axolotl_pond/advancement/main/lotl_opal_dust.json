@@ -1,0 +1,39 @@
+{
+	"parent": "fe_axolotl_pond:main/lotl_opal_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_axolotl_pond:lotl_opal_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_axolotl_pond.main.lotl_opal_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_axolotl_pond.main.lotl_opal_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_opal_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_neon_arcade:neonite_sword",
+		"fe_neon_arcade:joystick_bat",
+		"fe_neon_arcade:ban_hammer_9000",
+		"fe_neon_arcade:pixel_scythe",
+		"fe_neon_arcade:glowstick_wand"
+	]
+}

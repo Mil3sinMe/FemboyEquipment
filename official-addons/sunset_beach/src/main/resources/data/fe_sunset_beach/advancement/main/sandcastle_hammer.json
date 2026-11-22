@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/surfboard_bat",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:sandcastle_hammer",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.sandcastle_hammer.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.sandcastle_hammer.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:sandcastle_hammer"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

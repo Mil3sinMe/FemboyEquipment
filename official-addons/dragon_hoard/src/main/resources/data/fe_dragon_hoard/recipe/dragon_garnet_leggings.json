@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_dragon_hoard:dragon_garnet"
+	},
+	"pattern": [
+		"###",
+		"# #",
+		"# #"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_dragon_hoard:dragon_garnet_leggings"
+	}
+}

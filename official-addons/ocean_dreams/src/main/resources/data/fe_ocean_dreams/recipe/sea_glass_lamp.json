@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"D": "fe_ocean_dreams:sea_glass_dust",
+		"G": "minecraft:glowstone"
+	},
+	"pattern": [
+		" D ",
+		"DGD",
+		" D "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_ocean_dreams:sea_glass_lamp"
+	}
+}

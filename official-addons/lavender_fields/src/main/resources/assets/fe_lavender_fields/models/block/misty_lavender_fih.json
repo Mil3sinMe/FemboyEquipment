@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_lavender_fields:block/misty_lavender_fih"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "fe_dragon_hoard:main/dragon_butterfly_sticker",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:dragon_mushroom_sticker",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.dragon_mushroom_sticker.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.dragon_mushroom_sticker.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:dragon_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_trans_pride:transcendite_tiles",
+	"result": {
+		"count": 1,
+		"id": "fe_trans_pride:transcendite_shingles"
+	}
+}

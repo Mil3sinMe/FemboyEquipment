@@ -122,6 +122,30 @@ public class MyAddon implements FemboyEquipmentAddon {
 | `MAIN_TAB`, `BLAHAJ_TAB`, `FIH_TAB` | Creative tab keys |
 | `API_VERSION` | Bumped on breaking changes (currently `1`) |
 
+### AddonKit: content in one line each (`com.femboyequipment.api.AddonKit`)
+
+Since 1.13.0 there's a helper for content addons (the 30 [official addons](official-addons) are built with it).
+Everything a kit registers goes into its own creative tab, in order:
+
+```java
+AddonKit k = new AddonKit("myaddon");
+TagKey<Item> repair = k.itemTag("repair_materials");
+ToolMaterial tools = AddonKit.toolMaterial(BlockTags.INCORRECT_FOR_DIAMOND_TOOL, 1600, 8.5F, 3.0F, 18, repair);
+ArmorMaterial armor = k.armorMaterial("sparkle", 33, 3, 6, 8, 3, 18, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, repair);
+
+Item gem = k.item("sparkle_gem");
+Block bricks = k.cube("sparkle_bricks", MapColor.COLOR_PINK, 2.0F, SoundType.STONE, 0, true);
+k.shapes("sparkle_brick", bricks);                        // sparkle_brick_stairs / _slab / _wall
+k.sword("sparkle_sword", tools);                          // also pickaxe, axe, shovel, hoe, spear
+k.knockbackWeapon("sparkle_bat", tools, 4.0F, -3.0F, 2.5F, SoundEvents.WOOL_HIT, Rarity.UNCOMMON);
+k.armor("sparkle_helmet", armor, ArmorType.HELMET);
+k.food("sparkle_cookie", 2, 0.2F, false, new MobEffectInstance(MobEffects.SPEED, 200, 0));
+k.charm("sparkle_charm", Rarity.RARE, OutfitEffect.of(MobEffects.LUCK, 0));  // offhand / Trinkets effect
+k.blahaj("sparkle_blahaj", 0);                            // plushies (also in FemboyEquipment's tabs)
+k.overworldOre("sparkle_ore");                            // data/myaddon/worldgen/placed_feature/sparkle_ore.json
+k.creativeTab("main", () -> new ItemStack(gem));          // title: itemGroup.myaddon.main
+```
+
 ### Plushie assets
 
 For a plushie with id `myaddon:fox_blahaj`, provide:

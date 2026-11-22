@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_starlight_sky:starstone_helmet",
+		"fe_starlight_sky:starstone_chestplate",
+		"fe_starlight_sky:starstone_leggings",
+		"fe_starlight_sky:starstone_boots"
+	]
+}

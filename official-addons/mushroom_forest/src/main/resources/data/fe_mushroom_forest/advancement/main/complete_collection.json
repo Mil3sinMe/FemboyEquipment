@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_mushroom_forest:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_mushroom_forest:sporestone_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mushroom_forest.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mushroom_forest.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"sporestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone"
+					}
+				]
+			}
+		},
+		"raw_sporestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:raw_sporestone"
+					}
+				]
+			}
+		},
+		"sporestone_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_nugget"
+					}
+				]
+			}
+		},
+		"sporestone_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_dust"
+					}
+				]
+			}
+		},
+		"sporestone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_ore"
+					}
+				]
+			}
+		},
+		"deepslate_sporestone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:deepslate_sporestone_ore"
+					}
+				]
+			}
+		},
+		"sporestone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_block"
+					}
+				]
+			}
+		},
+		"raw_sporestone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:raw_sporestone_block"
+					}
+				]
+			}
+		},
+		"sporestone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_bricks"
+					}
+				]
+			}
+		},
+		"sporestone_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_brick_stairs"
+					}
+				]
+			}
+		},
+		"sporestone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_brick_slab"
+					}
+				]
+			}
+		},
+		"sporestone_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_brick_wall"
+					}
+				]
+			}
+		},
+		"sporestone_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_tiles"
+					}
+				]
+			}
+		},
+		"sporestone_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_tile_stairs"
+					}
+				]
+			}
+		},
+		"sporestone_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_tile_slab"
+					}
+				]
+			}
+		},
+		"sporestone_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_sporestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:polished_sporestone"
+					}
+				]
+			}
+		},
+		"polished_sporestone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:polished_sporestone_stairs"
+					}
+				]
+			}
+		},
+		"polished_sporestone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:polished_sporestone_slab"
+					}
+				]
+			}
+		},
+		"polished_sporestone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:polished_sporestone_wall"
+					}
+				]
+			}
+		},
+		"cobbled_sporestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:cobbled_sporestone"
+					}
+				]
+			}
+		},
+		"cobbled_sporestone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:cobbled_sporestone_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_sporestone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:cobbled_sporestone_slab"
+					}
+				]
+			}
+		},
+		"cobbled_sporestone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:cobbled_sporestone_wall"
+					}
+				]
+			}
+		},
+		"sporestone_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_mosaic"
+					}
+				]
+			}
+		},
+		"sporestone_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"sporestone_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_mosaic_slab"
+					}
+				]
+			}
+		},
+		"sporestone_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_mosaic_wall"
+					}
+				]
+			}
+		},
+		"sporestone_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_lamp"
+					}
+				]
+			}
+		},
+		"shroom_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_cushion"
+					}
+				]
+			}
+		},
+		"shroom_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_crate"
+					}
+				]
+			}
+		},
+		"sporestone_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_sporestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:chiseled_sporestone"
+					}
+				]
+			}
+		},
+		"sporestone_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_shingles"
+					}
+				]
+			}
+		},
+		"shroom_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_sporestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:glazed_sporestone"
+					}
+				]
+			}
+		},
+		"starry_sporestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:starry_sporestone"
+					}
+				]
+			}
+		},
+		"sparkling_sporestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sparkling_sporestone"
+					}
+				]
+			}
+		},
+		"sporestone_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_sword"
+					}
+				]
+			}
+		},
+		"sporestone_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_pickaxe"
+					}
+				]
+			}
+		},
+		"sporestone_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_axe"
+					}
+				]
+			}
+		},
+		"sporestone_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_shovel"
+					}
+				]
+			}
+		},
+		"sporestone_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_hoe"
+					}
+				]
+			}
+		},
+		"sporestone_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_spear"
+					}
+				]
+			}
+		},
+		"toadstool_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:toadstool_bat"
+					}
+				]
+			}
+		},
+		"stump_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:stump_hammer"
+					}
+				]
+			}
+		},
+		"mycelium_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:mycelium_scythe"
+					}
+				]
+			}
+		},
+		"spore_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:spore_wand"
+					}
+				]
+			}
+		},
+		"sporestone_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_helmet"
+					}
+				]
+			}
+		},
+		"sporestone_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_chestplate"
+					}
+				]
+			}
+		},
+		"sporestone_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_leggings"
+					}
+				]
+			}
+		},
+		"sporestone_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_boots"
+					}
+				]
+			}
+		},
+		"mushroom_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:mushroom_soda"
+					}
+				]
+			}
+		},
+		"truffle_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:truffle_cookie"
+					}
+				]
+			}
+		},
+		"forest_berry_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:forest_berry_cupcake"
+					}
+				]
+			}
+		},
+		"mushroom_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:mushroom_candy"
+					}
+				]
+			}
+		},
+		"truffle_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:truffle_soup"
+					}
+				]
+			}
+		},
+		"forest_berry_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:forest_berry_donut"
+					}
+				]
+			}
+		},
+		"mushroom_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:mushroom_popsicle"
+					}
+				]
+			}
+		},
+		"truffle_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:truffle_lollipop"
+					}
+				]
+			}
+		},
+		"forest_berry_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:forest_berry_macaron"
+					}
+				]
+			}
+		},
+		"mushroom_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:mushroom_pie"
+					}
+				]
+			}
+		},
+		"truffle_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:truffle_bun"
+					}
+				]
+			}
+		},
+		"forest_berry_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:forest_berry_jelly"
+					}
+				]
+			}
+		},
+		"shroom_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_ribbon_charm"
+					}
+				]
+			}
+		},
+		"shroom_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_heart_locket"
+					}
+				]
+			}
+		},
+		"shroom_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_bell_collar"
+					}
+				]
+			}
+		},
+		"shroom_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_star_pin"
+					}
+				]
+			}
+		},
+		"shroom_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_moon_pendant"
+					}
+				]
+			}
+		},
+		"shroom_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_bow_clip"
+					}
+				]
+			}
+		},
+		"shroom_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"shroom_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_lucky_coin"
+					}
+				]
+			}
+		},
+		"shroom_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_anklet"
+					}
+				]
+			}
+		},
+		"shroom_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_earrings"
+					}
+				]
+			}
+		},
+		"shroom_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_bead_necklace"
+					}
+				]
+			}
+		},
+		"shroom_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_keychain"
+					}
+				]
+			}
+		},
+		"spotty_shroom_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:spotty_shroom_blahaj"
+					}
+				]
+			}
+		},
+		"spore_shroom_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:spore_shroom_blahaj"
+					}
+				]
+			}
+		},
+		"mossy_shroom_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:mossy_shroom_blahaj"
+					}
+				]
+			}
+		},
+		"glowy_shroom_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:glowy_shroom_blahaj"
+					}
+				]
+			}
+		},
+		"tiny_shroom_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:tiny_shroom_blahaj"
+					}
+				]
+			}
+		},
+		"spotty_shroom_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:spotty_shroom_fih"
+					}
+				]
+			}
+		},
+		"spore_shroom_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:spore_shroom_fih"
+					}
+				]
+			}
+		},
+		"mossy_shroom_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:mossy_shroom_fih"
+					}
+				]
+			}
+		},
+		"glowy_shroom_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:glowy_shroom_fih"
+					}
+				]
+			}
+		},
+		"tiny_shroom_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:tiny_shroom_fih"
+					}
+				]
+			}
+		},
+		"shroom_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_heart_sticker"
+					}
+				]
+			}
+		},
+		"shroom_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_star_sticker"
+					}
+				]
+			}
+		},
+		"shroom_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_moon_sticker"
+					}
+				]
+			}
+		},
+		"shroom_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_flower_sticker"
+					}
+				]
+			}
+		},
+		"shroom_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_paw_sticker"
+					}
+				]
+			}
+		},
+		"shroom_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_bow_sticker"
+					}
+				]
+			}
+		},
+		"shroom_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_cloud_sticker"
+					}
+				]
+			}
+		},
+		"shroom_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"shroom_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_smiley_sticker"
+					}
+				]
+			}
+		},
+		"shroom_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_music_note_sticker"
+					}
+				]
+			}
+		},
+		"shroom_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_crown_sticker"
+					}
+				]
+			}
+		},
+		"shroom_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"shroom_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"shroom_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:shroom_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sporestone",
+			"raw_sporestone",
+			"sporestone_nugget",
+			"sporestone_dust",
+			"sporestone_ore",
+			"deepslate_sporestone_ore",
+			"sporestone_block",
+			"raw_sporestone_block",
+			"sporestone_bricks",
+			"sporestone_brick_stairs",
+			"sporestone_brick_slab",
+			"sporestone_brick_wall",
+			"sporestone_tiles",
+			"sporestone_tile_stairs",
+			"sporestone_tile_slab",
+			"sporestone_tile_wall",
+			"polished_sporestone",
+			"polished_sporestone_stairs",
+			"polished_sporestone_slab",
+			"polished_sporestone_wall",
+			"cobbled_sporestone",
+			"cobbled_sporestone_stairs",
+			"cobbled_sporestone_slab",
+			"cobbled_sporestone_wall",
+			"sporestone_mosaic",
+			"sporestone_mosaic_stairs",
+			"sporestone_mosaic_slab",
+			"sporestone_mosaic_wall",
+			"sporestone_lamp",
+			"shroom_cushion",
+			"shroom_crate",
+			"sporestone_pillar",
+			"chiseled_sporestone",
+			"sporestone_shingles",
+			"shroom_quilt_block",
+			"glazed_sporestone",
+			"starry_sporestone",
+			"sparkling_sporestone",
+			"sporestone_sword",
+			"sporestone_pickaxe",
+			"sporestone_axe",
+			"sporestone_shovel",
+			"sporestone_hoe",
+			"sporestone_spear",
+			"toadstool_bat",
+			"stump_hammer",
+			"mycelium_scythe",
+			"spore_wand",
+			"sporestone_helmet",
+			"sporestone_chestplate",
+			"sporestone_leggings",
+			"sporestone_boots",
+			"mushroom_soda",
+			"truffle_cookie",
+			"forest_berry_cupcake",
+			"mushroom_candy",
+			"truffle_soup",
+			"forest_berry_donut",
+			"mushroom_popsicle",
+			"truffle_lollipop",
+			"forest_berry_macaron",
+			"mushroom_pie",
+			"truffle_bun",
+			"forest_berry_jelly",
+			"shroom_ribbon_charm",
+			"shroom_heart_locket",
+			"shroom_bell_collar",
+			"shroom_star_pin",
+			"shroom_moon_pendant",
+			"shroom_bow_clip",
+			"shroom_friendship_bracelet",
+			"shroom_lucky_coin",
+			"shroom_anklet",
+			"shroom_earrings",
+			"shroom_bead_necklace",
+			"shroom_keychain",
+			"spotty_shroom_blahaj",
+			"spore_shroom_blahaj",
+			"mossy_shroom_blahaj",
+			"glowy_shroom_blahaj",
+			"tiny_shroom_blahaj",
+			"spotty_shroom_fih",
+			"spore_shroom_fih",
+			"mossy_shroom_fih",
+			"glowy_shroom_fih",
+			"tiny_shroom_fih",
+			"shroom_heart_sticker",
+			"shroom_star_sticker",
+			"shroom_moon_sticker",
+			"shroom_flower_sticker",
+			"shroom_paw_sticker",
+			"shroom_bow_sticker",
+			"shroom_cloud_sticker",
+			"shroom_sparkle_sticker",
+			"shroom_smiley_sticker",
+			"shroom_music_note_sticker",
+			"shroom_crown_sticker",
+			"shroom_rainbow_sticker",
+			"shroom_butterfly_sticker",
+			"shroom_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

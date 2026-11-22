@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_frosted_winter:block/sparkling_frost_opal"
+	}
+}
