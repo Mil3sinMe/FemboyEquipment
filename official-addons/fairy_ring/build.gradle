@@ -3,7 +3,7 @@ plugins {
 	id 'net.fabricmc.fabric-loom-remap'
 }
 
-version = "1.1.0"
+version = "1.1.1"
 ext.addonModId = "fe_fairy_ring"
 
 apply from: rootProject.file('official-addons/addon.gradle')
