@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_pumpkin_spice:pumpkin_soda",
+		"fe_pumpkin_spice:cinnamon_cookie",
+		"fe_pumpkin_spice:maple_cupcake",
+		"fe_pumpkin_spice:pumpkin_candy",
+		"fe_pumpkin_spice:cinnamon_soup",
+		"fe_pumpkin_spice:maple_donut",
+		"fe_pumpkin_spice:pumpkin_popsicle",
+		"fe_pumpkin_spice:cinnamon_lollipop",
+		"fe_pumpkin_spice:maple_macaron",
+		"fe_pumpkin_spice:pumpkin_pie",
+		"fe_pumpkin_spice:cinnamon_bun",
+		"fe_pumpkin_spice:maple_jelly"
+	]
+}

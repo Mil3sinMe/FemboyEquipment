@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_starlight_sky:stardust_soda",
+		"fe_starlight_sky:moonbeam_cookie",
+		"fe_starlight_sky:comet_cupcake",
+		"fe_starlight_sky:stardust_candy",
+		"fe_starlight_sky:moonbeam_soup",
+		"fe_starlight_sky:comet_donut",
+		"fe_starlight_sky:stardust_popsicle",
+		"fe_starlight_sky:moonbeam_lollipop",
+		"fe_starlight_sky:comet_macaron",
+		"fe_starlight_sky:stardust_pie",
+		"fe_starlight_sky:moonbeam_bun",
+		"fe_starlight_sky:comet_jelly"
+	]
+}

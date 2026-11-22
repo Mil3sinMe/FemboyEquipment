@@ -174,6 +174,25 @@ How it works: your client sends the server which skin layers you show (hat, jack
 server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod sets the spare one as a
 "has FemboyEquipment" flag. There's no backend server. The tab list remembers players once you've seen them nearby.
 
+### Cute Collection 📖 (custom advancement system)
+
+FemboyEquipment's and every addon's advancements live in their own **Cute Collection** screen instead of the vanilla
+one. Open it with **K**, the **Collection Book** (book + pink dye), the **♥ button** in your inventory, or `/collection`.
+
+- **Collection**: a page per tab/addon with progress bars and every collectible in a grid (missing ones are dimmed,
+  group goals have a gold frame, full-collection challenges a purple one)
+- **Cute Points & 9 ranks**: Smol Bean → Cutie → Sweetheart → Darling → Sparkle Star → Pastel Prince(ss) →
+  Plushie Royalty → Femboy Legend → Ultimate Femboy. Every rank-up gives a **rank-exclusive hat** (bow, halos, flower
+  crown, tiara, Blåhaj crown, rainbow halo, Ultimate crown), capsules and XP levels, and your rank shows as a
+  **title** before your name in chat, the tab list and your name tag (toggle it in the Ranks tab)
+- **Rewards**: finishing a group gives a capsule + a bundle of that addon's materials; finishing a whole page gives
+  6 capsules + a big bundle
+- **Quests**: 3 daily + 2 weekly quests (they reset at real-life midnight / Monday): eat snacks, mine ores, craft,
+  bunny-hop, fish, trade, sleep... claim the rewards in the Quests tab
+- Cute toasts instead of 100 vanilla ones; nothing spams chat. Progress is saved per player per world.
+
+![Cute Collection](docs/collection.png)
+
 ### Advancements 🏆
 
 ![The Femboy Equipment and Blåhaj Collection advancement tabs](docs/advancements.png)

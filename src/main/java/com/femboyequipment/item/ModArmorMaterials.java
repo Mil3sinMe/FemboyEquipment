@@ -56,6 +56,12 @@ public final class ModArmorMaterials {
 				1.0F, 0.0F, CUTE_REPAIR_MATERIALS, asset(name));
 	}
 
+	/** Rank-up hats: a bit more protection the higher the rank. */
+	public static ArmorMaterial rankHat(String name, int rank) {
+		return new ArmorMaterial(20 + rank * 5, defense(1, 1, 1, 1 + rank / 3), 15 + rank, SoundEvents.ARMOR_EQUIP_GOLD,
+				rank >= 6 ? 1.0F : 0.0F, 0.0F, CUTE_REPAIR_MATERIALS, asset(name));
+	}
+
 	private static Map<ArmorType, Integer> defense(int boots, int chest, int legs, int helmet) {
 		Map<ArmorType, Integer> map = new EnumMap<>(ArmorType.class);
 		map.put(ArmorType.BOOTS, boots);

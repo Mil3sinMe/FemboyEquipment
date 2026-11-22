@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_neon_arcade:blue_raspberry_soda",
+		"fe_neon_arcade:energy_cookie",
+		"fe_neon_arcade:glitch_cupcake",
+		"fe_neon_arcade:blue_raspberry_candy",
+		"fe_neon_arcade:energy_soup",
+		"fe_neon_arcade:glitch_donut",
+		"fe_neon_arcade:blue_raspberry_popsicle",
+		"fe_neon_arcade:energy_lollipop",
+		"fe_neon_arcade:glitch_macaron",
+		"fe_neon_arcade:blue_raspberry_pie",
+		"fe_neon_arcade:energy_bun",
+		"fe_neon_arcade:glitch_jelly"
+	]
+}

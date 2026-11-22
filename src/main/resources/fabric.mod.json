@@ -22,6 +22,7 @@
 		]
 	},
 	"mixins": [
+		"femboyequipment.mixins.json",
 		{
 			"config": "femboyequipment.client.mixins.json",
 			"environment": "client"

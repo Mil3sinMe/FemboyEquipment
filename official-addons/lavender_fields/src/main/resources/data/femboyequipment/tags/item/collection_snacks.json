@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_lavender_fields:lavender_soda",
+		"fe_lavender_fields:lilac_cookie",
+		"fe_lavender_fields:honey_cupcake",
+		"fe_lavender_fields:lavender_candy",
+		"fe_lavender_fields:lilac_soup",
+		"fe_lavender_fields:honey_donut",
+		"fe_lavender_fields:lavender_popsicle",
+		"fe_lavender_fields:lilac_lollipop",
+		"fe_lavender_fields:honey_macaron",
+		"fe_lavender_fields:lavender_pie",
+		"fe_lavender_fields:lilac_bun",
+		"fe_lavender_fields:honey_jelly"
+	]
+}

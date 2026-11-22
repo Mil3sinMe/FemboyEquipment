@@ -29,6 +29,7 @@ public class FemboyEquipmentClient implements ClientModInitializer {
 		AccessoryModels.register();
 		registerBuiltInAccessories();
 		EmblemCommand.register();
+		com.femboyequipment.client.collection.CollectionClient.register();
 		if (TrinketsCompat.LOADED) {
 			TrinketsClientCompat.register();
 		}

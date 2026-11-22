@@ -32,6 +32,8 @@ public class FemboyEquipment implements ModInitializer {
 		OutfitEffects.initialize();
 		ModWorldGen.initialize();
 
+		com.femboyequipment.collection.CollectionServer.initialize();
+
 		ResourceLoader.get(PackType.SERVER_DATA).registerReloader(OutfitEffectsData.ID, new OutfitEffectsData());
 
 		// Let addons know we're ready.

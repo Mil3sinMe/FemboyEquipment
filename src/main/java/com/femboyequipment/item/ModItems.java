@@ -120,7 +120,29 @@ public final class ModItems {
 	public static final Item FIH_CAPSULE = register("fih_capsule",
 			p -> new CapsuleItem(com.femboyequipment.api.FemboyEquipmentApi.Capsule.FIH, com.femboyequipment.block.Fih::items, p), new Item.Properties().stacksTo(64));
 
+	// Cute Collection: the book that opens it, and rank-exclusive hats (only given as rank-up rewards)
+	public static final Item COLLECTION_BOOK = register("collection_book", CollectionBookItem::new,
+			new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
+	public static final List<Item> RANK_HATS = List.of(
+			rankHat("cutie_bow", 1, Rarity.UNCOMMON),
+			rankHat("sweetheart_halo", 2, Rarity.UNCOMMON),
+			rankHat("darling_flower_crown", 3, Rarity.UNCOMMON),
+			rankHat("sparkle_star_circlet", 4, Rarity.RARE),
+			rankHat("pastel_tiara", 5, Rarity.RARE),
+			rankHat("blahaj_crown", 6, Rarity.RARE),
+			rankHat("legendary_rainbow_halo", 7, Rarity.EPIC),
+			rankHat("ultimate_femboy_crown", 8, Rarity.EPIC));
+
 	private ModItems() {
+	}
+
+	private static Item rankHat(String name, int rank, Rarity rarity) {
+		Item.Properties properties = new Item.Properties().humanoidArmor(ModArmorMaterials.rankHat(name, rank), ArmorType.HELMET)
+				.rarity(rarity);
+		if (rank >= 8) {
+			properties.component(DataComponents.ENCHANTMENT_GLINT_OVERRIDE, true).fireResistant();
+		}
+		return register(name, Item::new, properties);
 	}
 
 	private static Item armor(String name, ArmorMaterial material, ArmorType type) {

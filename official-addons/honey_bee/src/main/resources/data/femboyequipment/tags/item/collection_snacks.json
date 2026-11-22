@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_honey_bee:honey_soda",
+		"fe_honey_bee:pollen_cookie",
+		"fe_honey_bee:royal_jelly_cupcake",
+		"fe_honey_bee:honey_candy",
+		"fe_honey_bee:pollen_soup",
+		"fe_honey_bee:royal_jelly_donut",
+		"fe_honey_bee:honey_popsicle",
+		"fe_honey_bee:pollen_lollipop",
+		"fe_honey_bee:royal_jelly_macaron",
+		"fe_honey_bee:honey_pie",
+		"fe_honey_bee:pollen_bun",
+		"fe_honey_bee:royal_jelly_jelly"
+	]
+}
