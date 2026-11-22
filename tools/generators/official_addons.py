@@ -23,7 +23,7 @@ from addon_themes import THEMES  # noqa: E402
 ROOT = sys.argv[1]
 OUT = os.path.join(ROOT, "official-addons")
 CLIENT = zipfile.ZipFile(os.path.expanduser("~/.gradle/caches/fabric-loom/1.21.11/minecraft-client.jar"))
-ADDON_VERSION = "1.1.0"
+ADDON_VERSION = "1.1.1"
 MIN_FE = "1.13.0"
 
 
@@ -1418,7 +1418,7 @@ def generate(t, index):
             obj["parent"] = f"{ns}:{parent}"
         obj["display"] = display
         obj["criteria"] = criteria
-        obj["requirements"] = [list(criteria)] if frame == "challenge" else [[k2] for k2 in criteria]
+        obj["requirements"] = [[k2] for k2 in criteria]  # every criterion is needed (AND), also for the 100-item challenge
         if xp:
             obj["rewards"] = {"experience": xp}
         write_json(f"{adv}/{path}.json", obj)
