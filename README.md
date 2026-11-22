@@ -158,13 +158,19 @@ Accessories also still work held in your offhand. If you install a newer Trinket
 
 Like Lunar Client's emblem: **players who both have FemboyEquipment see a little pink bow next to each other's
 names**, above their heads, in the tab list and **in chat**. It works on **any server**, even vanilla servers without the mod
-(you just can't use the mod's items there). Friends of the mod get a special 👑 crown emblem (matched by account UUID, or by username on offline-mode/"cracked" servers).
+(you just can't use the mod's items there).
+
+**Badges** 🏅: some players get badge emblems instead of the bow: 👑 owner, developer, moderator, contributor, artist,
+translator, media, bug hunter, tester, supporter, partner, OG and friend (up to 3 shown, hover a name in chat to see
+them all). The list lives in [FemboyEquipment-Badge-Users](https://github.com/NeonWardonmc/FemboyEquipment-Badge-Users)
+(`badges.txt`, one line per player: `uuid | badge | backup-username`). The mod downloads it on startup and every 30
+minutes and caches it. The backup username is used on offline-mode/"cracked" servers.
 
 **Toggle it** with the client command `/emblem`:
 
 | Command | What it does |
 |---|---|
-| `/emblem` | Show your current settings |
+| `/emblem` | Show your current settings and your badges |
 | `/emblem share off` / `on` | Hide your emblem from others (you look like a normal player) / share it again |
 | `/emblem display off` / `on` | Stop / start showing other people's emblems |
 
@@ -172,7 +178,7 @@ Settings are saved in `config/femboyequipment-client.json`.
 
 How it works: your client sends the server which skin layers you show (hat, jacket, sleeves…) as a byte, and the
 server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod sets the spare one as a
-"has FemboyEquipment" flag. There's no backend server. The tab list remembers players once you've seen them nearby.
+"has FemboyEquipment" flag. No server-side support is needed (the only download is the public badge list). The tab list remembers players once you've seen them nearby.
 
 ### Cute Collection 📖 (custom advancement system)
 
