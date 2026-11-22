@@ -3,6 +3,29 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.14.0: Cute Collection 📖
+
+### Added
+- **Cute Collection**, a custom advancement system. FemboyEquipment's and all addons' advancements moved out of the
+  vanilla advancement screen (no more 30+ tabs, toast floods or chat spam) into their own screen:
+  - **Collection** tab: a page per tab/addon, progress bars, every collectible as a grid with tooltips
+  - **Ranks** tab: Cute Points (entry 1, group goal 5, full page 25) and 9 ranks from *Smol Bean* to *Ultimate Femboy*;
+    thresholds scale with how much content is installed
+  - **Quests** tab: 3 daily + 2 weekly quests (real-life reset) built on vanilla stats, with claimable rewards
+- Open it with **K** (rebindable), the new **Collection Book** (book + pink dye), a **♥ button** in the inventory, or `/collection`
+- **Rewards**: group goal = capsule + material bundle, full page = 6 capsules + big bundle, rank-up = an exclusive hat +
+  capsules + XP levels, quests = capsules + XP
+- **8 rank-exclusive hats** (head or Trinkets hat slot): Cutie Bow, Sweetheart Halo, Darling Flower Crown,
+  Sparkle Star Circlet, Pastel Tiara, Blåhaj Crown, Legendary Rainbow Halo, Ultimate Femboy Crown
+- **Rank titles** before your name in chat, the tab list and name tags (can be hidden in the Ranks tab)
+- Custom pastel toasts for goals, completions, rank-ups and quests
+- API: `FemboyEquipmentApi.addCollectionNamespace(ns)` (AddonKit addons are added automatically), plus optional
+  `data/<ns>/loot_table/collection/goal.json` / `challenge.json` reward bundles and the
+  `femboyequipment:collection_snacks` / `femboyequipment:collection_ores` quest tags
+
+### Changed
+- Official addons 1.1.0: material-bundle rewards and quest tags
+
 ## 1.13.0: 30 Official Addons 🎁
 
 ### Added

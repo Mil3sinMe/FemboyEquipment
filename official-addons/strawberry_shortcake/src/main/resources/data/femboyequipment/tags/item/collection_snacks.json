@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_strawberry_shortcake:strawberry_soda",
+		"fe_strawberry_shortcake:shortcake_cookie",
+		"fe_strawberry_shortcake:whipped_cream_cupcake",
+		"fe_strawberry_shortcake:strawberry_candy",
+		"fe_strawberry_shortcake:shortcake_soup",
+		"fe_strawberry_shortcake:whipped_cream_donut",
+		"fe_strawberry_shortcake:strawberry_popsicle",
+		"fe_strawberry_shortcake:shortcake_lollipop",
+		"fe_strawberry_shortcake:whipped_cream_macaron",
+		"fe_strawberry_shortcake:strawberry_pie",
+		"fe_strawberry_shortcake:shortcake_bun",
+		"fe_strawberry_shortcake:whipped_cream_jelly"
+	]
+}

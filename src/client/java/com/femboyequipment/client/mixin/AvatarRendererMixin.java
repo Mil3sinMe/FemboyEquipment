@@ -19,5 +19,8 @@ public abstract class AvatarRendererMixin {
 		if (avatar instanceof Player player && Emblems.check(player) && Emblems.shouldShow(player.getUUID()) && state.nameTag != null) {
 			state.nameTag = Emblems.decorate(player.getUUID(), player.getGameProfile().name(), state.nameTag);
 		}
+		if (avatar instanceof Player player && state.nameTag != null) {
+			state.nameTag = com.femboyequipment.client.collection.RankTitles.decorate(player.getUUID(), state.nameTag);
+		}
 	}
 }

@@ -93,6 +93,14 @@ public final class FemboyEquipmentApi {
 		CapsuleItem.addExtraPrize(capsule, prize.asItem());
 	}
 
+	/**
+	 * Moves this namespace's advancements into the Cute Collection (their own page per advancement tab, Cute Points,
+	 * hidden from the vanilla advancement screen). {@link AddonKit} does this automatically for its mod id.
+	 */
+	public static void addCollectionNamespace(String namespace) {
+		com.femboyequipment.collection.CollectionServer.addNamespace(namespace);
+	}
+
 	/** True for any Blåhaj or fih plushie, including ones from addons. */
 	public static boolean isPlushie(ItemStack stack) {
 		return Blahaj.is(stack);

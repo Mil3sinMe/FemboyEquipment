@@ -15,9 +15,11 @@ public abstract class ChatListenerMixin {
 	@ModifyVariable(method = "handlePlayerChatMessage", at = @At("HEAD"), argsOnly = true)
 	private ChatType.Bound femboy$addEmblem(ChatType.Bound bound, @Local(argsOnly = true) GameProfile sender) {
 		Emblems.refresh(sender.id());
+		net.minecraft.network.chat.Component name = bound.name();
 		if (Emblems.shouldShow(sender.id())) {
-			return new ChatType.Bound(bound.chatType(), Emblems.decorate(sender.id(), sender.name(), bound.name()), bound.targetName());
+			name = Emblems.decorate(sender.id(), sender.name(), name);
 		}
-		return bound;
+		name = com.femboyequipment.client.collection.RankTitles.decorate(sender.id(), name);
+		return name == bound.name() ? bound : new ChatType.Bound(bound.chatType(), name, bound.targetName());
 	}
 }

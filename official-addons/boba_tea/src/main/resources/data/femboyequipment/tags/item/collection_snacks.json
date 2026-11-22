@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_boba_tea:taro_soda",
+		"fe_boba_tea:brown_sugar_cookie",
+		"fe_boba_tea:matcha_cupcake",
+		"fe_boba_tea:taro_candy",
+		"fe_boba_tea:brown_sugar_soup",
+		"fe_boba_tea:matcha_donut",
+		"fe_boba_tea:taro_popsicle",
+		"fe_boba_tea:brown_sugar_lollipop",
+		"fe_boba_tea:matcha_macaron",
+		"fe_boba_tea:taro_pie",
+		"fe_boba_tea:brown_sugar_bun",
+		"fe_boba_tea:matcha_jelly"
+	]
+}

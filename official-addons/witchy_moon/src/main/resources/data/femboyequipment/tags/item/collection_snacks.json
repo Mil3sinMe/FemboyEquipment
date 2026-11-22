@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_witchy_moon:moon_milk_soda",
+		"fe_witchy_moon:potion_cookie",
+		"fe_witchy_moon:spellberry_cupcake",
+		"fe_witchy_moon:moon_milk_candy",
+		"fe_witchy_moon:potion_soup",
+		"fe_witchy_moon:spellberry_donut",
+		"fe_witchy_moon:moon_milk_popsicle",
+		"fe_witchy_moon:potion_lollipop",
+		"fe_witchy_moon:spellberry_macaron",
+		"fe_witchy_moon:moon_milk_pie",
+		"fe_witchy_moon:potion_bun",
+		"fe_witchy_moon:spellberry_jelly"
+	]
+}

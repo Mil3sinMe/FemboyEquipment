@@ -68,6 +68,7 @@ public final class AddonKit {
 
 	public AddonKit(String modId) {
 		this.modId = modId;
+		FemboyEquipmentApi.addCollectionNamespace(modId);
 	}
 
 	public Identifier id(String path) {

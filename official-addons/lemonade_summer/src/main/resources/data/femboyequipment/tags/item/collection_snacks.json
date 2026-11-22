@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_lemonade_summer:lemonade_soda",
+		"fe_lemonade_summer:orange_cookie",
+		"fe_lemonade_summer:lime_cupcake",
+		"fe_lemonade_summer:lemonade_candy",
+		"fe_lemonade_summer:orange_soup",
+		"fe_lemonade_summer:lime_donut",
+		"fe_lemonade_summer:lemonade_popsicle",
+		"fe_lemonade_summer:orange_lollipop",
+		"fe_lemonade_summer:lime_macaron",
+		"fe_lemonade_summer:lemonade_pie",
+		"fe_lemonade_summer:orange_bun",
+		"fe_lemonade_summer:lime_jelly"
+	]
+}

@@ -146,6 +146,16 @@ k.overworldOre("sparkle_ore");                            // data/myaddon/worldg
 k.creativeTab("main", () -> new ItemStack(gem));          // title: itemGroup.myaddon.main
 ```
 
+### Cute Collection (1.14.0+)
+
+`FemboyEquipmentApi.addCollectionNamespace("myaddon")` moves your advancements into the Cute Collection (a page per
+root advancement, Cute Points by frame: task 1, goal 5, challenge 25; hidden from the vanilla screen). `new AddonKit(...)`
+does this for you. Optional extras:
+
+- `data/myaddon/loot_table/collection/goal.json` / `challenge.json`: extra rewards when a goal / challenge is completed
+- item tag `femboyequipment:collection_snacks` and block tag `femboyequipment:collection_ores`: count for the
+  "eat snacks" / "mine ores" quests
+
 ### Plushie assets
 
 For a plushie with id `myaddon:fox_blahaj`, provide:

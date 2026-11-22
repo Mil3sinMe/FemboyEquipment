@@ -3,6 +3,7 @@
 	"package": "com.femboyequipment.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
+		"AbstractContainerScreenAccessor",
 		"AvatarAccessor",
 		"AvatarRendererMixin",
 		"ChatListenerMixin",

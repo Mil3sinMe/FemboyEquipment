@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cherry_blossom:sakura_soda",
+		"fe_cherry_blossom:mochi_cookie",
+		"fe_cherry_blossom:matcha_cupcake",
+		"fe_cherry_blossom:sakura_candy",
+		"fe_cherry_blossom:mochi_soup",
+		"fe_cherry_blossom:matcha_donut",
+		"fe_cherry_blossom:sakura_popsicle",
+		"fe_cherry_blossom:mochi_lollipop",
+		"fe_cherry_blossom:matcha_macaron",
+		"fe_cherry_blossom:sakura_pie",
+		"fe_cherry_blossom:mochi_bun",
+		"fe_cherry_blossom:matcha_jelly"
+	]
+}

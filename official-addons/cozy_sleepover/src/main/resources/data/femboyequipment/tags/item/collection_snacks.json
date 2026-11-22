@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cozy_sleepover:popcorn_soda",
+		"fe_cozy_sleepover:hot_cocoa_cookie",
+		"fe_cozy_sleepover:midnight_snack_cupcake",
+		"fe_cozy_sleepover:popcorn_candy",
+		"fe_cozy_sleepover:hot_cocoa_soup",
+		"fe_cozy_sleepover:midnight_snack_donut",
+		"fe_cozy_sleepover:popcorn_popsicle",
+		"fe_cozy_sleepover:hot_cocoa_lollipop",
+		"fe_cozy_sleepover:midnight_snack_macaron",
+		"fe_cozy_sleepover:popcorn_pie",
+		"fe_cozy_sleepover:hot_cocoa_bun",
+		"fe_cozy_sleepover:midnight_snack_jelly"
+	]
+}

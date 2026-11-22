@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_dragon_hoard:fire_soda",
+		"fe_dragon_hoard:gold_leaf_cookie",
+		"fe_dragon_hoard:ember_cupcake",
+		"fe_dragon_hoard:fire_candy",
+		"fe_dragon_hoard:gold_leaf_soup",
+		"fe_dragon_hoard:ember_donut",
+		"fe_dragon_hoard:fire_popsicle",
+		"fe_dragon_hoard:gold_leaf_lollipop",
+		"fe_dragon_hoard:ember_macaron",
+		"fe_dragon_hoard:fire_pie",
+		"fe_dragon_hoard:gold_leaf_bun",
+		"fe_dragon_hoard:ember_jelly"
+	]
+}

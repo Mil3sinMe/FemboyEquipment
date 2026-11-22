@@ -13,6 +13,7 @@ python3 $G/emblem.py .         # emblem font glyphs
 python3 $G/gear.py .           # Rose Quartz, sparkly tools, weapons, capsules, pastel bricks + stairs/slabs/walls
 python3 $G/fih.py .            # 1000 fih -> FihVariants.java
 python3 $G/advancements.py .   # every advancement (uses blahaj_jokes.py, adv_lines.py); asserts full coverage
+python3 $G/collection.py .     # Cute Collection: book + rank hats, quest/rank lang, tags
 git checkout src/main/resources/data/femboyequipment/structure/cute_house.nbt  # phase3 rewrites it with a new gzip timestamp
 ```
 
