@@ -1,7 +1,9 @@
 # Official addons 🧩
 
 30 official FemboyEquipment addons. Each one is its own small Fabric mod (its own jar) with **exactly 100 new things**
-and its **own creative tab** and **advancement tab**. Install any mix of them next to FemboyEquipment (1.13.0+) and Fabric API.
+and its **own creative tab** and **advancement tab**. **Since FemboyEquipment 1.16.0 all 30 ship inside the main jar**
+(jar-in-jar), so players don't need to install them separately. The single addon jars are still attached to each
+release if someone wants only some of them (next to FemboyEquipment 1.13.0+ and Fabric API).
 The full list is in [LIST.md](LIST.md).
 
 ## What's in every addon (100 things)
