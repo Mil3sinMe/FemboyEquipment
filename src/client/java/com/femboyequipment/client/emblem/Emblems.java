@@ -2,14 +2,18 @@ package com.femboyequipment.client.emblem;
 
 import com.femboyequipment.FemboyEquipment;
 import com.femboyequipment.client.mixin.AvatarAccessor;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.FontDescription;
+import net.minecraft.network.chat.HoverEvent;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.network.chat.Style;
+import net.minecraft.network.chat.TextColor;
 import net.minecraft.world.entity.player.Player;
 
 /**
@@ -26,7 +30,6 @@ public final class Emblems {
 
 	private static final FontDescription FONT = new FontDescription.Resource(FemboyEquipment.id("emblem"));
 	private static final String NORMAL = "";
-	private static final String SPECIAL = "";
 
 	/** People who get the special crown emblem. */
 	private static final Set<UUID> SPECIAL_PLAYERS = Set.of(
@@ -44,6 +47,13 @@ public final class Emblems {
 
 	/** Everyone we've seen with the flag this session, so the tab list still knows them when they're out of range. */
 	private static final Set<UUID> KNOWN_USERS = ConcurrentHashMap.newKeySet();
+
+	/** Most badge emblems shown in front of one name. */
+	private static final int MAX_SHOWN = 3;
+
+	static {
+		BadgeList.start();
+	}
 
 	private Emblems() {
 	}
@@ -83,7 +93,7 @@ public final class Emblems {
 		if (isSelf(uuid)) {
 			return config.shareEmblem; // you only "have" an emblem while you share it
 		}
-		return config.showEmblems && KNOWN_USERS.contains(uuid);
+		return config.showEmblems && (KNOWN_USERS.contains(uuid) || !BadgeList.get(uuid, null).isEmpty());
 	}
 
 	private static boolean isSelf(UUID uuid) {
@@ -91,7 +101,19 @@ public final class Emblems {
 		return mc.player != null && mc.player.getUUID().equals(uuid);
 	}
 
-	/** Whether this player gets the special crown. */
+	/**
+	 * The player's badges from the badge list (best first). The original crown people always keep {@link Badge#OWNER},
+	 * even if the list can't be downloaded.
+	 */
+	public static List<Badge> badges(UUID uuid, String username) {
+		List<Badge> badges = new ArrayList<>(BadgeList.get(uuid, username));
+		if (isSpecial(uuid, username) && !badges.contains(Badge.OWNER)) {
+			badges.add(0, Badge.OWNER);
+		}
+		return badges;
+	}
+
+	/** Whether this player gets the special crown (hardcoded, so it works even without the badge list). */
 	public static boolean isSpecial(UUID uuid, String username) {
 		if (SPECIAL_PLAYERS.contains(uuid)) {
 			return true;
@@ -106,10 +128,24 @@ public final class Emblems {
 		return Component.literal(NORMAL).setStyle(Style.EMPTY.withFont(FONT));
 	}
 
-	/** Returns the name with the right emblem in front. */
+	/** Returns the name with the right emblem(s) in front: badge emblems, or the pink bow. Hover shows the badges. */
 	public static Component decorate(UUID uuid, String username, Component name) {
-		String glyph = isSpecial(uuid, username) ? SPECIAL : NORMAL;
-		MutableComponent emblem = Component.literal(glyph).setStyle(Style.EMPTY.withFont(FONT));
+		List<Badge> badges = badges(uuid, username);
+		StringBuilder glyphs = new StringBuilder();
+		MutableComponent hover = Component.literal("FemboyEquipment").withStyle(s -> s.withColor(TextColor.fromRgb(0xFF8FC7)));
+		if (badges.isEmpty()) {
+			glyphs.append(NORMAL);
+		}
+		for (int i = 0; i < badges.size(); i++) {
+			Badge badge = badges.get(i);
+			if (i < MAX_SHOWN) {
+				glyphs.append(badge.glyph);
+			}
+			hover.append(Component.literal("\n").append(Component.literal(badge.glyph).setStyle(Style.EMPTY.withFont(FONT)))
+					.append(Component.literal(" " + badge.displayName).withStyle(s -> s.withColor(TextColor.fromRgb(badge.color)))));
+		}
+		MutableComponent emblem = Component.literal(glyphs.toString())
+				.setStyle(Style.EMPTY.withFont(FONT).withHoverEvent(new HoverEvent.ShowText(hover)));
 		return Component.empty().append(emblem).append(" ").append(name);
 	}
 
