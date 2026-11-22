@@ -17,5 +17,6 @@ public abstract class PlayerTabOverlayMixin {
 		if (Emblems.shouldShow(info.getProfile().id())) {
 			cir.setReturnValue(Emblems.decorate(info.getProfile().id(), info.getProfile().name(), cir.getReturnValue()));
 		}
+		cir.setReturnValue(com.femboyequipment.client.collection.RankTitles.decorate(info.getProfile().id(), cir.getReturnValue()));
 	}
 }

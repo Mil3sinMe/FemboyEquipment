@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mint_chocolate:mint_soda",
+		"fe_mint_chocolate:chocolate_cookie",
+		"fe_mint_chocolate:mint_chip_cupcake",
+		"fe_mint_chocolate:mint_candy",
+		"fe_mint_chocolate:chocolate_soup",
+		"fe_mint_chocolate:mint_chip_donut",
+		"fe_mint_chocolate:mint_popsicle",
+		"fe_mint_chocolate:chocolate_lollipop",
+		"fe_mint_chocolate:mint_chip_macaron",
+		"fe_mint_chocolate:mint_pie",
+		"fe_mint_chocolate:chocolate_bun",
+		"fe_mint_chocolate:mint_chip_jelly"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_bubblegum_pop:bubblegum_soda",
+		"fe_bubblegum_pop:cotton_candy_cookie",
+		"fe_bubblegum_pop:fizzy_cupcake",
+		"fe_bubblegum_pop:bubblegum_candy",
+		"fe_bubblegum_pop:cotton_candy_soup",
+		"fe_bubblegum_pop:fizzy_donut",
+		"fe_bubblegum_pop:bubblegum_popsicle",
+		"fe_bubblegum_pop:cotton_candy_lollipop",
+		"fe_bubblegum_pop:fizzy_macaron",
+		"fe_bubblegum_pop:bubblegum_pie",
+		"fe_bubblegum_pop:cotton_candy_bun",
+		"fe_bubblegum_pop:fizzy_jelly"
+	]
+}

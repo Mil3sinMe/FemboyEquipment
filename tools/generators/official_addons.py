@@ -23,7 +23,7 @@ from addon_themes import THEMES  # noqa: E402
 ROOT = sys.argv[1]
 OUT = os.path.join(ROOT, "official-addons")
 CLIENT = zipfile.ZipFile(os.path.expanduser("~/.gradle/caches/fabric-loom/1.21.11/minecraft-client.jar"))
-ADDON_VERSION = "1.0.0"
+ADDON_VERSION = "1.1.1"
 MIN_FE = "1.13.0"
 
 
@@ -1388,6 +1388,18 @@ def generate(t, index):
     tag("item/blahaj", [I(e.id) for e in C if e.kind == "blahaj"], "femboyequipment")
     tag("item/fih", [I(e.id) for e in C if e.kind == "fih"], "femboyequipment")
     tag("item/chest/necklace", [I(e.id) for e in C if e.cat == "charms"], "trinkets")
+    # Cute Collection: quest tags + material bundles for finishing a group (goal) or the whole addon (challenge)
+    tag("item/collection_snacks", [I(e.id) for e in C if e.cat == "food"], "femboyequipment")
+    tag("block/collection_ores", [I(f"{m}_ore"), I(f"deepslate_{m}_ore")], "femboyequipment")
+
+    def bundle(entries):
+        return {"type": "minecraft:generic", "pools": [{"rolls": 1.0, "bonus_rolls": 0.0, "entries": [
+            {"type": "minecraft:item", "name": I(name), "functions": [{"function": "minecraft:set_count",
+                                                                        "count": {"type": "minecraft:uniform", "min": lo, "max": hi}}]}]}
+            for name, lo, hi in entries], "random_sequence": f"{ns}:collection"}
+    write_json(f"{D}/loot_table/collection/goal.json", bundle([(m, 4, 8), (f"{m}_dust", 8, 16), (f"{m}_nugget", 9, 18)]))
+    write_json(f"{D}/loot_table/collection/challenge.json", bundle([(f"{m}_block", 3, 5), (f"sparkling_{m}", 8, 16),
+                                                                      (f"{m}_lamp", 4, 8), (m, 16, 24)]))
 
     # ---- advancements
     adv = os.path.join(D, "advancement")
@@ -1406,7 +1418,7 @@ def generate(t, index):
             obj["parent"] = f"{ns}:{parent}"
         obj["display"] = display
         obj["criteria"] = criteria
-        obj["requirements"] = [list(criteria)] if frame == "challenge" else [[k2] for k2 in criteria]
+        obj["requirements"] = [[k2] for k2 in criteria]  # every criterion is needed (AND), also for the 100-item challenge
         if xp:
             obj["rewards"] = {"experience": xp}
         write_json(f"{adv}/{path}.json", obj)
@@ -1534,4 +1546,5 @@ def main():
     print(f"official addons: {len(summary)} addons, {sum(len(C) for _, _, C in summary)} things")
 
 
-main()
+if __name__ == "__main__":
+    main()

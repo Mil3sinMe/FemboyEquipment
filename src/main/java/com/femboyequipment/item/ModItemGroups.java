@@ -54,6 +54,8 @@ public final class ModItemGroups {
 				output.accept(ModItems.HAIR_CLIP);
 				output.accept(ModItems.CHOKER);
 				output.accept(ModItems.STRAWBERRY_MILK);
+				output.accept(ModItems.COLLECTION_BOOK);
+				ModItems.RANK_HATS.forEach(output::accept);
 				output.accept(ModBlocks.PASTEL_PINK_BRICKS);
 				output.accept(ModBlocks.RIBBON_BLOCK);
 				output.accept(ModBlocks.PASTEL_BLUE_BRICKS);

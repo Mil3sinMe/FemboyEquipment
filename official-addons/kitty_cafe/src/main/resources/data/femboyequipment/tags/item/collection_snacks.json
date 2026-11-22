@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_kitty_cafe:catnip_soda",
+		"fe_kitty_cafe:latte_cookie",
+		"fe_kitty_cafe:tuna_cupcake",
+		"fe_kitty_cafe:catnip_candy",
+		"fe_kitty_cafe:latte_soup",
+		"fe_kitty_cafe:tuna_donut",
+		"fe_kitty_cafe:catnip_popsicle",
+		"fe_kitty_cafe:latte_lollipop",
+		"fe_kitty_cafe:tuna_macaron",
+		"fe_kitty_cafe:catnip_pie",
+		"fe_kitty_cafe:latte_bun",
+		"fe_kitty_cafe:tuna_jelly"
+	]
+}

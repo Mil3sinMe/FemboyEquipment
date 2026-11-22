@@ -158,13 +158,19 @@ Accessories also still work held in your offhand. If you install a newer Trinket
 
 Like Lunar Client's emblem: **players who both have FemboyEquipment see a little pink bow next to each other's
 names**, above their heads, in the tab list and **in chat**. It works on **any server**, even vanilla servers without the mod
-(you just can't use the mod's items there). Friends of the mod get a special 👑 crown emblem (matched by account UUID, or by username on offline-mode/"cracked" servers).
+(you just can't use the mod's items there).
+
+**Badges** 🏅: some players get badge emblems instead of the bow: 👑 owner, developer, moderator, contributor, artist,
+translator, media, bug hunter, tester, supporter, partner, OG and friend (up to 3 shown, hover a name in chat to see
+them all). The list lives in [FemboyEquipment-Badge-Users](https://github.com/NeonWardonmc/FemboyEquipment-Badge-Users)
+(`badges.txt`, one line per player: `uuid | badge | backup-username`). The mod downloads it on startup and every 30
+minutes and caches it. The backup username is used on offline-mode/"cracked" servers.
 
 **Toggle it** with the client command `/emblem`:
 
 | Command | What it does |
 |---|---|
-| `/emblem` | Show your current settings |
+| `/emblem` | Show your current settings and your badges |
 | `/emblem share off` / `on` | Hide your emblem from others (you look like a normal player) / share it again |
 | `/emblem display off` / `on` | Stop / start showing other people's emblems |
 
@@ -172,7 +178,26 @@ Settings are saved in `config/femboyequipment-client.json`.
 
 How it works: your client sends the server which skin layers you show (hat, jacket, sleeves…) as a byte, and the
 server shares it with everyone. Vanilla only uses 7 of those 8 bits, so the mod sets the spare one as a
-"has FemboyEquipment" flag. There's no backend server. The tab list remembers players once you've seen them nearby.
+"has FemboyEquipment" flag. No server-side support is needed (the only download is the public badge list). The tab list remembers players once you've seen them nearby.
+
+### Cute Collection 📖 (custom advancement system)
+
+FemboyEquipment's and every addon's advancements live in their own **Cute Collection** screen instead of the vanilla
+one. Open it with **K**, the **Collection Book** (book + pink dye), the **♥ button** in your inventory, or `/collection`.
+
+- **Collection**: a page per tab/addon with progress bars and every collectible in a grid (missing ones are dimmed,
+  group goals have a gold frame, full-collection challenges a purple one)
+- **Cute Points & 9 ranks**: Smol Bean → Cutie → Sweetheart → Darling → Sparkle Star → Pastel Prince(ss) →
+  Plushie Royalty → Femboy Legend → Ultimate Femboy. Every rank-up gives a **rank-exclusive hat** (bow, halos, flower
+  crown, tiara, Blåhaj crown, rainbow halo, Ultimate crown), capsules and XP levels, and your rank shows as a
+  **title** before your name in chat, the tab list and your name tag (toggle it in the Ranks tab)
+- **Rewards**: finishing a group gives a capsule + a bundle of that addon's materials; finishing a whole page gives
+  6 capsules + a big bundle
+- **Quests**: 3 daily + 2 weekly quests (they reset at real-life midnight / Monday): eat snacks, mine ores, craft,
+  bunny-hop, fish, trade, sleep... claim the rewards in the Quests tab
+- Cute toasts instead of 100 vanilla ones; nothing spams chat. Progress is saved per player per world.
+
+![Cute Collection](docs/collection.png)
 
 ### Advancements 🏆
 
@@ -248,7 +273,8 @@ across Strawberry Shortcake, Ocean Dreams, Starlight Sky, Cottagecore Garden, Bu
 Kitty Café, Frosted Winter, Pumpkin Spice, Cherry Blossom, Pastel Goth, Rainbow Pride, Trans Pride, Honey Bee,
 Mushroom Forest, Bunny Meadow, Neon Arcade, Witchy Moon, Dragon Hoard, Cloud Kingdom, Lemonade Summer,
 Mint Chocolate, Space Cadet, Fairy Ring, Boba Tea Shop, Sunset Beach, Axolotl Pond, Royal Ball, Cozy Sleepover and
-Cyber Kitten. Grab the ones you like from the release (or `dist/official-addons/`). See
+Cyber Kitten. **Since 1.16.0 they're all inside the main FemboyEquipment jar**, so one download gets you everything
+(the separate addon jars are still on each release if you only want some). See
 [official-addons/README.md](official-addons/README.md).
 
 ![Official addons](docs/official-addons.png)

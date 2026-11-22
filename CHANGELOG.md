@@ -3,6 +3,65 @@
 All versions need **Minecraft 1.21.11**, **Fabric Loader 0.18.4+** and **[Fabric API](https://modrinth.com/mod/fabric-api)**.
 Downloads are on the [Releases page](../../releases).
 
+## 1.16.0: All addons included 🎁
+
+### Changed
+- **All 30 official addons are now bundled inside the FemboyEquipment jar** (jar-in-jar), so one download has
+  everything: 3000 more items and blocks, 30 more Cute Collection pages. Same item IDs as the separate jars, so
+  existing worlds keep everything. The separate addon jars are still attached to each release
+- Official addons 1.1.1
+
+### Fixed
+- The 30 addon *Completionist* challenges finished as soon as you collected **any one** item of that addon (they
+  needed one of the 100 items instead of all 100). They now need all 100. The main mod's challenges were already
+  correct
+
+## 1.15.1: Fix
+
+### Fixed
+- A broken Trinkets slot-sync packet no longer disconnects you ("Packet handling error ... fieldSize is too long!
+  Length is 1, but maximum is 0"). This happens when another mod (e.g. a replay recorder like Flashback) reads the
+  packet before Trinkets does; the broken update is now skipped with a warning in the log, and the slots catch up
+  on the next sync
+
+## 1.15.0: Badges 🏅
+
+### Added
+- **Badges**: players listed in [FemboyEquipment-Badge-Users](https://github.com/NeonWardonmc/FemboyEquipment-Badge-Users)
+  get badge emblems in front of their name (chat, tab list, name tags): owner, developer, moderator, contributor,
+  artist, translator, media, bug hunter, tester, supporter, partner, OG and friend
+  - `badges.txt` format: `uuid | badge[,badge...] | backup-username` (the username is used on offline-mode servers)
+  - Downloaded on startup and every 30 minutes, cached in `config/femboyequipment-badges-cache.txt` for offline play
+  - Up to 3 emblems per player (best first); hover a name in chat to see all badges
+- **12 new emblems** (one per badge); the pink bow and the owner crown stay the same
+- `/emblem` now also lists your own badges
+
+### Changed
+- The people who already had the crown keep it: they're `owner` in the list, and still hardcoded as a fallback
+
+## 1.14.0: Cute Collection 📖
+
+### Added
+- **Cute Collection**, a custom advancement system. FemboyEquipment's and all addons' advancements moved out of the
+  vanilla advancement screen (no more 30+ tabs, toast floods or chat spam) into their own screen:
+  - **Collection** tab: a page per tab/addon, progress bars, every collectible as a grid with tooltips
+  - **Ranks** tab: Cute Points (entry 1, group goal 5, full page 25) and 9 ranks from *Smol Bean* to *Ultimate Femboy*;
+    thresholds scale with how much content is installed
+  - **Quests** tab: 3 daily + 2 weekly quests (real-life reset) built on vanilla stats, with claimable rewards
+- Open it with **K** (rebindable), the new **Collection Book** (book + pink dye), a **♥ button** in the inventory, or `/collection`
+- **Rewards**: group goal = capsule + material bundle, full page = 6 capsules + big bundle, rank-up = an exclusive hat +
+  capsules + XP levels, quests = capsules + XP
+- **8 rank-exclusive hats** (head or Trinkets hat slot): Cutie Bow, Sweetheart Halo, Darling Flower Crown,
+  Sparkle Star Circlet, Pastel Tiara, Blåhaj Crown, Legendary Rainbow Halo, Ultimate Femboy Crown
+- **Rank titles** before your name in chat, the tab list and name tags (can be hidden in the Ranks tab)
+- Custom pastel toasts for goals, completions, rank-ups and quests
+- API: `FemboyEquipmentApi.addCollectionNamespace(ns)` (AddonKit addons are added automatically), plus optional
+  `data/<ns>/loot_table/collection/goal.json` / `challenge.json` reward bundles and the
+  `femboyequipment:collection_snacks` / `femboyequipment:collection_ores` quest tags
+
+### Changed
+- Official addons 1.1.0: material-bundle rewards and quest tags
+
 ## 1.13.0: 30 Official Addons 🎁
 
 ### Added

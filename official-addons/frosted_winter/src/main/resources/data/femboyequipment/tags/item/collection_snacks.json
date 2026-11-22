@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_frosted_winter:peppermint_soda",
+		"fe_frosted_winter:snowflake_cookie",
+		"fe_frosted_winter:cocoa_cupcake",
+		"fe_frosted_winter:peppermint_candy",
+		"fe_frosted_winter:snowflake_soup",
+		"fe_frosted_winter:cocoa_donut",
+		"fe_frosted_winter:peppermint_popsicle",
+		"fe_frosted_winter:snowflake_lollipop",
+		"fe_frosted_winter:cocoa_macaron",
+		"fe_frosted_winter:peppermint_pie",
+		"fe_frosted_winter:snowflake_bun",
+		"fe_frosted_winter:cocoa_jelly"
+	]
+}

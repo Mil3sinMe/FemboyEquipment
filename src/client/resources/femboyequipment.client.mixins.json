@@ -3,11 +3,13 @@
 	"package": "com.femboyequipment.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
+		"AbstractContainerScreenAccessor",
 		"AvatarAccessor",
 		"AvatarRendererMixin",
 		"ChatListenerMixin",
 		"OptionsMixin",
-		"PlayerTabOverlayMixin"
+		"PlayerTabOverlayMixin",
+		"TrinketSyncGuardMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

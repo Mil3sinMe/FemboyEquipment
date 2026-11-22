@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mushroom_forest:mushroom_soda",
+		"fe_mushroom_forest:truffle_cookie",
+		"fe_mushroom_forest:forest_berry_cupcake",
+		"fe_mushroom_forest:mushroom_candy",
+		"fe_mushroom_forest:truffle_soup",
+		"fe_mushroom_forest:forest_berry_donut",
+		"fe_mushroom_forest:mushroom_popsicle",
+		"fe_mushroom_forest:truffle_lollipop",
+		"fe_mushroom_forest:forest_berry_macaron",
+		"fe_mushroom_forest:mushroom_pie",
+		"fe_mushroom_forest:truffle_bun",
+		"fe_mushroom_forest:forest_berry_jelly"
+	]
+}
