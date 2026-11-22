@@ -8,7 +8,8 @@
 		"AvatarRendererMixin",
 		"ChatListenerMixin",
 		"OptionsMixin",
-		"PlayerTabOverlayMixin"
+		"PlayerTabOverlayMixin",
+		"TrinketSyncGuardMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
