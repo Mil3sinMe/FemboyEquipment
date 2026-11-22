@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_honey_bee:honeystone_brick_stairs",
+		"fe_honey_bee:honeystone_tile_stairs",
+		"fe_honey_bee:polished_honeystone_stairs",
+		"fe_honey_bee:cobbled_honeystone_stairs",
+		"fe_honey_bee:honeystone_mosaic_stairs"
+	]
+}

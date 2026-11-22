@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/blahaj_base",
+	"textures": {
+		"shark": "fe_sunset_beach:block/glowing_sunset_blahaj"
+	}
+}

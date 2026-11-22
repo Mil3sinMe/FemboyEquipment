@@ -1,0 +1,39 @@
+{
+	"parent": "fe_mint_chocolate:main/mintite_leggings",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mintite_boots",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_boots.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_boots.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mintite_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

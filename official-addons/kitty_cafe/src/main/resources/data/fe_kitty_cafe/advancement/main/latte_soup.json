@@ -1,0 +1,36 @@
+{
+	"parent": "fe_kitty_cafe:main/catnip_candy",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:latte_soup",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.latte_soup.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.latte_soup.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:latte_soup"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

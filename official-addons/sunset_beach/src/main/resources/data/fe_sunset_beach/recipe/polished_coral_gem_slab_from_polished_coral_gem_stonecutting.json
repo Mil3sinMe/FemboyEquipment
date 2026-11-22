@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_sunset_beach:polished_coral_gem",
+	"result": {
+		"count": 2,
+		"id": "fe_sunset_beach:polished_coral_gem_slab"
+	}
+}

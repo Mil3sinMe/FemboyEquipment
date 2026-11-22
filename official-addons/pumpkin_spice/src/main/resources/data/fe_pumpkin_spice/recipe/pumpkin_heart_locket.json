@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_pumpkin_spice:spiced_amber",
+		"minecraft:gold_ingot"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pumpkin_spice:pumpkin_heart_locket"
+	}
+}

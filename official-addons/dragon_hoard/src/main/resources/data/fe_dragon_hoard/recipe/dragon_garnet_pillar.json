@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_dragon_hoard:polished_dragon_garnet"
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_dragon_hoard:dragon_garnet_pillar"
+	}
+}

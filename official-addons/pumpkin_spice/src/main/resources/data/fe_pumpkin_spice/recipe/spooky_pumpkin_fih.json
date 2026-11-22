@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:light_blue_wool",
+		"fe_pumpkin_spice:spiced_amber"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pumpkin_spice:spooky_pumpkin_fih"
+	}
+}

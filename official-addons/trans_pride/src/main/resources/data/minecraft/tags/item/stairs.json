@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_trans_pride:transcendite_brick_stairs",
+		"fe_trans_pride:transcendite_tile_stairs",
+		"fe_trans_pride:polished_transcendite_stairs",
+		"fe_trans_pride:cobbled_transcendite_stairs",
+		"fe_trans_pride:transcendite_mosaic_stairs"
+	]
+}

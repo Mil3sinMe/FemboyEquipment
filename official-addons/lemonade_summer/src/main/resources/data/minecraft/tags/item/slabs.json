@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_lemonade_summer:citrine_brick_slab",
+		"fe_lemonade_summer:citrine_tile_slab",
+		"fe_lemonade_summer:polished_citrine_slab",
+		"fe_lemonade_summer:cobbled_citrine_slab",
+		"fe_lemonade_summer:citrine_mosaic_slab"
+	]
+}

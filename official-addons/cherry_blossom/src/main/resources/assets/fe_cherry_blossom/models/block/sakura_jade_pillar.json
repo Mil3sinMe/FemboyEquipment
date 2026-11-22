@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_cherry_blossom:block/polished_sakura_jade",
+		"side": "fe_cherry_blossom:block/sakura_jade_pillar"
+	}
+}

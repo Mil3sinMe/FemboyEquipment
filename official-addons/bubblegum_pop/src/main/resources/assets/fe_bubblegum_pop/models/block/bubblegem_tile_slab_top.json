@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_bubblegum_pop:block/bubblegem_tiles",
+		"top": "fe_bubblegum_pop:block/bubblegem_tiles",
+		"side": "fe_bubblegum_pop:block/bubblegem_tiles"
+	}
+}

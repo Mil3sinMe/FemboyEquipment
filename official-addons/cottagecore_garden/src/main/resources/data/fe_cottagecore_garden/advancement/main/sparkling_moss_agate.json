@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cottagecore_garden:main/starry_moss_agate",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:sparkling_moss_agate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.sparkling_moss_agate.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.sparkling_moss_agate.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:sparkling_moss_agate"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

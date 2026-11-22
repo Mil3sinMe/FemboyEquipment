@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_bubblegum_pop:block/polished_bubblegem",
+		"side": "fe_bubblegum_pop:block/bubblegem_pillar"
+	}
+}

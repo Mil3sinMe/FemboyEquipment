@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/vanilla_cupcake",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:cotton_candy_candy",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.cotton_candy_candy.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.cotton_candy_candy.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:cotton_candy_candy"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

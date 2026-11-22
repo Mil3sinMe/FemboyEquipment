@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_space_cadet:meteorite"
+	},
+	"pattern": [
+		"###",
+		"# #",
+		"# #"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_space_cadet:meteorite_leggings"
+	}
+}

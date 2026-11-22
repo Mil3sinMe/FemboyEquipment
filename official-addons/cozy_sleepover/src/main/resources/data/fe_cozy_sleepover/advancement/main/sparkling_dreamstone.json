@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cozy_sleepover:main/starry_dreamstone",
+	"display": {
+		"icon": {
+			"id": "fe_cozy_sleepover:sparkling_dreamstone",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cozy_sleepover.main.sparkling_dreamstone.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cozy_sleepover.main.sparkling_dreamstone.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cozy_sleepover:sparkling_dreamstone"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

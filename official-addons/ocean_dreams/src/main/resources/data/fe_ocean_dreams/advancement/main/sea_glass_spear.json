@@ -1,0 +1,39 @@
+{
+	"parent": "fe_ocean_dreams:main/sea_glass_hoe",
+	"display": {
+		"icon": {
+			"id": "fe_ocean_dreams:sea_glass_spear",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_ocean_dreams.main.sea_glass_spear.title"
+		},
+		"description": {
+			"translate": "advancements.fe_ocean_dreams.main.sea_glass_spear.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_ocean_dreams:sea_glass_spear"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

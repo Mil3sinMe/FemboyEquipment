@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:purple_wool",
+		"fe_cottagecore_garden:moss_agate"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cottagecore_garden:sunny_garden_fih"
+	}
+}

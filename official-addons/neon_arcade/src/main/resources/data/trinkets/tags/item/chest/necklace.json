@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_neon_arcade:neon_ribbon_charm",
+		"fe_neon_arcade:neon_heart_locket",
+		"fe_neon_arcade:neon_bell_collar",
+		"fe_neon_arcade:neon_star_pin",
+		"fe_neon_arcade:neon_moon_pendant",
+		"fe_neon_arcade:neon_bow_clip",
+		"fe_neon_arcade:neon_friendship_bracelet",
+		"fe_neon_arcade:neon_lucky_coin",
+		"fe_neon_arcade:neon_anklet",
+		"fe_neon_arcade:neon_earrings",
+		"fe_neon_arcade:neon_bead_necklace",
+		"fe_neon_arcade:neon_keychain"
+	]
+}

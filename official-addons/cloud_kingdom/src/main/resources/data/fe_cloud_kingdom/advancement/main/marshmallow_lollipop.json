@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/cloud_popsicle",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:marshmallow_lollipop",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.marshmallow_lollipop.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.marshmallow_lollipop.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:marshmallow_lollipop"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

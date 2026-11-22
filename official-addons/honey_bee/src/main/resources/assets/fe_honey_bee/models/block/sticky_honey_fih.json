@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_honey_bee:block/sticky_honey_fih"
+	}
+}

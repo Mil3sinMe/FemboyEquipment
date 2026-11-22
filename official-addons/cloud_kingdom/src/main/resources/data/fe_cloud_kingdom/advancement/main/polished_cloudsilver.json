@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/cloudsilver_tile_wall",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:polished_cloudsilver",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.polished_cloudsilver.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.polished_cloudsilver.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:polished_cloudsilver"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_cottagecore_garden:cobbled_moss_agate",
+	"result": {
+		"count": 1,
+		"id": "fe_cottagecore_garden:cobbled_moss_agate_stairs"
+	}
+}

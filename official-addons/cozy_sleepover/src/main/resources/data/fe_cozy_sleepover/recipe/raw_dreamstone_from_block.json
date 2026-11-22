@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cozy_sleepover:raw_dreamstone_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_cozy_sleepover:raw_dreamstone"
+	}
+}

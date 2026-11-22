@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_cottagecore_garden:block/moss_agate_mosaic"
+	}
+}

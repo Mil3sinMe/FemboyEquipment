@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_kitty_cafe:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:purrite_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"purrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite"
+					}
+				]
+			}
+		},
+		"raw_purrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:raw_purrite"
+					}
+				]
+			}
+		},
+		"purrite_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_nugget"
+					}
+				]
+			}
+		},
+		"purrite_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_dust"
+					}
+				]
+			}
+		},
+		"purrite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_ore"
+					}
+				]
+			}
+		},
+		"deepslate_purrite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:deepslate_purrite_ore"
+					}
+				]
+			}
+		},
+		"purrite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_block"
+					}
+				]
+			}
+		},
+		"raw_purrite_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:raw_purrite_block"
+					}
+				]
+			}
+		},
+		"purrite_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_bricks"
+					}
+				]
+			}
+		},
+		"purrite_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_brick_stairs"
+					}
+				]
+			}
+		},
+		"purrite_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_brick_slab"
+					}
+				]
+			}
+		},
+		"purrite_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_brick_wall"
+					}
+				]
+			}
+		},
+		"purrite_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_tiles"
+					}
+				]
+			}
+		},
+		"purrite_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_tile_stairs"
+					}
+				]
+			}
+		},
+		"purrite_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_tile_slab"
+					}
+				]
+			}
+		},
+		"purrite_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_purrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:polished_purrite"
+					}
+				]
+			}
+		},
+		"polished_purrite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:polished_purrite_stairs"
+					}
+				]
+			}
+		},
+		"polished_purrite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:polished_purrite_slab"
+					}
+				]
+			}
+		},
+		"polished_purrite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:polished_purrite_wall"
+					}
+				]
+			}
+		},
+		"cobbled_purrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:cobbled_purrite"
+					}
+				]
+			}
+		},
+		"cobbled_purrite_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:cobbled_purrite_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_purrite_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:cobbled_purrite_slab"
+					}
+				]
+			}
+		},
+		"cobbled_purrite_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:cobbled_purrite_wall"
+					}
+				]
+			}
+		},
+		"purrite_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_mosaic"
+					}
+				]
+			}
+		},
+		"purrite_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"purrite_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_mosaic_slab"
+					}
+				]
+			}
+		},
+		"purrite_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_mosaic_wall"
+					}
+				]
+			}
+		},
+		"purrite_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_lamp"
+					}
+				]
+			}
+		},
+		"kitty_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_cushion"
+					}
+				]
+			}
+		},
+		"kitty_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_crate"
+					}
+				]
+			}
+		},
+		"purrite_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_purrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:chiseled_purrite"
+					}
+				]
+			}
+		},
+		"purrite_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_shingles"
+					}
+				]
+			}
+		},
+		"kitty_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_purrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:glazed_purrite"
+					}
+				]
+			}
+		},
+		"starry_purrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:starry_purrite"
+					}
+				]
+			}
+		},
+		"sparkling_purrite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:sparkling_purrite"
+					}
+				]
+			}
+		},
+		"purrite_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_sword"
+					}
+				]
+			}
+		},
+		"purrite_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_pickaxe"
+					}
+				]
+			}
+		},
+		"purrite_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_axe"
+					}
+				]
+			}
+		},
+		"purrite_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_shovel"
+					}
+				]
+			}
+		},
+		"purrite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_hoe"
+					}
+				]
+			}
+		},
+		"purrite_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_spear"
+					}
+				]
+			}
+		},
+		"yarn_ball_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:yarn_ball_bat"
+					}
+				]
+			}
+		},
+		"paw_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:paw_hammer"
+					}
+				]
+			}
+		},
+		"whisker_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:whisker_scythe"
+					}
+				]
+			}
+		},
+		"feather_teaser_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:feather_teaser_wand"
+					}
+				]
+			}
+		},
+		"purrite_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_helmet"
+					}
+				]
+			}
+		},
+		"purrite_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_chestplate"
+					}
+				]
+			}
+		},
+		"purrite_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_leggings"
+					}
+				]
+			}
+		},
+		"purrite_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purrite_boots"
+					}
+				]
+			}
+		},
+		"catnip_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:catnip_soda"
+					}
+				]
+			}
+		},
+		"latte_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:latte_cookie"
+					}
+				]
+			}
+		},
+		"tuna_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:tuna_cupcake"
+					}
+				]
+			}
+		},
+		"catnip_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:catnip_candy"
+					}
+				]
+			}
+		},
+		"latte_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:latte_soup"
+					}
+				]
+			}
+		},
+		"tuna_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:tuna_donut"
+					}
+				]
+			}
+		},
+		"catnip_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:catnip_popsicle"
+					}
+				]
+			}
+		},
+		"latte_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:latte_lollipop"
+					}
+				]
+			}
+		},
+		"tuna_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:tuna_macaron"
+					}
+				]
+			}
+		},
+		"catnip_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:catnip_pie"
+					}
+				]
+			}
+		},
+		"latte_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:latte_bun"
+					}
+				]
+			}
+		},
+		"tuna_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:tuna_jelly"
+					}
+				]
+			}
+		},
+		"kitty_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_ribbon_charm"
+					}
+				]
+			}
+		},
+		"kitty_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_heart_locket"
+					}
+				]
+			}
+		},
+		"kitty_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_bell_collar"
+					}
+				]
+			}
+		},
+		"kitty_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_star_pin"
+					}
+				]
+			}
+		},
+		"kitty_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_moon_pendant"
+					}
+				]
+			}
+		},
+		"kitty_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_bow_clip"
+					}
+				]
+			}
+		},
+		"kitty_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"kitty_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_lucky_coin"
+					}
+				]
+			}
+		},
+		"kitty_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_anklet"
+					}
+				]
+			}
+		},
+		"kitty_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_earrings"
+					}
+				]
+			}
+		},
+		"kitty_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_bead_necklace"
+					}
+				]
+			}
+		},
+		"kitty_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_keychain"
+					}
+				]
+			}
+		},
+		"purring_kitty_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purring_kitty_blahaj"
+					}
+				]
+			}
+		},
+		"napping_kitty_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:napping_kitty_blahaj"
+					}
+				]
+			}
+		},
+		"curious_kitty_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:curious_kitty_blahaj"
+					}
+				]
+			}
+		},
+		"fluffy_kitty_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:fluffy_kitty_blahaj"
+					}
+				]
+			}
+		},
+		"mlem_kitty_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:mlem_kitty_blahaj"
+					}
+				]
+			}
+		},
+		"purring_kitty_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:purring_kitty_fih"
+					}
+				]
+			}
+		},
+		"napping_kitty_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:napping_kitty_fih"
+					}
+				]
+			}
+		},
+		"curious_kitty_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:curious_kitty_fih"
+					}
+				]
+			}
+		},
+		"fluffy_kitty_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:fluffy_kitty_fih"
+					}
+				]
+			}
+		},
+		"mlem_kitty_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:mlem_kitty_fih"
+					}
+				]
+			}
+		},
+		"kitty_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_heart_sticker"
+					}
+				]
+			}
+		},
+		"kitty_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_star_sticker"
+					}
+				]
+			}
+		},
+		"kitty_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_moon_sticker"
+					}
+				]
+			}
+		},
+		"kitty_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_flower_sticker"
+					}
+				]
+			}
+		},
+		"kitty_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_paw_sticker"
+					}
+				]
+			}
+		},
+		"kitty_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_bow_sticker"
+					}
+				]
+			}
+		},
+		"kitty_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_cloud_sticker"
+					}
+				]
+			}
+		},
+		"kitty_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"kitty_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_smiley_sticker"
+					}
+				]
+			}
+		},
+		"kitty_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_music_note_sticker"
+					}
+				]
+			}
+		},
+		"kitty_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_crown_sticker"
+					}
+				]
+			}
+		},
+		"kitty_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"kitty_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"kitty_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:kitty_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"purrite",
+			"raw_purrite",
+			"purrite_nugget",
+			"purrite_dust",
+			"purrite_ore",
+			"deepslate_purrite_ore",
+			"purrite_block",
+			"raw_purrite_block",
+			"purrite_bricks",
+			"purrite_brick_stairs",
+			"purrite_brick_slab",
+			"purrite_brick_wall",
+			"purrite_tiles",
+			"purrite_tile_stairs",
+			"purrite_tile_slab",
+			"purrite_tile_wall",
+			"polished_purrite",
+			"polished_purrite_stairs",
+			"polished_purrite_slab",
+			"polished_purrite_wall",
+			"cobbled_purrite",
+			"cobbled_purrite_stairs",
+			"cobbled_purrite_slab",
+			"cobbled_purrite_wall",
+			"purrite_mosaic",
+			"purrite_mosaic_stairs",
+			"purrite_mosaic_slab",
+			"purrite_mosaic_wall",
+			"purrite_lamp",
+			"kitty_cushion",
+			"kitty_crate",
+			"purrite_pillar",
+			"chiseled_purrite",
+			"purrite_shingles",
+			"kitty_quilt_block",
+			"glazed_purrite",
+			"starry_purrite",
+			"sparkling_purrite",
+			"purrite_sword",
+			"purrite_pickaxe",
+			"purrite_axe",
+			"purrite_shovel",
+			"purrite_hoe",
+			"purrite_spear",
+			"yarn_ball_bat",
+			"paw_hammer",
+			"whisker_scythe",
+			"feather_teaser_wand",
+			"purrite_helmet",
+			"purrite_chestplate",
+			"purrite_leggings",
+			"purrite_boots",
+			"catnip_soda",
+			"latte_cookie",
+			"tuna_cupcake",
+			"catnip_candy",
+			"latte_soup",
+			"tuna_donut",
+			"catnip_popsicle",
+			"latte_lollipop",
+			"tuna_macaron",
+			"catnip_pie",
+			"latte_bun",
+			"tuna_jelly",
+			"kitty_ribbon_charm",
+			"kitty_heart_locket",
+			"kitty_bell_collar",
+			"kitty_star_pin",
+			"kitty_moon_pendant",
+			"kitty_bow_clip",
+			"kitty_friendship_bracelet",
+			"kitty_lucky_coin",
+			"kitty_anklet",
+			"kitty_earrings",
+			"kitty_bead_necklace",
+			"kitty_keychain",
+			"purring_kitty_blahaj",
+			"napping_kitty_blahaj",
+			"curious_kitty_blahaj",
+			"fluffy_kitty_blahaj",
+			"mlem_kitty_blahaj",
+			"purring_kitty_fih",
+			"napping_kitty_fih",
+			"curious_kitty_fih",
+			"fluffy_kitty_fih",
+			"mlem_kitty_fih",
+			"kitty_heart_sticker",
+			"kitty_star_sticker",
+			"kitty_moon_sticker",
+			"kitty_flower_sticker",
+			"kitty_paw_sticker",
+			"kitty_bow_sticker",
+			"kitty_cloud_sticker",
+			"kitty_sparkle_sticker",
+			"kitty_smiley_sticker",
+			"kitty_music_note_sticker",
+			"kitty_crown_sticker",
+			"kitty_rainbow_sticker",
+			"kitty_butterfly_sticker",
+			"kitty_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

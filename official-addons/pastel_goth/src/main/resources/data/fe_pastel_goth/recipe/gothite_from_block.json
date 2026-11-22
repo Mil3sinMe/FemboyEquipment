@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_pastel_goth:gothite_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_pastel_goth:gothite"
+	}
+}

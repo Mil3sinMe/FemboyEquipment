@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/blahaj_base",
+	"textures": {
+		"shark": "fe_trans_pride:block/euphoric_trans_blahaj"
+	}
+}

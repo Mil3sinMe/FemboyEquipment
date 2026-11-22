@@ -1,0 +1,36 @@
+{
+	"parent": "fe_witchy_moon:main/polished_moonstone_wall",
+	"display": {
+		"icon": {
+			"id": "fe_witchy_moon:cobbled_moonstone",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_witchy_moon.main.cobbled_moonstone.title"
+		},
+		"description": {
+			"translate": "advancements.fe_witchy_moon.main.cobbled_moonstone.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:cobbled_moonstone"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_kitty_cafe:purrite_brick_slab",
+		"fe_kitty_cafe:purrite_tile_slab",
+		"fe_kitty_cafe:polished_purrite_slab",
+		"fe_kitty_cafe:cobbled_purrite_slab",
+		"fe_kitty_cafe:purrite_mosaic_slab"
+	]
+}

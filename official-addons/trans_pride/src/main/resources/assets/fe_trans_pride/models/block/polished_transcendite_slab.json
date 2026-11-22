@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_trans_pride:block/polished_transcendite",
+		"top": "fe_trans_pride:block/polished_transcendite",
+		"side": "fe_trans_pride:block/polished_transcendite"
+	}
+}

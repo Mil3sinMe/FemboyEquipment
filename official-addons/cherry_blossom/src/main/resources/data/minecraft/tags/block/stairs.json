@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cherry_blossom:sakura_jade_brick_stairs",
+		"fe_cherry_blossom:sakura_jade_tile_stairs",
+		"fe_cherry_blossom:polished_sakura_jade_stairs",
+		"fe_cherry_blossom:cobbled_sakura_jade_stairs",
+		"fe_cherry_blossom:sakura_jade_mosaic_stairs"
+	]
+}

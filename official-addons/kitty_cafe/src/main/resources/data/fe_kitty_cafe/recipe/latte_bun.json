@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_kitty_cafe:purrite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:latte_bun"
+	}
+}

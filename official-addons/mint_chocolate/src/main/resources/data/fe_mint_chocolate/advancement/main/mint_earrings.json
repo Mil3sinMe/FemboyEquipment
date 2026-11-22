@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/mint_anklet",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mint_earrings",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mint_earrings.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mint_earrings.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mint_earrings"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

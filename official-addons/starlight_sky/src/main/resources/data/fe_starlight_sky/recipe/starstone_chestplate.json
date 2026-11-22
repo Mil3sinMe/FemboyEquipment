@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_starlight_sky:starstone"
+	},
+	"pattern": [
+		"# #",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_starlight_sky:starstone_chestplate"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cozy_sleepover:dreamstone",
+		"minecraft:prismarine_shard"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cozy_sleepover:sleepover_bead_necklace"
+	}
+}

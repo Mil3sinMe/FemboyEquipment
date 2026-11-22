@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"bottom": "fe_trans_pride:block/transcendite_tiles",
+		"top": "fe_trans_pride:block/transcendite_tiles",
+		"side": "fe_trans_pride:block/transcendite_tiles"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/deepslate_cloudsilver_ore",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cloudsilver_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloudsilver_block.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloudsilver_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloudsilver_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_bubblegum_pop:bubblegem_ore",
+		"fe_bubblegum_pop:deepslate_bubblegem_ore",
+		"fe_bubblegum_pop:bubblegem_block",
+		"fe_bubblegum_pop:raw_bubblegem_block"
+	]
+}

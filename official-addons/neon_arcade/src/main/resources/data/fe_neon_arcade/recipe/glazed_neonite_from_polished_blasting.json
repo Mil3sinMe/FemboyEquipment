@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_neon_arcade:polished_neonite",
+	"result": {
+		"id": "fe_neon_arcade:glazed_neonite"
+	}
+}

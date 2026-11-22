@@ -1,0 +1,36 @@
+{
+	"parent": "fe_honey_bee:main/honey_moon_pendant",
+	"display": {
+		"icon": {
+			"id": "fe_honey_bee:honey_bow_clip",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_honey_bee.main.honey_bow_clip.title"
+		},
+		"description": {
+			"translate": "advancements.fe_honey_bee.main.honey_bow_clip.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_bow_clip"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

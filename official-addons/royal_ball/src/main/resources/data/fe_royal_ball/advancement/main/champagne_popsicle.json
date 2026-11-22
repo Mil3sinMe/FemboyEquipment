@@ -1,0 +1,36 @@
+{
+	"parent": "fe_royal_ball:main/royal_icing_donut",
+	"display": {
+		"icon": {
+			"id": "fe_royal_ball:champagne_popsicle",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_royal_ball.main.champagne_popsicle.title"
+		},
+		"description": {
+			"translate": "advancements.fe_royal_ball.main.champagne_popsicle.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_royal_ball:champagne_popsicle"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

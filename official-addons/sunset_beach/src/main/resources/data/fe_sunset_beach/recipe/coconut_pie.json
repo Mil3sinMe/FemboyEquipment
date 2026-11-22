@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:apple",
+		"fe_sunset_beach:coral_gem_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_sunset_beach:coconut_pie"
+	}
+}

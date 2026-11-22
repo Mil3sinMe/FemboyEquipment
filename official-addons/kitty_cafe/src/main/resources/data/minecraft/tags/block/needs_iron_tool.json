@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_kitty_cafe:purrite_ore",
+		"fe_kitty_cafe:deepslate_purrite_ore",
+		"fe_kitty_cafe:purrite_block",
+		"fe_kitty_cafe:raw_purrite_block"
+	]
+}

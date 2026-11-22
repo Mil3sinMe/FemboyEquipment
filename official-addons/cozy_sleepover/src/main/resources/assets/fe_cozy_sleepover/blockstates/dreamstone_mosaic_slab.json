@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_cozy_sleepover:block/dreamstone_mosaic_slab"
+		},
+		"type=top": {
+			"model": "fe_cozy_sleepover:block/dreamstone_mosaic_slab_top"
+		},
+		"type=double": {
+			"model": "fe_cozy_sleepover:block/dreamstone_mosaic"
+		}
+	}
+}

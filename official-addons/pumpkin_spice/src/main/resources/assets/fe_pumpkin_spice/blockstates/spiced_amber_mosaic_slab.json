@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_pumpkin_spice:block/spiced_amber_mosaic_slab"
+		},
+		"type=top": {
+			"model": "fe_pumpkin_spice:block/spiced_amber_mosaic_slab_top"
+		},
+		"type=double": {
+			"model": "fe_pumpkin_spice:block/spiced_amber_mosaic"
+		}
+	}
+}

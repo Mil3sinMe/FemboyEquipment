@@ -1,0 +1,39 @@
+{
+	"parent": "fe_kitty_cafe:main/latte_bun",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:tuna_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.tuna_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.tuna_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:tuna_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

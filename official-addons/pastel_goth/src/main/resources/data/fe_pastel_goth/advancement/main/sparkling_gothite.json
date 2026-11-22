@@ -1,0 +1,39 @@
+{
+	"parent": "fe_pastel_goth:main/starry_gothite",
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:sparkling_gothite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.sparkling_gothite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.sparkling_gothite.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pastel_goth:sparkling_gothite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

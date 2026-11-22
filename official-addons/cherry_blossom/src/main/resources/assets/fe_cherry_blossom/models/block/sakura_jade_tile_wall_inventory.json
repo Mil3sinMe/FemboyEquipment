@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_cherry_blossom:block/sakura_jade_tiles"
+	}
+}

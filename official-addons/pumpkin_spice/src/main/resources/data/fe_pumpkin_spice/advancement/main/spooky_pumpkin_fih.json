@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pumpkin_spice:main/glowing_pumpkin_blahaj",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:spooky_pumpkin_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.spooky_pumpkin_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.spooky_pumpkin_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spooky_pumpkin_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

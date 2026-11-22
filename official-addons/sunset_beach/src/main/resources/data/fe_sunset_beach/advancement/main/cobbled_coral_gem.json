@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/polished_coral_gem_wall",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:cobbled_coral_gem",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.cobbled_coral_gem.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.cobbled_coral_gem.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:cobbled_coral_gem"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

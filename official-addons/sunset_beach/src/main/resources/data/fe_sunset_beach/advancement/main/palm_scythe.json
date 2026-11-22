@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/sandcastle_hammer",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:palm_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.palm_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.palm_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:palm_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

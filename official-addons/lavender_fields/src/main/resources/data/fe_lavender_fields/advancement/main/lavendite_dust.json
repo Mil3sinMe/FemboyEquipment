@@ -1,0 +1,39 @@
+{
+	"parent": "fe_lavender_fields:main/lavendite_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:lavendite_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.lavendite_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.lavendite_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:lavendite_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

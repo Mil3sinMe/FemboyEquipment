@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mint_chocolate:mintite_ore",
+		"fe_mint_chocolate:deepslate_mintite_ore",
+		"fe_mint_chocolate:mintite_block",
+		"fe_mint_chocolate:raw_mintite_block"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bowl",
+		"minecraft:carrot",
+		"fe_boba_tea:taro_pearl_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:brown_sugar_soup"
+	}
+}

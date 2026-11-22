@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:yellow_wool",
+		"fe_rainbow_pride:prismatite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_rainbow_pride:radiant_rainbow_fih"
+	}
+}

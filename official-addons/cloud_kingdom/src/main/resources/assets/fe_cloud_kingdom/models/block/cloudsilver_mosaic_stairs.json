@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_cloud_kingdom:block/cloudsilver_mosaic",
+		"top": "fe_cloud_kingdom:block/cloudsilver_mosaic",
+		"side": "fe_cloud_kingdom:block/cloudsilver_mosaic"
+	}
+}

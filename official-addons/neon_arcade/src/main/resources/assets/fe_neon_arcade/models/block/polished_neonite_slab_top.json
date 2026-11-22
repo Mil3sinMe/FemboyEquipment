@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_neon_arcade:block/polished_neonite",
+		"top": "fe_neon_arcade:block/polished_neonite",
+		"side": "fe_neon_arcade:block/polished_neonite"
+	}
+}

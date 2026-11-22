@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:dragon_garnet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.root.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "fe_dragon_hoard:gui/advancements/backgrounds/main"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

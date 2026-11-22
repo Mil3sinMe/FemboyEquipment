@@ -1,0 +1,36 @@
+{
+	"parent": "fe_rainbow_pride:main/cobbled_prismatite_stairs",
+	"display": {
+		"icon": {
+			"id": "fe_rainbow_pride:cobbled_prismatite_slab",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_rainbow_pride.main.cobbled_prismatite_slab.title"
+		},
+		"description": {
+			"translate": "advancements.fe_rainbow_pride.main.cobbled_prismatite_slab.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_rainbow_pride:cobbled_prismatite_slab"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

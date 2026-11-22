@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cottagecore_garden:moss_agate_brick_slab",
+		"fe_cottagecore_garden:moss_agate_tile_slab",
+		"fe_cottagecore_garden:polished_moss_agate_slab",
+		"fe_cottagecore_garden:cobbled_moss_agate_slab",
+		"fe_cottagecore_garden:moss_agate_mosaic_slab"
+	]
+}

@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "fe_fairy_ring:block/faerite_block"
+	}
+}

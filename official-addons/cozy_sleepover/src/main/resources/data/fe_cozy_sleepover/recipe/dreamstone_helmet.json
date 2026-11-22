@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_cozy_sleepover:dreamstone"
+	},
+	"pattern": [
+		"###",
+		"# #"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cozy_sleepover:dreamstone_helmet"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_boba_tea:main/straw_bat",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:shaker_hammer",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.shaker_hammer.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.shaker_hammer.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:shaker_hammer"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

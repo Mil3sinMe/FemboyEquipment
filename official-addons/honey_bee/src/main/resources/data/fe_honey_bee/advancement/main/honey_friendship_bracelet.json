@@ -1,0 +1,36 @@
+{
+	"parent": "fe_honey_bee:main/honey_bow_clip",
+	"display": {
+		"icon": {
+			"id": "fe_honey_bee:honey_friendship_bracelet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_honey_bee.main.honey_friendship_bracelet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_honey_bee.main.honey_friendship_bracelet.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_friendship_bracelet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

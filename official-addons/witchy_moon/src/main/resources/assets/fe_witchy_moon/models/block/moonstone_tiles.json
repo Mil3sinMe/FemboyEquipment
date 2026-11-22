@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_witchy_moon:block/moonstone_tiles"
+	}
+}

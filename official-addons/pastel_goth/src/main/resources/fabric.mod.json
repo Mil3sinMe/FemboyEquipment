@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_pastel_goth",
+	"version": "${version}",
+	"name": "FemboyEquipment: Pastel Goth",
+	"description": "Official FemboyEquipment addon. Cute, but make it creepy. 100 new things: Gothite ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_pastel_goth/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.pastelgoth.PastelGothAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

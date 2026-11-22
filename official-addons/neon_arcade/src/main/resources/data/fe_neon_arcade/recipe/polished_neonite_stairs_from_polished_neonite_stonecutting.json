@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_neon_arcade:polished_neonite",
+	"result": {
+		"count": 1,
+		"id": "fe_neon_arcade:polished_neonite_stairs"
+	}
+}

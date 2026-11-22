@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_strawberry_shortcake:strawberry_quartz_dust",
+		"minecraft:white_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_strawberry_shortcake:strawberry_heart_sticker"
+	}
+}

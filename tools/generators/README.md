@@ -22,4 +22,7 @@ Notes:
   run `./gradlew build` once first so it exists.
 - `blahaj.py` and `fih.py` write `blahaj_meta.json` / `fih_meta.json` next to the scripts; `advancements.py` reads them.
 - `preview.py <outdir>` renders contact sheets of the item/armor textures for a quick visual check.
+- `official_addons.py` (+ `addon_themes.py`) is separate from the chain above: it regenerates all 30 addons in
+  `official-addons/` (wipes and rewrites each addon folder; doesn't touch the main mod). Run it any time:
+  `python3 $G/official_addons.py .`
 - The example addon's assets were made by hand (recolored copies of these textures).

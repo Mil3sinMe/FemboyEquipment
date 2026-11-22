@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bowl",
+		"minecraft:carrot",
+		"fe_space_cadet:meteorite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_space_cadet:galaxy_soup"
+	}
+}

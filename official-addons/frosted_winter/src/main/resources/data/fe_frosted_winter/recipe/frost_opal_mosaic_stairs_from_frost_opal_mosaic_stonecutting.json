@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_frosted_winter:frost_opal_mosaic",
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:frost_opal_mosaic_stairs"
+	}
+}

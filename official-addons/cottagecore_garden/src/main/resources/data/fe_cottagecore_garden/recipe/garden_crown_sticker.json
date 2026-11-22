@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_cottagecore_garden:moss_agate_dust",
+		"minecraft:purple_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_cottagecore_garden:garden_crown_sticker"
+	}
+}

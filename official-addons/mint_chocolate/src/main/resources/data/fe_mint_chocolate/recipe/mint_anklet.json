@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_mint_chocolate:mintite",
+		"minecraft:rabbit_hide"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mint_chocolate:mint_anklet"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_royal_ball:main/royal_crown_sticker",
+	"display": {
+		"icon": {
+			"id": "fe_royal_ball:royal_rainbow_sticker",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_royal_ball.main.royal_rainbow_sticker.title"
+		},
+		"description": {
+			"translate": "advancements.fe_royal_ball.main.royal_rainbow_sticker.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_royal_ball:royal_rainbow_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

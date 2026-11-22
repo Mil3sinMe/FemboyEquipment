@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glass_bottle",
+		"minecraft:sugar",
+		"fe_kitty_cafe:purrite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:catnip_soda"
+	}
+}

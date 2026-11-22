@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_side_tall",
+	"textures": {
+		"wall": "fe_frosted_winter:block/cobbled_frost_opal"
+	}
+}

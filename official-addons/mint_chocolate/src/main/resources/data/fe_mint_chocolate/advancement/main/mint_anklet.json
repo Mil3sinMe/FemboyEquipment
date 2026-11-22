@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/mint_lucky_coin",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mint_anklet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mint_anklet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mint_anklet.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mint_anklet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

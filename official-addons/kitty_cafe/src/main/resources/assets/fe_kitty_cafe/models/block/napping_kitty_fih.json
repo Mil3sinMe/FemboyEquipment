@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_kitty_cafe:block/napping_kitty_fih"
+	}
+}

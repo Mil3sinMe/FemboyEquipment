@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_cloud_kingdom:block/polished_cloudsilver",
+		"side": "fe_cloud_kingdom:block/cloudsilver_pillar"
+	}
+}

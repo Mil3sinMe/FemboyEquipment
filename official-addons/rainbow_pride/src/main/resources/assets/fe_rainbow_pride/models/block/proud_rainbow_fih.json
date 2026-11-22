@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_rainbow_pride:block/proud_rainbow_fih"
+	}
+}

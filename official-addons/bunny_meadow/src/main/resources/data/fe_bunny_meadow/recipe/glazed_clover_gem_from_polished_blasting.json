@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_bunny_meadow:polished_clover_gem",
+	"result": {
+		"id": "fe_bunny_meadow:glazed_clover_gem"
+	}
+}

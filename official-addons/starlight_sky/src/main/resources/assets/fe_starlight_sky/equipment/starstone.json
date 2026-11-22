@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_starlight_sky:starstone"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_starlight_sky:starstone"
+			}
+		]
+	}
+}

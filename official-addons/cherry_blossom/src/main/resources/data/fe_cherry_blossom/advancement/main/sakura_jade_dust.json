@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cherry_blossom:main/sakura_jade_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_cherry_blossom:sakura_jade_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cherry_blossom.main.sakura_jade_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cherry_blossom.main.sakura_jade_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

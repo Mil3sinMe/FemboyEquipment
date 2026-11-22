@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_bunny_meadow:block/polished_clover_gem",
+		"top": "fe_bunny_meadow:block/polished_clover_gem",
+		"side": "fe_bunny_meadow:block/polished_clover_gem"
+	}
+}

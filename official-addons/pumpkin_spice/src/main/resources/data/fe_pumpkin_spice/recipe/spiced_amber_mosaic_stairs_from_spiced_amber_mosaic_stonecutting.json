@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_pumpkin_spice:spiced_amber_mosaic",
+	"result": {
+		"count": 1,
+		"id": "fe_pumpkin_spice:spiced_amber_mosaic_stairs"
+	}
+}

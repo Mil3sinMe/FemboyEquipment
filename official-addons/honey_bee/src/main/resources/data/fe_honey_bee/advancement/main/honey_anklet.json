@@ -1,0 +1,36 @@
+{
+	"parent": "fe_honey_bee:main/honey_lucky_coin",
+	"display": {
+		"icon": {
+			"id": "fe_honey_bee:honey_anklet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_honey_bee.main.honey_anklet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_honey_bee.main.honey_anklet.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_anklet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

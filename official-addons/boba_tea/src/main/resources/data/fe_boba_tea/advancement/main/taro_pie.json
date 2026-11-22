@@ -1,0 +1,36 @@
+{
+	"parent": "fe_boba_tea:main/matcha_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:taro_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.taro_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.taro_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:taro_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

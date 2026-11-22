@@ -1,0 +1,36 @@
+{
+	"parent": "fe_witchy_moon:main/spellberry_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_witchy_moon:moon_milk_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_witchy_moon.main.moon_milk_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_witchy_moon.main.moon_milk_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moon_milk_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

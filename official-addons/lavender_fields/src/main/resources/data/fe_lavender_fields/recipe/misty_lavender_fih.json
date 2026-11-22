@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:yellow_wool",
+		"fe_lavender_fields:lavendite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lavender_fields:misty_lavender_fih"
+	}
+}

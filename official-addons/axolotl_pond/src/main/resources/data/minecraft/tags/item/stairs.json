@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_axolotl_pond:lotl_opal_brick_stairs",
+		"fe_axolotl_pond:lotl_opal_tile_stairs",
+		"fe_axolotl_pond:polished_lotl_opal_stairs",
+		"fe_axolotl_pond:cobbled_lotl_opal_stairs",
+		"fe_axolotl_pond:lotl_opal_mosaic_stairs"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_bunny_meadow:block/polished_clover_gem_slab"
+		},
+		"type=top": {
+			"model": "fe_bunny_meadow:block/polished_clover_gem_slab_top"
+		},
+		"type=double": {
+			"model": "fe_bunny_meadow:block/polished_clover_gem"
+		}
+	}
+}

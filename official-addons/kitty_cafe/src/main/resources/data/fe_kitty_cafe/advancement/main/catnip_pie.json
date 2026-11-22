@@ -1,0 +1,36 @@
+{
+	"parent": "fe_kitty_cafe:main/tuna_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_kitty_cafe:catnip_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_kitty_cafe.main.catnip_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_kitty_cafe.main.catnip_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_kitty_cafe:catnip_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

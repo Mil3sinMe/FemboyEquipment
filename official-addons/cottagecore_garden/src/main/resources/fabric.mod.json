@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_cottagecore_garden",
+	"version": "${version}",
+	"name": "FemboyEquipment: Cottagecore Garden",
+	"description": "Official FemboyEquipment addon. Moss, mushrooms, gingham and fresh bread. 100 new things: Moss Agate ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_cottagecore_garden/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.cottagecoregarden.CottagecoreGardenAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

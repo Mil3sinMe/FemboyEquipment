@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bowl",
+		"minecraft:carrot",
+		"fe_neon_arcade:neonite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_neon_arcade:energy_soup"
+	}
+}

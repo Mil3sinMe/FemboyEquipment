@@ -1,0 +1,36 @@
+{
+	"parent": "fe_fairy_ring:main/faerite_sword",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:faerite_pickaxe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.faerite_pickaxe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.faerite_pickaxe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_pickaxe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

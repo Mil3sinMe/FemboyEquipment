@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_pastel_goth:gothite",
+		"minecraft:rabbit_hide"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pastel_goth:goth_anklet"
+	}
+}

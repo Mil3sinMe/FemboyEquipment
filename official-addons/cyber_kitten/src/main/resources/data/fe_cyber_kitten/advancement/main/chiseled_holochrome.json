@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cyber_kitten:main/holochrome_pillar",
+	"display": {
+		"icon": {
+			"id": "fe_cyber_kitten:chiseled_holochrome",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cyber_kitten.main.chiseled_holochrome.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cyber_kitten.main.chiseled_holochrome.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cyber_kitten:chiseled_holochrome"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

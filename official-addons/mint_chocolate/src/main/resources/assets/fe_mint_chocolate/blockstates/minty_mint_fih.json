@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_mint_chocolate:block/minty_mint_fih"
+		},
+		"facing=east": {
+			"model": "fe_mint_chocolate:block/minty_mint_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_mint_chocolate:block/minty_mint_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_mint_chocolate:block/minty_mint_fih",
+			"y": 270
+		}
+	}
+}

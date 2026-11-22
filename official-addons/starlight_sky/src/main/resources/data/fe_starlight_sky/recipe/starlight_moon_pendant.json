@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_starlight_sky:starstone",
+		"minecraft:amethyst_shard"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_starlight_sky:starlight_moon_pendant"
+	}
+}

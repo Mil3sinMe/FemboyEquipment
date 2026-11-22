@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cottagecore_garden:main/garden_bow_clip",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:garden_friendship_bracelet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.garden_friendship_bracelet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.garden_friendship_bracelet.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:garden_friendship_bracelet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

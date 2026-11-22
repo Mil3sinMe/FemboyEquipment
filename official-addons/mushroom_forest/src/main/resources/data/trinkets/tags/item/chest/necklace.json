@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mushroom_forest:shroom_ribbon_charm",
+		"fe_mushroom_forest:shroom_heart_locket",
+		"fe_mushroom_forest:shroom_bell_collar",
+		"fe_mushroom_forest:shroom_star_pin",
+		"fe_mushroom_forest:shroom_moon_pendant",
+		"fe_mushroom_forest:shroom_bow_clip",
+		"fe_mushroom_forest:shroom_friendship_bracelet",
+		"fe_mushroom_forest:shroom_lucky_coin",
+		"fe_mushroom_forest:shroom_anklet",
+		"fe_mushroom_forest:shroom_earrings",
+		"fe_mushroom_forest:shroom_bead_necklace",
+		"fe_mushroom_forest:shroom_keychain"
+	]
+}

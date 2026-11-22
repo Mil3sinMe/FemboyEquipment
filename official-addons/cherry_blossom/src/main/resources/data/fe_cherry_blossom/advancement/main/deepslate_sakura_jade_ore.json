@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cherry_blossom:main/sakura_jade_ore",
+	"display": {
+		"icon": {
+			"id": "fe_cherry_blossom:deepslate_sakura_jade_ore",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cherry_blossom.main.deepslate_sakura_jade_ore.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cherry_blossom.main.deepslate_sakura_jade_ore.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:deepslate_sakura_jade_ore"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

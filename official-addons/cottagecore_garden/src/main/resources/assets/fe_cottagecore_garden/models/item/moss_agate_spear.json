@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fe_cottagecore_garden:item/moss_agate_spear"
+	}
+}

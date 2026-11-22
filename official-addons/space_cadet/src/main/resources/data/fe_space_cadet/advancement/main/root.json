@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:meteorite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.root.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "fe_space_cadet:gui/advancements/backgrounds/main"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

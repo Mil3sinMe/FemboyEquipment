@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_cozy_sleepover:block/dreamstone_tiles",
+		"top": "fe_cozy_sleepover:block/dreamstone_tiles",
+		"side": "fe_cozy_sleepover:block/dreamstone_tiles"
+	}
+}

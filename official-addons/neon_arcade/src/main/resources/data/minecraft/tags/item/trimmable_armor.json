@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_neon_arcade:neonite_helmet",
+		"fe_neon_arcade:neonite_chestplate",
+		"fe_neon_arcade:neonite_leggings",
+		"fe_neon_arcade:neonite_boots"
+	]
+}

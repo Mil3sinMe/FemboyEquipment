@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:white_wool",
+		"fe_cozy_sleepover:dreamstone"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cozy_sleepover:yawning_sleepover_fih"
+	}
+}

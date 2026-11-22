@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab",
+	"textures": {
+		"bottom": "fe_rainbow_pride:block/prismatite_bricks",
+		"top": "fe_rainbow_pride:block/prismatite_bricks",
+		"side": "fe_rainbow_pride:block/prismatite_bricks"
+	}
+}

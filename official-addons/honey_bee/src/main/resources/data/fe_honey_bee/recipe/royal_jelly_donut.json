@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"minecraft:sugar",
+		"fe_honey_bee:honeystone_dust"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_honey_bee:royal_jelly_donut"
+	}
+}

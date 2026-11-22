@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_boba_tea:taro_pearl_brick_slab",
+		"fe_boba_tea:taro_pearl_tile_slab",
+		"fe_boba_tea:polished_taro_pearl_slab",
+		"fe_boba_tea:cobbled_taro_pearl_slab",
+		"fe_boba_tea:taro_pearl_mosaic_slab"
+	]
+}

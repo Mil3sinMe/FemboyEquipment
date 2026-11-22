@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cottagecore_garden:main/moss_agate_brick_stairs",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:moss_agate_brick_slab",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.moss_agate_brick_slab.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.moss_agate_brick_slab.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:moss_agate_brick_slab"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

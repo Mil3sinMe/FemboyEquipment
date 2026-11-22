@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_axolotl_pond:lotl_opal_helmet",
+		"fe_axolotl_pond:lotl_opal_chestplate",
+		"fe_axolotl_pond:lotl_opal_leggings",
+		"fe_axolotl_pond:lotl_opal_boots"
+	]
+}

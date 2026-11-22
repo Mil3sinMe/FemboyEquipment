@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_honey_bee:honeystone",
+		"minecraft:lapis_lazuli"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_honey_bee:honey_keychain"
+	}
+}

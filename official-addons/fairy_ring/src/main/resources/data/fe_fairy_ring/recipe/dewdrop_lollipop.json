@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:sugar",
+		"fe_fairy_ring:faerite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:dewdrop_lollipop"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_lavender_fields:lavendite_brick_stairs",
+		"fe_lavender_fields:lavendite_tile_stairs",
+		"fe_lavender_fields:polished_lavendite_stairs",
+		"fe_lavender_fields:cobbled_lavendite_stairs",
+		"fe_lavender_fields:lavendite_mosaic_stairs"
+	]
+}

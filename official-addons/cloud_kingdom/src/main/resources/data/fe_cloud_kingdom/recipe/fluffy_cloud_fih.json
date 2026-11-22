@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:light_blue_wool",
+		"fe_cloud_kingdom:cloudsilver"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cloud_kingdom:fluffy_cloud_fih"
+	}
+}

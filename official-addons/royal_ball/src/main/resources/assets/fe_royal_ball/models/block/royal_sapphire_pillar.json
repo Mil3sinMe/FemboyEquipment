@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_royal_ball:block/polished_royal_sapphire",
+		"side": "fe_royal_ball:block/royal_sapphire_pillar"
+	}
+}

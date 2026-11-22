@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_post",
+	"textures": {
+		"wall": "fe_cloud_kingdom:block/cloudsilver_tiles"
+	}
+}

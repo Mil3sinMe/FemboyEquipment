@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_cherry_blossom:block/deepslate_sakura_jade_ore"
+	}
+}

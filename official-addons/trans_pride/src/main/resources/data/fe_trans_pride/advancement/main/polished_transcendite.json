@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/transcendite_tile_wall",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:polished_transcendite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.polished_transcendite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.polished_transcendite.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:polished_transcendite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/raw_coral_gem_block",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:coral_gem_bricks",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.coral_gem_bricks.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.coral_gem_bricks.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coral_gem_bricks"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_frosted_winter:frost_opal"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_frosted_winter:frost_opal"
+			}
+		]
+	}
+}

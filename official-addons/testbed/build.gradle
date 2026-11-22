@@ -1,0 +1,53 @@
+// Dev-only: runs FemboyEquipment with all 30 official addons loaded at once.
+// Only included when you pass -PaddonTestbed, e.g.  ./gradlew -PaddonTestbed :official-addons:testbed:runClient
+plugins {
+	id 'net.fabricmc.fabric-loom-remap'
+}
+
+def addons = rootProject.file('official-addons').listFiles()
+		.findAll { new File(it, 'build.gradle').exists() && it.name != 'testbed' }
+		.collect { it.name }.sort()
+
+repositories {
+	exclusiveContent {
+		forRepository { maven { name = "Modrinth"; url = "https://api.modrinth.com/maven" } }
+		filter { includeGroup "maven.modrinth" }
+	}
+	exclusiveContent {
+		forRepository { maven { name = "Ladysnake"; url = "https://maven.ladysnake.org/releases" } }
+		filter { includeGroup "org.ladysnake.cardinal-components-api" }
+	}
+}
+
+loom {
+	mods {
+		"femboyequipment" {
+			sourceSet rootProject.sourceSets.main
+			sourceSet rootProject.sourceSets.client
+		}
+		addons.each { name ->
+			def p = project(":official-addons:$name")
+			"fe_$name" {
+				sourceSet p.sourceSets.main
+			}
+		}
+	}
+	runs {
+		configureEach {
+			runDir = "../../run"
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+	mappings loom.officialMojangMappings()
+	modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+	modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+	implementation project(path: ':', configuration: 'namedElements')
+	implementation rootProject.sourceSets.client.output
+	addons.each { implementation project(path: ":official-addons:$it", configuration: 'namedElements') }
+	modLocalRuntime "maven.modrinth:trinkets-canary:${rootProject.trinkets_version}"
+	modLocalRuntime "org.ladysnake.cardinal-components-api:cardinal-components-base:${rootProject.cca_version}"
+	modLocalRuntime "org.ladysnake.cardinal-components-api:cardinal-components-entity:${rootProject.cca_version}"
+}

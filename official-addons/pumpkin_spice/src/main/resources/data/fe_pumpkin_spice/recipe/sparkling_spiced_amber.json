@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_pumpkin_spice:polished_spiced_amber",
+		"fe_pumpkin_spice:spiced_amber_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pumpkin_spice:sparkling_spiced_amber"
+	}
+}

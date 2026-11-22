@@ -1,0 +1,36 @@
+{
+	"parent": "fe_sunset_beach:main/pineapple_donut",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:coconut_popsicle",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.coconut_popsicle.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.coconut_popsicle.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:coconut_popsicle"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

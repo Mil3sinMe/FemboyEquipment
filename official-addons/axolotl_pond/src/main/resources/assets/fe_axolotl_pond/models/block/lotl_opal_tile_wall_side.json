@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_side",
+	"textures": {
+		"wall": "fe_axolotl_pond:block/lotl_opal_tiles"
+	}
+}

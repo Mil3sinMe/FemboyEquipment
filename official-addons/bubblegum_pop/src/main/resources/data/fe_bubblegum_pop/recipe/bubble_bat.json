@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"B": "fe_bubblegum_pop:bubblegem_block",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"B",
+		"S"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bubblegum_pop:bubble_bat"
+	}
+}

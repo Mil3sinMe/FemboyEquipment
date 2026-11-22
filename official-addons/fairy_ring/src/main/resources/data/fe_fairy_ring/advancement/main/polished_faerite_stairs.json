@@ -1,0 +1,36 @@
+{
+	"parent": "fe_fairy_ring:main/polished_faerite",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:polished_faerite_stairs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.polished_faerite_stairs.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.polished_faerite_stairs.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:polished_faerite_stairs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

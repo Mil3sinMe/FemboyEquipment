@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mushroom_forest:spotty_shroom_fih",
+		"fe_mushroom_forest:spore_shroom_fih",
+		"fe_mushroom_forest:mossy_shroom_fih",
+		"fe_mushroom_forest:glowy_shroom_fih",
+		"fe_mushroom_forest:tiny_shroom_fih"
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cherry_blossom:main/mochi_lollipop",
+	"display": {
+		"icon": {
+			"id": "fe_cherry_blossom:matcha_macaron",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cherry_blossom.main.matcha_macaron.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cherry_blossom.main.matcha_macaron.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:matcha_macaron"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

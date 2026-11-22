@@ -1,0 +1,39 @@
+{
+	"parent": "fe_strawberry_shortcake:main/strawberry_quartz_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_strawberry_shortcake:strawberry_quartz_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_strawberry_shortcake.main.strawberry_quartz_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_strawberry_shortcake.main.strawberry_quartz_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_strawberry_shortcake:strawberry_quartz_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

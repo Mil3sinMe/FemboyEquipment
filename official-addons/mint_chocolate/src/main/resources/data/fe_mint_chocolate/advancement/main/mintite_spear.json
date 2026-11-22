@@ -1,0 +1,39 @@
+{
+	"parent": "fe_mint_chocolate:main/mintite_hoe",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mintite_spear",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_spear.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_spear.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mintite_spear"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

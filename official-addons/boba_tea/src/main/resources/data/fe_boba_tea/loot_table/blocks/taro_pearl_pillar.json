@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_boba_tea:taro_pearl_pillar"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_boba_tea:blocks/taro_pearl_pillar"
+}

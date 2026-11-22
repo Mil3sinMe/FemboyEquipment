@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cozy_sleepover:main/hot_cocoa_lollipop",
+	"display": {
+		"icon": {
+			"id": "fe_cozy_sleepover:midnight_snack_macaron",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cozy_sleepover.main.midnight_snack_macaron.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cozy_sleepover.main.midnight_snack_macaron.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cozy_sleepover:midnight_snack_macaron"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

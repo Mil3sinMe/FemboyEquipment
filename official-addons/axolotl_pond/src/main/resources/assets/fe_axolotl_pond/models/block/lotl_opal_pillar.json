@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_axolotl_pond:block/polished_lotl_opal",
+		"side": "fe_axolotl_pond:block/lotl_opal_pillar"
+	}
+}

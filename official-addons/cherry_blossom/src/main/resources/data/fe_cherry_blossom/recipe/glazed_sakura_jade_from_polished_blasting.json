@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_cherry_blossom:polished_sakura_jade",
+	"result": {
+		"id": "fe_cherry_blossom:glazed_sakura_jade"
+	}
+}

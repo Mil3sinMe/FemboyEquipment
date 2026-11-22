@@ -1,0 +1,39 @@
+{
+	"parent": "fe_pumpkin_spice:main/spiced_amber_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:spiced_amber_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.spiced_amber_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.spiced_amber_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:spiced_amber_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

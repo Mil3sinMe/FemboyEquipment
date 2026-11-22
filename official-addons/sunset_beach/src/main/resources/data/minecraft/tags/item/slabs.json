@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_sunset_beach:coral_gem_brick_slab",
+		"fe_sunset_beach:coral_gem_tile_slab",
+		"fe_sunset_beach:polished_coral_gem_slab",
+		"fe_sunset_beach:cobbled_coral_gem_slab",
+		"fe_sunset_beach:coral_gem_mosaic_slab"
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_fairy_ring:block/cobbled_faerite_slab"
+		},
+		"type=top": {
+			"model": "fe_fairy_ring:block/cobbled_faerite_slab_top"
+		},
+		"type=double": {
+			"model": "fe_fairy_ring:block/cobbled_faerite"
+		}
+	}
+}

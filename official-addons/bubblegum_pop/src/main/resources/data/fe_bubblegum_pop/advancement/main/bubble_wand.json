@@ -1,0 +1,39 @@
+{
+	"parent": "fe_bubblegum_pop:main/chewy_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_bubblegum_pop:bubble_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_bubblegum_pop.main.bubble_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_bubblegum_pop.main.bubble_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_bubblegum_pop:bubble_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

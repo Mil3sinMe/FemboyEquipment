@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_cozy_sleepover:polished_dreamstone",
+	"result": {
+		"id": "fe_cozy_sleepover:glazed_dreamstone"
+	}
+}

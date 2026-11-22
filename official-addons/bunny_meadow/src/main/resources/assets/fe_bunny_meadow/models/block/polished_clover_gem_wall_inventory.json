@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_bunny_meadow:block/polished_clover_gem"
+	}
+}

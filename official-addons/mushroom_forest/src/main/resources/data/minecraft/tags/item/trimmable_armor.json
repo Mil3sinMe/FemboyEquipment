@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_mushroom_forest:sporestone_helmet",
+		"fe_mushroom_forest:sporestone_chestplate",
+		"fe_mushroom_forest:sporestone_leggings",
+		"fe_mushroom_forest:sporestone_boots"
+	]
+}

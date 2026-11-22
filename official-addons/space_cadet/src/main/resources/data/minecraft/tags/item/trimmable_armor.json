@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_space_cadet:meteorite_helmet",
+		"fe_space_cadet:meteorite_chestplate",
+		"fe_space_cadet:meteorite_leggings",
+		"fe_space_cadet:meteorite_boots"
+	]
+}

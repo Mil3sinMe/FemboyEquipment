@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:pink_wool",
+		"minecraft:white_wool",
+		"fe_frosted_winter:frost_opal"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:shivery_frosty_blahaj"
+	}
+}

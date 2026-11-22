@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cyber_kitten:main/holochrome_mosaic_slab",
+	"display": {
+		"icon": {
+			"id": "fe_cyber_kitten:holochrome_mosaic_wall",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cyber_kitten.main.holochrome_mosaic_wall.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cyber_kitten.main.holochrome_mosaic_wall.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cyber_kitten:holochrome_mosaic_wall"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

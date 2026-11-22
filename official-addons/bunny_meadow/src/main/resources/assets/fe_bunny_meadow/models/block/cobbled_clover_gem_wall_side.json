@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/template_wall_side",
+	"textures": {
+		"wall": "fe_bunny_meadow:block/cobbled_clover_gem"
+	}
+}

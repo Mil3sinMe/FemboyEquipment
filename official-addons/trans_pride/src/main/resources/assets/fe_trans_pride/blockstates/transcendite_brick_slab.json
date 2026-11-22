@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_trans_pride:block/transcendite_brick_slab"
+		},
+		"type=top": {
+			"model": "fe_trans_pride:block/transcendite_brick_slab_top"
+		},
+		"type=double": {
+			"model": "fe_trans_pride:block/transcendite_bricks"
+		}
+	}
+}

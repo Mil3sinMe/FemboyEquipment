@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:glass_bottle",
+		"minecraft:sugar",
+		"fe_axolotl_pond:lotl_opal_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:pond_soda"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_lavender_fields:lavendite",
+		"minecraft:iron_ingot"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lavender_fields:lavender_bell_collar"
+	}
+}

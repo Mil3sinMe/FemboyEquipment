@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_dragon_hoard:dragon_garnet_brick_slab",
+		"fe_dragon_hoard:dragon_garnet_tile_slab",
+		"fe_dragon_hoard:polished_dragon_garnet_slab",
+		"fe_dragon_hoard:cobbled_dragon_garnet_slab",
+		"fe_dragon_hoard:dragon_garnet_mosaic_slab"
+	]
+}

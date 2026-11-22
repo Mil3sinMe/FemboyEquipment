@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:light_blue_wool",
+		"fe_strawberry_shortcake:strawberry_quartz"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_strawberry_shortcake:sleepy_strawberry_fih"
+	}
+}

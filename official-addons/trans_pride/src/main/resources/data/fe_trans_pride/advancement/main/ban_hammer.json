@@ -1,0 +1,36 @@
+{
+	"parent": "fe_trans_pride:main/euphoria_bat",
+	"display": {
+		"icon": {
+			"id": "fe_trans_pride:ban_hammer",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_trans_pride.main.ban_hammer.title"
+		},
+		"description": {
+			"translate": "advancements.fe_trans_pride.main.ban_hammer.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_trans_pride:ban_hammer"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

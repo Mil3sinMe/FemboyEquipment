@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_mint_chocolate:chilly_mint_fih"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_mint_chocolate:blocks/chilly_mint_fih"
+}

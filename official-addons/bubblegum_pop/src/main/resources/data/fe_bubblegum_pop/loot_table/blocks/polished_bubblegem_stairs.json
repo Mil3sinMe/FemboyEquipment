@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_bubblegum_pop:polished_bubblegem_stairs"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_bubblegum_pop:blocks/polished_bubblegem_stairs"
+}

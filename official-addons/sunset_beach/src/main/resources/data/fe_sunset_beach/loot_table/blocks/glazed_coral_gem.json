@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_sunset_beach:glazed_coral_gem"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_sunset_beach:blocks/glazed_coral_gem"
+}

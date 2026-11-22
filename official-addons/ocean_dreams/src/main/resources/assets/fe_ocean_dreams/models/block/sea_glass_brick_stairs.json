@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_ocean_dreams:block/sea_glass_bricks",
+		"top": "fe_ocean_dreams:block/sea_glass_bricks",
+		"side": "fe_ocean_dreams:block/sea_glass_bricks"
+	}
+}

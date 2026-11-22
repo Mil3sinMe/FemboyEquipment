@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:yellow_wool",
+		"minecraft:white_wool",
+		"fe_mushroom_forest:sporestone"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mushroom_forest:tiny_shroom_blahaj"
+	}
+}

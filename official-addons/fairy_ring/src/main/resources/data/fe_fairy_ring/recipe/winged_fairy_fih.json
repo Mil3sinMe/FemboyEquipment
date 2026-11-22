@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:white_wool",
+		"fe_fairy_ring:faerite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:winged_fairy_fih"
+	}
+}

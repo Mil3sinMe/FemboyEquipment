@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_cyber_kitten:item/cyber_rainbow_sticker"
+	}
+}

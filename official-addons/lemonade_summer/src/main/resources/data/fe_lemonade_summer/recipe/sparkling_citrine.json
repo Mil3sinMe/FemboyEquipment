@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_lemonade_summer:polished_citrine",
+		"fe_lemonade_summer:citrine_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lemonade_summer:sparkling_citrine"
+	}
+}

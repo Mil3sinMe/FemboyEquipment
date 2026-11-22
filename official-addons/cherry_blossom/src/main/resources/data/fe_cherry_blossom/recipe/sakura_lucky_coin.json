@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cherry_blossom:sakura_jade",
+		"minecraft:emerald"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cherry_blossom:sakura_lucky_coin"
+	}
+}

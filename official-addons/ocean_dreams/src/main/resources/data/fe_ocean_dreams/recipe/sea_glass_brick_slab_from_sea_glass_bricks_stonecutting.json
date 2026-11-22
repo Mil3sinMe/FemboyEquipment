@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_ocean_dreams:sea_glass_bricks",
+	"result": {
+		"count": 2,
+		"id": "fe_ocean_dreams:sea_glass_brick_slab"
+	}
+}

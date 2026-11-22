@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_dragon_hoard:block/dragon_garnet_mosaic"
+	}
+}

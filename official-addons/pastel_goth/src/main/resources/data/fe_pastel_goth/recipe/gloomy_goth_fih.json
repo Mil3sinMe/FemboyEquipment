@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:pink_wool",
+		"fe_pastel_goth:gothite"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_pastel_goth:gloomy_goth_fih"
+	}
+}

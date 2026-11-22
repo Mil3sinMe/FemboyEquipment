@@ -1,0 +1,36 @@
+{
+	"parent": "fe_dragon_hoard:main/gold_leaf_soup",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:ember_donut",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.ember_donut.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.ember_donut.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:ember_donut"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

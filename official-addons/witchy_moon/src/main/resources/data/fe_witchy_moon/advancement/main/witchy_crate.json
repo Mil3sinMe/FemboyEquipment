@@ -1,0 +1,36 @@
+{
+	"parent": "fe_witchy_moon:main/witchy_cushion",
+	"display": {
+		"icon": {
+			"id": "fe_witchy_moon:witchy_crate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_witchy_moon.main.witchy_crate.title"
+		},
+		"description": {
+			"translate": "advancements.fe_witchy_moon.main.witchy_crate.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_crate"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

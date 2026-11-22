@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cozy_sleepover:dreamstone_ore",
+		"fe_cozy_sleepover:deepslate_dreamstone_ore",
+		"fe_cozy_sleepover:dreamstone_block",
+		"fe_cozy_sleepover:raw_dreamstone_block"
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"display": {
+		"icon": {
+			"id": "fe_cyber_kitten:holochrome",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cyber_kitten.main.root.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cyber_kitten.main.root.description"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "fe_cyber_kitten:gui/advancements/backgrounds/main"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	]
+}

@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_cherry_blossom:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_cherry_blossom:sakura_jade_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cherry_blossom.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cherry_blossom.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"sakura_jade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade"
+					}
+				]
+			}
+		},
+		"raw_sakura_jade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:raw_sakura_jade"
+					}
+				]
+			}
+		},
+		"sakura_jade_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_nugget"
+					}
+				]
+			}
+		},
+		"sakura_jade_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_dust"
+					}
+				]
+			}
+		},
+		"sakura_jade_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_ore"
+					}
+				]
+			}
+		},
+		"deepslate_sakura_jade_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:deepslate_sakura_jade_ore"
+					}
+				]
+			}
+		},
+		"sakura_jade_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_block"
+					}
+				]
+			}
+		},
+		"raw_sakura_jade_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:raw_sakura_jade_block"
+					}
+				]
+			}
+		},
+		"sakura_jade_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_bricks"
+					}
+				]
+			}
+		},
+		"sakura_jade_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_brick_stairs"
+					}
+				]
+			}
+		},
+		"sakura_jade_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_brick_slab"
+					}
+				]
+			}
+		},
+		"sakura_jade_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_brick_wall"
+					}
+				]
+			}
+		},
+		"sakura_jade_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_tiles"
+					}
+				]
+			}
+		},
+		"sakura_jade_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_tile_stairs"
+					}
+				]
+			}
+		},
+		"sakura_jade_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_tile_slab"
+					}
+				]
+			}
+		},
+		"sakura_jade_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_sakura_jade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:polished_sakura_jade"
+					}
+				]
+			}
+		},
+		"polished_sakura_jade_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:polished_sakura_jade_stairs"
+					}
+				]
+			}
+		},
+		"polished_sakura_jade_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:polished_sakura_jade_slab"
+					}
+				]
+			}
+		},
+		"polished_sakura_jade_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:polished_sakura_jade_wall"
+					}
+				]
+			}
+		},
+		"cobbled_sakura_jade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:cobbled_sakura_jade"
+					}
+				]
+			}
+		},
+		"cobbled_sakura_jade_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:cobbled_sakura_jade_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_sakura_jade_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:cobbled_sakura_jade_slab"
+					}
+				]
+			}
+		},
+		"cobbled_sakura_jade_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:cobbled_sakura_jade_wall"
+					}
+				]
+			}
+		},
+		"sakura_jade_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_mosaic"
+					}
+				]
+			}
+		},
+		"sakura_jade_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"sakura_jade_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_mosaic_slab"
+					}
+				]
+			}
+		},
+		"sakura_jade_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_mosaic_wall"
+					}
+				]
+			}
+		},
+		"sakura_jade_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_lamp"
+					}
+				]
+			}
+		},
+		"sakura_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_cushion"
+					}
+				]
+			}
+		},
+		"sakura_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_crate"
+					}
+				]
+			}
+		},
+		"sakura_jade_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_sakura_jade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:chiseled_sakura_jade"
+					}
+				]
+			}
+		},
+		"sakura_jade_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_shingles"
+					}
+				]
+			}
+		},
+		"sakura_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_sakura_jade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:glazed_sakura_jade"
+					}
+				]
+			}
+		},
+		"starry_sakura_jade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:starry_sakura_jade"
+					}
+				]
+			}
+		},
+		"sparkling_sakura_jade": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sparkling_sakura_jade"
+					}
+				]
+			}
+		},
+		"sakura_jade_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_sword"
+					}
+				]
+			}
+		},
+		"sakura_jade_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_pickaxe"
+					}
+				]
+			}
+		},
+		"sakura_jade_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_axe"
+					}
+				]
+			}
+		},
+		"sakura_jade_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_shovel"
+					}
+				]
+			}
+		},
+		"sakura_jade_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_hoe"
+					}
+				]
+			}
+		},
+		"sakura_jade_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_spear"
+					}
+				]
+			}
+		},
+		"blossom_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:blossom_bat"
+					}
+				]
+			}
+		},
+		"temple_mallet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:temple_mallet"
+					}
+				]
+			}
+		},
+		"petal_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:petal_scythe"
+					}
+				]
+			}
+		},
+		"fan_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:fan_wand"
+					}
+				]
+			}
+		},
+		"sakura_jade_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_helmet"
+					}
+				]
+			}
+		},
+		"sakura_jade_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_chestplate"
+					}
+				]
+			}
+		},
+		"sakura_jade_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_leggings"
+					}
+				]
+			}
+		},
+		"sakura_jade_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_jade_boots"
+					}
+				]
+			}
+		},
+		"sakura_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_soda"
+					}
+				]
+			}
+		},
+		"mochi_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:mochi_cookie"
+					}
+				]
+			}
+		},
+		"matcha_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:matcha_cupcake"
+					}
+				]
+			}
+		},
+		"sakura_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_candy"
+					}
+				]
+			}
+		},
+		"mochi_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:mochi_soup"
+					}
+				]
+			}
+		},
+		"matcha_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:matcha_donut"
+					}
+				]
+			}
+		},
+		"sakura_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_popsicle"
+					}
+				]
+			}
+		},
+		"mochi_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:mochi_lollipop"
+					}
+				]
+			}
+		},
+		"matcha_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:matcha_macaron"
+					}
+				]
+			}
+		},
+		"sakura_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_pie"
+					}
+				]
+			}
+		},
+		"mochi_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:mochi_bun"
+					}
+				]
+			}
+		},
+		"matcha_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:matcha_jelly"
+					}
+				]
+			}
+		},
+		"sakura_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_ribbon_charm"
+					}
+				]
+			}
+		},
+		"sakura_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_heart_locket"
+					}
+				]
+			}
+		},
+		"sakura_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_bell_collar"
+					}
+				]
+			}
+		},
+		"sakura_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_star_pin"
+					}
+				]
+			}
+		},
+		"sakura_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_moon_pendant"
+					}
+				]
+			}
+		},
+		"sakura_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_bow_clip"
+					}
+				]
+			}
+		},
+		"sakura_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"sakura_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_lucky_coin"
+					}
+				]
+			}
+		},
+		"sakura_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_anklet"
+					}
+				]
+			}
+		},
+		"sakura_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_earrings"
+					}
+				]
+			}
+		},
+		"sakura_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_bead_necklace"
+					}
+				]
+			}
+		},
+		"sakura_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_keychain"
+					}
+				]
+			}
+		},
+		"petal_sakura_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:petal_sakura_blahaj"
+					}
+				]
+			}
+		},
+		"breezy_sakura_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:breezy_sakura_blahaj"
+					}
+				]
+			}
+		},
+		"blooming_sakura_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:blooming_sakura_blahaj"
+					}
+				]
+			}
+		},
+		"spring_sakura_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:spring_sakura_blahaj"
+					}
+				]
+			}
+		},
+		"lantern_sakura_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:lantern_sakura_blahaj"
+					}
+				]
+			}
+		},
+		"petal_sakura_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:petal_sakura_fih"
+					}
+				]
+			}
+		},
+		"breezy_sakura_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:breezy_sakura_fih"
+					}
+				]
+			}
+		},
+		"blooming_sakura_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:blooming_sakura_fih"
+					}
+				]
+			}
+		},
+		"spring_sakura_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:spring_sakura_fih"
+					}
+				]
+			}
+		},
+		"lantern_sakura_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:lantern_sakura_fih"
+					}
+				]
+			}
+		},
+		"sakura_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_heart_sticker"
+					}
+				]
+			}
+		},
+		"sakura_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_star_sticker"
+					}
+				]
+			}
+		},
+		"sakura_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_moon_sticker"
+					}
+				]
+			}
+		},
+		"sakura_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_flower_sticker"
+					}
+				]
+			}
+		},
+		"sakura_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_paw_sticker"
+					}
+				]
+			}
+		},
+		"sakura_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_bow_sticker"
+					}
+				]
+			}
+		},
+		"sakura_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_cloud_sticker"
+					}
+				]
+			}
+		},
+		"sakura_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"sakura_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_smiley_sticker"
+					}
+				]
+			}
+		},
+		"sakura_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_music_note_sticker"
+					}
+				]
+			}
+		},
+		"sakura_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_crown_sticker"
+					}
+				]
+			}
+		},
+		"sakura_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"sakura_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"sakura_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cherry_blossom:sakura_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sakura_jade",
+			"raw_sakura_jade",
+			"sakura_jade_nugget",
+			"sakura_jade_dust",
+			"sakura_jade_ore",
+			"deepslate_sakura_jade_ore",
+			"sakura_jade_block",
+			"raw_sakura_jade_block",
+			"sakura_jade_bricks",
+			"sakura_jade_brick_stairs",
+			"sakura_jade_brick_slab",
+			"sakura_jade_brick_wall",
+			"sakura_jade_tiles",
+			"sakura_jade_tile_stairs",
+			"sakura_jade_tile_slab",
+			"sakura_jade_tile_wall",
+			"polished_sakura_jade",
+			"polished_sakura_jade_stairs",
+			"polished_sakura_jade_slab",
+			"polished_sakura_jade_wall",
+			"cobbled_sakura_jade",
+			"cobbled_sakura_jade_stairs",
+			"cobbled_sakura_jade_slab",
+			"cobbled_sakura_jade_wall",
+			"sakura_jade_mosaic",
+			"sakura_jade_mosaic_stairs",
+			"sakura_jade_mosaic_slab",
+			"sakura_jade_mosaic_wall",
+			"sakura_jade_lamp",
+			"sakura_cushion",
+			"sakura_crate",
+			"sakura_jade_pillar",
+			"chiseled_sakura_jade",
+			"sakura_jade_shingles",
+			"sakura_quilt_block",
+			"glazed_sakura_jade",
+			"starry_sakura_jade",
+			"sparkling_sakura_jade",
+			"sakura_jade_sword",
+			"sakura_jade_pickaxe",
+			"sakura_jade_axe",
+			"sakura_jade_shovel",
+			"sakura_jade_hoe",
+			"sakura_jade_spear",
+			"blossom_bat",
+			"temple_mallet",
+			"petal_scythe",
+			"fan_wand",
+			"sakura_jade_helmet",
+			"sakura_jade_chestplate",
+			"sakura_jade_leggings",
+			"sakura_jade_boots",
+			"sakura_soda",
+			"mochi_cookie",
+			"matcha_cupcake",
+			"sakura_candy",
+			"mochi_soup",
+			"matcha_donut",
+			"sakura_popsicle",
+			"mochi_lollipop",
+			"matcha_macaron",
+			"sakura_pie",
+			"mochi_bun",
+			"matcha_jelly",
+			"sakura_ribbon_charm",
+			"sakura_heart_locket",
+			"sakura_bell_collar",
+			"sakura_star_pin",
+			"sakura_moon_pendant",
+			"sakura_bow_clip",
+			"sakura_friendship_bracelet",
+			"sakura_lucky_coin",
+			"sakura_anklet",
+			"sakura_earrings",
+			"sakura_bead_necklace",
+			"sakura_keychain",
+			"petal_sakura_blahaj",
+			"breezy_sakura_blahaj",
+			"blooming_sakura_blahaj",
+			"spring_sakura_blahaj",
+			"lantern_sakura_blahaj",
+			"petal_sakura_fih",
+			"breezy_sakura_fih",
+			"blooming_sakura_fih",
+			"spring_sakura_fih",
+			"lantern_sakura_fih",
+			"sakura_heart_sticker",
+			"sakura_star_sticker",
+			"sakura_moon_sticker",
+			"sakura_flower_sticker",
+			"sakura_paw_sticker",
+			"sakura_bow_sticker",
+			"sakura_cloud_sticker",
+			"sakura_sparkle_sticker",
+			"sakura_smiley_sticker",
+			"sakura_music_note_sticker",
+			"sakura_crown_sticker",
+			"sakura_rainbow_sticker",
+			"sakura_butterfly_sticker",
+			"sakura_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

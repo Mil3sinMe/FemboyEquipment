@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "fe_bubblegum_pop",
+	"version": "${version}",
+	"name": "FemboyEquipment: Bubblegum Pop",
+	"description": "Official FemboyEquipment addon. Pink, poppy and a little bit sticky. 100 new things: Bubblegem ore, tools, armor, weapons, building blocks, snacks, charms, plushies and stickers, with its own creative tab and 102 advancements.",
+	"authors": [
+		"Mil3sinMe"
+	],
+	"license": "MIT",
+	"icon": "assets/fe_bubblegum_pop/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"femboyequipment": [
+			"com.femboyequipment.official.bubblegumpop.BubblegumPopAddon"
+		]
+	},
+	"depends": {
+		"femboyequipment": ">=1.13.0",
+		"fabric-api": "*",
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11"
+	}
+}

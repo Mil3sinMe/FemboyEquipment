@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:white_wool",
+		"minecraft:white_wool",
+		"fe_boba_tea:taro_pearl"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:sweet_boba_blahaj"
+	}
+}

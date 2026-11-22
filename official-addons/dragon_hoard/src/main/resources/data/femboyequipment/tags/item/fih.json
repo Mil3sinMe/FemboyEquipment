@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_dragon_hoard:fiery_dragon_fih",
+		"fe_dragon_hoard:greedy_dragon_fih",
+		"fe_dragon_hoard:smol_dragon_fih",
+		"fe_dragon_hoard:scaly_dragon_fih",
+		"fe_dragon_hoard:glowing_dragon_fih"
+	]
+}

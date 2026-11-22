@@ -1,0 +1,39 @@
+{
+	"parent": "fe_fairy_ring:main/starry_faerite",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:sparkling_faerite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.sparkling_faerite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.sparkling_faerite.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:sparkling_faerite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

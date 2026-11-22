@@ -1,0 +1,36 @@
+{
+	"parent": "fe_royal_ball:main/polished_royal_sapphire_stairs",
+	"display": {
+		"icon": {
+			"id": "fe_royal_ball:polished_royal_sapphire_slab",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_royal_ball.main.polished_royal_sapphire_slab.title"
+		},
+		"description": {
+			"translate": "advancements.fe_royal_ball.main.polished_royal_sapphire_slab.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_royal_ball:polished_royal_sapphire_slab"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

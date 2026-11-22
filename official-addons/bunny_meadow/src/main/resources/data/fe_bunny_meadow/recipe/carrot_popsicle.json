@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:snowball",
+		"fe_bunny_meadow:clover_gem_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_bunny_meadow:carrot_popsicle"
+	}
+}

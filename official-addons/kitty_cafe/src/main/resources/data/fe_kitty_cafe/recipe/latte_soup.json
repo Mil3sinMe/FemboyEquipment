@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bowl",
+		"minecraft:carrot",
+		"fe_kitty_cafe:purrite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:latte_soup"
+	}
+}

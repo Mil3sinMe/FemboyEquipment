@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_boba_tea:item/taro_pearl_dust"
+	}
+}

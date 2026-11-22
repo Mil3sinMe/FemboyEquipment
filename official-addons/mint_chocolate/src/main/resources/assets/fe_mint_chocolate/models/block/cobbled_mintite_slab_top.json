@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_mint_chocolate:block/cobbled_mintite",
+		"top": "fe_mint_chocolate:block/cobbled_mintite",
+		"side": "fe_mint_chocolate:block/cobbled_mintite"
+	}
+}

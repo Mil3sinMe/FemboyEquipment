@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:smelting",
+	"category": "misc",
+	"cookingtime": 200,
+	"experience": 1.0,
+	"ingredient": "fe_pumpkin_spice:deepslate_spiced_amber_ore",
+	"result": {
+		"id": "fe_pumpkin_spice:spiced_amber"
+	}
+}

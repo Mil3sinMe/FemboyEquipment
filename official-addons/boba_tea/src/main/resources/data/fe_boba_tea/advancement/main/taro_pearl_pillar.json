@@ -1,0 +1,36 @@
+{
+	"parent": "fe_boba_tea:main/boba_crate",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:taro_pearl_pillar",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.taro_pearl_pillar.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.taro_pearl_pillar.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:taro_pearl_pillar"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

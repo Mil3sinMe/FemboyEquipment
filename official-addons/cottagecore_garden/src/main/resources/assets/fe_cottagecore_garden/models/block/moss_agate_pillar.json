@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_cottagecore_garden:block/polished_moss_agate",
+		"side": "fe_cottagecore_garden:block/moss_agate_pillar"
+	}
+}

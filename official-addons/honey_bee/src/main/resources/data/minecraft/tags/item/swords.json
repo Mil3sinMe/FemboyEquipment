@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"fe_honey_bee:honeystone_sword",
+		"fe_honey_bee:hive_bat",
+		"fe_honey_bee:honeycomb_hammer",
+		"fe_honey_bee:stinger_scythe",
+		"fe_honey_bee:dipper_wand"
+	]
+}

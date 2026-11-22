@@ -1,0 +1,39 @@
+{
+	"parent": "fe_cyber_kitten:main/cyber_butterfly_sticker",
+	"display": {
+		"icon": {
+			"id": "fe_cyber_kitten:cyber_mushroom_sticker",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cyber_kitten.main.cyber_mushroom_sticker.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cyber_kitten.main.cyber_mushroom_sticker.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cyber_kitten:cyber_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

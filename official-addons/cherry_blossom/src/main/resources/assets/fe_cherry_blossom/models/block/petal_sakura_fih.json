@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_cherry_blossom:block/petal_sakura_fih"
+	}
+}

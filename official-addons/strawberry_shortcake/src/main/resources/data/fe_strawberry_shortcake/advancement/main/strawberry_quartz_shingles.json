@@ -1,0 +1,36 @@
+{
+	"parent": "fe_strawberry_shortcake:main/chiseled_strawberry_quartz",
+	"display": {
+		"icon": {
+			"id": "fe_strawberry_shortcake:strawberry_quartz_shingles",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_strawberry_shortcake.main.strawberry_quartz_shingles.title"
+		},
+		"description": {
+			"translate": "advancements.fe_strawberry_shortcake.main.strawberry_quartz_shingles.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_strawberry_shortcake:strawberry_quartz_shingles"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

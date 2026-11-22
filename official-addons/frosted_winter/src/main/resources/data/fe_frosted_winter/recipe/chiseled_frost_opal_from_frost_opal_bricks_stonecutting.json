@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_frosted_winter:frost_opal_bricks",
+	"result": {
+		"count": 1,
+		"id": "fe_frosted_winter:chiseled_frost_opal"
+	}
+}

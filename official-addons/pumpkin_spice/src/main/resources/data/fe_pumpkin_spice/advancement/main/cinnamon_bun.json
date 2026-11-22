@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pumpkin_spice:main/pumpkin_pie",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:cinnamon_bun",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.cinnamon_bun.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.cinnamon_bun.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:cinnamon_bun"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

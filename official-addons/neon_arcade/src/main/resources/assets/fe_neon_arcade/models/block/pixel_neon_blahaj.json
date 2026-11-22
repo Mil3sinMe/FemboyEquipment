@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/blahaj_base",
+	"textures": {
+		"shark": "fe_neon_arcade:block/pixel_neon_blahaj"
+	}
+}

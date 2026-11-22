@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "fe_cloud_kingdom:item/cloud_candy"
+	}
+}

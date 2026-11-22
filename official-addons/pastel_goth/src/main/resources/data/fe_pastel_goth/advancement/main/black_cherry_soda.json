@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pastel_goth:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:black_cherry_soda",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.black_cherry_soda.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.black_cherry_soda.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pastel_goth:black_cherry_soda"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

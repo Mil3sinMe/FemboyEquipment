@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_axolotl_pond:lotl_ribbon_charm",
+		"fe_axolotl_pond:lotl_heart_locket",
+		"fe_axolotl_pond:lotl_bell_collar",
+		"fe_axolotl_pond:lotl_star_pin",
+		"fe_axolotl_pond:lotl_moon_pendant",
+		"fe_axolotl_pond:lotl_bow_clip",
+		"fe_axolotl_pond:lotl_friendship_bracelet",
+		"fe_axolotl_pond:lotl_lucky_coin",
+		"fe_axolotl_pond:lotl_anklet",
+		"fe_axolotl_pond:lotl_earrings",
+		"fe_axolotl_pond:lotl_bead_necklace",
+		"fe_axolotl_pond:lotl_keychain"
+	]
+}

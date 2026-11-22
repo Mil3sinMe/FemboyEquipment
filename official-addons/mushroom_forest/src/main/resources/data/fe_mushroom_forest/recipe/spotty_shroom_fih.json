@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:light_blue_wool",
+		"fe_mushroom_forest:sporestone"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_mushroom_forest:spotty_shroom_fih"
+	}
+}

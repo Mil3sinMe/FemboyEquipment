@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"conditions": [
+				{
+					"condition": "minecraft:survives_explosion"
+				}
+			],
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "fe_dragon_hoard:raw_dragon_garnet_block"
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_dragon_hoard:blocks/raw_dragon_garnet_block"
+}

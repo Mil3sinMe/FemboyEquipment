@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cottagecore_garden:garden_ribbon_charm",
+		"fe_cottagecore_garden:garden_heart_locket",
+		"fe_cottagecore_garden:garden_bell_collar",
+		"fe_cottagecore_garden:garden_star_pin",
+		"fe_cottagecore_garden:garden_moon_pendant",
+		"fe_cottagecore_garden:garden_bow_clip",
+		"fe_cottagecore_garden:garden_friendship_bracelet",
+		"fe_cottagecore_garden:garden_lucky_coin",
+		"fe_cottagecore_garden:garden_anklet",
+		"fe_cottagecore_garden:garden_earrings",
+		"fe_cottagecore_garden:garden_bead_necklace",
+		"fe_cottagecore_garden:garden_keychain"
+	]
+}

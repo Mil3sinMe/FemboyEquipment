@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_fairy_ring:faerite_helmet",
+		"fe_fairy_ring:faerite_chestplate",
+		"fe_fairy_ring:faerite_leggings",
+		"fe_fairy_ring:faerite_boots"
+	]
+}

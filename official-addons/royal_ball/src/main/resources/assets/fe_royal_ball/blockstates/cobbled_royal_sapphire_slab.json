@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_royal_ball:block/cobbled_royal_sapphire_slab"
+		},
+		"type=top": {
+			"model": "fe_royal_ball:block/cobbled_royal_sapphire_slab_top"
+		},
+		"type=double": {
+			"model": "fe_royal_ball:block/cobbled_royal_sapphire"
+		}
+	}
+}

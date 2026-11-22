@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:apple",
+		"fe_cloud_kingdom:cloudsilver_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cloud_kingdom:cloud_pie"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "fe_sunset_beach:main/palm_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_sunset_beach:seashell_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_sunset_beach.main.seashell_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_sunset_beach.main.seashell_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_sunset_beach:seashell_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

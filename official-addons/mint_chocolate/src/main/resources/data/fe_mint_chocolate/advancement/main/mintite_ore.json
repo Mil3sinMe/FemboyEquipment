@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mint_chocolate:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:mintite_ore",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_ore.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.mintite_ore.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:mintite_ore"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

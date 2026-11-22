@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/cloud_moon_sticker",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cloud_flower_sticker",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloud_flower_sticker.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloud_flower_sticker.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_flower_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_cloud_kingdom:cobbled_cloudsilver"
+	},
+	"pattern": [
+		"###"
+	],
+	"result": {
+		"count": 6,
+		"id": "fe_cloud_kingdom:cobbled_cloudsilver_slab"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_dragon_hoard:dragon_garnet_helmet",
+		"fe_dragon_hoard:dragon_garnet_chestplate",
+		"fe_dragon_hoard:dragon_garnet_leggings",
+		"fe_dragon_hoard:dragon_garnet_boots"
+	]
+}

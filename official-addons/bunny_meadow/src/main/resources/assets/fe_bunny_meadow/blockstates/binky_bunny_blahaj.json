@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_bunny_meadow:block/binky_bunny_blahaj"
+		},
+		"facing=east": {
+			"model": "fe_bunny_meadow:block/binky_bunny_blahaj",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_bunny_meadow:block/binky_bunny_blahaj",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_bunny_meadow:block/binky_bunny_blahaj",
+			"y": 270
+		}
+	}
+}

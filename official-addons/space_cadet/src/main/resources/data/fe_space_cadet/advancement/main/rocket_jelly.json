@@ -1,0 +1,39 @@
+{
+	"parent": "fe_space_cadet:main/galaxy_bun",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:rocket_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.rocket_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.rocket_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:rocket_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "fe_frosted_winter:main/starry_frost_opal",
+	"display": {
+		"icon": {
+			"id": "fe_frosted_winter:sparkling_frost_opal",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_frosted_winter.main.sparkling_frost_opal.title"
+		},
+		"description": {
+			"translate": "advancements.fe_frosted_winter.main.sparkling_frost_opal.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_frosted_winter:sparkling_frost_opal"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

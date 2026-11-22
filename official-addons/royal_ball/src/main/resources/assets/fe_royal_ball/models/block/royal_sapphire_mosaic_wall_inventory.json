@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_royal_ball:block/royal_sapphire_mosaic"
+	}
+}

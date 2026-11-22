@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "minecraft:stone_bricks",
+		"D": "fe_bubblegum_pop:bubblegem_dust"
+	},
+	"pattern": [
+		"###",
+		"#D#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "fe_bubblegum_pop:bubblegem_bricks"
+	}
+}

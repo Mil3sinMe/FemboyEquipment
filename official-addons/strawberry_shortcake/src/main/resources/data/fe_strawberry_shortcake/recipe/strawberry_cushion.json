@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:white_wool",
+		"fe_strawberry_shortcake:strawberry_quartz_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_strawberry_shortcake:strawberry_cushion"
+	}
+}

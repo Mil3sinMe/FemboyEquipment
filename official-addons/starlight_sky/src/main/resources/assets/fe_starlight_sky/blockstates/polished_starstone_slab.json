@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_starlight_sky:block/polished_starstone_slab"
+		},
+		"type=top": {
+			"model": "fe_starlight_sky:block/polished_starstone_slab_top"
+		},
+		"type=double": {
+			"model": "fe_starlight_sky:block/polished_starstone"
+		}
+	}
+}

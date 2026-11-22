@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_pastel_goth:gothite"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_pastel_goth:gothite"
+			}
+		]
+	}
+}

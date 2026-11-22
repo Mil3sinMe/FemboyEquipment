@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/blahaj_base",
+	"textures": {
+		"shark": "fe_space_cadet:block/glowing_cosmo_blahaj"
+	}
+}

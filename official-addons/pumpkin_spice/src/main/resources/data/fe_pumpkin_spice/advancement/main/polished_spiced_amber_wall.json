@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pumpkin_spice:main/polished_spiced_amber_slab",
+	"display": {
+		"icon": {
+			"id": "fe_pumpkin_spice:polished_spiced_amber_wall",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pumpkin_spice.main.polished_spiced_amber_wall.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pumpkin_spice.main.polished_spiced_amber_wall.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pumpkin_spice:polished_spiced_amber_wall"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

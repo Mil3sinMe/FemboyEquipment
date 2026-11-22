@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"bottom": "fe_strawberry_shortcake:block/strawberry_quartz_tiles",
+		"top": "fe_strawberry_shortcake:block/strawberry_quartz_tiles",
+		"side": "fe_strawberry_shortcake:block/strawberry_quartz_tiles"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cyber_kitten:holochrome_ore",
+		"fe_cyber_kitten:deepslate_holochrome_ore",
+		"fe_cyber_kitten:holochrome_block",
+		"fe_cyber_kitten:raw_holochrome_block"
+	]
+}

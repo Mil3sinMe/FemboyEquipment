@@ -1,0 +1,36 @@
+{
+	"parent": "fe_rainbow_pride:main/skittle_cookie",
+	"display": {
+		"icon": {
+			"id": "fe_rainbow_pride:prism_cupcake",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_rainbow_pride.main.prism_cupcake.title"
+		},
+		"description": {
+			"translate": "advancements.fe_rainbow_pride.main.prism_cupcake.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_rainbow_pride:prism_cupcake"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

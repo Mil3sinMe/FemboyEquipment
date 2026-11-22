@@ -239,6 +239,20 @@ a Fox Blåhaj and a Fox Fih.
 
 ![The example addon: fox ears on mannequins, and a datapack effect (pumpkin, Night Vision)](docs/addon.png)
 
+### Official addons (30 of them!) 🎁
+
+[`official-addons/`](official-addons) has **30 official addons**, each its own mod jar with **100 new things**,
+its own creative tab and 102 advancements: a new ore and gem, tools, armor with a set bonus, knockback weapons,
+20 building blocks + 10 fun blocks, 12 snacks, 12 charms, 5 Blåhaj, 5 fih and 14 stickers. That's **3000 things**
+across Strawberry Shortcake, Ocean Dreams, Starlight Sky, Cottagecore Garden, Bubblegum Pop, Lavender Fields,
+Kitty Café, Frosted Winter, Pumpkin Spice, Cherry Blossom, Pastel Goth, Rainbow Pride, Trans Pride, Honey Bee,
+Mushroom Forest, Bunny Meadow, Neon Arcade, Witchy Moon, Dragon Hoard, Cloud Kingdom, Lemonade Summer,
+Mint Chocolate, Space Cadet, Fairy Ring, Boba Tea Shop, Sunset Beach, Axolotl Pond, Royal Ball, Cozy Sleepover and
+Cyber Kitten. Grab the ones you like from the release (or `dist/official-addons/`). See
+[official-addons/README.md](official-addons/README.md).
+
+![Official addons](docs/official-addons.png)
+
 ## Requirements
 
 | Thing | Version |
@@ -253,7 +267,8 @@ a Fox Blåhaj and a Fox Fih.
 
     ./gradlew build
 
-The mod jar ends up in `build/libs/`. Drop it (plus Fabric API) into your `mods` folder.
+The mod jar ends up in `build/libs/` and the official addon jars in `official-addons/<name>/build/libs/`.
+Drop them (plus Fabric API) into your `mods` folder.
 
 ## Running in dev
 

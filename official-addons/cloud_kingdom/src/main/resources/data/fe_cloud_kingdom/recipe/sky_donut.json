@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"minecraft:sugar",
+		"fe_cloud_kingdom:cloudsilver_dust"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_cloud_kingdom:sky_donut"
+	}
+}

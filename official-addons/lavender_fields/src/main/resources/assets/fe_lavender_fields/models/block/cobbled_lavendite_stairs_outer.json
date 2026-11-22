@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/outer_stairs",
+	"textures": {
+		"bottom": "fe_lavender_fields:block/cobbled_lavendite",
+		"top": "fe_lavender_fields:block/cobbled_lavendite",
+		"side": "fe_lavender_fields:block/cobbled_lavendite"
+	}
+}

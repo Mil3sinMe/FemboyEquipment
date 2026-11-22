@@ -1,0 +1,36 @@
+{
+	"parent": "fe_mushroom_forest:main/sporestone_sword",
+	"display": {
+		"icon": {
+			"id": "fe_mushroom_forest:sporestone_pickaxe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mushroom_forest.main.sporestone_pickaxe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mushroom_forest.main.sporestone_pickaxe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mushroom_forest:sporestone_pickaxe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

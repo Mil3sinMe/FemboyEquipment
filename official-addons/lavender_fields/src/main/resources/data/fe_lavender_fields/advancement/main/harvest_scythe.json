@@ -1,0 +1,36 @@
+{
+	"parent": "fe_lavender_fields:main/lavender_mallet",
+	"display": {
+		"icon": {
+			"id": "fe_lavender_fields:harvest_scythe",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lavender_fields.main.harvest_scythe.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lavender_fields.main.harvest_scythe.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lavender_fields:harvest_scythe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

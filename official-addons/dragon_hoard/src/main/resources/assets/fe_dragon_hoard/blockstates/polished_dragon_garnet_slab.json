@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_dragon_hoard:block/polished_dragon_garnet_slab"
+		},
+		"type=top": {
+			"model": "fe_dragon_hoard:block/polished_dragon_garnet_slab_top"
+		},
+		"type=double": {
+			"model": "fe_dragon_hoard:block/polished_dragon_garnet"
+		}
+	}
+}

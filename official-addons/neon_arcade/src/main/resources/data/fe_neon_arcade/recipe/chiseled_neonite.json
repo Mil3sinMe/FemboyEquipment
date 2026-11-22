@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"key": {
+		"#": "fe_neon_arcade:neonite_brick_slab"
+	},
+	"pattern": [
+		"#",
+		"#"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_neon_arcade:chiseled_neonite"
+	}
+}

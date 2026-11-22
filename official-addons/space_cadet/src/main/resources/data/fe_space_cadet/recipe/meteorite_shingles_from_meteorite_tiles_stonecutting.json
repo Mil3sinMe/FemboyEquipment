@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_space_cadet:meteorite_tiles",
+	"result": {
+		"count": 1,
+		"id": "fe_space_cadet:meteorite_shingles"
+	}
+}

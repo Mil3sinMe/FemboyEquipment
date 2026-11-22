@@ -1,0 +1,39 @@
+{
+	"parent": "fe_lemonade_summer:main/orange_bun",
+	"display": {
+		"icon": {
+			"id": "fe_lemonade_summer:lime_jelly",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_lemonade_summer.main.lime_jelly.title"
+		},
+		"description": {
+			"translate": "advancements.fe_lemonade_summer.main.lime_jelly.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_lemonade_summer:lime_jelly"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

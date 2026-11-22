@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_honey_bee:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_honey_bee:honeystone_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_honey_bee.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_honey_bee.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"honeystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone"
+					}
+				]
+			}
+		},
+		"raw_honeystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:raw_honeystone"
+					}
+				]
+			}
+		},
+		"honeystone_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_nugget"
+					}
+				]
+			}
+		},
+		"honeystone_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_dust"
+					}
+				]
+			}
+		},
+		"honeystone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_ore"
+					}
+				]
+			}
+		},
+		"deepslate_honeystone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:deepslate_honeystone_ore"
+					}
+				]
+			}
+		},
+		"honeystone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_block"
+					}
+				]
+			}
+		},
+		"raw_honeystone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:raw_honeystone_block"
+					}
+				]
+			}
+		},
+		"honeystone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_bricks"
+					}
+				]
+			}
+		},
+		"honeystone_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_brick_stairs"
+					}
+				]
+			}
+		},
+		"honeystone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_brick_slab"
+					}
+				]
+			}
+		},
+		"honeystone_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_brick_wall"
+					}
+				]
+			}
+		},
+		"honeystone_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_tiles"
+					}
+				]
+			}
+		},
+		"honeystone_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_tile_stairs"
+					}
+				]
+			}
+		},
+		"honeystone_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_tile_slab"
+					}
+				]
+			}
+		},
+		"honeystone_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_honeystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:polished_honeystone"
+					}
+				]
+			}
+		},
+		"polished_honeystone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:polished_honeystone_stairs"
+					}
+				]
+			}
+		},
+		"polished_honeystone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:polished_honeystone_slab"
+					}
+				]
+			}
+		},
+		"polished_honeystone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:polished_honeystone_wall"
+					}
+				]
+			}
+		},
+		"cobbled_honeystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:cobbled_honeystone"
+					}
+				]
+			}
+		},
+		"cobbled_honeystone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:cobbled_honeystone_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_honeystone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:cobbled_honeystone_slab"
+					}
+				]
+			}
+		},
+		"cobbled_honeystone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:cobbled_honeystone_wall"
+					}
+				]
+			}
+		},
+		"honeystone_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_mosaic"
+					}
+				]
+			}
+		},
+		"honeystone_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"honeystone_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_mosaic_slab"
+					}
+				]
+			}
+		},
+		"honeystone_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_mosaic_wall"
+					}
+				]
+			}
+		},
+		"honeystone_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_lamp"
+					}
+				]
+			}
+		},
+		"honey_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_cushion"
+					}
+				]
+			}
+		},
+		"honey_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_crate"
+					}
+				]
+			}
+		},
+		"honeystone_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_honeystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:chiseled_honeystone"
+					}
+				]
+			}
+		},
+		"honeystone_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_shingles"
+					}
+				]
+			}
+		},
+		"honey_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_honeystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:glazed_honeystone"
+					}
+				]
+			}
+		},
+		"starry_honeystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:starry_honeystone"
+					}
+				]
+			}
+		},
+		"sparkling_honeystone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:sparkling_honeystone"
+					}
+				]
+			}
+		},
+		"honeystone_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_sword"
+					}
+				]
+			}
+		},
+		"honeystone_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_pickaxe"
+					}
+				]
+			}
+		},
+		"honeystone_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_axe"
+					}
+				]
+			}
+		},
+		"honeystone_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_shovel"
+					}
+				]
+			}
+		},
+		"honeystone_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_hoe"
+					}
+				]
+			}
+		},
+		"honeystone_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_spear"
+					}
+				]
+			}
+		},
+		"hive_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:hive_bat"
+					}
+				]
+			}
+		},
+		"honeycomb_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeycomb_hammer"
+					}
+				]
+			}
+		},
+		"stinger_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:stinger_scythe"
+					}
+				]
+			}
+		},
+		"dipper_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:dipper_wand"
+					}
+				]
+			}
+		},
+		"honeystone_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_helmet"
+					}
+				]
+			}
+		},
+		"honeystone_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_chestplate"
+					}
+				]
+			}
+		},
+		"honeystone_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_leggings"
+					}
+				]
+			}
+		},
+		"honeystone_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honeystone_boots"
+					}
+				]
+			}
+		},
+		"honey_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_soda"
+					}
+				]
+			}
+		},
+		"pollen_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:pollen_cookie"
+					}
+				]
+			}
+		},
+		"royal_jelly_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:royal_jelly_cupcake"
+					}
+				]
+			}
+		},
+		"honey_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_candy"
+					}
+				]
+			}
+		},
+		"pollen_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:pollen_soup"
+					}
+				]
+			}
+		},
+		"royal_jelly_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:royal_jelly_donut"
+					}
+				]
+			}
+		},
+		"honey_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_popsicle"
+					}
+				]
+			}
+		},
+		"pollen_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:pollen_lollipop"
+					}
+				]
+			}
+		},
+		"royal_jelly_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:royal_jelly_macaron"
+					}
+				]
+			}
+		},
+		"honey_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_pie"
+					}
+				]
+			}
+		},
+		"pollen_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:pollen_bun"
+					}
+				]
+			}
+		},
+		"royal_jelly_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:royal_jelly_jelly"
+					}
+				]
+			}
+		},
+		"honey_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_ribbon_charm"
+					}
+				]
+			}
+		},
+		"honey_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_heart_locket"
+					}
+				]
+			}
+		},
+		"honey_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_bell_collar"
+					}
+				]
+			}
+		},
+		"honey_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_star_pin"
+					}
+				]
+			}
+		},
+		"honey_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_moon_pendant"
+					}
+				]
+			}
+		},
+		"honey_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_bow_clip"
+					}
+				]
+			}
+		},
+		"honey_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"honey_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_lucky_coin"
+					}
+				]
+			}
+		},
+		"honey_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_anklet"
+					}
+				]
+			}
+		},
+		"honey_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_earrings"
+					}
+				]
+			}
+		},
+		"honey_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_bead_necklace"
+					}
+				]
+			}
+		},
+		"honey_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_keychain"
+					}
+				]
+			}
+		},
+		"buzzy_honey_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:buzzy_honey_blahaj"
+					}
+				]
+			}
+		},
+		"sticky_honey_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:sticky_honey_blahaj"
+					}
+				]
+			}
+		},
+		"fuzzy_honey_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:fuzzy_honey_blahaj"
+					}
+				]
+			}
+		},
+		"golden_honey_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:golden_honey_blahaj"
+					}
+				]
+			}
+		},
+		"busy_honey_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:busy_honey_blahaj"
+					}
+				]
+			}
+		},
+		"buzzy_honey_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:buzzy_honey_fih"
+					}
+				]
+			}
+		},
+		"sticky_honey_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:sticky_honey_fih"
+					}
+				]
+			}
+		},
+		"fuzzy_honey_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:fuzzy_honey_fih"
+					}
+				]
+			}
+		},
+		"golden_honey_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:golden_honey_fih"
+					}
+				]
+			}
+		},
+		"busy_honey_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:busy_honey_fih"
+					}
+				]
+			}
+		},
+		"honey_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_heart_sticker"
+					}
+				]
+			}
+		},
+		"honey_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_star_sticker"
+					}
+				]
+			}
+		},
+		"honey_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_moon_sticker"
+					}
+				]
+			}
+		},
+		"honey_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_flower_sticker"
+					}
+				]
+			}
+		},
+		"honey_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_paw_sticker"
+					}
+				]
+			}
+		},
+		"honey_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_bow_sticker"
+					}
+				]
+			}
+		},
+		"honey_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_cloud_sticker"
+					}
+				]
+			}
+		},
+		"honey_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"honey_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_smiley_sticker"
+					}
+				]
+			}
+		},
+		"honey_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_music_note_sticker"
+					}
+				]
+			}
+		},
+		"honey_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_crown_sticker"
+					}
+				]
+			}
+		},
+		"honey_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"honey_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"honey_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_honey_bee:honey_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"honeystone",
+			"raw_honeystone",
+			"honeystone_nugget",
+			"honeystone_dust",
+			"honeystone_ore",
+			"deepslate_honeystone_ore",
+			"honeystone_block",
+			"raw_honeystone_block",
+			"honeystone_bricks",
+			"honeystone_brick_stairs",
+			"honeystone_brick_slab",
+			"honeystone_brick_wall",
+			"honeystone_tiles",
+			"honeystone_tile_stairs",
+			"honeystone_tile_slab",
+			"honeystone_tile_wall",
+			"polished_honeystone",
+			"polished_honeystone_stairs",
+			"polished_honeystone_slab",
+			"polished_honeystone_wall",
+			"cobbled_honeystone",
+			"cobbled_honeystone_stairs",
+			"cobbled_honeystone_slab",
+			"cobbled_honeystone_wall",
+			"honeystone_mosaic",
+			"honeystone_mosaic_stairs",
+			"honeystone_mosaic_slab",
+			"honeystone_mosaic_wall",
+			"honeystone_lamp",
+			"honey_cushion",
+			"honey_crate",
+			"honeystone_pillar",
+			"chiseled_honeystone",
+			"honeystone_shingles",
+			"honey_quilt_block",
+			"glazed_honeystone",
+			"starry_honeystone",
+			"sparkling_honeystone",
+			"honeystone_sword",
+			"honeystone_pickaxe",
+			"honeystone_axe",
+			"honeystone_shovel",
+			"honeystone_hoe",
+			"honeystone_spear",
+			"hive_bat",
+			"honeycomb_hammer",
+			"stinger_scythe",
+			"dipper_wand",
+			"honeystone_helmet",
+			"honeystone_chestplate",
+			"honeystone_leggings",
+			"honeystone_boots",
+			"honey_soda",
+			"pollen_cookie",
+			"royal_jelly_cupcake",
+			"honey_candy",
+			"pollen_soup",
+			"royal_jelly_donut",
+			"honey_popsicle",
+			"pollen_lollipop",
+			"royal_jelly_macaron",
+			"honey_pie",
+			"pollen_bun",
+			"royal_jelly_jelly",
+			"honey_ribbon_charm",
+			"honey_heart_locket",
+			"honey_bell_collar",
+			"honey_star_pin",
+			"honey_moon_pendant",
+			"honey_bow_clip",
+			"honey_friendship_bracelet",
+			"honey_lucky_coin",
+			"honey_anklet",
+			"honey_earrings",
+			"honey_bead_necklace",
+			"honey_keychain",
+			"buzzy_honey_blahaj",
+			"sticky_honey_blahaj",
+			"fuzzy_honey_blahaj",
+			"golden_honey_blahaj",
+			"busy_honey_blahaj",
+			"buzzy_honey_fih",
+			"sticky_honey_fih",
+			"fuzzy_honey_fih",
+			"golden_honey_fih",
+			"busy_honey_fih",
+			"honey_heart_sticker",
+			"honey_star_sticker",
+			"honey_moon_sticker",
+			"honey_flower_sticker",
+			"honey_paw_sticker",
+			"honey_bow_sticker",
+			"honey_cloud_sticker",
+			"honey_sparkle_sticker",
+			"honey_smiley_sticker",
+			"honey_music_note_sticker",
+			"honey_crown_sticker",
+			"honey_rainbow_sticker",
+			"honey_butterfly_sticker",
+			"honey_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

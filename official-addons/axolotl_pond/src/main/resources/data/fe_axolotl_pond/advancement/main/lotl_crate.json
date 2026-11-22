@@ -1,0 +1,36 @@
+{
+	"parent": "fe_axolotl_pond:main/lotl_cushion",
+	"display": {
+		"icon": {
+			"id": "fe_axolotl_pond:lotl_crate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_axolotl_pond.main.lotl_crate.title"
+		},
+		"description": {
+			"translate": "advancements.fe_axolotl_pond.main.lotl_crate.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_axolotl_pond:lotl_crate"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

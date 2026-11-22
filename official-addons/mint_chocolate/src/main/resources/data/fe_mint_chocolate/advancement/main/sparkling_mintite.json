@@ -1,0 +1,39 @@
+{
+	"parent": "fe_mint_chocolate:main/starry_mintite",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:sparkling_mintite",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.sparkling_mintite.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.sparkling_mintite.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:sparkling_mintite"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

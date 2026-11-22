@@ -1,0 +1,36 @@
+{
+	"parent": "fe_dragon_hoard:main/dragon_garnet_mosaic",
+	"display": {
+		"icon": {
+			"id": "fe_dragon_hoard:dragon_garnet_mosaic_stairs",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_dragon_hoard.main.dragon_garnet_mosaic_stairs.title"
+		},
+		"description": {
+			"translate": "advancements.fe_dragon_hoard.main.dragon_garnet_mosaic_stairs.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_dragon_hoard:dragon_garnet_mosaic_stairs"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

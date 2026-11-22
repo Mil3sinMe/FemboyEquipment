@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:snowball",
+		"fe_cherry_blossom:sakura_jade_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_cherry_blossom:sakura_popsicle"
+	}
+}

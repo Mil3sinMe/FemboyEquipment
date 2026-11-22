@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_boba_tea:taro_pearl_dust",
+		"minecraft:brown_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_boba_tea:boba_butterfly_sticker"
+	}
+}

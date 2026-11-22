@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+		"fe_trans_pride:trans_ribbon_charm",
+		"fe_trans_pride:trans_heart_locket",
+		"fe_trans_pride:trans_bell_collar",
+		"fe_trans_pride:trans_star_pin",
+		"fe_trans_pride:trans_moon_pendant",
+		"fe_trans_pride:trans_bow_clip",
+		"fe_trans_pride:trans_friendship_bracelet",
+		"fe_trans_pride:trans_lucky_coin",
+		"fe_trans_pride:trans_anklet",
+		"fe_trans_pride:trans_earrings",
+		"fe_trans_pride:trans_bead_necklace",
+		"fe_trans_pride:trans_keychain"
+	]
+}

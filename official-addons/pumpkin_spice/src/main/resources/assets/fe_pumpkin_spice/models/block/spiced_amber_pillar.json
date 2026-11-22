@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_pumpkin_spice:block/polished_spiced_amber",
+		"side": "fe_pumpkin_spice:block/spiced_amber_pillar"
+	}
+}

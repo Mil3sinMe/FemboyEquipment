@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_axolotl_pond:lotl_opal",
+		"S": "minecraft:stick"
+	},
+	"pattern": [
+		"  #",
+		" S ",
+		"S  "
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_axolotl_pond:lotl_opal_spear"
+	}
+}

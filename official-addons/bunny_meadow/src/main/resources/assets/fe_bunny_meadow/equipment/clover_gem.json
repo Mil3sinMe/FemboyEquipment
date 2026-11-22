@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_bunny_meadow:clover_gem"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_bunny_meadow:clover_gem"
+			}
+		]
+	}
+}

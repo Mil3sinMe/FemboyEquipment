@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"bottom": "fe_starlight_sky:block/cobbled_starstone",
+		"top": "fe_starlight_sky:block/cobbled_starstone",
+		"side": "fe_starlight_sky:block/cobbled_starstone"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_sunset_beach:coral_gem"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_sunset_beach:coral_gem_nugget"
+	}
+}

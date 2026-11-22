@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_neon_arcade:neonite_dust",
+		"minecraft:light_blue_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_neon_arcade:neon_flower_sticker"
+	}
+}

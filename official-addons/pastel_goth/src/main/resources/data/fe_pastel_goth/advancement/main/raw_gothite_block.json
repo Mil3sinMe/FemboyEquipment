@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pastel_goth:main/gothite_block",
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:raw_gothite_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.raw_gothite_block.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.raw_gothite_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pastel_goth:raw_gothite_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

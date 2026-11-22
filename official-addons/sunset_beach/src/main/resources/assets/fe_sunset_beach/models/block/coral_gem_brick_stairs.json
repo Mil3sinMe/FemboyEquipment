@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"bottom": "fe_sunset_beach:block/coral_gem_bricks",
+		"top": "fe_sunset_beach:block/coral_gem_bricks",
+		"side": "fe_sunset_beach:block/coral_gem_bricks"
+	}
+}

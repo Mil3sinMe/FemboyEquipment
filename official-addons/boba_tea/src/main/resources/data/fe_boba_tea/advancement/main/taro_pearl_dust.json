@@ -1,0 +1,39 @@
+{
+	"parent": "fe_boba_tea:main/taro_pearl_nugget",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:taro_pearl_dust",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.taro_pearl_dust.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.taro_pearl_dust.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:taro_pearl_dust"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

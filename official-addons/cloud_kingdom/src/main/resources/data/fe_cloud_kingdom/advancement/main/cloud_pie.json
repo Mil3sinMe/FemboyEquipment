@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/sky_macaron",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cloud_pie",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloud_pie.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloud_pie.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_pie"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

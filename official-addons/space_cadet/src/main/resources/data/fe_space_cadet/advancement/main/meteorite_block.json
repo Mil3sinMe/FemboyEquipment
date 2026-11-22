@@ -1,0 +1,36 @@
+{
+	"parent": "fe_space_cadet:main/deepslate_meteorite_ore",
+	"display": {
+		"icon": {
+			"id": "fe_space_cadet:meteorite_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_space_cadet.main.meteorite_block.title"
+		},
+		"description": {
+			"translate": "advancements.fe_space_cadet.main.meteorite_block.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_space_cadet:meteorite_block"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

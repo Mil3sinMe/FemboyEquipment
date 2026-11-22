@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"bottom": "fe_ocean_dreams:block/cobbled_sea_glass",
+		"top": "fe_ocean_dreams:block/cobbled_sea_glass",
+		"side": "fe_ocean_dreams:block/cobbled_sea_glass"
+	}
+}

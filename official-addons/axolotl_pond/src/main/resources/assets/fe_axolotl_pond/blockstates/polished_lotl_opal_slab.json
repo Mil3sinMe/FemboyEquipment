@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_axolotl_pond:block/polished_lotl_opal_slab"
+		},
+		"type=top": {
+			"model": "fe_axolotl_pond:block/polished_lotl_opal_slab_top"
+		},
+		"type=double": {
+			"model": "fe_axolotl_pond:block/polished_lotl_opal"
+		}
+	}
+}

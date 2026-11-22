@@ -1,0 +1,52 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"bonus_rolls": 0.0,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"conditions": [
+								{
+									"condition": "minecraft:match_tool",
+									"predicate": {
+										"predicates": {
+											"minecraft:enchantments": [
+												{
+													"enchantments": "minecraft:silk_touch",
+													"levels": {
+														"min": 1
+													}
+												}
+											]
+										}
+									}
+								}
+							],
+							"name": "fe_ocean_dreams:deepslate_sea_glass_ore"
+						},
+						{
+							"type": "minecraft:item",
+							"name": "fe_ocean_dreams:raw_sea_glass",
+							"functions": [
+								{
+									"function": "minecraft:apply_bonus",
+									"enchantment": "minecraft:fortune",
+									"formula": "minecraft:ore_drops"
+								},
+								{
+									"function": "minecraft:explosion_decay"
+								}
+							]
+						}
+					]
+				}
+			],
+			"rolls": 1.0
+		}
+	],
+	"random_sequence": "fe_ocean_dreams:blocks/deepslate_sea_glass_ore"
+}

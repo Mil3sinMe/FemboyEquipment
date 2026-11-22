@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_cottagecore_garden:moss_agate_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_cottagecore_garden:moss_agate"
+	}
+}

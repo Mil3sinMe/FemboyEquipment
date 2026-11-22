@@ -1,0 +1,36 @@
+{
+	"parent": "fe_neon_arcade:main/chiseled_neonite",
+	"display": {
+		"icon": {
+			"id": "fe_neon_arcade:neonite_shingles",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_neon_arcade.main.neonite_shingles.title"
+		},
+		"description": {
+			"translate": "advancements.fe_neon_arcade.main.neonite_shingles.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_neon_arcade:neonite_shingles"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

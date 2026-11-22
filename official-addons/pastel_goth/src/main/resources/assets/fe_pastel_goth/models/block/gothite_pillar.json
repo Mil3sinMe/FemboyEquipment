@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_pastel_goth:block/polished_gothite",
+		"side": "fe_pastel_goth:block/gothite_pillar"
+	}
+}

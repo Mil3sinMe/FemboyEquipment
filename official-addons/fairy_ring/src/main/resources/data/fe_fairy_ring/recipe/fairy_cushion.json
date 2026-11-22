@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:white_wool",
+		"fe_fairy_ring:faerite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_fairy_ring:fairy_cushion"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cottagecore_garden:main/wildflower_donut",
+	"display": {
+		"icon": {
+			"id": "fe_cottagecore_garden:honeysuckle_popsicle",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cottagecore_garden.main.honeysuckle_popsicle.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cottagecore_garden.main.honeysuckle_popsicle.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cottagecore_garden:honeysuckle_popsicle"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

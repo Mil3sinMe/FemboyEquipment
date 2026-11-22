@@ -1,0 +1,36 @@
+{
+	"parent": "fe_fairy_ring:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_fairy_ring:faerite_helmet",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_fairy_ring.main.faerite_helmet.title"
+		},
+		"description": {
+			"translate": "advancements.fe_fairy_ring.main.faerite_helmet.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_fairy_ring:faerite_helmet"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

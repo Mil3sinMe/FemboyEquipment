@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.7,
+	"ingredient": "fe_dragon_hoard:raw_dragon_garnet",
+	"result": {
+		"id": "fe_dragon_hoard:dragon_garnet"
+	}
+}

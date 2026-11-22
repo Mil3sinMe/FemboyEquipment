@@ -1,0 +1,36 @@
+{
+	"parent": "fe_pastel_goth:main/batty_goth_fih",
+	"display": {
+		"icon": {
+			"id": "fe_pastel_goth:cursed_goth_fih",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_pastel_goth.main.cursed_goth_fih.title"
+		},
+		"description": {
+			"translate": "advancements.fe_pastel_goth.main.cursed_goth_fih.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_pastel_goth:cursed_goth_fih"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

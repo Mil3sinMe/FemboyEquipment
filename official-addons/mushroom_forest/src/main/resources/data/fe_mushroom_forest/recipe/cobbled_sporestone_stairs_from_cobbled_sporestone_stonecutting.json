@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_mushroom_forest:cobbled_sporestone",
+	"result": {
+		"count": 1,
+		"id": "fe_mushroom_forest:cobbled_sporestone_stairs"
+	}
+}

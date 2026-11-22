@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_witchy_moon:cobbled_moonstone",
+	"result": {
+		"count": 1,
+		"id": "fe_witchy_moon:cobbled_moonstone_wall"
+	}
+}

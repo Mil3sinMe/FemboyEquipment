@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "fe_ocean_dreams:item/sea_glass_sword"
+	}
+}

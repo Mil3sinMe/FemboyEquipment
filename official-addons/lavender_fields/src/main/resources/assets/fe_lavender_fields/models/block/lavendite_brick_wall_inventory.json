@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/wall_inventory",
+	"textures": {
+		"wall": "fe_lavender_fields:block/lavendite_bricks"
+	}
+}

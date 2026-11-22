@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:cod",
+		"minecraft:light_blue_wool",
+		"fe_sunset_beach:coral_gem"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_sunset_beach:sandy_sunset_fih"
+	}
+}

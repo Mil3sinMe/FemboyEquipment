@@ -1,0 +1,39 @@
+{
+	"parent": "fe_boba_tea:main/starry_taro_pearl",
+	"display": {
+		"icon": {
+			"id": "fe_boba_tea:sparkling_taro_pearl",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_boba_tea.main.sparkling_taro_pearl.title"
+		},
+		"description": {
+			"translate": "advancements.fe_boba_tea.main.sparkling_taro_pearl.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_boba_tea:sparkling_taro_pearl"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

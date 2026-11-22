@@ -1,0 +1,36 @@
+{
+	"parent": "fe_frosted_winter:main/frost_opal_ore",
+	"display": {
+		"icon": {
+			"id": "fe_frosted_winter:deepslate_frost_opal_ore",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_frosted_winter.main.deepslate_frost_opal_ore.title"
+		},
+		"description": {
+			"translate": "advancements.fe_frosted_winter.main.deepslate_frost_opal_ore.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_frosted_winter:deepslate_frost_opal_ore"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

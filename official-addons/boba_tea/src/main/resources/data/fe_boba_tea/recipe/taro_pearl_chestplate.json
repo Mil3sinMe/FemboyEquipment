@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "fe_boba_tea:taro_pearl"
+	},
+	"pattern": [
+		"# #",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_boba_tea:taro_pearl_chestplate"
+	}
+}

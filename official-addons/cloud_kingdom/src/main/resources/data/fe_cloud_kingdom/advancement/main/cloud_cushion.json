@@ -1,0 +1,36 @@
+{
+	"parent": "fe_cloud_kingdom:main/cloudsilver_lamp",
+	"display": {
+		"icon": {
+			"id": "fe_cloud_kingdom:cloud_cushion",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloud_cushion.title"
+		},
+		"description": {
+			"translate": "advancements.fe_cloud_kingdom.main.cloud_cushion.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_cloud_kingdom:cloud_cushion"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_space_cadet:block/rocket_cosmo_fih"
+		},
+		"facing=east": {
+			"model": "fe_space_cadet:block/rocket_cosmo_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_space_cadet:block/rocket_cosmo_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_space_cadet:block/rocket_cosmo_fih",
+			"y": 270
+		}
+	}
+}

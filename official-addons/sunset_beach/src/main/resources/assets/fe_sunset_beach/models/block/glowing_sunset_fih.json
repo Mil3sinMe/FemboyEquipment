@@ -1,0 +1,6 @@
+{
+	"parent": "femboyequipment:block/fih_base",
+	"textures": {
+		"fih": "fe_sunset_beach:block/glowing_sunset_fih"
+	}
+}

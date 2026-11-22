@@ -1,0 +1,36 @@
+{
+	"parent": "fe_frosted_winter:main/snowflake_lollipop",
+	"display": {
+		"icon": {
+			"id": "fe_frosted_winter:cocoa_macaron",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_frosted_winter.main.cocoa_macaron.title"
+		},
+		"description": {
+			"translate": "advancements.fe_frosted_winter.main.cocoa_macaron.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_frosted_winter:cocoa_macaron"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

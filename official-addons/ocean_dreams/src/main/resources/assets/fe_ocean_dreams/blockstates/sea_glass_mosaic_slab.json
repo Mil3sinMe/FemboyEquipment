@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"type=bottom": {
+			"model": "fe_ocean_dreams:block/sea_glass_mosaic_slab"
+		},
+		"type=top": {
+			"model": "fe_ocean_dreams:block/sea_glass_mosaic_slab_top"
+		},
+		"type=double": {
+			"model": "fe_ocean_dreams:block/sea_glass_mosaic"
+		}
+	}
+}

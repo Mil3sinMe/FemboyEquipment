@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_royal_ball:polished_royal_sapphire",
+	"result": {
+		"count": 1,
+		"id": "fe_royal_ball:polished_royal_sapphire_wall"
+	}
+}

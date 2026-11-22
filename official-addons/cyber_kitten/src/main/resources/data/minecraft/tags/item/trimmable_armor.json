@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_cyber_kitten:holochrome_helmet",
+		"fe_cyber_kitten:holochrome_chestplate",
+		"fe_cyber_kitten:holochrome_leggings",
+		"fe_cyber_kitten:holochrome_boots"
+	]
+}

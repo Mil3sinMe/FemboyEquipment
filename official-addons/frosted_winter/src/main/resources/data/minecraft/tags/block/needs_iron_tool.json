@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"fe_frosted_winter:frost_opal_ore",
+		"fe_frosted_winter:deepslate_frost_opal_ore",
+		"fe_frosted_winter:frost_opal_block",
+		"fe_frosted_winter:raw_frost_opal_block"
+	]
+}

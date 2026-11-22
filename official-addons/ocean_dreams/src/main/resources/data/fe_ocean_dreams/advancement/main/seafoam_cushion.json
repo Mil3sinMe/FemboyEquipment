@@ -1,0 +1,36 @@
+{
+	"parent": "fe_ocean_dreams:main/sea_glass_lamp",
+	"display": {
+		"icon": {
+			"id": "fe_ocean_dreams:seafoam_cushion",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_ocean_dreams.main.seafoam_cushion.title"
+		},
+		"description": {
+			"translate": "advancements.fe_ocean_dreams.main.seafoam_cushion.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_ocean_dreams:seafoam_cushion"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	]
+}

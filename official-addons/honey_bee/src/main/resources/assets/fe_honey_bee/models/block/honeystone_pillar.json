@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"end": "fe_honey_bee:block/polished_honeystone",
+		"side": "fe_honey_bee:block/honeystone_pillar"
+	}
+}

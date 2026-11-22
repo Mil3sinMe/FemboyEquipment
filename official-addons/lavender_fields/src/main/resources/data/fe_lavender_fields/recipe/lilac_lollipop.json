@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:stick",
+		"minecraft:sugar",
+		"fe_lavender_fields:lavendite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_lavender_fields:lilac_lollipop"
+	}
+}

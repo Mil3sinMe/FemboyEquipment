@@ -1,0 +1,1128 @@
+{
+	"parent": "fe_witchy_moon:main/root",
+	"display": {
+		"icon": {
+			"id": "fe_witchy_moon:moonstone_block",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_witchy_moon.main.complete_collection.title"
+		},
+		"description": {
+			"translate": "advancements.fe_witchy_moon.main.complete_collection.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"moonstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone"
+					}
+				]
+			}
+		},
+		"raw_moonstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:raw_moonstone"
+					}
+				]
+			}
+		},
+		"moonstone_nugget": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_nugget"
+					}
+				]
+			}
+		},
+		"moonstone_dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_dust"
+					}
+				]
+			}
+		},
+		"moonstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_ore"
+					}
+				]
+			}
+		},
+		"deepslate_moonstone_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:deepslate_moonstone_ore"
+					}
+				]
+			}
+		},
+		"moonstone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_block"
+					}
+				]
+			}
+		},
+		"raw_moonstone_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:raw_moonstone_block"
+					}
+				]
+			}
+		},
+		"moonstone_bricks": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_bricks"
+					}
+				]
+			}
+		},
+		"moonstone_brick_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_brick_stairs"
+					}
+				]
+			}
+		},
+		"moonstone_brick_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_brick_slab"
+					}
+				]
+			}
+		},
+		"moonstone_brick_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_brick_wall"
+					}
+				]
+			}
+		},
+		"moonstone_tiles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_tiles"
+					}
+				]
+			}
+		},
+		"moonstone_tile_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_tile_stairs"
+					}
+				]
+			}
+		},
+		"moonstone_tile_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_tile_slab"
+					}
+				]
+			}
+		},
+		"moonstone_tile_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_tile_wall"
+					}
+				]
+			}
+		},
+		"polished_moonstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:polished_moonstone"
+					}
+				]
+			}
+		},
+		"polished_moonstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:polished_moonstone_stairs"
+					}
+				]
+			}
+		},
+		"polished_moonstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:polished_moonstone_slab"
+					}
+				]
+			}
+		},
+		"polished_moonstone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:polished_moonstone_wall"
+					}
+				]
+			}
+		},
+		"cobbled_moonstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:cobbled_moonstone"
+					}
+				]
+			}
+		},
+		"cobbled_moonstone_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:cobbled_moonstone_stairs"
+					}
+				]
+			}
+		},
+		"cobbled_moonstone_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:cobbled_moonstone_slab"
+					}
+				]
+			}
+		},
+		"cobbled_moonstone_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:cobbled_moonstone_wall"
+					}
+				]
+			}
+		},
+		"moonstone_mosaic": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_mosaic"
+					}
+				]
+			}
+		},
+		"moonstone_mosaic_stairs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_mosaic_stairs"
+					}
+				]
+			}
+		},
+		"moonstone_mosaic_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_mosaic_slab"
+					}
+				]
+			}
+		},
+		"moonstone_mosaic_wall": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_mosaic_wall"
+					}
+				]
+			}
+		},
+		"moonstone_lamp": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_lamp"
+					}
+				]
+			}
+		},
+		"witchy_cushion": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_cushion"
+					}
+				]
+			}
+		},
+		"witchy_crate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_crate"
+					}
+				]
+			}
+		},
+		"moonstone_pillar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_pillar"
+					}
+				]
+			}
+		},
+		"chiseled_moonstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:chiseled_moonstone"
+					}
+				]
+			}
+		},
+		"moonstone_shingles": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_shingles"
+					}
+				]
+			}
+		},
+		"witchy_quilt_block": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_quilt_block"
+					}
+				]
+			}
+		},
+		"glazed_moonstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:glazed_moonstone"
+					}
+				]
+			}
+		},
+		"starry_moonstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:starry_moonstone"
+					}
+				]
+			}
+		},
+		"sparkling_moonstone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:sparkling_moonstone"
+					}
+				]
+			}
+		},
+		"moonstone_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_sword"
+					}
+				]
+			}
+		},
+		"moonstone_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_pickaxe"
+					}
+				]
+			}
+		},
+		"moonstone_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_axe"
+					}
+				]
+			}
+		},
+		"moonstone_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_shovel"
+					}
+				]
+			}
+		},
+		"moonstone_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_hoe"
+					}
+				]
+			}
+		},
+		"moonstone_spear": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_spear"
+					}
+				]
+			}
+		},
+		"broomstick_bat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:broomstick_bat"
+					}
+				]
+			}
+		},
+		"cauldron_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:cauldron_hammer"
+					}
+				]
+			}
+		},
+		"hexed_scythe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:hexed_scythe"
+					}
+				]
+			}
+		},
+		"witchs_wand": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchs_wand"
+					}
+				]
+			}
+		},
+		"moonstone_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_helmet"
+					}
+				]
+			}
+		},
+		"moonstone_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_chestplate"
+					}
+				]
+			}
+		},
+		"moonstone_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_leggings"
+					}
+				]
+			}
+		},
+		"moonstone_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moonstone_boots"
+					}
+				]
+			}
+		},
+		"moon_milk_soda": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moon_milk_soda"
+					}
+				]
+			}
+		},
+		"potion_cookie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:potion_cookie"
+					}
+				]
+			}
+		},
+		"spellberry_cupcake": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:spellberry_cupcake"
+					}
+				]
+			}
+		},
+		"moon_milk_candy": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moon_milk_candy"
+					}
+				]
+			}
+		},
+		"potion_soup": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:potion_soup"
+					}
+				]
+			}
+		},
+		"spellberry_donut": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:spellberry_donut"
+					}
+				]
+			}
+		},
+		"moon_milk_popsicle": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moon_milk_popsicle"
+					}
+				]
+			}
+		},
+		"potion_lollipop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:potion_lollipop"
+					}
+				]
+			}
+		},
+		"spellberry_macaron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:spellberry_macaron"
+					}
+				]
+			}
+		},
+		"moon_milk_pie": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:moon_milk_pie"
+					}
+				]
+			}
+		},
+		"potion_bun": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:potion_bun"
+					}
+				]
+			}
+		},
+		"spellberry_jelly": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:spellberry_jelly"
+					}
+				]
+			}
+		},
+		"witchy_ribbon_charm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_ribbon_charm"
+					}
+				]
+			}
+		},
+		"witchy_heart_locket": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_heart_locket"
+					}
+				]
+			}
+		},
+		"witchy_bell_collar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_bell_collar"
+					}
+				]
+			}
+		},
+		"witchy_star_pin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_star_pin"
+					}
+				]
+			}
+		},
+		"witchy_moon_pendant": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_moon_pendant"
+					}
+				]
+			}
+		},
+		"witchy_bow_clip": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_bow_clip"
+					}
+				]
+			}
+		},
+		"witchy_friendship_bracelet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_friendship_bracelet"
+					}
+				]
+			}
+		},
+		"witchy_lucky_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_lucky_coin"
+					}
+				]
+			}
+		},
+		"witchy_anklet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_anklet"
+					}
+				]
+			}
+		},
+		"witchy_earrings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_earrings"
+					}
+				]
+			}
+		},
+		"witchy_bead_necklace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_bead_necklace"
+					}
+				]
+			}
+		},
+		"witchy_keychain": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_keychain"
+					}
+				]
+			}
+		},
+		"mystic_witchy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:mystic_witchy_blahaj"
+					}
+				]
+			}
+		},
+		"hexed_witchy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:hexed_witchy_blahaj"
+					}
+				]
+			}
+		},
+		"lunar_witchy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:lunar_witchy_blahaj"
+					}
+				]
+			}
+		},
+		"bewitched_witchy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:bewitched_witchy_blahaj"
+					}
+				]
+			}
+		},
+		"glowing_witchy_blahaj": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:glowing_witchy_blahaj"
+					}
+				]
+			}
+		},
+		"mystic_witchy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:mystic_witchy_fih"
+					}
+				]
+			}
+		},
+		"hexed_witchy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:hexed_witchy_fih"
+					}
+				]
+			}
+		},
+		"lunar_witchy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:lunar_witchy_fih"
+					}
+				]
+			}
+		},
+		"bewitched_witchy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:bewitched_witchy_fih"
+					}
+				]
+			}
+		},
+		"glowing_witchy_fih": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:glowing_witchy_fih"
+					}
+				]
+			}
+		},
+		"witchy_heart_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_heart_sticker"
+					}
+				]
+			}
+		},
+		"witchy_star_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_star_sticker"
+					}
+				]
+			}
+		},
+		"witchy_moon_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_moon_sticker"
+					}
+				]
+			}
+		},
+		"witchy_flower_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_flower_sticker"
+					}
+				]
+			}
+		},
+		"witchy_paw_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_paw_sticker"
+					}
+				]
+			}
+		},
+		"witchy_bow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_bow_sticker"
+					}
+				]
+			}
+		},
+		"witchy_cloud_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_cloud_sticker"
+					}
+				]
+			}
+		},
+		"witchy_sparkle_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_sparkle_sticker"
+					}
+				]
+			}
+		},
+		"witchy_smiley_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_smiley_sticker"
+					}
+				]
+			}
+		},
+		"witchy_music_note_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_music_note_sticker"
+					}
+				]
+			}
+		},
+		"witchy_crown_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_crown_sticker"
+					}
+				]
+			}
+		},
+		"witchy_rainbow_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_rainbow_sticker"
+					}
+				]
+			}
+		},
+		"witchy_butterfly_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_butterfly_sticker"
+					}
+				]
+			}
+		},
+		"witchy_mushroom_sticker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_witchy_moon:witchy_mushroom_sticker"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"moonstone",
+			"raw_moonstone",
+			"moonstone_nugget",
+			"moonstone_dust",
+			"moonstone_ore",
+			"deepslate_moonstone_ore",
+			"moonstone_block",
+			"raw_moonstone_block",
+			"moonstone_bricks",
+			"moonstone_brick_stairs",
+			"moonstone_brick_slab",
+			"moonstone_brick_wall",
+			"moonstone_tiles",
+			"moonstone_tile_stairs",
+			"moonstone_tile_slab",
+			"moonstone_tile_wall",
+			"polished_moonstone",
+			"polished_moonstone_stairs",
+			"polished_moonstone_slab",
+			"polished_moonstone_wall",
+			"cobbled_moonstone",
+			"cobbled_moonstone_stairs",
+			"cobbled_moonstone_slab",
+			"cobbled_moonstone_wall",
+			"moonstone_mosaic",
+			"moonstone_mosaic_stairs",
+			"moonstone_mosaic_slab",
+			"moonstone_mosaic_wall",
+			"moonstone_lamp",
+			"witchy_cushion",
+			"witchy_crate",
+			"moonstone_pillar",
+			"chiseled_moonstone",
+			"moonstone_shingles",
+			"witchy_quilt_block",
+			"glazed_moonstone",
+			"starry_moonstone",
+			"sparkling_moonstone",
+			"moonstone_sword",
+			"moonstone_pickaxe",
+			"moonstone_axe",
+			"moonstone_shovel",
+			"moonstone_hoe",
+			"moonstone_spear",
+			"broomstick_bat",
+			"cauldron_hammer",
+			"hexed_scythe",
+			"witchs_wand",
+			"moonstone_helmet",
+			"moonstone_chestplate",
+			"moonstone_leggings",
+			"moonstone_boots",
+			"moon_milk_soda",
+			"potion_cookie",
+			"spellberry_cupcake",
+			"moon_milk_candy",
+			"potion_soup",
+			"spellberry_donut",
+			"moon_milk_popsicle",
+			"potion_lollipop",
+			"spellberry_macaron",
+			"moon_milk_pie",
+			"potion_bun",
+			"spellberry_jelly",
+			"witchy_ribbon_charm",
+			"witchy_heart_locket",
+			"witchy_bell_collar",
+			"witchy_star_pin",
+			"witchy_moon_pendant",
+			"witchy_bow_clip",
+			"witchy_friendship_bracelet",
+			"witchy_lucky_coin",
+			"witchy_anklet",
+			"witchy_earrings",
+			"witchy_bead_necklace",
+			"witchy_keychain",
+			"mystic_witchy_blahaj",
+			"hexed_witchy_blahaj",
+			"lunar_witchy_blahaj",
+			"bewitched_witchy_blahaj",
+			"glowing_witchy_blahaj",
+			"mystic_witchy_fih",
+			"hexed_witchy_fih",
+			"lunar_witchy_fih",
+			"bewitched_witchy_fih",
+			"glowing_witchy_fih",
+			"witchy_heart_sticker",
+			"witchy_star_sticker",
+			"witchy_moon_sticker",
+			"witchy_flower_sticker",
+			"witchy_paw_sticker",
+			"witchy_bow_sticker",
+			"witchy_cloud_sticker",
+			"witchy_sparkle_sticker",
+			"witchy_smiley_sticker",
+			"witchy_music_note_sticker",
+			"witchy_crown_sticker",
+			"witchy_rainbow_sticker",
+			"witchy_butterfly_sticker",
+			"witchy_mushroom_sticker"
+		]
+	],
+	"rewards": {
+		"experience": 500
+	}
+}

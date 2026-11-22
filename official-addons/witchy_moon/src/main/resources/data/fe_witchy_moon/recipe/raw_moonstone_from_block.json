@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_witchy_moon:raw_moonstone_block"
+	],
+	"result": {
+		"count": 9,
+		"id": "fe_witchy_moon:raw_moonstone"
+	}
+}

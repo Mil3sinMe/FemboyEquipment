@@ -1,0 +1,14 @@
+{
+	"layers": {
+		"humanoid": [
+			{
+				"texture": "fe_honey_bee:honeystone"
+			}
+		],
+		"humanoid_leggings": [
+			{
+				"texture": "fe_honey_bee:honeystone"
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "fe_cottagecore_garden:block/cobbled_moss_agate"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"parent": "fe_ocean_dreams:main/tidal_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_ocean_dreams:coral_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_ocean_dreams.main.coral_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_ocean_dreams.main.coral_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_ocean_dreams:coral_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

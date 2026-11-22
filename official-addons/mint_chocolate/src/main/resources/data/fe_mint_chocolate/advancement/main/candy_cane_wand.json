@@ -1,0 +1,39 @@
+{
+	"parent": "fe_mint_chocolate:main/mint_leaf_scythe",
+	"display": {
+		"icon": {
+			"id": "fe_mint_chocolate:candy_cane_wand",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.fe_mint_chocolate.main.candy_cane_wand.title"
+		},
+		"description": {
+			"translate": "advancements.fe_mint_chocolate.main.candy_cane_wand.description"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"got": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "fe_mint_chocolate:candy_cane_wand"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"got"
+		]
+	],
+	"rewards": {
+		"experience": 25
+	}
+}

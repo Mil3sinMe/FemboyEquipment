@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"fe_starlight_sky:polished_starstone",
+		"fe_starlight_sky:starstone_dust",
+		"minecraft:glowstone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_starlight_sky:sparkling_starstone"
+	}
+}

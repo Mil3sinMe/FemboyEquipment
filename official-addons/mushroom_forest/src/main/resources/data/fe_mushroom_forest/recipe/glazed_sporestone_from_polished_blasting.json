@@ -1,0 +1,10 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"cookingtime": 100,
+	"experience": 0.1,
+	"ingredient": "fe_mushroom_forest:polished_sporestone",
+	"result": {
+		"id": "fe_mushroom_forest:glazed_sporestone"
+	}
+}

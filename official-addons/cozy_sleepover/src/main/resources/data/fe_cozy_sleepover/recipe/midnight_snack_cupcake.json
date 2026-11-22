@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:wheat",
+		"minecraft:egg",
+		"minecraft:sugar",
+		"fe_cozy_sleepover:dreamstone_dust"
+	],
+	"result": {
+		"count": 2,
+		"id": "fe_cozy_sleepover:midnight_snack_cupcake"
+	}
+}

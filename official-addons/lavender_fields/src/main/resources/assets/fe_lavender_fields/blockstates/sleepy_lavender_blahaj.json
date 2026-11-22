@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_lavender_fields:block/sleepy_lavender_blahaj"
+		},
+		"facing=east": {
+			"model": "fe_lavender_fields:block/sleepy_lavender_blahaj",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_lavender_fields:block/sleepy_lavender_blahaj",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_lavender_fields:block/sleepy_lavender_blahaj",
+			"y": 270
+		}
+	}
+}

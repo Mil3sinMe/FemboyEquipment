@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "fe_starlight_sky:block/shooting_starlight_fih"
+		},
+		"facing=east": {
+			"model": "fe_starlight_sky:block/shooting_starlight_fih",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "fe_starlight_sky:block/shooting_starlight_fih",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "fe_starlight_sky:block/shooting_starlight_fih",
+			"y": 270
+		}
+	}
+}

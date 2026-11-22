@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:paper",
+		"fe_witchy_moon:moonstone_dust",
+		"minecraft:brown_dye"
+	],
+	"result": {
+		"count": 4,
+		"id": "fe_witchy_moon:witchy_butterfly_sticker"
+	}
+}

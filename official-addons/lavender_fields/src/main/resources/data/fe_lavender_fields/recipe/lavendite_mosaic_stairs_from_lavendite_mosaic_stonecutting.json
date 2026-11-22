@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_lavender_fields:lavendite_mosaic",
+	"result": {
+		"count": 1,
+		"id": "fe_lavender_fields:lavendite_mosaic_stairs"
+	}
+}

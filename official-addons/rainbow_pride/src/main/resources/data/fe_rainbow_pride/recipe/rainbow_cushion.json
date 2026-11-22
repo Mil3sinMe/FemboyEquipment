@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:white_wool",
+		"fe_rainbow_pride:prismatite_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_rainbow_pride:rainbow_cushion"
+	}
+}

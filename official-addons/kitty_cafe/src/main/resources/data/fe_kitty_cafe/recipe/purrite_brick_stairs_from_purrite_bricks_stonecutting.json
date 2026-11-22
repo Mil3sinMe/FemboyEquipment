@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": "fe_kitty_cafe:purrite_bricks",
+	"result": {
+		"count": 1,
+		"id": "fe_kitty_cafe:purrite_brick_stairs"
+	}
+}

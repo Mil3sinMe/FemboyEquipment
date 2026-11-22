@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:bread",
+		"fe_honey_bee:honeystone_dust"
+	],
+	"result": {
+		"count": 1,
+		"id": "fe_honey_bee:pollen_bun"
+	}
+}
