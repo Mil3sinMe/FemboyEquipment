@@ -10,7 +10,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 
 /**
- * /emblem                - show current settings
+ * /emblem                - show current settings and your badges
  * /emblem share on|off   - let other mod users see your emblem
  * /emblem display on|off - show other people's emblems
  */
@@ -35,6 +35,13 @@ public final class EmblemCommand {
 		ctx.getSource().sendFeedback(msg("Emblem settings"));
 		ctx.getSource().sendFeedback(line("Share my emblem", config.shareEmblem, "/emblem share on|off"));
 		ctx.getSource().sendFeedback(line("Show other emblems", config.showEmblems, "/emblem display on|off"));
+		var player = Minecraft.getInstance().player;
+		if (player != null) {
+			var badges = Emblems.badges(player.getUUID(), player.getGameProfile().name());
+			ctx.getSource().sendFeedback(Component.literal(" Your badges: ").append(badges.isEmpty()
+					? Component.literal("none yet").withStyle(ChatFormatting.GRAY)
+					: Component.literal(String.join(", ", badges.stream().map(b -> b.displayName).toList())).withStyle(ChatFormatting.GOLD)));
+		}
 		return 1;
 	}
 
